@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gradio/
+data/benchmark_vector_db/
+data/benchmark_results/mmlu_real_results.json
+models/
