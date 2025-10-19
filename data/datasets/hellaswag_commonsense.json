@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "31c078b36b4caeb9",
+    "text": "A man is sitting on a roof. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 0
+    }
+  },
+  {
+    "id": "e035482fe8bd677f",
+    "text": "A lady walks to a barbell. She bends down and grabs the pole. the lady",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 1
+    }
+  },
+  {
+    "id": "770b079b5de07442",
+    "text": "Two women in a child are shown in a canoe while a man pulls the canoe while standing in the water, with other individuals visible in the background. the child and a different man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 2
+    }
+  },
+  {
+    "id": "5a14a94417ea7027",
+    "text": "A boy is running down a track. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 3
+    }
+  },
+  {
+    "id": "6c5eda520adc2b68",
+    "text": "The boy lifts his body above the height of a pole. The boy lands on his back on to a red mat. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 4
+    }
+  },
+  {
+    "id": "7a95fc3359a3ddd9",
+    "text": "The boy lands on his back on to a red mat. The boy gets up from the mat. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 5
+    }
+  },
+  {
+    "id": "6ac973e1915b49a5",
+    "text": "A man is standing in front of a camera. He starts playing a harmonica for the camera. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 6
+    }
+  },
+  {
+    "id": "0bfbbe60f845c24e",
+    "text": "A cartoon animation video is shown with people wandering around and rockets being shot. two men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 7
+    }
+  },
+  {
+    "id": "1b1d7bb5423f57fc",
+    "text": "A man is holding a pocket knife while sitting on some rocks in the wilderness. then he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 8
+    }
+  },
+  {
+    "id": "30f747182587a481",
+    "text": "Then he takes a small stone from the flowing river and smashes it on another stone. He starts to crush the small stone to smaller pieces. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 9
+    }
+  },
+  {
+    "id": "2355ecb6ac1d0452",
+    "text": "Then he takes a piece of bark and rubs the powered stone pieces onto it. The stone particles stick to the wet piece of wood. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 10
+    }
+  },
+  {
+    "id": "75cec7dfc572cbe9",
+    "text": "The stone particles stick to the wet piece of wood. He then takes the knife and sharpens it against the wood piece. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 11
+    }
+  },
+  {
+    "id": "14738a997c6007ae",
+    "text": "He then takes the knife and sharpens it against the wood piece. He then notices a little black and green poisonous frog sitting next to him. the frog",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 12
+    }
+  },
+  {
+    "id": "d03fe57572bbda17",
+    "text": "He then notices a little black and green poisonous frog sitting next to him. The frog then escapes and jumps away. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 13
+    }
+  },
+  {
+    "id": "086f6fc8c22211a3",
+    "text": "A person is playing bagpipes out in a park. A man and two boys watching from a far. the camera",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 14
+    }
+  },
+  {
+    "id": "d92aae0dfeb7e948",
+    "text": "Two people are seen passing a ball back and fourth in a pool and leads into one speaking to the camera. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 15
+    }
+  },
+  {
+    "id": "8fde6c561f90d8be",
+    "text": "A woman is sitting at a table in a fast food restaurant while eating. She continually speaks to nobody as she eats. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 16
+    }
+  },
+  {
+    "id": "9171c2057166cbe8",
+    "text": "A group of cheerleaders run onto a stage before a cheering audience. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 17
+    }
+  },
+  {
+    "id": "d6812f288a28a10b",
+    "text": "A group of cheerleaders run onto a stage before a cheering audience. They get into formation, then begin dancing and flipping as male cheerleaders join them. they all",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 18
+    }
+  },
+  {
+    "id": "0c2cf257101b01b1",
+    "text": "They get into formation, then begin dancing and flipping as male cheerleaders join them. They all continue dancing and flipping, doing hand springs. when they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 19
+    }
+  },
+  {
+    "id": "5d701ecf4b652cac",
+    "text": "A woman is reading a newspaper nearby while he speaks to her and shows her something in his hand. The man sharpens his knives using an electric tool. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 20
+    }
+  },
+  {
+    "id": "0739edc3c2d50530",
+    "text": "A man is outside of a building. He is using commercial lawn mowing equipment. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 21
+    }
+  },
+  {
+    "id": "f6b5552991d44f97",
+    "text": "Children bring desert out for their family member. the family",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 22
+    }
+  },
+  {
+    "id": "895c80848377e4ac",
+    "text": "The family enjoys eating the desert together. The people in the restaurant laugh at the man and he wonders what they are doing. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 23
+    }
+  },
+  {
+    "id": "a3222a45d266510c",
+    "text": "A black female is shown in a room with a black scarf around her head. black spots on her faced",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 24
+    }
+  },
+  {
+    "id": "370085c0e7d4ce6f",
+    "text": "A black female is shown in a room with a black scarf around her head. Black spots on her faced are then zoomed in on and she begins to apply something on it. next",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 25
+    }
+  },
+  {
+    "id": "41acd7e79ffda316",
+    "text": "A helicopter flies in some people who then start playing paintball. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 26
+    }
+  },
+  {
+    "id": "d14612799ede132a",
+    "text": "A young boy and girl are standing over a sink with their mother talking. the mother",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 27
+    }
+  },
+  {
+    "id": "913c3ddbd7452e68",
+    "text": "A young boy and girl are standing over a sink with their mother talking. The mother instructs them on how to brush their teeth while laughing. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 28
+    }
+  },
+  {
+    "id": "c023da230c6a2b5e",
+    "text": "The mother instructs them on how to brush their teeth while laughing. The boy helps his younger sister brush his teeth. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 29
+    }
+  },
+  {
+    "id": "b1bf56f9eed1b76d",
+    "text": "She gets them some water to gargle in their mouths. The boy and girl begin playing in the sink. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 30
+    }
+  },
+  {
+    "id": "340171a69b99fff8",
+    "text": "A cat is sitting in a cat bed. It is licking its paw. it",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 31
+    }
+  },
+  {
+    "id": "fc4ddf67ba4460a5",
+    "text": "A man in brown jacket is pulling out an arrow from the target board, then he was talking to the camera, then he pull out his bow and started to use it with his bow to hit the target board, he fired his bows several times. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 32
+    }
+  },
+  {
+    "id": "a33855619ee51b1d",
+    "text": "A man walks outside plugs his lawn mower in and gets ready to mow. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 33
+    }
+  },
+  {
+    "id": "eda1f81e96666442",
+    "text": "A man walks outside plugs his lawn mower in and gets ready to mow. He starts mowing his lawn casually going over all the grass. his dog",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 34
+    }
+  },
+  {
+    "id": "0f29a1f42594600a",
+    "text": "He starts mowing his lawn casually going over all the grass. His dog comes outside and starts to follow him a little while he's closer to the house. the yard",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 35
+    }
+  },
+  {
+    "id": "34799a5e20e5ea94",
+    "text": "A sea is shown with a green forest on seashore. Blond man is standing in seashore and talking to the camera and surfing big waves on the sea. man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 36
+    }
+  },
+  {
+    "id": "8861ce0676b71056",
+    "text": "We see a bottle of face wash. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 37
+    }
+  },
+  {
+    "id": "f9f8aa68dcb1c8bb",
+    "text": "We see a person holding face wash then putting it on their face. They rinse the face and add the face wash with a brush. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 38
+    }
+  },
+  {
+    "id": "826b936f486dac29",
+    "text": "A person is seen throwing plaster onto a wall while the camera follows the person close behind. the person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 39
+    }
+  },
+  {
+    "id": "0f42082d3cd164ea",
+    "text": "More and more people begin talking and each of them has a bottle of sun screen and starts to squirt it on their arms in effort to protect their skin. a small blue bottle of the sun screen",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 40
+    }
+  },
+  {
+    "id": "ff4bba8bc041759b",
+    "text": "A group of boys are standing in a room with many clear cups of beer on a table they are all standing around. the boys",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 41
+    }
+  },
+  {
+    "id": "de50f484ed881807",
+    "text": "The boys talk, laugh and tease each other before beginning a game of beer pong across a long table using a triangle shaped array of clear cups. one of the ping pongs",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 42
+    }
+  },
+  {
+    "id": "7c0d46fee08d9a82",
+    "text": "One of the ping pongs lands in the cup and one of the boys begins to drink the beer. the group",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 43
+    }
+  },
+  {
+    "id": "df16c1dac22c24ca",
+    "text": "There's a nbc news reporter wearing a red sweater and white shirt talking about dog grooming by scissor wizard a grooming company. the representative from the company",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 44
+    }
+  },
+  {
+    "id": "abfd5e7512d28cef",
+    "text": "The representative from the company is talking about the services they offer and how those dogs participate in dog shows. a groomer",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 45
+    }
+  },
+  {
+    "id": "e100424a0ffe8a6b",
+    "text": "A woman tries to eat ice cream to a child, but the child refuses to eat the ice cream, then the woman eats the ice cream in the spoon. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 46
+    }
+  },
+  {
+    "id": "fd2feb6dc9e0efa9",
+    "text": "After, the woman gives ice cream to the child, and then the woman cleans the child's mouth. an old woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 47
+    }
+  },
+  {
+    "id": "aa3e807f08a0b9c8",
+    "text": "Men are lifting heavy weights over their head several times. A man in a blue shirt is watching one of the men. a man in a gray shirt",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 48
+    }
+  },
+  {
+    "id": "4cf192c57fda0a44",
+    "text": "In home pet groomers demonstrate how to groom a pet. the person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 49
+    }
+  },
+  {
+    "id": "70e011859f28f8f1",
+    "text": "A person polish a shoe with a wrapped finger. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 50
+    }
+  },
+  {
+    "id": "426dd7ef32877c45",
+    "text": "Eight people are standing at the studio, one woman walked at the back of the group. the group",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 51
+    }
+  },
+  {
+    "id": "672ec61f2abd218e",
+    "text": "A man is seen talking to the camera and presents his knife and sharpener. He then glides the knife down the sharpener and shows how other knives work with different sharpeners. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 52
+    }
+  },
+  {
+    "id": "6b12c04d13d0180b",
+    "text": "A man walks onto the stage to join a band. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 53
+    }
+  },
+  {
+    "id": "5373e432fcd7e906",
+    "text": "A man walks onto the stage to join a band. A man plays up front of a band with a harmonica. the keyboardist",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 54
+    }
+  },
+  {
+    "id": "35ec535b034a1e2d",
+    "text": "A camera pans away from a road and shows a person's feet moving around. several shots",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 55
+    }
+  },
+  {
+    "id": "e7fa122bd84f61bd",
+    "text": "A camera pans away from a road and shows a person's feet moving around. Several shots are shown of people tying their shoes, hitting a button, and checking a watch. people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 56
+    }
+  },
+  {
+    "id": "c3c3bc88c4c12568",
+    "text": "A gymnast put power chalk power on his hands and stands near the pommel horse. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 57
+    }
+  },
+  {
+    "id": "7a9b3a8a517361d1",
+    "text": "A gymnast put power chalk power on his hands and stands near the pommel horse. Then, the gymnast approach the pommel horse to spin around many times. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 58
+    }
+  },
+  {
+    "id": "0a9359f7c9d9f58d",
+    "text": "A logo shows that this video is presented by expert village. a man in a small blue boat",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 59
+    }
+  },
+  {
+    "id": "6821c7657c6ab832",
+    "text": "A man in a small blue boat discusses the topic of hand surfing in a hole and gives hints on how to perform this activity. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 60
+    }
+  },
+  {
+    "id": "734c00c20aed1da8",
+    "text": "The camera pans to show a man playing a harmonica while sitting on a log beside a river. A woman walks near the train tracks while a train drives by. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 61
+    }
+  },
+  {
+    "id": "04148a555fc3da80",
+    "text": "A woman walks near the train tracks while a train drives by. The woman sees the harmonica playing man in the distance. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 62
+    }
+  },
+  {
+    "id": "422f84e18a113de4",
+    "text": "The woman sees the harmonica playing man in the distance. She watches him and listens to him playing. She walks away leaving the man. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 63
+    }
+  },
+  {
+    "id": "3ff7284c25cad96e",
+    "text": "A person is shown looking around a city and begins washing windows with his tools. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 64
+    }
+  },
+  {
+    "id": "b704dea52f453317",
+    "text": "A person is shown looking around a city and begins washing windows with his tools. He goes up and down the windows at a rapid pace and continues filming himself through the glass. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 65
+    }
+  },
+  {
+    "id": "c0c9aa6eb1f2e1ce",
+    "text": "A man dressed in yellow and black winter clothes ice fishes on a a frozen lake. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 66
+    }
+  },
+  {
+    "id": "003ab3768f605f78",
+    "text": "A man dressed in yellow and black winter clothes ice fishes on a a frozen lake. The man is reeling in a fish for a long time. the mans catch",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 67
+    }
+  },
+  {
+    "id": "bc254a5d0f9c4553",
+    "text": "Two children are seen sitting in a tub rubbing their faces and another person's hands interacting. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 68
+    }
+  },
+  {
+    "id": "69a57a359c4e8f9a",
+    "text": "A woman hands a young boy a stick with a little girl grabbing for her attention. the pinata",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 69
+    }
+  },
+  {
+    "id": "57941bc8f848cef0",
+    "text": "A woman hands a young boy a stick with a little girl grabbing for her attention. The pinata is lifted and the boy begins swinging at the object. the camera",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 70
+    }
+  },
+  {
+    "id": "828cfd3435586cb9",
+    "text": "A woman is playing a violin on the street while various people walk around here and behind her. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 71
+    }
+  },
+  {
+    "id": "455b35ab56b12375",
+    "text": "Various pictures of food are shown followed by a person cutting up vegetables and mixing various ingredients into a pot. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 72
+    }
+  },
+  {
+    "id": "b7f74d4d2560a709",
+    "text": "Ingredients are sitting on a wooden block. a person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 73
+    }
+  },
+  {
+    "id": "df79fcb715c8cf53",
+    "text": "A man is seen walking closer to a pinata while a large group of people stand around him. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 74
+    }
+  },
+  {
+    "id": "4564259ce0b806ea",
+    "text": "A pair of female hands uses an iron on a piece of baby clothing. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 75
+    }
+  },
+  {
+    "id": "55a6da4dbce21826",
+    "text": "A pair of female hands uses an iron on a piece of baby clothing. The woman sets the iron aside and flips the clothing. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 76
+    }
+  },
+  {
+    "id": "1ea65ce93ee51f6c",
+    "text": "The woman sets the iron aside and flips the clothing. The woman uses the iron on the other side of the clothing. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 77
+    }
+  },
+  {
+    "id": "a14d427098900869",
+    "text": "We see a chair with a pillow on it. a man holding a cat",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 78
+    }
+  },
+  {
+    "id": "e5eff5cde2feceb4",
+    "text": "We see a chair with a pillow on it. A man holding a cat sits down on the chair. The man clips the cats fingernails. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 79
+    }
+  },
+  {
+    "id": "6f0321400441b533",
+    "text": "A man holding a cat sits down on the chair. The man clips the cats fingernails. The man strokes the cat's head. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 80
+    }
+  },
+  {
+    "id": "7f1ef240e84e2d19",
+    "text": "A young girl in a green leotard begins twirling a baton and doing tricks. the girl",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 81
+    }
+  },
+  {
+    "id": "1acd7bfeccb7112a",
+    "text": "The girl begins to incorporate her arms and does a flip and continues to flip the baton over her hands and arms. as the young lady",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 82
+    }
+  },
+  {
+    "id": "90ab570a9f14b431",
+    "text": "As the young lady continues her performance, she twirls the baton between her legs and over her head, catches it and does a gallop. the rest of the young girl's performance",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 83
+    }
+  },
+  {
+    "id": "1ac09568333b04ec",
+    "text": "We see a man in a driveway cleaning snow from his car. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 84
+    }
+  },
+  {
+    "id": "1a089e487a8ce147",
+    "text": "We see a man in a driveway cleaning snow from his car. The man cleans the snow under his windshield wipers. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 85
+    }
+  },
+  {
+    "id": "919a57e834fab041",
+    "text": "The man cleans the snow under his windshield wipers. We see the building behind the car. We do a 360 spin to see the parking lot. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 86
+    }
+  },
+  {
+    "id": "7639a34b070bdae9",
+    "text": "A man in a blue shirt and shorts lifts a large weight over his head. Another man is filming it. The same man comes back and lifts the weight over his head again. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 87
+    }
+  },
+  {
+    "id": "1b8108c23816714b",
+    "text": "A man is seen throwing a dart onto a board and leads into a woman speaking. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 88
+    }
+  },
+  {
+    "id": "fa12886cacdbf15a",
+    "text": "A group of people are standing in the middle of a forest with a trail of pebbles separating them from a beautiful crystal clear body of water. the camera",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 89
+    }
+  },
+  {
+    "id": "e0956f9323e0053d",
+    "text": "The camera moves across the water and several people on boats and jet-skis are moving in the water near a large wave. More large waves begin to surface and a man begins surfing the waves. the forest",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 90
+    }
+  },
+  {
+    "id": "1d1fd259b98e1c0b",
+    "text": "A large patch of grass is shown. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 91
+    }
+  },
+  {
+    "id": "4edeb8371b184b22",
+    "text": "A pilates instructor on skates explains how to strap your risk protectors tight and shows that you need knee pads to protect your knees. the lady",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 92
+    }
+  },
+  {
+    "id": "834a32106faa5621",
+    "text": "A woman wearing a tan apron is holding a knife and talking. She then shows an appliance on the table and tilts it upwards. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 93
+    }
+  },
+  {
+    "id": "f95c54970f9013cf",
+    "text": "She then shows an appliance on the table and tilts it upwards. She turns a dial on the appliance and sets it back down. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 94
+    }
+  },
+  {
+    "id": "f301418903387ffe",
+    "text": "She turns a dial on the appliance and sets it back down. She picks the knife back up and places it on the appliance. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 95
+    }
+  },
+  {
+    "id": "0ecd66d41e7c1f18",
+    "text": "She picks the knife back up and places it in the appliance and slowly draws it back several times. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 96
+    }
+  },
+  {
+    "id": "75fc5d14ceaced4a",
+    "text": "She picks the knife back up and places it in the appliance and slowly draws it back several times. She slices a tomato on a wood block with the knife. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 97
+    }
+  },
+  {
+    "id": "e12ca10af28655b4",
+    "text": "A man wearing a black clothes is sharpening the knife on a stone. The man beside him on blue long sleeves drawing something on the table with his finger. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 98
+    }
+  },
+  {
+    "id": "f32b00da8752f93c",
+    "text": "A man is seen speaking to the camera while a shot of a person playing basketball shows behind. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 99
+    }
+  },
+  {
+    "id": "88812be0473b0efc",
+    "text": "A bottle of deep cleansing gel is shown. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 100
+    }
+  },
+  {
+    "id": "38fbd7ecbf147691",
+    "text": "The male athlete is standing by the two poles, raised his arms up, then jumped on the poles with his arms, while under him, a man pull out a red beam. the athlete",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 101
+    }
+  },
+  {
+    "id": "5a11413033d28b4e",
+    "text": "A man is in the gym in tight he bends over picks up a weight over his head and drops it back down. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 102
+    }
+  },
+  {
+    "id": "a5d8df9b4ba4eba6",
+    "text": "A man is in the gym in tight he bends over picks up a weight over his head and drops it back down. He walks back and loosens up before walking back up and doing it again adding more weight. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 103
+    }
+  },
+  {
+    "id": "3d56cd7fba146272",
+    "text": "Two other men gets in the ring and are wresting the man in the center. People are around the ring wtching the wrest. three journalists",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 104
+    }
+  },
+  {
+    "id": "e63d183b67173a84",
+    "text": "A shot of a sunset set is shown followed by peaking smoking and walking around a paint ball pit. the men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 105
+    }
+  },
+  {
+    "id": "e31cde8d4d024744",
+    "text": "A shot of a sunset set is shown followed by peaking smoking and walking around a paint ball pit. The men speak to one another and lead into running around and playing paint ball. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 106
+    }
+  },
+  {
+    "id": "07decf5c6ce0c1c6",
+    "text": "We see the underwater sea floor. two people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 107
+    }
+  },
+  {
+    "id": "0b13f575b3fd2223",
+    "text": "We see the underwater sea floor. Two people swim in front of the camera. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 108
+    }
+  },
+  {
+    "id": "506aa10ab5dc351a",
+    "text": "We see the underwater sea floor. Two people swim in front of the camera. We see a man holding a camera. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 109
+    }
+  },
+  {
+    "id": "a787757ba83387b1",
+    "text": "We see a fin enter the camera. The camera is spinning wildly. Bubbles rise out of a tube. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 110
+    }
+  },
+  {
+    "id": "9a3922542b659d83",
+    "text": "A man is seen standing behind a counter speaking to the camera and holding up cleaning products. He puts the products into a sink and begins scrubbing around the sides. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 111
+    }
+  },
+  {
+    "id": "f9da7acbfc48c8c7",
+    "text": "A group of men on donkeys play a form of polo on a dirt field. the",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 112
+    }
+  },
+  {
+    "id": "fbcfaec888042af9",
+    "text": "A group of men on donkeys play a form of polo on a dirt field. The camera pans to people watching the game. the camera",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 113
+    }
+  },
+  {
+    "id": "65625abacb48ad16",
+    "text": "Two men are on a platform, fencing. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 114
+    }
+  },
+  {
+    "id": "48c87429c47d5800",
+    "text": "Two men are on a platform, fencing. They jab at each other with their swords. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 115
+    }
+  },
+  {
+    "id": "e75bd2230b7fc32a",
+    "text": "There are two men in the water wearing wetsuits and laying on their surfboards as they ride a wave. the camera man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 116
+    }
+  },
+  {
+    "id": "3b77b0f4c7d24c4e",
+    "text": "The surfer who is in front is happy to riding the wave for so long that he raises his two arms up in the air and then lowers it back down. the surfer in the back",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 117
+    }
+  },
+  {
+    "id": "5a1dd21be02e71b0",
+    "text": "Several people are seen drilling holes into the ice while looking down and speaking to the camera. Many pictures are shown of the people fishing as well as pulling fish out of a hole. more people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 118
+    }
+  },
+  {
+    "id": "159282caa956319f",
+    "text": "An older women is shown sitting on a front step putting socks on with a small dog standing near her. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 119
+    }
+  },
+  {
+    "id": "e3b75df62d15ef2c",
+    "text": "A young man plays violin while wearing headsets. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 120
+    }
+  },
+  {
+    "id": "a1b82e894198f466",
+    "text": "A female basketball coach is seen instructing a group of girl basketball players who are standing in line on a basketball court. the first girl",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 121
+    }
+  },
+  {
+    "id": "d9cd019afcc18e10",
+    "text": "A group of people are in a house. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 122
+    }
+  },
+  {
+    "id": "975587f7acadf6ad",
+    "text": "A group of people are in a house. A man is mopping the floor with a mop. another boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 123
+    }
+  },
+  {
+    "id": "b593a698ff997f52",
+    "text": "A man is mopping the floor with a mop. Another boy attempts to walk through where he is mopping. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 124
+    }
+  },
+  {
+    "id": "2a8caa1a7bcc14bd",
+    "text": "Another boy attempts to walk through where he is mopping. The man takes a drink of beer and complains to the camera. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 125
+    }
+  },
+  {
+    "id": "4f556559530c7c5d",
+    "text": "A small boy wearing a blue and yellow hoodie and gray sweat pants in standing in an outdoor tennis court. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 126
+    }
+  },
+  {
+    "id": "5757c4a8624530bc",
+    "text": "A small boy wearing a blue and yellow hoodie and gray sweat pants in standing in an outdoor tennis court. He is holding a blue racket as he bounces the yellow and orange tennis ball on the court. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 127
+    }
+  },
+  {
+    "id": "36a18ef4d6ffe2da",
+    "text": "He starts with his first serve where the ball hits the net. Then he takes another ball, bounces it and serves again. the ball",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 128
+    }
+  },
+  {
+    "id": "07634956742794e3",
+    "text": "We see a golden title on a black screen. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 129
+    }
+  },
+  {
+    "id": "f167479fe1989489",
+    "text": "A shot of a cyclist is shown and then it cuts back to the same man in white speaking. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 130
+    }
+  },
+  {
+    "id": "3927ccd70809e0f0",
+    "text": "A runner is running on a track in front of a crowd of people. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 131
+    }
+  },
+  {
+    "id": "aefdaa18895cccbc",
+    "text": "Runners are running down a track with crowds on both sides and one of the runners stumbles. Another runner is shown and a man is shown talking to the camera. a runner",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 132
+    }
+  },
+  {
+    "id": "16cc564a68f9ee48",
+    "text": "The distressed runner is carried away. Runners in distress are shown. A man is talking to the camera. various runners",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 133
+    }
+  },
+  {
+    "id": "189626ded75a35df",
+    "text": "A person is seen standing off in the distance with another standing around a hole. the person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 134
+    }
+  },
+  {
+    "id": "06c1d714e59f6492",
+    "text": "A cooker talks in a kitchen and shows the inside of a sharpener knife that has discs inside. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 135
+    }
+  },
+  {
+    "id": "23e8775463e61648",
+    "text": "A cooker talks in a kitchen and shows the inside of a sharpener knife that has discs inside. Then, the man puts a knife in the sharpener knife to sharpen. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 136
+    }
+  },
+  {
+    "id": "9b4da27184d96939",
+    "text": "A pile of trees are shown blowing outside on a cobblestone path outside of a building. as the leaves",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 137
+    }
+  },
+  {
+    "id": "495f9caa4f409871",
+    "text": "A man does a barbecue in a yard while singing with people showing drinks in cans and cups. Then people walk to a bar and sing inside drinking beer. Women serves drinks from a fountain. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 138
+    }
+  },
+  {
+    "id": "1fa10a18b9a75c33",
+    "text": "Women serves drinks from a fountain. A man talks on front a microphone and people continue singing and showing beer. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 139
+    }
+  },
+  {
+    "id": "50c073ea51ec711f",
+    "text": "There are people standing on a frozen body of water and are looking into a small hole that has a fishing wire in it and they watch it as it bobs up and down. the standing man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 140
+    }
+  },
+  {
+    "id": "199d79fbc3f67bde",
+    "text": "The standing man pulls the pole and wire up higher and the man kneeling on the ice pulls the fish out of the ice water and puts it onto the ice. another man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 141
+    }
+  },
+  {
+    "id": "7b93683b15e9f08d",
+    "text": "Some boys are in the pools playing with volleyballs. there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 142
+    }
+  },
+  {
+    "id": "253820a6bc7a0d21",
+    "text": "A young man sits on a bed. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 143
+    }
+  },
+  {
+    "id": "410d1d01bc5205c5",
+    "text": "Two men do maneuvers on a canoe pivoting the canoe helping with the paddlers. Then, the men pivot the canoe away from the bow paddlers while paddling fast the oars. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 144
+    }
+  },
+  {
+    "id": "294ae831d2e5e268",
+    "text": "Then, the men pivot the canoe away from the bow paddlers while paddling fast the oars. After, the men slides the canoe forward using the oars to advance. next",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 145
+    }
+  },
+  {
+    "id": "6771de4e39eb2a6f",
+    "text": "People are standing on a hill of snow. people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 146
+    }
+  },
+  {
+    "id": "7926134a4d779edd",
+    "text": "People are standing on a hill of snow. People are snowboarding down a hill of snow. people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 147
+    }
+  },
+  {
+    "id": "666f4cee6bb71e89",
+    "text": "People are standing on a hill of snow. People are snowboarding down a hill of snow. People are skiing down a hill. the skiiers",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 148
+    }
+  },
+  {
+    "id": "552eddf345a0129f",
+    "text": "A man in an outdoor basketball court explains how to do layup drills with both arms, over hand, underhand, right and left hand layup with two steps. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 149
+    }
+  },
+  {
+    "id": "03647baa578782e3",
+    "text": "He then goes to the hash marks on the court and shows various variations of a layup from various distances and how to do the drills for practice. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 150
+    }
+  },
+  {
+    "id": "8c31f1ba090fce9a",
+    "text": "The man in brown shirt is standing next to a pile of tennis ball while he is talking to the camera. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 151
+    }
+  },
+  {
+    "id": "f1506a828fd03203",
+    "text": "The man in brown shirt is standing next to a pile of tennis ball while he is talking to the camera. He played tennis ball with another person. the man in purple shirt",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 152
+    }
+  },
+  {
+    "id": "ac980d3ed79acf01",
+    "text": "A group of people are sitting in a sauna fully clothed. One guy stands up with a violin. The guy begins playing the violin and dancing. the guy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 153
+    }
+  },
+  {
+    "id": "7c57171431396001",
+    "text": "One guy stands up with a violin. The guy begins playing the violin and dancing. The guy kicks his shoe off while dancing. the guy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 154
+    }
+  },
+  {
+    "id": "8ee692ee5d56369b",
+    "text": "The harmonica is held up and shown. a person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 155
+    }
+  },
+  {
+    "id": "e5b7d0cbb82d860a",
+    "text": "The harmonica is held up and shown. A person holds a harmonica between his hands a plays a song. the person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 156
+    }
+  },
+  {
+    "id": "48b969707c075c1f",
+    "text": "A young man plays the violin on a sidewalk for people passing by in downtown area. two students",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 157
+    }
+  },
+  {
+    "id": "96e6fb719d2270ba",
+    "text": "The camera zooms in to show the car's front right wheel. The camera zooms out to show the man spraying the car with soap. the camera",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 158
+    }
+  },
+  {
+    "id": "a0c77cacd15eb0ec",
+    "text": "The camera zooms in again to show the soap running down the back of the car, then the camera moves to show the left side of the car. then two men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 159
+    }
+  },
+  {
+    "id": "3222b6ae81fb4da7",
+    "text": "A woman in an orange shirt is sitting on an exercise machine. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 160
+    }
+  },
+  {
+    "id": "f73e3260c812b73b",
+    "text": "A person hangs onto the handles of a kite flying overhead. the kite",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 161
+    }
+  },
+  {
+    "id": "0809b9596b9b4b3b",
+    "text": "People are rowing down a body of water. a guy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 162
+    }
+  },
+  {
+    "id": "223212954d13979e",
+    "text": "A graphic introduces the hand car wash video. the car",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 163
+    }
+  },
+  {
+    "id": "0d77b6be1b2464ee",
+    "text": "A graphic introduces the hand car wash video. The car is washed first gently with soap. next",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 164
+    }
+  },
+  {
+    "id": "922aac763f4e9faa",
+    "text": "Next, the tires are soaped and washed thoroughly. After that, the car's engine is steam cleaned. a final spot free rinse",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 165
+    }
+  },
+  {
+    "id": "bd4c91383d1527db",
+    "text": "A woman is seen putting makeup on her face and leads into several pictures of makeup. Many more pictures of products are shown with text across the screen. more pictures of products",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 166
+    }
+  },
+  {
+    "id": "34da43317e57923c",
+    "text": "There is a woman eating ice cream from a tub and talking to the camera man. and he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 167
+    }
+  },
+  {
+    "id": "be947573d8171695",
+    "text": "There is a woman eating ice cream from a tub and talking to the camera man. And he tries to look into the tub, but she pulls it away. the camera person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 168
+    }
+  },
+  {
+    "id": "484f09a08f78ae4e",
+    "text": "A man is shown standing in front of a blue background as many harmonicas are shown and he starts playing them. He is then shown speaking into the camera and going into detail with regards to the products features. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 169
+    }
+  },
+  {
+    "id": "1bd2c98410ab7c8f",
+    "text": "A violinist is playing the violin in a music room. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 170
+    }
+  },
+  {
+    "id": "83da88ccf2a3e4eb",
+    "text": "A woman in a suit is talking to a camera. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 171
+    }
+  },
+  {
+    "id": "ea6385863a8e6cff",
+    "text": "A woman in a suit is talking to a camera. A woman is putting contact lenses into her eyes. contact lenses",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 172
+    }
+  },
+  {
+    "id": "33cfb146250115be",
+    "text": "A crowd watches as several runners in a race jog past. they all",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 173
+    }
+  },
+  {
+    "id": "9253f1dbb5c4e126",
+    "text": "A small child seated at a table eats ice cream with a spoon while people walk by in the background. a pair of adult hands",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 174
+    }
+  },
+  {
+    "id": "dfdbd45b9a87a8ee",
+    "text": "A small child seated at a table eats ice cream with a spoon while people walk by in the background. A pair of adult hands briefly enter the camera frame in the foreground. the child",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 175
+    }
+  },
+  {
+    "id": "b5f3d763ad40ba89",
+    "text": "There's a woman with red colored hair wearing a black tank top and printed black tights skating on roller blades through the streets of a city. the streets",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 176
+    }
+  },
+  {
+    "id": "1b51dcc8eddfb094",
+    "text": "There's a woman with red colored hair wearing a black tank top and printed black tights skating on roller blades through the streets of a city. The streets don't have any cars but people are riding bikes or skateboarding. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 177
+    }
+  },
+  {
+    "id": "af62f4299b1cc2db",
+    "text": "The bikers are biking on the ramp, while on the starting line the group of bikers are in positioned. The small fence was put down the the bikers went bike racing over the big ramps. the spectators",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 178
+    }
+  },
+  {
+    "id": "956da6dd6e892d95",
+    "text": "A man is kneeling on the ice with another beside hide pulling string out of a hole. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 179
+    }
+  },
+  {
+    "id": "858b89c48de50ff5",
+    "text": "They continue to pull the string while the man beside him grabs a hook. He places the hook near the hole but the man grabs a fish on a string. the fish",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 180
+    }
+  },
+  {
+    "id": "dbe242734490df0d",
+    "text": "A group of people wearing swim caps move around a pool and toss a ball around with a man on the sides waving a flag. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 181
+    }
+  },
+  {
+    "id": "9ba435509e0278c6",
+    "text": "A group of people wearing swim caps move around a pool and toss a ball around with a man on the sides waving a flag. They play a game of water polo and throw the ball around to each other. one",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 182
+    }
+  },
+  {
+    "id": "0749c75e074ba878",
+    "text": "We see an image and a title card. We see a man playing basketball. The shot he made is seen in reverse. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 183
+    }
+  },
+  {
+    "id": "a7800ea1f2d8379b",
+    "text": "We see a title card on black. A man is shooting basketball in a gym. We see a man dunk the ball twice. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 184
+    }
+  },
+  {
+    "id": "e7b39276cb19a487",
+    "text": "A woman in a dress holding a violin addresses an audience. The woman plays the violin as other musicians look on. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 185
+    }
+  },
+  {
+    "id": "4aabb1ed4eae89eb",
+    "text": "A boy skateboard on a road jumping and flipping the skateboard in the street. a skateboard",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 186
+    }
+  },
+  {
+    "id": "a851ca16211559af",
+    "text": "A boy skateboard on a road jumping and flipping the skateboard in the street. A skateboard leans on a tree. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 187
+    }
+  },
+  {
+    "id": "ebdbf6d61c580a55",
+    "text": "A girl is seen laying on a table with a man piercing her belly button below her. the girl",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 188
+    }
+  },
+  {
+    "id": "b5b88fa8ede4d11f",
+    "text": "A young man is washing clothes inside a bathroom sink as he talks to the camera. initially he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 189
+    }
+  },
+  {
+    "id": "3869d27d6b8fe001",
+    "text": "A young man is washing clothes inside a bathroom sink as he talks to the camera. Initially he starts to wash the clothes with both hands. afterwards he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 190
+    }
+  },
+  {
+    "id": "6be8fd1f2051d013",
+    "text": "Initially he starts to wash the clothes with both hands. Afterwards he adds more soap using two different bottles to the sink. subsequently he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 191
+    }
+  },
+  {
+    "id": "83448beb6b8bfa67",
+    "text": "A man touches his faces and waves. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 192
+    }
+  },
+  {
+    "id": "f742e417959c76ba",
+    "text": "We see the title introducing us to jesse. jesse the dog",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 193
+    }
+  },
+  {
+    "id": "2bca7964569473dd",
+    "text": "We see the title introducing us to jesse. Jesse the dog runs and catches frisbee. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 194
+    }
+  },
+  {
+    "id": "5cd4a1e7b97ccdf3",
+    "text": "We see the title introducing us to jesse. Jesse the dog runs and catches frisbee. We see jesse close up in the camera. jesse",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 195
+    }
+  },
+  {
+    "id": "3927177e0cd38a4c",
+    "text": "Jesse the dog runs and catches frisbee. We see jesse close up in the camera. Jesse is running around catching the frisbee the lady throws. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 196
+    }
+  },
+  {
+    "id": "031f1e155475a431",
+    "text": "Jesse is running around catching the frisbee the lady throws. We see five still shots of jesse jumping in the air. jesse",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 197
+    }
+  },
+  {
+    "id": "39b41476be8ca58b",
+    "text": "A first person view is seen of a man riding a riding lawn mower. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 198
+    }
+  },
+  {
+    "id": "3fec612847e8dac3",
+    "text": "A first person view is seen of a man riding a riding lawn mower. He takes turns quickly, mowing the lawn. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 199
+    }
+  },
+  {
+    "id": "b78b0c246b203c63",
+    "text": ". a colorful intro with a lot of flashing words",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 200
+    }
+  },
+  {
+    "id": "7dd220ef282826eb",
+    "text": "A colorful intro with a lot of flashing words flash across the screen along with a logo and a banner with foreign language written on it. a woman dressed in an orange and red dress and scarf",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 201
+    }
+  },
+  {
+    "id": "b9af28d1319196a4",
+    "text": "The woman from before who is dressed in an orange and red dress appears again and is still holding the white paper as she talks. flashing words",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 202
+    }
+  },
+  {
+    "id": "929c520cf3bc5f2e",
+    "text": "A girl is riding on a yellow riding lawn mower on a very large yard filled with green grass. when the girl",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 203
+    }
+  },
+  {
+    "id": "66c530ddb28892c6",
+    "text": "When the girl reaches the end of the yard she makes a turn and drives up in the same direction she just came from. when she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 204
+    }
+  },
+  {
+    "id": "a6e61137aa9a2687",
+    "text": "The video starts with several people playing shuffleboard on a shuffleboard court. one person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 205
+    }
+  },
+  {
+    "id": "7a171b12d175384c",
+    "text": "One person makes a shot with a black puck. The next person makes a shot with a yellow puck. the people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 206
+    }
+  },
+  {
+    "id": "de6c319c4d80897e",
+    "text": "One of the swimmers is underwater, trying to reach the ball. He throws the ball across to another swimmer who catches the ball. two swimmers",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 207
+    }
+  },
+  {
+    "id": "c02b67db3ffdefe3",
+    "text": "Two swimmers are under water trying to reach the ball. They pass the ball around as they swim through the water. then the swimmers",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 208
+    }
+  },
+  {
+    "id": "aeee9d6b34d88cdf",
+    "text": "A knife is put into a sharpener and moved back and forth and used on a circular sharpener. a pair of scissors",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 209
+    }
+  },
+  {
+    "id": "3c779ae3388f4c9e",
+    "text": "A knife is put into a sharpener and moved back and forth and used on a circular sharpener. A pair of scissors is sharpened on the sharpener. the scissors",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 210
+    }
+  },
+  {
+    "id": "d995312166054679",
+    "text": "A woman talks to the camera while bathing a baby in the bathtub. The woman demonstrates a small scrubbing pad to the camera. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 211
+    }
+  },
+  {
+    "id": "c537df859761a0f4",
+    "text": "A little girl sled in an inflatable boat hold to a string on front a man, suddenly she falls in a hollow. People carry sled boats and the little girl is in a sled boat. after a group of people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 212
+    }
+  },
+  {
+    "id": "fdbec9984415cebd",
+    "text": "Several men are seen hosting a news segment that leads into clips of people playing a game together and arguing with one another. more shots of people playing",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 213
+    }
+  },
+  {
+    "id": "43f89f5f32a307f9",
+    "text": "Several men are seen hosting a news segment that leads into clips of people playing a game together and arguing with one another. More shots of people playing are shown as well as people celebrating and walking away. more shots",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 214
+    }
+  },
+  {
+    "id": "be592a135ab947bc",
+    "text": "A girl is shown washing and scrubbing her face several times while speaking into the camera. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 215
+    }
+  },
+  {
+    "id": "19444507d56f4dae",
+    "text": "The man pretents to time himself and uses the screwdriver tool to pierce a hole in a full beer can that sprays some of its contents. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 216
+    }
+  },
+  {
+    "id": "dfe744836a7f8e10",
+    "text": "The man pretents to time himself and uses the screwdriver tool to pierce a hole in a full beer can that sprays some of its contents. The man holds up the can with the hole facing upwards. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 217
+    }
+  },
+  {
+    "id": "5eb647e50d923e23",
+    "text": "A young boy in t-shirt and shorts maneuvers a lawn moves back and forth across a small patch of lawn as he mows the lawn. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 218
+    }
+  },
+  {
+    "id": "e5724c7ec110851e",
+    "text": "Once she leaves, a black cat is shown and it begins to crawl over everything and then the lady comes and pets it. The female leaves and walks into a room and starts covering the room in wall paper. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 219
+    }
+  },
+  {
+    "id": "f8df21ac2ea533a5",
+    "text": "She forgets the scissors and walks out to grab them and comes back to apply more paper on the wall. a break",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 220
+    }
+  },
+  {
+    "id": "c9ef49f2946421c9",
+    "text": "She forgets the scissors and walks out to grab them and comes back to apply more paper on the wall. A break is needed and the woman get a drink from the kitchen. shortly",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 221
+    }
+  },
+  {
+    "id": "cac369635aa00a81",
+    "text": "A break is needed and the woman get a drink from the kitchen. Shortly after, the lady continues her tasks and then walks outside to take her cat out. the wall",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 222
+    }
+  },
+  {
+    "id": "6f7b4fadf7b30348",
+    "text": "The audience cheers more and leads into people throwing a ball and others hitting it. more shots of the game being played",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 223
+    }
+  },
+  {
+    "id": "51d475a30d3222bc",
+    "text": "People watch a parade where people walk on front a marching band holding a banner and waving the viewers. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 224
+    }
+  },
+  {
+    "id": "3693fffc647dd9fe",
+    "text": "A man cross the street holding a small flag and extend his hand. A group of soldiers holds rifles and flags on front a black car. a veteran",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 225
+    }
+  },
+  {
+    "id": "7b1d2762f2adc2fd",
+    "text": "Man is standing on side of car stuck in traffic. man holding bagpipes",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 226
+    }
+  },
+  {
+    "id": "9b9e2eedac4dfd27",
+    "text": "A graphic shows on the screen for a website about basketball drills. some young men on an indoor basketball court",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 227
+    }
+  },
+  {
+    "id": "66158e36b9746736",
+    "text": "A graphic shows on the screen for a website about basketball drills. Some young men on an indoor basketball court are shown doing some of the basketball drills. an older man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 228
+    }
+  },
+  {
+    "id": "d792f45c1cd5694f",
+    "text": "Some young men on an indoor basketball court are shown doing some of the basketball drills. An older man begins explaining the drills while more footage is shown of the players demonstrating them. the screen",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 229
+    }
+  },
+  {
+    "id": "758e97d38d6a6435",
+    "text": "A woman named julie artzt becker is holding her violin is sitting and talking in front of a blue screen. The woman puts the violin up to her chin and continues to talk. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 230
+    }
+  },
+  {
+    "id": "ab70652c0f6610c2",
+    "text": "The woman then puts her fingers onto the strings and with her other hand she touches and points on her fingers on the strings as well as taking the bow to her strings every now and then. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 231
+    }
+  },
+  {
+    "id": "29eeeec2dfb78d76",
+    "text": "The woman talks throughout the entire video as she's demonstrating her movements or pointing towards her finger motions. eventually the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 232
+    }
+  },
+  {
+    "id": "1730b95c21dad377",
+    "text": "A man professionally paints several pieces of furniture using a spray painter in a paint shop while wearing overalls, a denim shirt and a paint mask. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 233
+    }
+  },
+  {
+    "id": "44e7c63937efae01",
+    "text": "A man professionally paints several pieces of furniture using a spray painter in a paint shop while wearing overalls, a denim shirt and a paint mask. The man begins by painting a wooden armchair metallic gray with a gold spray paint can. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 234
+    }
+  },
+  {
+    "id": "aa72f0c4dc64f9eb",
+    "text": "The man begins by painting a wooden armchair metallic gray with a gold spray paint can. The man then paints a side table black with lights shining off of the black painted wood. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 235
+    }
+  },
+  {
+    "id": "adf4402193490059",
+    "text": "A girl stands in a bathroom talking to the camera as a man films her. the lady",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 236
+    }
+  },
+  {
+    "id": "edb9655bfa7c5f67",
+    "text": "A girl stands in a bathroom talking to the camera as a man films her. The lady wipes her eye makeup off and washes her face. the lady",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 237
+    }
+  },
+  {
+    "id": "aa7daaf2dc4bf3f2",
+    "text": "The lady wipes her eye makeup off and washes her face. The lady rinses the soap off her face. the lady",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 238
+    }
+  },
+  {
+    "id": "a6554554b98ef6b3",
+    "text": "A young boy is seen standing on top of a slide and edging his way down. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 239
+    }
+  },
+  {
+    "id": "9f7b39c2c66c98e3",
+    "text": "While he his talking, several videos of him are shown off road motorcycle racing around the course jumping over humps. however",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 240
+    }
+  },
+  {
+    "id": "904e064b9c3b6b40",
+    "text": "People are working in a bike shop fixing a bike. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 241
+    }
+  },
+  {
+    "id": "118605258d3010e3",
+    "text": "People are working in a bike shop fixing a bike. They put the wheels back onto the bike. the",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 242
+    }
+  },
+  {
+    "id": "80b09ac4f5cadd9d",
+    "text": "People are working in a bike shop fixing a bike. They put the wheels back onto the bike. The put the seat on the bike. the bike",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 243
+    }
+  },
+  {
+    "id": "481a0858b185ef7f",
+    "text": "A man is shown on a stage, playing drums. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 244
+    }
+  },
+  {
+    "id": "b317b240549ca92c",
+    "text": "A man is shown on a stage, playing drums. He beats the cymbals and drums very fast. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 245
+    }
+  },
+  {
+    "id": "2279c201b4da2643",
+    "text": "A woman walks over to a flower bed and wheelbarrow as she talks. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 246
+    }
+  },
+  {
+    "id": "095b346815722836",
+    "text": "A woman is on her hands and knees cutting grass with some scissors. the camera",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 247
+    }
+  },
+  {
+    "id": "f5056280eb8d6206",
+    "text": "A woman is on her hands and knees cutting grass with some scissors. The camera pans out to give a full view of her cutting the grass. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 248
+    }
+  },
+  {
+    "id": "b0a65adee0099cf1",
+    "text": "A woman rides a camel holding a rode with her right hand while a man pulls the camel. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 249
+    }
+  },
+  {
+    "id": "5e8b57b029792d71",
+    "text": "An intro leads into a close up of a painting and a paintbrush swirling around and around. the hand holding the brush",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 250
+    }
+  },
+  {
+    "id": "6da0793ded7c66e7",
+    "text": "Woman is carrying the child on his back and then she is with a man and the kid riding bikes in the park. kid",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 251
+    }
+  },
+  {
+    "id": "b2232828f4e3e286",
+    "text": "A man is acting as a dj with headphones on. Another man takes off on a pair of water skis. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 252
+    }
+  },
+  {
+    "id": "d2812a9b18a08fdb",
+    "text": "A little boy is standing eating ice cream. There is a dog on the floor behind him. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 253
+    }
+  },
+  {
+    "id": "9bb2bdd85e066990",
+    "text": "Man is sitting in a tube and make tricks in a skate park, other man is sitting watching him. little kid",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 254
+    }
+  },
+  {
+    "id": "4c11e2725d3ecc16",
+    "text": "Woman is climbing a rock wall in a gym and a man is pulling the ropes. woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 255
+    }
+  },
+  {
+    "id": "ae4f2f9d119c7281",
+    "text": "A man is seen speaking to the camera and begins polishing a black shoe with a brush. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 256
+    }
+  },
+  {
+    "id": "61899ec0fdc172be",
+    "text": "A large group of people are seen running around a disney resort while waving to the camera and several shots of the kingdom being shown. many characters",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 257
+    }
+  },
+  {
+    "id": "1b7ceac85b789520",
+    "text": "A man is standing up and throws a rock. people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 258
+    }
+  },
+  {
+    "id": "1150643431a8445a",
+    "text": "A white wall is shown with pegs poking out and strips of tape hanging down and a girl begins cliff climbing the wall as a man in a blue shirt begins to talk. the young lady",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 259
+    }
+  },
+  {
+    "id": "f74a790d7e6b9a05",
+    "text": "They are part of a team that is playing in the large stadium with several spectators. The video is demonstrating how to catch the ball and scoop it up with the stick. it",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 260
+    }
+  },
+  {
+    "id": "200e62ce685ddf7a",
+    "text": "The video is demonstrating how to catch the ball and scoop it up with the stick. It also demonstrates how to balance the ball on the stick as the player runs. the players",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 261
+    }
+  },
+  {
+    "id": "c9ef34ec3008ec1a",
+    "text": "The players are showing all the steps in the tutorial where the one of the player shoots the ball bravely for a point. there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 262
+    }
+  },
+  {
+    "id": "e09cc377e9a073e1",
+    "text": "A violinist, lindsay stirling is performing live with some other participants on a stage in front of an audience. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 263
+    }
+  },
+  {
+    "id": "0190c7f54e64e069",
+    "text": "A violinist, lindsay stirling is performing live with some other participants on a stage in front of an audience. She begins by playing the violin while the other performers dance in a choreographed fashion. the violinist",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 264
+    }
+  },
+  {
+    "id": "55466f143fdb591c",
+    "text": "The violinist dances as she plays the instrument along with five other dancers. They dance in a modern and hip hop style of dancing. then only two of the dancers",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 265
+    }
+  },
+  {
+    "id": "f3abc14ddb253511",
+    "text": "A man drives in circles a four wheels motorcycle in a field with high weeds while dust. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 266
+    }
+  },
+  {
+    "id": "708564254584bafe",
+    "text": "A female weight lifter is preparing to lift a barbell. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 267
+    }
+  },
+  {
+    "id": "4a14dc2b918e99f1",
+    "text": "Two boys are kneeling in the grass cutting the grass with a pair of scissors. They grab some pieces and use the scissors to cut it up. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 268
+    }
+  },
+  {
+    "id": "c05224a40e14f17b",
+    "text": "They grab some pieces and use the scissors to cut it up. Then throw the grass they cut back behind them. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 269
+    }
+  },
+  {
+    "id": "2032cc552b737c21",
+    "text": "A man runs up to a beam and jumps over it several times. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 270
+    }
+  },
+  {
+    "id": "98d8a5520bb2545d",
+    "text": "A person is seen raking a yard and pauses to put his hand in his pocket. Another man comes walking in with a leaf blower pushing the leaves around. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 271
+    }
+  },
+  {
+    "id": "6e2ebffe7f0a8aeb",
+    "text": "A person is seen riding around on roller blades and performing a grind on a bar. several more clips",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 272
+    }
+  },
+  {
+    "id": "b21db53c5365c094",
+    "text": "A man in a gym walks over to a barbell. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 273
+    }
+  },
+  {
+    "id": "172d7270c2e5e1d0",
+    "text": "A stands woman by a ball and sets it in place. Another woman appears and they wrap the ball in wrapping paper. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 274
+    }
+  },
+  {
+    "id": "da1d2777a6b4dae7",
+    "text": "There's a brown horse tied outside a polo club. there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 275
+    }
+  },
+  {
+    "id": "86cb272ebca40ebb",
+    "text": "There are several jockeys playing polo on the field in an event. There are also several spectators standing and watching the event. one of the polo players",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 276
+    }
+  },
+  {
+    "id": "b59d9a0c62ecea03",
+    "text": "One of the polo players is trotting on the horse across the field. Another game of polo takes place where several spectators are watching. after the event",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 277
+    }
+  },
+  {
+    "id": "4c2d1157590b3a8c",
+    "text": "The man jetskis while holding the camera at arm's length. The man is shown waterskiing while pulled by the jetski. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 278
+    }
+  },
+  {
+    "id": "9c08aaa737bd517d",
+    "text": "We see a black opening screen. We see a blue track with people running on it. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 279
+    }
+  },
+  {
+    "id": "89ea4adc551854bb",
+    "text": "We then see a man do a high jump at 5'9\". We then see the man jump at 6'. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 280
+    }
+  },
+  {
+    "id": "3b186846d17257f1",
+    "text": "We see a man standing in a room. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 281
+    }
+  },
+  {
+    "id": "20e409a78702bb0f",
+    "text": "We see a man standing in a room. The man starts performing tai chi. The man turns and faces left. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 282
+    }
+  },
+  {
+    "id": "f16e016053dd0344",
+    "text": "The man turns to face right. The man makes his way to the right side of the room slowly. the screen",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 283
+    }
+  },
+  {
+    "id": "00174843cd159ea7",
+    "text": "A man in a blue shirt is playing basketball on a court. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 284
+    }
+  },
+  {
+    "id": "37ad41cc859365d5",
+    "text": "A coach align a group of teens in a basketball court, the teen on front holds a basketball ball. three teens",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 285
+    }
+  },
+  {
+    "id": "f9a7251d89fdcbdc",
+    "text": "Three teens run and a boy throws the basketball to the basket, then the second teen grabs the ball and pass the ball to two teens disputing to have the ball. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 286
+    }
+  },
+  {
+    "id": "d6915010c2e2b088",
+    "text": "Three teens run and a boy throws the basketball to the basket, then the second teen grabs the ball and pass the ball to two teens disputing to have the ball. Then, three more boys run to practice the same steps. a young man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 287
+    }
+  },
+  {
+    "id": "34e0146121eb3cb3",
+    "text": "Then, three more boys run to practice the same steps. A young man wearing a yellow t-shirt practice basketball on the other basketball goal. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 288
+    }
+  },
+  {
+    "id": "f863373b3c21acea",
+    "text": "A gymnast is seen standing before a large beam and putting his hands up in the air. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 289
+    }
+  },
+  {
+    "id": "8b45da15949d6cd4",
+    "text": "An introduction comes onto the screen for a video about how to play different songs on the violin. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 290
+    }
+  },
+  {
+    "id": "bbdb839edd2376d7",
+    "text": "A man comes onto the screen with a violin and begins to explain different techniques for playing the violin. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 291
+    }
+  },
+  {
+    "id": "b66c4e4091d48d32",
+    "text": "He moves closer to the camera so that you can see the detail of what he is doing with his hands. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 292
+    }
+  },
+  {
+    "id": "90daf2c132675ba4",
+    "text": "He moves closer to the camera so that you can see the detail of what he is doing with his hands. He begins to play different notes on the violin as he moves his fingers. the video",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 293
+    }
+  },
+  {
+    "id": "054169fdb5bfc7ba",
+    "text": "A person is jumping rope on a white mat. A man is kneeling down on the ground in front of a red table. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 294
+    }
+  },
+  {
+    "id": "9300c0d5a59b47d2",
+    "text": "A man is seen skiing behind a boat. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 295
+    }
+  },
+  {
+    "id": "8ee9b8925ee5c13e",
+    "text": "A man is seen skiing behind a boat. He holds on tight as he is pulled through the water. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 296
+    }
+  },
+  {
+    "id": "4d36d9fb72455b2e",
+    "text": "A young girl is seen scrubbing a small dog down with soap next to a tub full of water. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 297
+    }
+  },
+  {
+    "id": "03d84bbc15735cfa",
+    "text": "A man is standing in a field before running and jumping into a square of dirt. He walks away from the jump and talks to the camera. it",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 298
+    }
+  },
+  {
+    "id": "362760f29098aa78",
+    "text": "A large, blue ball is tossed in the air. a child",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 299
+    }
+  },
+  {
+    "id": "c5a9adb026a5bf54",
+    "text": "There's a woman in a yellow tank top and black tights doing jump rope in a gym. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 300
+    }
+  },
+  {
+    "id": "4a576e0a13275ca5",
+    "text": "There's a woman in a yellow tank top and black tights doing jump rope in a gym. She jumps in a rhythmic manner without stopping on the hardwood floor surface. after she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 301
+    }
+  },
+  {
+    "id": "f10d5c74613cb04a",
+    "text": "A person lifts a 90 kg weight until the shoulder and then above the head, then the man drops the weight to the floor. Then, the man lifts 95 kg weight above his head. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 302
+    }
+  },
+  {
+    "id": "54a0b845efabb8d7",
+    "text": "A marching band stands ready on a street while an audience watches. The conductor conducts the band. the band",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 303
+    }
+  },
+  {
+    "id": "7d6c7c8a08f00bc9",
+    "text": "The same woman is now seen on a stationary bicycle teaching a spin class. several other people in the class",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 304
+    }
+  },
+  {
+    "id": "20e19055f08e865e",
+    "text": "Several other people in the class can be seen on stationary bicycles in the mirror behind the instructor. The woman is then shown on the ground demonstrating an exercise. the spin class",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 305
+    }
+  },
+  {
+    "id": "d5bd85dd17092243",
+    "text": "The spin class is shown again still in progress. The instructor then does floor exercises again with the class following along. the instructor and the class",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 306
+    }
+  },
+  {
+    "id": "f33e32f65e73d941",
+    "text": "A track athlete prepares and stretches out on a starting line. a track athlete",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 307
+    }
+  },
+  {
+    "id": "345ee96980d8ae67",
+    "text": "A track athlete prepares and stretches out on a starting line. A track athlete runs down a track and high jumps over bar onto a mat. the athlete",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 308
+    }
+  },
+  {
+    "id": "a733fed665c4d8b6",
+    "text": "A man is seen bending down before a large weight while looking off into the distance. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 309
+    }
+  },
+  {
+    "id": "0008df8d0317df81",
+    "text": "A large mat is seen with a bar on top and two people watching on the sides. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 310
+    }
+  },
+  {
+    "id": "60d6ab21b96ce48e",
+    "text": "A large mat is seen with a bar on top and two people watching on the sides. A man is then seen running in from the side. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 311
+    }
+  },
+  {
+    "id": "c17c9ddb1c46ddc9",
+    "text": "At the 2008 olympics, a man prepares to lift a loaded barbell. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 312
+    }
+  },
+  {
+    "id": "57442d44b83cd68c",
+    "text": "A woman stands in front of a mirror and rinses her mouth before pulling her face close to the mirror and looking at her teeth from a close up angle. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 313
+    }
+  },
+  {
+    "id": "632fb32ac168d6a3",
+    "text": "A woman sits in front of a bathroom mirror squishing water in her mouth, as if rinsing her mouth. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 314
+    }
+  },
+  {
+    "id": "1a22dd76518f98a0",
+    "text": "Two kids are seen sitting in a bath tub with one holding a bucket and the holding smiling and laughing. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 315
+    }
+  },
+  {
+    "id": "ea9349e034f8db19",
+    "text": "The duggar mom and a little girl walks up to another woman at a horse ranch and the words on the bottom left say the woman's name is morgan brown and she's the equestrian instructor. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 316
+    }
+  },
+  {
+    "id": "fce737d202fe02a5",
+    "text": "The woman leads them into the barn and she puts a helmet on the little girls head, they walk to get horses and at some point the duggar mom put a helmet on as well. in",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 317
+    }
+  },
+  {
+    "id": "132f664a5f5a7733",
+    "text": "In between interviews they show the duggar mom and the little girl getting instructions about their horse and then getting on their horses and riding on them in an enclosed area. the red and white tlc logo",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 318
+    }
+  },
+  {
+    "id": "f2660138993f16e2",
+    "text": "A child sitting at restaurant table places his hands in a dessert. the child",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 319
+    }
+  },
+  {
+    "id": "7d1989e729f08ce4",
+    "text": "A child sitting at restaurant table places his hands in a dessert. The child uses his hands to eat the food. the adult",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 320
+    }
+  },
+  {
+    "id": "53cfb9f76480c482",
+    "text": "A man is first seen speaking to the camera with text questions being asked to him. He is then seen putting a cleaner on his teeth and taking a bit of food. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 321
+    }
+  },
+  {
+    "id": "85bd597514be3573",
+    "text": "A man walks up and picks up a weight. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 322
+    }
+  },
+  {
+    "id": "bd9edb889bcc059c",
+    "text": "A man walks up and picks up a weight. He lifts it up to his shoulders and then over his head. a person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 323
+    }
+  },
+  {
+    "id": "cb42c5437f62c8ed",
+    "text": ". a woman with her hair up in a towel",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 324
+    }
+  },
+  {
+    "id": "541b39ed6321dffe",
+    "text": "A woman with her hair up in a towel introduces her video showing how she washes her face. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 325
+    }
+  },
+  {
+    "id": "64205a34250506d7",
+    "text": "A woman with her hair up in a towel introduces her video showing how she washes her face. She applies a moisturizer to her face while dancing around. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 326
+    }
+  },
+  {
+    "id": "a23e3bad8cff4f37",
+    "text": "A man is outside in a soccer field putting his equipment in a book bag. once the things",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 327
+    }
+  },
+  {
+    "id": "b1f1241d8ec09d51",
+    "text": "A man plays guitar and harmonica at the same time. Then, the man sings while playing the guitar. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 328
+    }
+  },
+  {
+    "id": "0707d9a26471fdec",
+    "text": "A woman is seen dancing in the street placing an instrument while others watch on the side. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 329
+    }
+  },
+  {
+    "id": "747078334ed28866",
+    "text": "A young boy has a long stick in had and is pushing a puck across a white triangle with numbers in it. The puck goes to far down the board and the toddler chases after it. once the puck",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 330
+    }
+  },
+  {
+    "id": "bcef433d8a0d6f1f",
+    "text": "A girl is getting her nose pierced. the nose",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 331
+    }
+  },
+  {
+    "id": "0b567ccc8d9db997",
+    "text": "The video shows a canopy representing the eastern mountain sports event. several players",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 332
+    }
+  },
+  {
+    "id": "c38ca432332468ba",
+    "text": "There is a boy balancing on a tight rope. There are several other contestants walking on the tight rope. several people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 333
+    }
+  },
+  {
+    "id": "fb5a403908621695",
+    "text": "Two people are playing with a frisbee as one person walks on the rope. A girl and boy try the tight rope together. there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 334
+    }
+  },
+  {
+    "id": "bf792ffdb20e97a9",
+    "text": "A woman is getting ready to bath her dog in her front yard. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 335
+    }
+  },
+  {
+    "id": "6da98536f44d9be3",
+    "text": "A woman is getting ready to bath her dog in her front yard. She takes a hose and wets the dog first. there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 336
+    }
+  },
+  {
+    "id": "bf91348c09ec7d0e",
+    "text": "She takes a hose and wets the dog first. There is another little puppy running around the dog and a little kitten too. the woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 337
+    }
+  },
+  {
+    "id": "48f1a4aa7aaa6a39",
+    "text": "There is another little puppy running around the dog and a little kitten too. The woman takes some liquid soap and scrubs it on the dog. after she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 338
+    }
+  },
+  {
+    "id": "62fb29b3586af37c",
+    "text": "The woman takes some liquid soap and scrubs it on the dog. After she's done washing, she wipes him dry with a towel. then she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 339
+    }
+  },
+  {
+    "id": "ad278aeeb742635c",
+    "text": "After she's done washing, she wipes him dry with a towel. Then she bathes the little puppy the same way with soap and water. the dog",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 340
+    }
+  },
+  {
+    "id": "578e5f5ec2359595",
+    "text": "The dog is playing on a rug after the bath is over with wet fur on his body. the little puppy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 341
+    }
+  },
+  {
+    "id": "2fddf31e3a3a687c",
+    "text": "A man in black shirt lifted the barbel and started to carry it up and down for few times, while behind him, two men are removing the metal plates on another barbel. the man in black shirt",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 342
+    }
+  },
+  {
+    "id": "d21a1c68344b82e0",
+    "text": "Man is standing in front of a mirror spreading cream on his face. Man is kneeling and wash her face. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 343
+    }
+  },
+  {
+    "id": "9683d20ffa096685",
+    "text": "A man stands in front of a counter with his hands down in front of equipment. He uses the surface to rub a knife blade back and forth, sharpening it. when he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 344
+    }
+  },
+  {
+    "id": "b445b57b99ede0fd",
+    "text": "Man is standing talking to the camera showing a big metal piece. Te man in the room is playing the harmonica. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 345
+    }
+  },
+  {
+    "id": "6b5e2fc892135841",
+    "text": "A woman is seen sitting down holding an ice cream while looking at the camera. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 346
+    }
+  },
+  {
+    "id": "e76692be0a70da9c",
+    "text": "A man is seen speaking to the camera and leads into clips of him moving dirt. other men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 347
+    }
+  },
+  {
+    "id": "886d3d93dc8e2809",
+    "text": "A woman appears and disappears under the water as she swims in an olympic sized pool. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 348
+    }
+  },
+  {
+    "id": "d3cc1e9e8394e7bd",
+    "text": "An old man talks next a sailboat in the shore, then the man carry the sailboat to the ocean. The old man sails the boat sitting on the border of the boat and pulling a handle. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 349
+    }
+  },
+  {
+    "id": "313eae8e38cde851",
+    "text": "Men on the beach playing volleyball in the sand. one of the guys",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 350
+    }
+  },
+  {
+    "id": "b106f96079c71fb6",
+    "text": "One of the guys hits the ball over to the other side and they hit it back. Then on the other side of the beach there is a group of women also playing volleyball. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 351
+    }
+  },
+  {
+    "id": "0252f1744d5dd34f",
+    "text": "A gymnast bend to rise weight above his head, while other men sit in the gym watch him. the gymnast",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 352
+    }
+  },
+  {
+    "id": "62faec1faaa8f77b",
+    "text": "A woman is lying on a bed with her hair spread. There are several images of her from behind with very long hair. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 353
+    }
+  },
+  {
+    "id": "ef9a3e65cc58d332",
+    "text": "A person's hand washes a grey cat in a white tub of water. a grey cat",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 354
+    }
+  },
+  {
+    "id": "d6bf0cef5b2d2ea7",
+    "text": "A grey cat is sitting in a white tub of clear water, drenched in water. a hand with a tattoo",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 355
+    }
+  },
+  {
+    "id": "b713b5b860459c73",
+    "text": "A grey cat is sitting in a white tub of clear water, drenched in water. A hand with a tattoo appears and wipes the cat's back with a red cloth. the hand",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 356
+    }
+  },
+  {
+    "id": "6d3437ae4a425f89",
+    "text": "Man is standing nex to a van wearing stilts. another man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 357
+    }
+  },
+  {
+    "id": "10d1da662e75b432",
+    "text": "A woman is sitting in a booth. Her little girl shoves a vanilla ice cream cone in her face and laughs. the girl",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 358
+    }
+  },
+  {
+    "id": "2a73950dd767500a",
+    "text": "People are standing in a room playing tennis. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 359
+    }
+  },
+  {
+    "id": "658c5f66c1a6ee54",
+    "text": "People are standing in a room playing tennis. A woman picks up a ball that falls onto the ground. the girl",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 360
+    }
+  },
+  {
+    "id": "55906de3efd42c82",
+    "text": "A close up of solo cups are shown followed by a man throwing balls. a person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 361
+    }
+  },
+  {
+    "id": "5fc59f7b60526658",
+    "text": "A person moves the cups alongside the table while the person continues throwing and the men switch place. the two",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 362
+    }
+  },
+  {
+    "id": "846fd8946ad1f274",
+    "text": "Two men sit across a table and begin an arm wrestling match. they both",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 363
+    }
+  },
+  {
+    "id": "7665887940209b56",
+    "text": "Two men perform a flip move on a playground that leads to one being dropped on the ground. the camera",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 364
+    }
+  },
+  {
+    "id": "05a599279b34c398",
+    "text": "Two women are on a stand opposite one another at a table beginning to arm wrestle. there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 365
+    }
+  },
+  {
+    "id": "0cce278eb820dabc",
+    "text": "Two women are on a stand opposite one another at a table beginning to arm wrestle. There is a brief hold up before they begin, because their thumb positing is inaccurate. once they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 366
+    }
+  },
+  {
+    "id": "a5246c4c1e41bee0",
+    "text": "A lawn mower is tied to a white rope. it",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 367
+    }
+  },
+  {
+    "id": "787fd0b3da7f1653",
+    "text": "A woman is talking inside an office. She is shown giving a facial treatment to an older woman. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 368
+    }
+  },
+  {
+    "id": "9dcd91357e6cb842",
+    "text": "A guy runs and jumps over a pole without touching it and lands on mats, as some people in the back ground watch and others do there practices. the guy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 369
+    }
+  },
+  {
+    "id": "3ccd713eb76da97c",
+    "text": "The guy seems to be practicing how high he can jump by jumping over the pole many times, each time a person raises the pole higher and higher to see if the guy can jump over it. one jump the guy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 370
+    }
+  },
+  {
+    "id": "4a93a5c531531881",
+    "text": "The guy seems to be practicing how high he can jump by jumping over the pole many times, each time a person raises the pole higher and higher to see if the guy can jump over it. One jump the guy knocked the pole down when he tried to hump over it. the guy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 371
+    }
+  },
+  {
+    "id": "0f233499080483e5",
+    "text": "A large ice glacier is shown in the water. A boat is pulling a person on skis behind the boat. the person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 372
+    }
+  },
+  {
+    "id": "be392ae56ab45b2b",
+    "text": "A boy is standing outside on top of ice fishing out of a small hole in the ice. the boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 373
+    }
+  },
+  {
+    "id": "6d1b9d581059303b",
+    "text": "A boy is standing outside on top of ice fishing out of a small hole in the ice. The boy struggles to get the fish out and someone comes and takes it out for him. now there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 374
+    }
+  },
+  {
+    "id": "bcb2d4692a52ffd6",
+    "text": "The boy struggles to get the fish out and someone comes and takes it out for him. Now there are four men visible and they all begin to fish out of the ice pond. eventually",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 375
+    }
+  },
+  {
+    "id": "3190def975b7a7c0",
+    "text": "Two little kids are eating an ice cream cone at mcdonalds. They are licking and so happy to have ice cream. the little girl",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 376
+    }
+  },
+  {
+    "id": "e9ebe7ed79460f7c",
+    "text": "The little girl is playing peek a boo with someone and both of their faces have ice cream on them. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 377
+    }
+  },
+  {
+    "id": "375435d89d3e734b",
+    "text": "A camera shoots various shots all around a city and shoe store. hundreds of people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 378
+    }
+  },
+  {
+    "id": "0efb0b9429e72580",
+    "text": "A camera shoots various shots all around a city and shoe store. Hundreds of people are walking around an area and checking out shoes. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 379
+    }
+  },
+  {
+    "id": "179c1bea02af4327",
+    "text": "A man talks to a woman about what shoes she likes to wear. People are dancing and enjoying the event together. there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 380
+    }
+  },
+  {
+    "id": "b9ca0e25758eefc3",
+    "text": "People are dancing and enjoying the event together. There is food being eaten at the event by many. several runners",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 381
+    }
+  },
+  {
+    "id": "b8c5bcfece596160",
+    "text": "There is food being eaten at the event by many. Several runners are getting ready to start a race. the race",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 382
+    }
+  },
+  {
+    "id": "aaa68917a98e54b1",
+    "text": "The race begins and people run very fast. Several people get interviewed during the race. the man who wins the race",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 383
+    }
+  },
+  {
+    "id": "4bcf036a4f4a442f",
+    "text": "The credits of the clip are shown. People kick a ball indoor between yellow cones on fake grass. a player",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 384
+    }
+  },
+  {
+    "id": "df0d7fd9ff6f3ac8",
+    "text": "A small group of people are seen shaking hands and standing together followed by a man blowing a whistle and people running around. the people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 385
+    }
+  },
+  {
+    "id": "92ab74409cc7d5da",
+    "text": "A guy comes onto the screen to introduce a video about his character on a kids show. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 386
+    }
+  },
+  {
+    "id": "24a43c2ad9d55de7",
+    "text": "A guy comes onto the screen to introduce a video about his character on a kids show. He begins to show several different clips from the show. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 387
+    }
+  },
+  {
+    "id": "5744bfa0ca72369e",
+    "text": "He begins to show several different clips from the show. He also comments about different aspects of the show while being interviewed. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 388
+    }
+  },
+  {
+    "id": "2802a406f49ace6d",
+    "text": "A young man is seen playing drums in front of an audience. other people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 389
+    }
+  },
+  {
+    "id": "55586d49216d64ac",
+    "text": "They are enjoying themselves as they rhythmically play their instruments and dance along to the tune. the player on the extreme right",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 390
+    }
+  },
+  {
+    "id": "0be08c7461b056f6",
+    "text": "The player on the extreme right is playing a longer harmonica while the others are playing a smaller harmonica. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 391
+    }
+  },
+  {
+    "id": "df5b16d3142be689",
+    "text": "A man is riding on a lawn mower in his yard. He listens to music on his headphones while he mows. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 392
+    }
+  },
+  {
+    "id": "316cd7923fee8a04",
+    "text": "A person's hands are seen sharpening a knife over a counter and the intro says \"kitchen tricks sharpening knives\". then there",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 393
+    }
+  },
+  {
+    "id": "7c5ec2dfd74515d8",
+    "text": "Then there is a tools needed list on the screen and a bowl, sharpener, and other tools are seen on the counter. giving the instructions and explanation on the screen along the way",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 394
+    }
+  },
+  {
+    "id": "0cddddc1fd3cd8b8",
+    "text": "Giving the instructions and explanation on the screen along the way, the person wets the stones in water, then sharpens a knife on a sharpening stone and then on a knife sharpening tool. then they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 395
+    }
+  },
+  {
+    "id": "c9171e4a452f7300",
+    "text": "Several individuals are dressed in workout clothes, tying up their shoes, and placing numbers on their shirts. all of the people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 396
+    }
+  },
+  {
+    "id": "c711e2ded618624b",
+    "text": "Several individuals are dressed in workout clothes, tying up their shoes, and placing numbers on their shirts. All of the people meet at the starting line and begin a marathon throughout the city. as they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 397
+    }
+  },
+  {
+    "id": "6a2780953855b13d",
+    "text": "As they run, people are on the side of the road encouraging them with water on their tables, signs and clapping for them. aside",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 398
+    }
+  },
+  {
+    "id": "3fbdfa0b0107f4b4",
+    "text": "As they run, people are on the side of the road encouraging them with water on their tables, signs and clapping for them. Aside from the people, there are also large red blow ups on the side illustrating the hydration stations. finally",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 399
+    }
+  },
+  {
+    "id": "8b08d1b2eb1593df",
+    "text": "A person is seen standing on a board with others in the water. the person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 400
+    }
+  },
+  {
+    "id": "e0af5a5bb708116c",
+    "text": "A man is raking leaves in a yard. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 401
+    }
+  },
+  {
+    "id": "4a7f6786e2c923eb",
+    "text": "A man is raking leaves in a yard. He is using a clear bag to package them up. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 402
+    }
+  },
+  {
+    "id": "089dd50eacb4ff7b",
+    "text": "This video is a tutorial showing how to cut the grass. first she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 403
+    }
+  },
+  {
+    "id": "f70a154f5b60d604",
+    "text": "First she explains how you should cut the grass according to its color and how high or low you want it. next",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 404
+    }
+  },
+  {
+    "id": "f277b8fffd22134a",
+    "text": "The men flip then the ladies flip and the men lift them in the air and hold them up as the crowd claps. The people forum groups and flip three girls in the air. the people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 405
+    }
+  },
+  {
+    "id": "452be7950676ce5c",
+    "text": "A man is inside of a gym. He starts doing flips inside the gym. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 406
+    }
+  },
+  {
+    "id": "db2be1ffc5414abb",
+    "text": "A man is inside of a gym. He starts doing flips inside the gym. He does many tricks as he jumps in the air. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 407
+    }
+  },
+  {
+    "id": "4560cd4928015c23",
+    "text": "We see a man kitesurfing . The sail waves a little as the surfer loses control. the surfer",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 408
+    }
+  },
+  {
+    "id": "24ec710ed486102a",
+    "text": "A group of boys are on the sidewalk of a street. They are bouncing around on stilts. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 409
+    }
+  },
+  {
+    "id": "b667a72637bafbd4",
+    "text": "A person is seen fighting a bull and being trampled and impailed. the people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 410
+    }
+  },
+  {
+    "id": "516b082e3e39ec7c",
+    "text": "A man wearing a beanie is inside a room. He is talking in front of a disassembled bike. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 411
+    }
+  },
+  {
+    "id": "e54c71c76313d9d2",
+    "text": "The small bowls of salt are arranged and limes are sliced in halves. The limes are juiced into a cup using a hand held press. the salt",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 412
+    }
+  },
+  {
+    "id": "f77c29875bd251dd",
+    "text": "The limes are juiced into a cup using a hand held press. The salt is poured into the cup from the small bowls. water",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 413
+    }
+  },
+  {
+    "id": "8ea65445aefd3b9a",
+    "text": "The young man is standing on the track field. The young man run to the pole. the young man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 414
+    }
+  },
+  {
+    "id": "42eca394e7ad28d2",
+    "text": "A backyard is shown between a wooden fence. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 415
+    }
+  },
+  {
+    "id": "54ac7672dfa97207",
+    "text": "The player at the bottom of the screen scores and the camera man shows the score and the replay on a screen near the table. the player",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 416
+    }
+  },
+  {
+    "id": "af491d1da03b2f9a",
+    "text": "A surfer is riding the waves in the ocean. He gets on a yellow board and rides over the waves. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 417
+    }
+  },
+  {
+    "id": "73e5e72fe0be1ce1",
+    "text": "Two men are standing on the ice fishing. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 418
+    }
+  },
+  {
+    "id": "7a70d07d7d8ba806",
+    "text": "A man is holding a small fish in his hand talking. A fish is swimming under the ice. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 419
+    }
+  },
+  {
+    "id": "88748f418ce00fde",
+    "text": "Another man is talking about the tribes and is seen jogging in the wilderness with a dog. Another lady wearing a pink shirt is talking about her marathon experience. a couple of people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 420
+    }
+  },
+  {
+    "id": "3c52874ab7e4dd2b",
+    "text": "The words \"dathan ritzenhein nyc marathon 2010\" appear on a black screen. still",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 421
+    }
+  },
+  {
+    "id": "1c5f0ddc4ef7fcbe",
+    "text": "Still and clips of a man running marathons are shown with overlaid graphics showing angles. Strides used during a marathon are shown and illustrated. a man doing seated foot exercises",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 422
+    }
+  },
+  {
+    "id": "49bbd753587edb13",
+    "text": "Man is talking to a camera showing some basket defense movements. two men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 423
+    }
+  },
+  {
+    "id": "eaae9abbb85865fd",
+    "text": "Skaters are skateboarding during the day. now the same skaters",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 424
+    }
+  },
+  {
+    "id": "ebef15efffa95510",
+    "text": "A group of people are seen running around a court playing soccer. the men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 425
+    }
+  },
+  {
+    "id": "6e59e4b6757f68e7",
+    "text": "A young man stands, at night, in shorts and does brief stretches before getting a running start and running towards a raised bar. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 426
+    }
+  },
+  {
+    "id": "b604e09ae4ddf1a8",
+    "text": "Two young girls appear in the bathroom, one has a green headband around her forehead and the other has paint across her face. both of the girls",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 427
+    }
+  },
+  {
+    "id": "060373d4b3032f5c",
+    "text": "Both of the girls are laughing and joking with one another until they start to wash their face and clean it with green rags. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 428
+    }
+  },
+  {
+    "id": "acc07aa5b2993844",
+    "text": "A table is shown covered in water bowls and lemons. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 429
+    }
+  },
+  {
+    "id": "42264295f270733c",
+    "text": "A table is shown covered in water bowls and lemons. A woman is talking about how to create lemonade from the ingredients. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 430
+    }
+  },
+  {
+    "id": "1c6d990cb2afee9c",
+    "text": "People are playing a game of indoor soccer. people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 431
+    }
+  },
+  {
+    "id": "af3908cfbd428734",
+    "text": "People are playing a game of indoor soccer. People are sitting in the stands watching the game. a person",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 432
+    }
+  },
+  {
+    "id": "64bc38f0179bdc5f",
+    "text": "People are sitting in a room. Two people get up and start arm wrestling on a table. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 433
+    }
+  },
+  {
+    "id": "79a31af1114ebc25",
+    "text": "A small boy is seen punching and kicking a man on his knees wearing gloves. another boy",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 434
+    }
+  },
+  {
+    "id": "726d9b69628b9561",
+    "text": "A large group of people are seen celebrating and shows two teams huddled up together. the teams",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 435
+    }
+  },
+  {
+    "id": "69fbde3367e3a331",
+    "text": "Two people are wrestling on a mat. a man in a striped shirt",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 436
+    }
+  },
+  {
+    "id": "3ba2232c1d11738a",
+    "text": "A boy is talking to a camera. He goes into a bathroom and drinks a cup of mouthwash. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 437
+    }
+  },
+  {
+    "id": "be81a81835e4d6af",
+    "text": "A man is shown speaking to the camera and holding up various tools and products. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 438
+    }
+  },
+  {
+    "id": "8c8232177400e640",
+    "text": ". a man wearing a black t - shirt and to ladies",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 439
+    }
+  },
+  {
+    "id": "ad5d6210c5db7712",
+    "text": "The man uses stacked pennies to get the angle of the knife to be sharpened and demonstrates how to sharpen kitchen knives using a stone. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 440
+    }
+  },
+  {
+    "id": "daf158a111d5c481",
+    "text": "The man uses stacked pennies to get the angle of the knife to be sharpened and demonstrates how to sharpen kitchen knives using a stone. The man slides the knife on the stone while pressing the knife with his fingers. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 441
+    }
+  },
+  {
+    "id": "c39427061af5fe7c",
+    "text": "A kid takes mouthwash and swishes it in his mouth. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 442
+    }
+  },
+  {
+    "id": "08327ea6ebc4611d",
+    "text": "A woman is seen opening the door to a man holding flowers and falling. A man kisses a woman on the head and then speaks to another woman. in the end",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 443
+    }
+  },
+  {
+    "id": "819fde09f638be5c",
+    "text": "People are riding camels on the sand. People are walking next to the camels leading them. a building",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 444
+    }
+  },
+  {
+    "id": "f8b93a6eca204350",
+    "text": "A man is kneeling down on an orange mat. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 445
+    }
+  },
+  {
+    "id": "93a3e8ccd5308eb3",
+    "text": "A man stands on front the parallel bars preparing to perform. then",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 446
+    }
+  },
+  {
+    "id": "6c158c648165070f",
+    "text": "Tips to wash the face and pictures of women doing it are shown. Different steps of a facial rutine is shown. a woman",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 447
+    }
+  },
+  {
+    "id": "67a3645e972ad466",
+    "text": "A man is on a roof cutting throwing shingles. The man removes the roofing. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 448
+    }
+  },
+  {
+    "id": "105472222981cb61",
+    "text": "A man is standing on a stage playing a violin. a man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 449
+    }
+  },
+  {
+    "id": "042ae957ae59ecce",
+    "text": "A group of people are seen playing instruments together. Another group of people are seen out in public playing together. one last shot",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 450
+    }
+  },
+  {
+    "id": "35e66dafb5b520d5",
+    "text": "A close up of a chair is shown with a person spraying it down. The person holds up a product and wipes their hands on the dirty chair. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 451
+    }
+  },
+  {
+    "id": "77869979b9ebd4f4",
+    "text": "A small campfire is shown in the woods. Someone turns on the campfire in the night. when the fire",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 452
+    }
+  },
+  {
+    "id": "419c00e6b26b48b2",
+    "text": "A boot and supplies are shown sitting on a table. A man then takes the boot and smooths it down. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 453
+    }
+  },
+  {
+    "id": "deae2d47127f3b64",
+    "text": "Three men walk next to each other. The men begin putting a boat on the back of a truck. the men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 454
+    }
+  },
+  {
+    "id": "813ffd2abc28fa81",
+    "text": "The men begin putting a boat on the back of a truck. The men tie the boat down. the men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 455
+    }
+  },
+  {
+    "id": "f56ce8b3b4509354",
+    "text": "The man then comes outside and starts talking about the snow holding a red plastic stick in his hand. with the stick",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 456
+    }
+  },
+  {
+    "id": "48bcee432dba2a57",
+    "text": "A fit man is in a mirrored room with wooden floors and is talking while he is moving on the ground and looking at the camera. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 457
+    }
+  },
+  {
+    "id": "09d357ad60622b26",
+    "text": "The man is bent on his knees and suddenly he jumps up to his feet, but keeps his knees bent while he squats low to the ground continuing to talk. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 458
+    }
+  },
+  {
+    "id": "41af81c9f16cad01",
+    "text": "This man is ice fishing in the cold weather and he is well dressed. this man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 459
+    }
+  },
+  {
+    "id": "aca9a40568c96082",
+    "text": "A boy is standing outside in a yard. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 460
+    }
+  },
+  {
+    "id": "f3fb86ff84092456",
+    "text": "A large crowd is gathered around a field. people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 461
+    }
+  },
+  {
+    "id": "a21873b4d82e7fcd",
+    "text": "A large crowd is gathered around a field. People enter the field with frisbees and their dogs. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 462
+    }
+  },
+  {
+    "id": "5010e08563907939",
+    "text": "A woman is seen speaking to the camera while holding up a contact lens. She moves her hands around while still speaking to the camera. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 463
+    }
+  },
+  {
+    "id": "a5514cb3f286cd38",
+    "text": "A woman is standing in front of the camera. she",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 464
+    }
+  },
+  {
+    "id": "e5d1b94cc5056cc4",
+    "text": "Several people are in a manmade race track. bmx bikers",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 465
+    }
+  },
+  {
+    "id": "fcbef49953f328db",
+    "text": "Several people are in a manmade race track. Bmx bikers are going over the hills along the path. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 466
+    }
+  },
+  {
+    "id": "e367d8b5df294df7",
+    "text": "We see a title screen over a man holding a cat and see a jack-o-lantern of the man. we",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 467
+    }
+  },
+  {
+    "id": "f85cc71e32b5bbef",
+    "text": "We see a boy cut open and clean out a pumpkin. The man walks to the sink and back to his chair. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 468
+    }
+  },
+  {
+    "id": "90f23f1fa53e4b87",
+    "text": "He tapes a picture of the man to the pumpkin and pokes holes in the picture. The man carves the pumpkin with a small knife. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 469
+    }
+  },
+  {
+    "id": "93b626bc38928012",
+    "text": "The man goes into the living room and comes back and carves the pumpkin. The man goes to the sink then leaves the room and comes back. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 470
+    }
+  },
+  {
+    "id": "021177a08b7d640e",
+    "text": "A view of the grass is shown, then a close up of a hand, and finally a man is shown riding on a riding lawn mower in a very large grassy area surrounded by a lot of trees. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 471
+    }
+  },
+  {
+    "id": "1997ab90c02e96cd",
+    "text": "The man waves to the camera, gives a peace sign, then drinks from a can. more of the yard and trees",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 472
+    }
+  },
+  {
+    "id": "bbe3000db00a9008",
+    "text": "A man is wearing full running gear. He laces up his shoes and joins in a race. the people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 473
+    }
+  },
+  {
+    "id": "eb93be5d81d4c695",
+    "text": "A man is seen skating around a city street while a car followed by the side. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 474
+    }
+  },
+  {
+    "id": "0aa5d5b724bea13a",
+    "text": "Man is standing in a race track running and making a long jump and the video shows a repetition. Man is smiling and fells in the track of happiness. men",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 475
+    }
+  },
+  {
+    "id": "4e1cdd909ed85786",
+    "text": "A man is talking on a basketball court. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 476
+    }
+  },
+  {
+    "id": "1d8cb9ae76bf3dc9",
+    "text": "A group of cheerleaders are seen walking on stage while the audience cheers. the group",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 477
+    }
+  },
+  {
+    "id": "807a2c4c2c64b467",
+    "text": "A group of cheerleaders are seen walking on stage while the audience cheers. The group then begins performing a cheering routine with one another. the group",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 478
+    }
+  },
+  {
+    "id": "a23fdaf5c6d55a95",
+    "text": "A man is seen speaking to a group of boys on a basketball court. the boys",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 479
+    }
+  },
+  {
+    "id": "5dd2e1e8f0f2ef7c",
+    "text": "A man is seen speaking to a group of boys on a basketball court. The boys then begin shooting hoops and passing to one another. the boys",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 480
+    }
+  },
+  {
+    "id": "144568ced8206e31",
+    "text": "A person is standing in the heavy falling snow. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 481
+    }
+  },
+  {
+    "id": "aa6a9ad24e03ac1f",
+    "text": "A person is standing in the heavy falling snow. They are trying to clear the snow off the sidewalk. the child",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 482
+    }
+  },
+  {
+    "id": "68c0b61b1cfd7919",
+    "text": "A man is wearing blue scrubs and a fanny pack. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 483
+    }
+  },
+  {
+    "id": "6a064166a7600d4e",
+    "text": "A couple of girls are on a gym court. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 484
+    }
+  },
+  {
+    "id": "837ba07a2069e16c",
+    "text": "Two women are sitting on a small camel. the woman on the back of the camel",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 485
+    }
+  },
+  {
+    "id": "49daff4b7241f78f",
+    "text": "Two women are sitting on a small camel. The woman on the back of the camel waves at the camera. the camel",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 486
+    }
+  },
+  {
+    "id": "f59431e95af349fd",
+    "text": "A man is seen speaking to another holding a violin. the man speaking them",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 487
+    }
+  },
+  {
+    "id": "b9f52618c5b7caa6",
+    "text": "A man is seen speaking to another holding a violin. The man speaking them walks out of frame. the other man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 488
+    }
+  },
+  {
+    "id": "b48a80476ece89c9",
+    "text": "A man in a red shirt pours water over his head. Images and video clips of teams playing beach soccer in the sand. video clips",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 489
+    }
+  },
+  {
+    "id": "b398649dc4f2a537",
+    "text": "He brings out the lawn mowing equipment from his garage and begins mowing the lawn. He walks up and down his entire lawn, pushing his lawn mower as he cuts the grass. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 490
+    }
+  },
+  {
+    "id": "5409dd32a851768a",
+    "text": "He walks throughout his backyard as he makes sure he covers the entire area as the rotating blades of the lawn mower cut the grass. after he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 491
+    }
+  },
+  {
+    "id": "9827a44fc971bce9",
+    "text": "A person is wake boarding behind a boat. they",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 492
+    }
+  },
+  {
+    "id": "650f7ba0a51eb971",
+    "text": "Man is in a dark stage playing violin. a lot of people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 493
+    }
+  },
+  {
+    "id": "9edb624d92f2abc1",
+    "text": "The man roll the barbel on the floor. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 494
+    }
+  },
+  {
+    "id": "a28da963b5690f71",
+    "text": "A knife appears on the table with cut up apples and a hand begins picking it up and describing its contents. after",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 495
+    }
+  },
+  {
+    "id": "0a7fceba06236167",
+    "text": "A cowboy rides into a stadium on a pony. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 496
+    }
+  },
+  {
+    "id": "02a9d533d6a1ec94",
+    "text": "A cowboy rides into a stadium on a pony. The man jumps off of the pony and catches a running dog. the man",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 497
+    }
+  },
+  {
+    "id": "87b1945d9b9bc3cd",
+    "text": "A man is working outside in a field. he",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 498
+    }
+  },
+  {
+    "id": "fe57a28a0dfeae84",
+    "text": "A man is working outside in a field. He is using a large tool called a thresher. the people",
+    "cluster_category": "good",
+    "domain": "commonsense",
+    "source": "hellaswag_commonsense",
+    "metadata": {
+      "dataset": "Rowan/hellaswag",
+      "llm_performance": 0.95,
+      "index": 499
+    }
+  }
+]

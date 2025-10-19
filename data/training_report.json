@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-10-18T14:44:40.145380",
+  "datasets": {
+    "mlcommons_ailuminate": 24,
+    "hf_agentharm": 14,
+    "hf_wildguard": 7,
+    "hf_hexph": 6,
+    "hf_safetyprompts": 6,
+    "simple_safety_tests": 5,
+    "harmbench": 6,
+    "advbench": 6,
+    "beavertails": 6,
+    "donotanswer": 6
+  },
+  "models": {
+    "prompts": {
+      "n_clusters": 3,
+      "silhouette_score": 0.24929600335071875,
+      "dangerous_clusters": [
+        1,
+        2
+      ],
+      "model_path": "./models/prompt_clustering.pkl"
+    },
+    "joint": {
+      "n_clusters": 2,
+      "silhouette_score": 0.260540384207492,
+      "dangerous_clusters": [
+        0
+      ],
+      "model_path": "./models/joint_clustering.pkl"
+    }
+  }
+}

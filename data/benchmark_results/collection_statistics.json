@@ -1,0 +1,30 @@
+{
+  "total_questions": 500,
+  "by_benchmark": {
+    "MMLU_Pro": 500
+  },
+  "by_domain": {
+    "law": 36,
+    "psychology": 37,
+    "history": 36,
+    "other": 35,
+    "math": 35,
+    "philosophy": 36,
+    "business": 36,
+    "chemistry": 37,
+    "economics": 35,
+    "engineering": 36,
+    "health": 35,
+    "biology": 35,
+    "computer science": 35,
+    "physics": 36
+  },
+  "by_difficulty_tier": {},
+  "by_difficulty_label": {},
+  "success_rate_distribution": {
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "togmal": {
+      "command": "/Users/hetalksinmaths/togmal/.venv/bin/python",
+      "args": ["/Users/hetalksinmaths/togmal/togmal_mcp.py"],
+      "description": "Taxonomy of Generative Model Apparent Limitations - Safety analysis for LLM interactions",
+      "env": {
+        "TOGMAL_DEBUG": "false",
+        "TOGMAL_MAX_ENTRIES": "1000"
+      }
+    }
+  }
+}
