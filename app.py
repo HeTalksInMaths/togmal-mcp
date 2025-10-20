@@ -25,46 +25,34 @@ db = BenchmarkVectorDB(
     embedding_model="all-MiniLM-L6-v2"
 )
 
-# Build expanded database if not exists (first launch on Hugging Face)
+# Build database if not exists (first launch on Hugging Face)
+# Start with a manageable size to avoid build timeout
 current_count = db.collection.count()
 
 if current_count == 0:
-    logger.info("Database is empty - building expanded database from scratch...")
-    logger.info("This will take ~10-15 minutes on first launch (building 26K+ questions).")
+    logger.info("Database is empty - building database...")
+    logger.info("Building 5K questions to stay within build time limits.")
     
-    # Load MMLU-Pro test split for comprehensive coverage
     try:
         from datasets import load_dataset
         from benchmark_vector_db import BenchmarkQuestion
         
-        # Load MMLU-Pro validation + test splits
-        logger.info("Loading MMLU-Pro validation split...")
-        val_dataset = load_dataset("TIGER-Lab/MMLU-Pro", split="validation")
-        logger.info(f"  Loaded {len(val_dataset)} validation questions")
-        
-        logger.info("Loading MMLU-Pro test split...")
+        # Load MMLU-Pro test split (sample 5K for fast build)
+        logger.info("Loading MMLU-Pro test split (5K sample)...")
         test_dataset = load_dataset("TIGER-Lab/MMLU-Pro", split="test")
-        logger.info(f"  Loaded {len(test_dataset)} test questions")
+        logger.info(f"  Dataset has {len(test_dataset)} questions total")
+        
+        # Sample 5000 questions for fast initial build
+        import random
+        total_questions = len(test_dataset)
+        if total_questions > 5000:
+            indices = random.sample(range(total_questions), 5000)
+            test_dataset = test_dataset.select(indices)
+            logger.info(f"  Sampled 5000 questions for initial build")
         
         all_questions = []
         
-        # Process validation split
-        for idx, item in enumerate(val_dataset):
-            question = BenchmarkQuestion(
-                question_id=f"mmlu_pro_val_{idx}",
-                source_benchmark="MMLU_Pro",
-                domain=item.get('category', 'unknown').lower(),
-                question_text=item['question'],
-                correct_answer=item['answer'],
-                choices=item.get('options', []),
-                success_rate=0.45,
-                difficulty_score=0.55,
-                difficulty_label="Hard",
-                num_models_tested=0
-            )
-            all_questions.append(question)
-        
-        # Process test split
+        # Process questions
         for idx, item in enumerate(test_dataset):
             question = BenchmarkQuestion(
                 question_id=f"mmlu_pro_test_{idx}",
@@ -80,26 +68,27 @@ if current_count == 0:
             )
             all_questions.append(question)
         
-        logger.info(f"Total questions to index: {len(all_questions)}")
+        logger.info(f"Indexing {len(all_questions)} questions...")
         
-        # Index in batches of 1000 for stability
+        # Index in batches of 1000
         batch_size = 1000
         for i in range(0, len(all_questions), batch_size):
             batch = all_questions[i:i + batch_size]
             batch_num = i // batch_size + 1
             total_batches = (len(all_questions) + batch_size - 1) // batch_size
-            logger.info(f"Indexing batch {batch_num}/{total_batches} ({len(batch)} questions)...")
+            logger.info(f"  Batch {batch_num}/{total_batches}...")
             db.index_questions(batch)
         
         logger.info(f"✓ Database build complete! Indexed {len(all_questions)} questions")
+        logger.info("Note: This is a 5K subset. Full 26K database available locally.")
         
     except Exception as e:
-        logger.error(f"Failed to build expanded database: {e}")
-        logger.info("Falling back to standard build...")
+        logger.error(f"Failed to build database: {e}")
+        logger.info("Falling back to minimal build...")
         db.build_database(
-            load_gpqa=False,  # Skip GPQA (requires auth)
+            load_gpqa=False,
             load_mmlu_pro=True,
-            load_math=False,  # Skip MATH (dataset path issues)
+            load_math=False,
             max_samples_per_dataset=1000
         )
 else:
