@@ -1,0 +1,26 @@
+# Ignore large data files
+data/benchmark_vector_db/
+data/benchmark_results/mmlu_real_results.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+.git.backup

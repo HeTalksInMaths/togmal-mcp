@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "fc616e9abd095535",
+    "text": "In what country is Normandy located?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 0
+    }
+  },
+  {
+    "id": "f769f28b6d8c79c3",
+    "text": "When were the Normans in Normandy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 1
+    }
+  },
+  {
+    "id": "c2a38328c91e8828",
+    "text": "From which countries did the Norse originate?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 2
+    }
+  },
+  {
+    "id": "8a0bfeb4216e1484",
+    "text": "Who was the Norse leader?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 3
+    }
+  },
+  {
+    "id": "f6e5e18f1e54142e",
+    "text": "What century did the Normans first gain their separate identity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 4
+    }
+  },
+  {
+    "id": "297ddbe741c76247",
+    "text": "Who gave their name to Normandy in the 1000's and 1100's",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 5
+    }
+  },
+  {
+    "id": "8f75fe989d156074",
+    "text": "What is France a region of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 6
+    }
+  },
+  {
+    "id": "2c80d0a4d2f72b6a",
+    "text": "Who did King Charles III swear fealty to?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 7
+    }
+  },
+  {
+    "id": "99900a5f75666246",
+    "text": "When did the Frankish identity emerge?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 8
+    }
+  },
+  {
+    "id": "c09da52a275b186b",
+    "text": "Who was the duke in the battle of Hastings?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 9
+    }
+  },
+  {
+    "id": "ac0710fd0fb405ea",
+    "text": "Who ruled the duchy of Normandy",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 10
+    }
+  },
+  {
+    "id": "e38ea718e8e168f9",
+    "text": "What religion were the Normans",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 11
+    }
+  },
+  {
+    "id": "0008725b6063df29",
+    "text": "What type of major impact did the Norman dynasty have on modern Europe?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 12
+    }
+  },
+  {
+    "id": "a0f9f7182b2f5d36",
+    "text": "Who was famed for their Christian spirit?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 13
+    }
+  },
+  {
+    "id": "2dbf6e037af3b8d9",
+    "text": "Who assimilted the Roman language?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 14
+    }
+  },
+  {
+    "id": "89f1616441dc2d5b",
+    "text": "Who ruled the country of Normandy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 15
+    }
+  },
+  {
+    "id": "642c63d1a9a13de6",
+    "text": "What principality did William the conquerer found?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 16
+    }
+  },
+  {
+    "id": "17dbbb7a8fa5d65b",
+    "text": "What is the original meaning of the word Norman?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 17
+    }
+  },
+  {
+    "id": "aec68b535383427c",
+    "text": "When was the Latin version of the word Norman first recorded?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 18
+    }
+  },
+  {
+    "id": "4846b513a9872b98",
+    "text": "What name comes from the English words Normans/Normanz?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 19
+    }
+  },
+  {
+    "id": "4f7c17b47f4e6e68",
+    "text": "When was the French version of the word Norman first recorded?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 20
+    }
+  },
+  {
+    "id": "f243f17dff9a6277",
+    "text": "When was the Duchy of Normandy founded?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 21
+    }
+  },
+  {
+    "id": "c2e56d04925aaaae",
+    "text": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 22
+    }
+  },
+  {
+    "id": "b6912c2eb5bf4782",
+    "text": "What river originally bounded the Duchy",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 23
+    }
+  },
+  {
+    "id": "bd3a5313f9b2d6e6",
+    "text": "when did Nors encampments ivolve into destructive incursions?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 24
+    }
+  },
+  {
+    "id": "6f334a2633e50347",
+    "text": "What treaty was established in the 9th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 25
+    }
+  },
+  {
+    "id": "9761a6b9c3a6d87b",
+    "text": "Who established a treaty with King Charles the third of France?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 26
+    }
+  },
+  {
+    "id": "f4f2f62bb84fa1d2",
+    "text": "What did the French promises to protect Rollo and his men from?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 27
+    }
+  },
+  {
+    "id": "052ae51aabe2252e",
+    "text": "Who upon arriving gave the original viking settlers a common identity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 28
+    }
+  },
+  {
+    "id": "859d19eaada2c014",
+    "text": "When did Rollo begin to arrive in Normandy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 29
+    }
+  },
+  {
+    "id": "c47f6be55f12da2e",
+    "text": "What Viking groups were conquered by Rollo?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 30
+    }
+  },
+  {
+    "id": "19714ee1d61133ee",
+    "text": "What was the Norman religion?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 31
+    }
+  },
+  {
+    "id": "6cd3fc1b001a205e",
+    "text": "What part of France were the Normans located?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 32
+    }
+  },
+  {
+    "id": "60237db4828797c2",
+    "text": "What was replace with the Norse religion?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 33
+    }
+  },
+  {
+    "id": "36b0b97b2dafad6c",
+    "text": "What did maternal Old Norse traditions merge with?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 34
+    }
+  },
+  {
+    "id": "9be290569878acc9",
+    "text": "What language replaced the Gallo-Romance language?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 35
+    }
+  },
+  {
+    "id": "a0a1d4cafd76f784",
+    "text": "What was one of the Norman's major exports?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 36
+    }
+  },
+  {
+    "id": "09d87130f1e893db",
+    "text": "Who adopted the fuedel doctrines of the Normans?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 37
+    }
+  },
+  {
+    "id": "68d66bd8087073ba",
+    "text": "What was one of the Norman's major imports?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 38
+    }
+  },
+  {
+    "id": "d183bc24b91b5271",
+    "text": "Who's arristocracy eventually served as avid Crusaders?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 39
+    }
+  },
+  {
+    "id": "28eb9e07c9f80a1a",
+    "text": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 40
+    }
+  },
+  {
+    "id": "ef0f911440ab8854",
+    "text": "Who entered Italy soon after the Byzantine Empire?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 41
+    }
+  },
+  {
+    "id": "5090e97180d2f14f",
+    "text": "Who did the Normans fight in Italy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 42
+    }
+  },
+  {
+    "id": "89de56b1965121f4",
+    "text": "Who did the Normans encourage to come to the south?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 43
+    }
+  },
+  {
+    "id": "99b225ca53434004",
+    "text": "During what campaign did the Vargian and Lombard fight?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 44
+    }
+  },
+  {
+    "id": "ef4569b24b58831e",
+    "text": "When did Herve serve as a Byzantine general?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 45
+    }
+  },
+  {
+    "id": "1c734ee5731d1636",
+    "text": "When did Robert Crispin go up against the Turks?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 46
+    }
+  },
+  {
+    "id": "688965d95ccf0068",
+    "text": "Who ruined Roussel de Bailleul's plans for an independent state?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 47
+    }
+  },
+  {
+    "id": "b7c204e505e76ee9",
+    "text": "Who was the first Byzantine mercenary to serve with the Normans?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 48
+    }
+  },
+  {
+    "id": "00c6a32d2288670e",
+    "text": "When did Herve serve as a Norman general?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 49
+    }
+  },
+  {
+    "id": "8c2a97289611f7fb",
+    "text": "Who ruined Alexius Komnenos plans for an independent state?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 50
+    }
+  },
+  {
+    "id": "176c64cc6b557099",
+    "text": "When did Herve go up against the Turks?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 51
+    }
+  },
+  {
+    "id": "8eab15799f71d4a9",
+    "text": "What was the name of the Norman castle?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 52
+    }
+  },
+  {
+    "id": "4deade7504ef4667",
+    "text": "Who was the leader when the Franks entered the Euphrates valley?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 53
+    }
+  },
+  {
+    "id": "8c3b6d032b5e8ae6",
+    "text": "Who did the Normans team up with in Anatolia?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 54
+    }
+  },
+  {
+    "id": "d453bb3e319b3f3b",
+    "text": "Who joined Norman forces in the destruction of the Armenians?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 55
+    }
+  },
+  {
+    "id": "359a5f38b5f8e9c2",
+    "text": "Who did the Turks take up service with?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 56
+    }
+  },
+  {
+    "id": "bc7277adadad9421",
+    "text": "What Frank led Norman forces?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 57
+    }
+  },
+  {
+    "id": "354e04806912c97a",
+    "text": "Where did Oursel lead the Franks?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 58
+    }
+  },
+  {
+    "id": "05f78d4b9cb57884",
+    "text": "What were the origins of the Raouliii family?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 59
+    }
+  },
+  {
+    "id": "9e39ff4d05044d30",
+    "text": "Where were several Norman mercenary familes originate from?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 60
+    }
+  },
+  {
+    "id": "53ffc5637d6fed9b",
+    "text": "Who did the Normans serve under in the 10th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 61
+    }
+  },
+  {
+    "id": "2797a7d5f4b3fbd6",
+    "text": "What expedition did George Maniaces lead in the 10th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 62
+    }
+  },
+  {
+    "id": "1495d1211f28c819",
+    "text": "What was the name of the count of Apulia ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 63
+    }
+  },
+  {
+    "id": "08fdaf3dcfdf4296",
+    "text": "When did Dyrrachium  fall to the Normans?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 64
+    }
+  },
+  {
+    "id": "9ec86d8996104a84",
+    "text": "How many men were in Robert's army?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 65
+    }
+  },
+  {
+    "id": "eb343835d4e4e634",
+    "text": "Who ultimatly drove the Byzantines out of Europe?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 66
+    }
+  },
+  {
+    "id": "1c63606ad165821e",
+    "text": "What pope opposed Roberts campaign?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 67
+    }
+  },
+  {
+    "id": "0bea6a9e6d157171",
+    "text": "What fell to the Normans in the 10th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 68
+    }
+  },
+  {
+    "id": "fcbcda1c46b3eb49",
+    "text": "How many men did Roberts army face?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 69
+    }
+  },
+  {
+    "id": "c46740e2d216a704",
+    "text": "Where did the Normans and Byzantines sign the peace treaty?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 70
+    }
+  },
+  {
+    "id": "eb7a25c7ac7e40c6",
+    "text": "Who was Robert's son?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 71
+    }
+  },
+  {
+    "id": "45b00b7a731cc0e5",
+    "text": "What river was Petrela located by?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 72
+    }
+  },
+  {
+    "id": "1e9961299fba0646",
+    "text": "Who did the Normans besiege in the 11th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 73
+    }
+  },
+  {
+    "id": "d3e4ce1bbac02c95",
+    "text": "Who did Robert lead agains Dyrrachium in 1107?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 74
+    }
+  },
+  {
+    "id": "1ed24ed2ff9c1bc7",
+    "text": "Who was Bohemond's son?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 75
+    }
+  },
+  {
+    "id": "9ea99c610aaea091",
+    "text": "When did the Normans attack Dyrrachium?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 76
+    }
+  },
+  {
+    "id": "49b8a535de075f02",
+    "text": "What was the naval base called?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 77
+    }
+  },
+  {
+    "id": "a52550843b83a4bf",
+    "text": "Where was Dyrrachium located?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 78
+    }
+  },
+  {
+    "id": "75d6785ab8035f16",
+    "text": "Who attacked Dyrrachium in the 11th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 79
+    }
+  },
+  {
+    "id": "9e131f26f108a2c7",
+    "text": "Who betrayed the Normans?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 80
+    }
+  },
+  {
+    "id": "16092e5be0b903ed",
+    "text": "What naval base fell to the Normans?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 81
+    }
+  },
+  {
+    "id": "9a3ea85dd5776d12",
+    "text": "Who did Emma Marry?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 82
+    }
+  },
+  {
+    "id": "0e69c7e91f1920d6",
+    "text": "Who was Emma's brother?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 83
+    }
+  },
+  {
+    "id": "e203320385dba0b8",
+    "text": "To where did Ethelred flee?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 84
+    }
+  },
+  {
+    "id": "ca0572977c1cbe0f",
+    "text": "Who kicked Ethelred out?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 85
+    }
+  },
+  {
+    "id": "66a4c893946af311",
+    "text": "Who married Cnut the Great?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 86
+    }
+  },
+  {
+    "id": "13031e4be149381e",
+    "text": "When did Richard II flee to Normandy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 87
+    }
+  },
+  {
+    "id": "d79f5d35ae474e67",
+    "text": "Who's major ports were controlled by the English?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 88
+    }
+  },
+  {
+    "id": "f744c05dd67516aa",
+    "text": "Who was Edward the Confessor's half-brother?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 89
+    }
+  },
+  {
+    "id": "dd83ffded4eb51e3",
+    "text": "When did Edward return?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 90
+    }
+  },
+  {
+    "id": "5b38656dab0ce40e",
+    "text": "Who did Edward make archbishop of Canterbury?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 91
+    }
+  },
+  {
+    "id": "b8d76a76c1c2d4f2",
+    "text": "When did Edward the Confessor's son return from his fathers refuge?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 92
+    }
+  },
+  {
+    "id": "045ff1c76c36b3bc",
+    "text": "What kind of force did Harthacnut establish?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 93
+    }
+  },
+  {
+    "id": "78af762abdb43dbc",
+    "text": "Who made Robert of Jumieges earl of Hereford?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 94
+    }
+  },
+  {
+    "id": "83272368e23b8caf",
+    "text": "Where did Harold II die?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 95
+    }
+  },
+  {
+    "id": "5b78929dd9f4d6a2",
+    "text": "Who killed Harold II? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 96
+    }
+  },
+  {
+    "id": "86c517801bdde686",
+    "text": "When was the Battle of Hastings?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 97
+    }
+  },
+  {
+    "id": "834eefe1e480edaa",
+    "text": "Who was the ruling class ahead of the Normans?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 98
+    }
+  },
+  {
+    "id": "6478209f398dd415",
+    "text": "When did King Harold II conquer England?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 99
+    }
+  },
+  {
+    "id": "7765098a556881a2",
+    "text": "What battle took place in the 10th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 100
+    }
+  },
+  {
+    "id": "2a96d0fa78aa9cf8",
+    "text": "Who replaced the Normans as the ruling class?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 101
+    }
+  },
+  {
+    "id": "b9ce0148ffd69cc2",
+    "text": "Who considered their land on the continent their most important holding?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 102
+    }
+  },
+  {
+    "id": "aed8e58d73e75b94",
+    "text": "What was the Anglo-Norman language's final form?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 103
+    }
+  },
+  {
+    "id": "98d37d963d8d4899",
+    "text": "Who identified themselves as French during the Hundred Years War?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 104
+    }
+  },
+  {
+    "id": "1b215579a0c56adf",
+    "text": "What was absorbed into the Anglo-Norman language?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 105
+    }
+  },
+  {
+    "id": "71837ec0d383695e",
+    "text": "Who made fun of the Latin language?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 106
+    }
+  },
+  {
+    "id": "8366c1620ea1abfa",
+    "text": "In what year did the Norman's invade at Bannow Bay?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 107
+    }
+  },
+  {
+    "id": "18018ecc093b4b03",
+    "text": "What country did the Normans invade in 1169?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 108
+    }
+  },
+  {
+    "id": "f7c1068f2fc0885e",
+    "text": "What culture did the Normans combine with in Ireland?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 109
+    }
+  },
+  {
+    "id": "032a4f7044d2b937",
+    "text": "Where did the Normans invade in the 11th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 110
+    }
+  },
+  {
+    "id": "fddbe227232d53ca",
+    "text": "Who did the Irish culture have a profound effect on?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 111
+    }
+  },
+  {
+    "id": "dc15ce7ead56be5b",
+    "text": "What castles were built by the Irish?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 112
+    }
+  },
+  {
+    "id": "33b7e3e806da10c9",
+    "text": "Who was Margaret's brother?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 113
+    }
+  },
+  {
+    "id": "1c0f1cebfd92a24b",
+    "text": "Who was Margaret's husband?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 114
+    }
+  },
+  {
+    "id": "451f8c2eb25b937f",
+    "text": "When was Scotland invaded by William?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 115
+    }
+  },
+  {
+    "id": "69475c9b66edc8a6",
+    "text": "Who was the hostage?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 116
+    }
+  },
+  {
+    "id": "94ff86c3db6e5453",
+    "text": "Who did Edgar marry?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 117
+    }
+  },
+  {
+    "id": "daceaf5df178be9c",
+    "text": "Who invaded Scotland in the 10th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 118
+    }
+  },
+  {
+    "id": "cc106fcfaa67ce70",
+    "text": "Who did the Scotish king take hostage?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 119
+    }
+  },
+  {
+    "id": "2daba63dd75aec76",
+    "text": "Who did Alexander I marry?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 120
+    }
+  },
+  {
+    "id": "9f671117b1cc9576",
+    "text": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 121
+    }
+  },
+  {
+    "id": "873cf4f46e635704",
+    "text": "Who did King David I of Scotland Marry?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 122
+    }
+  },
+  {
+    "id": "8378e716d702f8a0",
+    "text": "What did Sybilla of Normandy introduce to Scotland?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 123
+    }
+  },
+  {
+    "id": "9914db49a8574891",
+    "text": "Where was Ralph earl of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 124
+    }
+  },
+  {
+    "id": "b2de95aad5782c3b",
+    "text": "Who was Ralph in charge of being at war with?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 125
+    }
+  },
+  {
+    "id": "06eff25143e36ff7",
+    "text": "Who made Ralph earl?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 126
+    }
+  },
+  {
+    "id": "f7086b7e819590df",
+    "text": "Who came into contact with Wales after the conquest of England?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 127
+    }
+  },
+  {
+    "id": "ebbf80c2d3761b12",
+    "text": "Who made Edward the Confessor Earl?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 128
+    }
+  },
+  {
+    "id": "a219b232329dc36f",
+    "text": "What country was under the control of Norman barons?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 129
+    }
+  },
+  {
+    "id": "a4d7e5fc80624adb",
+    "text": "What came under Williams dominace before the conquest?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 130
+    }
+  },
+  {
+    "id": "d6ff7146b5898c51",
+    "text": "What Welsh lords did William conquer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 131
+    }
+  },
+  {
+    "id": "247c2d7875473264",
+    "text": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 132
+    }
+  },
+  {
+    "id": "fb67a752586f4614",
+    "text": "Who was in charge of the papal army in the War of Barbastro?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 133
+    }
+  },
+  {
+    "id": "f3b9a9ed0a9f3d0f",
+    "text": "Where did the Normans carve out a principality before the First Crusade?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 134
+    }
+  },
+  {
+    "id": "6a2edfb2b4e1467b",
+    "text": "What did the Normans take part in in the 10th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 135
+    }
+  },
+  {
+    "id": "0e35575d744fd287",
+    "text": "Who carved out a state for himself from Moorish lands?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 136
+    }
+  },
+  {
+    "id": "5edeee629c19a283",
+    "text": "What war occured in the 1oth century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 137
+    }
+  },
+  {
+    "id": "710eceecbf7c4b6f",
+    "text": "When did the Siege of Antioch take place?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 138
+    }
+  },
+  {
+    "id": "53820a7cddfbcbf4",
+    "text": "What was the name of Bohemond's nephew?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 139
+    }
+  },
+  {
+    "id": "6c6e9b92836c89ef",
+    "text": "What major conquest did Tancred play a roll in?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 140
+    }
+  },
+  {
+    "id": "abe5d31936ab29c1",
+    "text": "When did Tancred lay siege to Antioch?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 141
+    }
+  },
+  {
+    "id": "066455fdc54c4a1f",
+    "text": "What was the name of Tancred's nephew?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 142
+    }
+  },
+  {
+    "id": "c00699c74a620486",
+    "text": "How long did Western Europe control Cyprus?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 143
+    }
+  },
+  {
+    "id": "b1314a6878148521",
+    "text": "Who defeated Anglo-Norman forces during the third Crusade?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 144
+    }
+  },
+  {
+    "id": "d4672301ef2300ea",
+    "text": "Who dominated Western Europe for 380 years?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 145
+    }
+  },
+  {
+    "id": "7900fa134f87270e",
+    "text": "What ruined Richard's plans to reach Acre?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 146
+    }
+  },
+  {
+    "id": "1ef582e1b0c6eb03",
+    "text": "Who was Richard's fiancee?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 147
+    }
+  },
+  {
+    "id": "5f82612d247207c0",
+    "text": "What year did the storm hit Richard's fleet?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 148
+    }
+  },
+  {
+    "id": "c76662279c295313",
+    "text": "Who ruled Cyprus in 1191?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 149
+    }
+  },
+  {
+    "id": "fd6000d87db8f28f",
+    "text": "Who left Messina in the 11th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 150
+    }
+  },
+  {
+    "id": "3d316c912c5c8cec",
+    "text": "What year did Richards fleet avoid a storm?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 151
+    }
+  },
+  {
+    "id": "2b1bf7c4ce4cbdb6",
+    "text": "Who ruled Cyprus in the 11th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 152
+    }
+  },
+  {
+    "id": "a46a231b8e5702bf",
+    "text": "Who was Guy's Rival?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 153
+    }
+  },
+  {
+    "id": "3568ed43a77987ac",
+    "text": "What were Isaac's chains made out of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 154
+    }
+  },
+  {
+    "id": "a8466e1d9dcd18b3",
+    "text": "Who led Richard's troops when Cyprus was conquered?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 155
+    }
+  },
+  {
+    "id": "70af3989e75bbb15",
+    "text": "Who's chains were made out of copper?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 156
+    }
+  },
+  {
+    "id": "5ddb13b704e584c0",
+    "text": "Who led Issacs troops to Cyprus?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 157
+    }
+  },
+  {
+    "id": "3d7231b6d47d329b",
+    "text": "Who offered Issac his daughter?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 158
+    }
+  },
+  {
+    "id": "4d4d935b994acca2",
+    "text": "What continent are the Canarian Islands off the coast of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 159
+    }
+  },
+  {
+    "id": "bc3e8ae196bd8bd8",
+    "text": "Who conquered the Canary Island in the 14th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 160
+    }
+  },
+  {
+    "id": "e6265dc927da3c72",
+    "text": "What Islands are of the coast of Asia?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 161
+    }
+  },
+  {
+    "id": "9ecb187c6533548c",
+    "text": "Who became the King of the Canary Islands?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 162
+    }
+  },
+  {
+    "id": "8d5a8417b31bd8c1",
+    "text": "Who bought the rights?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 163
+    }
+  },
+  {
+    "id": "d8f731a91d7b6360",
+    "text": "Who sold the rights?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 164
+    }
+  },
+  {
+    "id": "fcd6fd0f49864dc9",
+    "text": "What title did Henry II take in the Canary Island?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 165
+    }
+  },
+  {
+    "id": "c0416331dcc6a818",
+    "text": "Who sold the rights to the island in the 14th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 166
+    }
+  },
+  {
+    "id": "7429dbac6b43caf2",
+    "text": "Where are Jersey and Guernsey",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 167
+    }
+  },
+  {
+    "id": "776a7c725c3e9c6c",
+    "text": "How many customaries does Norman customary law have?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 168
+    }
+  },
+  {
+    "id": "c046780f9a5fe276",
+    "text": "What Norman law wasdeveloped between 1000 and 1300?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 169
+    }
+  },
+  {
+    "id": "025b30f3998ad809",
+    "text": "What law has 3 customeries?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 170
+    }
+  },
+  {
+    "id": "1e618c2e8b0dc1cd",
+    "text": "What was authored in the 12th century?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 171
+    }
+  },
+  {
+    "id": "bc3f6ddd631e4396",
+    "text": "What is the Norman architecture idiom?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 172
+    }
+  },
+  {
+    "id": "9117c02c26789c2e",
+    "text": "What kind of arches does Norman architecture have?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 173
+    }
+  },
+  {
+    "id": "7906a9e5f8791d58",
+    "text": "What type of arch did the Normans invent?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 174
+    }
+  },
+  {
+    "id": "2a7f74d60a1473de",
+    "text": "What architecture type came after Norman in England?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 175
+    }
+  },
+  {
+    "id": "7624fbdac9e128dc",
+    "text": "What architecture type came before Norman in England?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 176
+    }
+  },
+  {
+    "id": "1dea069c00220c0e",
+    "text": "What place had the Norman Arab architectural style?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 177
+    }
+  },
+  {
+    "id": "c47886cfcf0b2404",
+    "text": "What precedes the period of Anglo-Saxon architecture?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 178
+    }
+  },
+  {
+    "id": "af6277319636e651",
+    "text": "What architecture type came after Early Gothic?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 179
+    }
+  },
+  {
+    "id": "4219ee167d44bb7b",
+    "text": "Who incorperated Islamic, LOmbard, and Byzantine building techniques in England?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 180
+    }
+  },
+  {
+    "id": "d22b1c9b29815969",
+    "text": "When did the church reform begin?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 181
+    }
+  },
+  {
+    "id": "a414e372f87b69a5",
+    "text": "Who used the church to unify themselves?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 182
+    }
+  },
+  {
+    "id": "11f4ba6dd9d74d2c",
+    "text": "What kind of art did the Normans have a rich tradition of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 183
+    }
+  },
+  {
+    "id": "4af6d027fbf0d61e",
+    "text": "Who began a program of church reform in the 1100s",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 184
+    }
+  },
+  {
+    "id": "c206386513616935",
+    "text": "Who was divided by the church?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 185
+    }
+  },
+  {
+    "id": "611f3871a8700f4d",
+    "text": "Who experienced aa golden age in the 1100s and 1200s",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 186
+    }
+  },
+  {
+    "id": "0c3a373d6636f48c",
+    "text": "When were the French wars of religion?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 187
+    }
+  },
+  {
+    "id": "7ee15d37342e229f",
+    "text": "What wars did France fight in the 1600s?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 188
+    }
+  },
+  {
+    "id": "74e2edf177b6feb0",
+    "text": "What revolution was fought in the 1899's?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 189
+    }
+  },
+  {
+    "id": "83ded35a8591aabc",
+    "text": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 190
+    }
+  },
+  {
+    "id": "74e40b5acbf84e51",
+    "text": "What is Norman art's most well known piece?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 191
+    }
+  },
+  {
+    "id": "cddd816f43421e36",
+    "text": "Who commissioned the Tapestry?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 192
+    }
+  },
+  {
+    "id": "ab192f44da777f0a",
+    "text": "What is the oldest work of Norman art?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 193
+    }
+  },
+  {
+    "id": "b4c73b814314a80e",
+    "text": "Who commissioned Danish vikings to create the Bayeux Tapestry?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 194
+    }
+  },
+  {
+    "id": "e869a776c43d766e",
+    "text": "What is the most important type of Norman art preserved in churches?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 195
+    }
+  },
+  {
+    "id": "132df16372b45428",
+    "text": "How has British art survived in Normandy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 196
+    }
+  },
+  {
+    "id": "f9cdeafd4a46fb8a",
+    "text": "What is the most common form of Norman art in churches?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 197
+    }
+  },
+  {
+    "id": "3d5d9bdd7b33589c",
+    "text": "What was a centre of ivorywork in the 1100s?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 198
+    }
+  },
+  {
+    "id": "c95bae310cbaa9d9",
+    "text": "In what century did important classical music developments occur in Normandy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 199
+    }
+  },
+  {
+    "id": "a03be985bdf6ee22",
+    "text": "Who were the two abbots at F\u00e9camp Abbey?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 200
+    }
+  },
+  {
+    "id": "3a417580d11f16d3",
+    "text": "What developed in Normandy during the 1100s?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 201
+    }
+  },
+  {
+    "id": "5c705b391b5febab",
+    "text": "What was Fecamp Abby the center of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 202
+    }
+  },
+  {
+    "id": "cd0e038820541e92",
+    "text": "Where did the monks flee to?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 203
+    }
+  },
+  {
+    "id": "efbbf18cffb07977",
+    "text": "What monastery did the Saint-Evroul monks establish in Italy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 204
+    }
+  },
+  {
+    "id": "aca4988afbb9b07f",
+    "text": "Who patronized the monks in Italy? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 205
+    }
+  },
+  {
+    "id": "fbd8e29a94ee3acf",
+    "text": "What tradition were the Saint-Evroul monks known for?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 206
+    }
+  },
+  {
+    "id": "c043139075366cbb",
+    "text": "Who fled from southern Italy?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 207
+    }
+  },
+  {
+    "id": "c7c7f74145760fb4",
+    "text": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 208
+    }
+  },
+  {
+    "id": "4d921931900026b2",
+    "text": "By what main attribute are computational problems classified utilizing computational complexity theory? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 209
+    }
+  },
+  {
+    "id": "7bf9be1b73533a6f",
+    "text": "What is the term for a task that generally lends itself to being solved by a computer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 210
+    }
+  },
+  {
+    "id": "eb8fd7428a987fcd",
+    "text": "What is computational complexity principle?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 211
+    }
+  },
+  {
+    "id": "2486d801a6d32d83",
+    "text": "What branch of theoretical computer class deals with broadly classifying computational problems by difficulty and class of relationship?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 212
+    }
+  },
+  {
+    "id": "e79d7c8d9c102cec",
+    "text": "What is understood to be a task that is in principle not amendable to being solved by a computer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 213
+    }
+  },
+  {
+    "id": "91244fd750ddb959",
+    "text": " What cannot be solved by mechanical application of mathematical steps?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 214
+    }
+  },
+  {
+    "id": "0fb0cf4e03bb3142",
+    "text": "What is a manual application of mathematical steps?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 215
+    }
+  },
+  {
+    "id": "3b627a00d428c04f",
+    "text": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 216
+    }
+  },
+  {
+    "id": "55a18d2af701a403",
+    "text": "What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 217
+    }
+  },
+  {
+    "id": "4ec7f357b9106e85",
+    "text": "What are two basic primary resources used to guage complexity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 218
+    }
+  },
+  {
+    "id": "26274454b2f990d1",
+    "text": "What unit is measured to determine circuit complexity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 219
+    }
+  },
+  {
+    "id": "063be351ed241dc2",
+    "text": "What practical role does defining the complexity of problems play in everyday computing?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 220
+    }
+  },
+  {
+    "id": "f22105e7c6533eac",
+    "text": "What measure of computational problem broadly defines the inherent simplicity of the solution?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 221
+    }
+  },
+  {
+    "id": "e78b107d1be868fe",
+    "text": "What method is not used to intuitively assess or quantify the amount of resources required to solve a computational problem??",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 222
+    }
+  },
+  {
+    "id": "5bd751034878cbe4",
+    "text": "What are three basic primary resources used to gauge complexity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 223
+    }
+  },
+  {
+    "id": "711bfb8daf9a986a",
+    "text": "What unit is measured to determine circuit simplicity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 224
+    }
+  },
+  {
+    "id": "35a91c2549ae8757",
+    "text": "What number is used in perpendicular computing?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 225
+    }
+  },
+  {
+    "id": "dee02107116c156e",
+    "text": "What two fields of theoretical computer science closely mirror computational complexity theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 226
+    }
+  },
+  {
+    "id": "bac71b1300615c46",
+    "text": "What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 227
+    }
+  },
+  {
+    "id": "823d6117016e2241",
+    "text": "What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 228
+    }
+  },
+  {
+    "id": "e022a65287db4a06",
+    "text": "What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 229
+    }
+  },
+  {
+    "id": "3196f9dbab1ea39e",
+    "text": "What are two fields of theoretical computer science that closely mirror computational simplicity theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 230
+    }
+  },
+  {
+    "id": "cd1d672d8414a9b9",
+    "text": "What is not the key distinction between analysis of algorithms and computational complexity theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 231
+    }
+  },
+  {
+    "id": "a3f51a46ea9995f6",
+    "text": "What is the process of analyzing the amount of resources needed by a particular algorithm to solve a hypothesis?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 232
+    }
+  },
+  {
+    "id": "43c018d5a06cb053",
+    "text": "What is the process that asks a more specific question about all possible algorithms that could not be used to solve the same problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 233
+    }
+  },
+  {
+    "id": "8aee2574b36d7730",
+    "text": "What process classifies problems that can and cannot be solved with approximately unlimited resources?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 234
+    }
+  },
+  {
+    "id": "90b8726e88a5aeb6",
+    "text": "What is the name given to the input string of a computational problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 235
+    }
+  },
+  {
+    "id": "b89ac0b04ce90136",
+    "text": "In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 236
+    }
+  },
+  {
+    "id": "1783c67f4c071548",
+    "text": "Is a problem instance typically characterized as abstract or concrete?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 237
+    }
+  },
+  {
+    "id": "a316d2c5547f376b",
+    "text": "What is another name for any given measure of input associated with a problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 238
+    }
+  },
+  {
+    "id": "4f1f2c60a24e5a57",
+    "text": "What is the general term used to describe the output to any given input in a problem instance?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 239
+    }
+  },
+  {
+    "id": "5f0af6b528bba17f",
+    "text": "What can be viewed as a limited collection of instances together with a solution for every instance?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 240
+    }
+  },
+  {
+    "id": "df7ce9e0710e0f31",
+    "text": "What is the name given to the input string of a computational solution?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 241
+    }
+  },
+  {
+    "id": "e475d0a8b85f8469",
+    "text": "What term refers to the concrete question to be solved?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 242
+    }
+  },
+  {
+    "id": "f4bb7a8970b1b945",
+    "text": "What is the output corresponding to the given question?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 243
+    }
+  },
+  {
+    "id": "e9d58d61a7672925",
+    "text": "What is a particular measure input associated with the a theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 244
+    }
+  },
+  {
+    "id": "838b34cc2a52c53a",
+    "text": "By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 245
+    }
+  },
+  {
+    "id": "d6338570e9cad1c4",
+    "text": "What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 246
+    }
+  },
+  {
+    "id": "a876117cad99f840",
+    "text": "What does computational complexity theory most specifically seek to answer? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 247
+    }
+  },
+  {
+    "id": "2a3aac891f0f68e2",
+    "text": "How many miles does the traveling salesman problem seek to classify a route between the 15 smallest cities in Germany?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 248
+    }
+  },
+  {
+    "id": "995bc1214a15270e",
+    "text": "What is the qualitative answer to this particular problem instance?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 249
+    }
+  },
+  {
+    "id": "f35f951b7506aa96",
+    "text": "What is one example of an instance that the qualitative answer to the traveling salesman fails to answer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 250
+    }
+  },
+  {
+    "id": "7b68073a96bb5799",
+    "text": "What does computational simplicity theory most specifically seek to answer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 251
+    }
+  },
+  {
+    "id": "b0efdbe0d64eb640",
+    "text": "In a computational problem, what can be described as a string over an alphabet?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 252
+    }
+  },
+  {
+    "id": "f398a3fe38c91614",
+    "text": "What is the name of the alphabet is most commonly used in a problem instance?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 253
+    }
+  },
+  {
+    "id": "fc7cb63a83366152",
+    "text": "What is another term for the string of a problem instance?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 254
+    }
+  },
+  {
+    "id": "115c0ff856486ee0",
+    "text": "In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 255
+    }
+  },
+  {
+    "id": "4c10f8521b44a6ff",
+    "text": "What is one way in which graphs can be encoded? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 256
+    }
+  },
+  {
+    "id": "31c38b2e3367a109",
+    "text": "What is a string over a Greek number when considering a computational problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 257
+    }
+  },
+  {
+    "id": "ae7bdb5fae383bf3",
+    "text": "What is the name of the alphabet that is rarely used in a problem instance?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 258
+    }
+  },
+  {
+    "id": "a4f96c4fa4176166",
+    "text": "What is another term for the the string of a problem question?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 259
+    }
+  },
+  {
+    "id": "db4b3b5c0f4b5778",
+    "text": "What is represented by non-binary notation in the encoding of mathematical objects?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 260
+    }
+  },
+  {
+    "id": "5df6bb697e9c9074",
+    "text": "How can graphs be encoded indirectly?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 261
+    }
+  },
+  {
+    "id": "493ddd37c5852d29",
+    "text": "What kind of problems are one of the main topics studied in computational complexity theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 262
+    }
+  },
+  {
+    "id": "05f7fbf6f0783ae2",
+    "text": "What are the two simple word responses to a decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 263
+    }
+  },
+  {
+    "id": "c3555203b97bd1af",
+    "text": "What are the two integer responses to a decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 264
+    }
+  },
+  {
+    "id": "e91a828cf192e4d9",
+    "text": "What will the output be for a member of the language of a decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 265
+    }
+  },
+  {
+    "id": "b6675ece9ffdaab7",
+    "text": "What answer denotes that an algorithm has accepted an input string?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 266
+    }
+  },
+  {
+    "id": "7777f6b3d4c6cb95",
+    "text": "What kind of solutions are one of the central objects of study in computational complexity theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 267
+    }
+  },
+  {
+    "id": "a5ce42170a70ec04",
+    "text": "What is a typical type of computational problem whose answer is either yer or no?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 268
+    }
+  },
+  {
+    "id": "4300c7eed9682d8b",
+    "text": "What can be viewed as an informal language where the language instances whose input is yes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 269
+    }
+  },
+  {
+    "id": "b8a6f0deea71b795",
+    "text": "What are the three integer responses to a decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 270
+    }
+  },
+  {
+    "id": "f2174fceec190fb0",
+    "text": "What answer denotes that a solution has accepted an input string?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 271
+    }
+  },
+  {
+    "id": "f4ba4af56e34c77a",
+    "text": "What kind of graph is an example of an input used in a decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 272
+    }
+  },
+  {
+    "id": "6eddf034aa7b1709",
+    "text": "What is the term for the set of all connected graphs related to this decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 273
+    }
+  },
+  {
+    "id": "2002f606ff7e9742",
+    "text": "What encoding decision needs to be made in order to determine an exact definition of the formal language?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 274
+    }
+  },
+  {
+    "id": "63228086e1d1a108",
+    "text": "What type of graph is an example of an output used in a decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 275
+    }
+  },
+  {
+    "id": "486f4e7689a29f48",
+    "text": "What is the term for the set of all unconnected graphs related to this decision problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 276
+    }
+  },
+  {
+    "id": "9bda2805c99c2bb0",
+    "text": "What encoding decision needs to be made in order to determine an inaccurate definition of the formal language? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 277
+    }
+  },
+  {
+    "id": "8fd1a0e8e208660b",
+    "text": "How does one obtain an indefinite definition of this language?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 278
+    }
+  },
+  {
+    "id": "8f01a10a8d9e39b2",
+    "text": "A function problem is an example of what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 279
+    }
+  },
+  {
+    "id": "5e9bfeb9663942da",
+    "text": "How many outputs are expected for each input in a function problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 280
+    }
+  },
+  {
+    "id": "02956e5963e6f5ae",
+    "text": "The traveling salesman problem is an example of what type of problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 281
+    }
+  },
+  {
+    "id": "63dfa09b1792bb3c",
+    "text": "In addition to the traveling salesman problem, what is another example of a function problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 282
+    }
+  },
+  {
+    "id": "13060b61093dc488",
+    "text": "Is the output of a functional problem typically characterized by a simple or complex answer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 283
+    }
+  },
+  {
+    "id": "a2a7a6fc6c186726",
+    "text": "What is a computational solution where a single input is expected for every input?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 284
+    }
+  },
+  {
+    "id": "951382745656b307",
+    "text": "What is expected where a computational problems offers multiple outputs are expected for every input?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 285
+    }
+  },
+  {
+    "id": "a8a086790faa0bf6",
+    "text": "What is a function solution an example of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 286
+    }
+  },
+  {
+    "id": "fa5fdd81ad0b7d42",
+    "text": "What are other irrelevant examples of a function problem>",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 287
+    }
+  },
+  {
+    "id": "90ccfbf399a8347b",
+    "text": "Is the output of a functional solution typically characterized by a simple or complex answer?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 288
+    }
+  },
+  {
+    "id": "a295c49f876432f7",
+    "text": "How can function problems typically be restated?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 289
+    }
+  },
+  {
+    "id": "faf8963acd6ffc25",
+    "text": "If two integers are multiplied and output a value, what is this expression set called?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 290
+    }
+  },
+  {
+    "id": "a5f2b21b83559163",
+    "text": "What can not be restated as decision problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 291
+    }
+  },
+  {
+    "id": "daf79b0cfd8d2b0e",
+    "text": "What is the expression set called where three integers are multiplied?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 292
+    }
+  },
+  {
+    "id": "8bec3b7803a70e06",
+    "text": "What corresponds to solving the problem of multiplying three numbers/",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 293
+    }
+  },
+  {
+    "id": "d80b206f46b9b37a",
+    "text": "What is a commonly used measurement used to determine the complexity of a computational problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 294
+    }
+  },
+  {
+    "id": "2988014604611fef",
+    "text": "What is one variable on which the running time may be contingent?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 295
+    }
+  },
+  {
+    "id": "956a5a86779dd783",
+    "text": "How is the time needed to obtain the solution to a problem calculated?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 296
+    }
+  },
+  {
+    "id": "1b1cbc0a14affe10",
+    "text": "In what unit is the size of the input measured?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 297
+    }
+  },
+  {
+    "id": "b37d6776a6b237e0",
+    "text": "Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 298
+    }
+  },
+  {
+    "id": "bd912270ab90c799",
+    "text": "How does one measure the simplicity of a computational problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 299
+    }
+  },
+  {
+    "id": "a579655782072adc",
+    "text": "What is one variable which the running of time be not be contingent?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 300
+    }
+  },
+  {
+    "id": "1c003c42e9f8aebc",
+    "text": "How is the time needed to obtain the question to a problem calculated?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 301
+    }
+  },
+  {
+    "id": "c879199686f9b24d",
+    "text": "What is  interested in how algorithms scale with a decrease in the input size?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 302
+    }
+  },
+  {
+    "id": "d7d6f768cc602801",
+    "text": "How is time not required to solve a problem calculated?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 303
+    }
+  },
+  {
+    "id": "8407f25ec34fce2c",
+    "text": "Whose thesis states that the solution to a problem is solvable with reasonable resources assuming it allows for a polynomial time algorithm?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 304
+    }
+  },
+  {
+    "id": "f318d75b5feca99a",
+    "text": "If input size is is equal to n, what can respectively be assumed is the function of n?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 305
+    }
+  },
+  {
+    "id": "b56ef91f178fee8d",
+    "text": "What term corresponds to the maximum measurement of time across all functions of n? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 306
+    }
+  },
+  {
+    "id": "7804f3a7db3f38c2",
+    "text": "How is worst-case time complexity written as an expression?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 307
+    }
+  },
+  {
+    "id": "3d73452492e252f5",
+    "text": "Assuming that T represents a polynomial in T(n), what is the term given to the corresponding algorithm?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 308
+    }
+  },
+  {
+    "id": "23156877d8cc741c",
+    "text": "How is time taken expressed as a function of x?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 309
+    }
+  },
+  {
+    "id": "9201eaee09ea85df",
+    "text": "Whose hypothesis states the the solution to a problem is solvable with reasonable resources assuming it allows for monoinomial time algorithm?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 310
+    }
+  },
+  {
+    "id": "9c76c7be0ef8180d",
+    "text": "What term corresponds to the minimum measurement of the time across all functions of n?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 311
+    }
+  },
+  {
+    "id": "2af2bc894feea5ae",
+    "text": "How is best-case time complexity written as an expression?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 312
+    }
+  },
+  {
+    "id": "379c51332dc66928",
+    "text": "What is the term given to the corresponding algorithm assuming that T represents a mononominal in T(n)?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 313
+    }
+  },
+  {
+    "id": "ad1f36ac61709b32",
+    "text": "What is the term for a mathematical model that theoretically represents a general computing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 314
+    }
+  },
+  {
+    "id": "b13cef4829a3f9a1",
+    "text": "It is generally assumed that a Turing machine can solve anything capable of also being solved using what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 315
+    }
+  },
+  {
+    "id": "9fc5cf9aae3b667b",
+    "text": "What is the most commonplace model utilized in complexity theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 316
+    }
+  },
+  {
+    "id": "81917939e4bc2ccb",
+    "text": "What does a Turing machine handle on a strip of tape?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 317
+    }
+  },
+  {
+    "id": "50ecdc8110d310c0",
+    "text": "What a scientific model of a general computing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 318
+    }
+  },
+  {
+    "id": "b2bd61680c1dc659",
+    "text": "What is a scientific device that manipulates symbols contained on a strip of tape?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 319
+    }
+  },
+  {
+    "id": "110a9931cf273727",
+    "text": "What are intended as a practical computing technology?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 320
+    }
+  },
+  {
+    "id": "94abe4b31d2192f9",
+    "text": "What is a scientific experiment that can solve a problem by algorithms?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 321
+    }
+  },
+  {
+    "id": "19156ad7256f1e77",
+    "text": "What is generally considered to be the most basic iteration of a Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 322
+    }
+  },
+  {
+    "id": "3edfdacea27d051e",
+    "text": "What fixed set of factors determine the actions of a deterministic Turing machine",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 323
+    }
+  },
+  {
+    "id": "65bb204ec8790da6",
+    "text": "What is the term used to identify a deterministic Turing machine that has additional random bits?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 324
+    }
+  },
+  {
+    "id": "01a48c8aad25795b",
+    "text": "What type of Turing machine is capable of multiple actions and extends into a variety of computational paths?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 325
+    }
+  },
+  {
+    "id": "497fbf8f47a4fbee",
+    "text": "What is the term given to algorithms that utilize random bits?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 326
+    }
+  },
+  {
+    "id": "aa6745c033543a6c",
+    "text": "What uses a flexible set of rules to determine its future actions?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 327
+    }
+  },
+  {
+    "id": "864b513f290b5e73",
+    "text": "What is a deterministic Turing machine with an extra supply of random ribbons?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 328
+    }
+  },
+  {
+    "id": "d561c9a77189d6d5",
+    "text": "What does not often help algorithms solve problems more efficiently?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 329
+    }
+  },
+  {
+    "id": "b3e5b4c1aa672f88",
+    "text": "Which machine allows the machine to have multiple possible past actions from a given state?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 330
+    }
+  },
+  {
+    "id": "e6750940263ab0fc",
+    "text": "How is one way that one should not view non-determinism?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 331
+    }
+  },
+  {
+    "id": "13a53a787235eabf",
+    "text": "Turing machines are commonly employed to define what? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 332
+    }
+  },
+  {
+    "id": "511f775c79430250",
+    "text": "What are two factors that directly effect how powerful a Turing machine may or may not be?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 333
+    }
+  },
+  {
+    "id": "67b8d08de25d539a",
+    "text": "In the determination of complexity classes, what are two examples of types of Turing machines?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 334
+    }
+  },
+  {
+    "id": "715c24b745dbe8bd",
+    "text": "What are many types of Turing machines not used for?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 335
+    }
+  },
+  {
+    "id": "dcc5094d1fcdef45",
+    "text": "What are three factors that directly effect how powerful a Turing machine may or may not be?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 336
+    }
+  },
+  {
+    "id": "26988ea4e6d3e45c",
+    "text": "What machines are not equally powerful in principle?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 337
+    }
+  },
+  {
+    "id": "60dbaab69c994fa1",
+    "text": "What may not be more powerful than others when the resources of time or space of considered?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 338
+    }
+  },
+  {
+    "id": "e82d18b7675670f8",
+    "text": "What is an example of a machine model that deviates from a generally accepted multi-tape Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 339
+    }
+  },
+  {
+    "id": "fe7ab1156c5997c3",
+    "text": "In considering Turing machines and alternate variables, what measurement left unaffected by conversion between machine models? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 340
+    }
+  },
+  {
+    "id": "6ecd02f4aa297ae2",
+    "text": "What two resources commonly consumed by alternate models are typically known to vary?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 341
+    }
+  },
+  {
+    "id": "fb5248b4bb21bb71",
+    "text": "What commonality do alternate machine models, such as random access machines, share with Turing machines?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 342
+    }
+  },
+  {
+    "id": "9165f4d89d6f890a",
+    "text": "What is not an example of a machine model that deviates from a generally accepted multi-tape Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 343
+    }
+  },
+  {
+    "id": "38b7c673e12b005e",
+    "text": "What measurement is affected by conversion between machine models?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 344
+    }
+  },
+  {
+    "id": "a2cf1e204b52634e",
+    "text": "What two resources are uncommonly consumed by alternate models and are typically known to vary?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 345
+    }
+  },
+  {
+    "id": "2fc97c7f62275f9b",
+    "text": "What do all these models not have in common?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 346
+    }
+  },
+  {
+    "id": "ca782502956faed4",
+    "text": "What type of Turing machine can be characterized by checking multiple possibilities at the same time?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 347
+    }
+  },
+  {
+    "id": "43396873289cfaee",
+    "text": "What often affects or facilitates ease of analysis in computational problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 348
+    }
+  },
+  {
+    "id": "ec7e6a1db12cf4ea",
+    "text": "A non-deterministic Turing machine has the ability to capture what facet of useful analysis?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 349
+    }
+  },
+  {
+    "id": "65a866950d63357e",
+    "text": "What is the most critical resource in the analysis of computational problems associated with non-deterministic Turing machines?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 350
+    }
+  },
+  {
+    "id": "9e2263addc3ab8aa",
+    "text": "What is harder to analyze in terms of more unusual resources?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 351
+    }
+  },
+  {
+    "id": "978a4a3a2f5d24ba",
+    "text": "What type of machine is a computational model that is not allowed to branch out to check many different possibilities at once?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 352
+    }
+  },
+  {
+    "id": "3615746cc10d0f2d",
+    "text": "What has a lot to do with how we physically want to compute algorithms?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 353
+    }
+  },
+  {
+    "id": "36124548401913eb",
+    "text": "What machine's branching does not exactly capture many of the mathematical models we want to analyze?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 354
+    }
+  },
+  {
+    "id": "18dab631635eb328",
+    "text": "What is the least critical resource in the analysis of computational problems associated with non-deterministic Turing machines?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 355
+    }
+  },
+  {
+    "id": "070290cfeb8b3843",
+    "text": "The time required to output an answer on a deterministic Turing machine is expressed as what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 356
+    }
+  },
+  {
+    "id": "15bdef55203cc6f2",
+    "text": "Complexity theory classifies problems based on what primary attribute?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 357
+    }
+  },
+  {
+    "id": "5acd3757f13315c0",
+    "text": "What is the expression used to identify any given series of problems capable of being solved within time on a deterministic Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 358
+    }
+  },
+  {
+    "id": "1c88aec18d473ed1",
+    "text": "What is the most critical resource measured to in assessing the determination of a Turing machine's ability to solve any given set of problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 359
+    }
+  },
+  {
+    "id": "bf2f4ef5fdaba927",
+    "text": "What is not used for a precise definition of what it means to solve a problem using a given amount of time and space?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 360
+    }
+  },
+  {
+    "id": "81f2afb0add5745c",
+    "text": "How is Turing machine M said not to operate?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 361
+    }
+  },
+  {
+    "id": "c04b986093eb4e91",
+    "text": "What is the expression used to identify any given series of solutions capable of being solved within time on a deterministic Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 362
+    }
+  },
+  {
+    "id": "3d9ebc3e4055343f",
+    "text": "What is the least critical resource measured in assessing the determination of a Turing machine's ability to solve any given set of problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 363
+    }
+  },
+  {
+    "id": "05eb437cac20dc75",
+    "text": "How can decision problem B be solved in time x(f)?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 364
+    }
+  },
+  {
+    "id": "d1e973b6be4833f3",
+    "text": "Time and space are both examples of what type of resource?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 365
+    }
+  },
+  {
+    "id": "4f9a83573ffc2ef2",
+    "text": "A complexity resource can also be described as what other type of resource?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 366
+    }
+  },
+  {
+    "id": "237ee1a4db119317",
+    "text": "What is typically used to broadly define complexity measures?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 367
+    }
+  },
+  {
+    "id": "f080ab2477fd859e",
+    "text": "Communication complexity is an example of what type of measure?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 368
+    }
+  },
+  {
+    "id": "dd142b852d8433ea",
+    "text": "Decision tree is an example of what type of measure?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 369
+    }
+  },
+  {
+    "id": "862d8df98204bdfe",
+    "text": "What can not be made for space requirements?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 370
+    }
+  },
+  {
+    "id": "223318b416560f19",
+    "text": "What are the least well known complexity resources?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 371
+    }
+  },
+  {
+    "id": "1ebb025d1817e93d",
+    "text": "How are complexity measures generally not defined?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 372
+    }
+  },
+  {
+    "id": "50f1709e969b7c8b",
+    "text": "What are other complexity measures not used in complexity theory?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 373
+    }
+  },
+  {
+    "id": "5912a7b207c26713",
+    "text": "What type of measure is communication complexity not an example of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 374
+    }
+  },
+  {
+    "id": "b2b0aacd91ea9f6b",
+    "text": "What are the three primary expressions used to represent case complexity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 375
+    }
+  },
+  {
+    "id": "cb714f2f6338cfc0",
+    "text": "Case complexity likelihoods provide variable probabilities of what general measure? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 376
+    }
+  },
+  {
+    "id": "7f49b133d244d94a",
+    "text": "What is one common example of a critical complexity measure?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 377
+    }
+  },
+  {
+    "id": "c9d05a9c35b0144f",
+    "text": "Case complexities provide three likelihoods of what differing variable that remains the same size? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 378
+    }
+  },
+  {
+    "id": "e872439ad13a25e4",
+    "text": "What are the three secondary expressions used to represent case complexity? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 379
+    }
+  },
+  {
+    "id": "b6ad35f99791f719",
+    "text": "What three different ways are used to measure space complexity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 380
+    }
+  },
+  {
+    "id": "13f1434e851f557d",
+    "text": "What is one not common example of a critical complexity measure?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 381
+    }
+  },
+  {
+    "id": "1a83893abc26fea1",
+    "text": "What differing variable remains the same size when providing the four likelihoods of case complexities?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 382
+    }
+  },
+  {
+    "id": "789152dc40953165",
+    "text": "What provides a solution to a list of integers provided as input that ned to be sorted?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 383
+    }
+  },
+  {
+    "id": "dafd1c0f9a8acbfd",
+    "text": "When extensive time is required to sort integers, this represents what case complexity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 384
+    }
+  },
+  {
+    "id": "0f7aa6313da7fc2b",
+    "text": "What is the expression used to denote a worst case complexity as expressed by time taken?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 385
+    }
+  },
+  {
+    "id": "f0754dba1a20af45",
+    "text": "What does not solve the problem of sorting a list of integers that is given as the input?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 386
+    }
+  },
+  {
+    "id": "00a422d50c214240",
+    "text": "What does the deterministic parting algorithm quicksort do?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 387
+    }
+  },
+  {
+    "id": "2b9c9d5d226647ae",
+    "text": "What case complexity is represented when limited time is required to sort integers?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 388
+    }
+  },
+  {
+    "id": "4bb1361fc61e93a6",
+    "text": "What is the expression not used to denote worst case complexity as expressed by time taken?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 389
+    }
+  },
+  {
+    "id": "f5d883ce073b6335",
+    "text": "What case complexity is represented when each pivoting divides the list in thirds, also needing O(n log n) time?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 390
+    }
+  },
+  {
+    "id": "78d3bb366fe842f0",
+    "text": "Classification of resources is contingent on determining the upper and lower bounds of minimum time required by what?  ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 391
+    }
+  },
+  {
+    "id": "d250b5a693a4992b",
+    "text": "The analysis of a specific algorithm is typically assigned to what field of computational science?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 392
+    }
+  },
+  {
+    "id": "d0b016699e326ef2",
+    "text": "Which bound of time is more difficult to establish?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 393
+    }
+  },
+  {
+    "id": "78f7cf82c121538f",
+    "text": "A specific algorithm demonstrating T(n) represents what measure of time complexity?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 394
+    }
+  },
+  {
+    "id": "2dde9a258df8e594",
+    "text": "What is the colloquial phrase used to convey the continuum of algorithms with unlimited availability irrespective of time? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 395
+    }
+  },
+  {
+    "id": "6944718bd1647a81",
+    "text": "How does one note classify the computation time (or similar resources)?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 396
+    }
+  },
+  {
+    "id": "d157927818db07be",
+    "text": "What is usually taken as the best case complexity, unless specified otherwise?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 397
+    }
+  },
+  {
+    "id": "be94fe58e4e9cce2",
+    "text": "What does not fall under the field of analysis of algorithms>",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 398
+    }
+  },
+  {
+    "id": "f57da021c3363d79",
+    "text": "When does one not need to show only that there is a particular algorithm running time at mons T(nO?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 399
+    }
+  },
+  {
+    "id": "06bcd4a8d9ea1923",
+    "text": "What is easy about proving lower bounds?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 400
+    }
+  },
+  {
+    "id": "4bc8bfb9830451e0",
+    "text": "What expression is generally used to convey upper or lower bounds?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 401
+    }
+  },
+  {
+    "id": "157ca5f616251f46",
+    "text": "What does a big O notation hide?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 402
+    }
+  },
+  {
+    "id": "ec688c0f856e34e3",
+    "text": "How would one write T(n) = 7n2 + 15n + 40 in big O notation? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 403
+    }
+  },
+  {
+    "id": "318772ac499e4e4a",
+    "text": "Big O notation provides autonomy to upper and lower bounds with relationship to what? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 404
+    }
+  },
+  {
+    "id": "15cf9cd23a5a8c11",
+    "text": "What is usually not stated using the big O notation?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 405
+    }
+  },
+  {
+    "id": "6629fc36c65020ae",
+    "text": "What does not hide constant factors or smaller terms?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 406
+    }
+  },
+  {
+    "id": "7a7d06d75f5f6d9b",
+    "text": "What makes the bounds dependent of the specific details of the computational model?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 407
+    }
+  },
+  {
+    "id": "e0834cc51614392c",
+    "text": "How would one abbreviate T(n)=8n2 + 16n = 40 in big O notatation?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 408
+    }
+  },
+  {
+    "id": "d8f391d7e4b29a6f",
+    "text": "What has complicated definitions that prevent classification into a framework?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 409
+    }
+  },
+  {
+    "id": "e288b66b4a4f1d23",
+    "text": "Complexity classes are generally classified into what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 410
+    }
+  },
+  {
+    "id": "689bc1b99c36bb08",
+    "text": "Difficulty in establishing a framework for complexity classes can be caused by what variable?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 411
+    }
+  },
+  {
+    "id": "87a9772c3be70873",
+    "text": "What fits the framework of complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 412
+    }
+  },
+  {
+    "id": "e03a11d8b0c19641",
+    "text": "What has uncomplicated definitions that prevent classification into a framework?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 413
+    }
+  },
+  {
+    "id": "5e65c1bc10d05ddf",
+    "text": "What are complexity classes generally not classified into?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 414
+    }
+  },
+  {
+    "id": "37575eca409c7447",
+    "text": "What variable is easy to establish in a framework for complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 415
+    }
+  },
+  {
+    "id": "d4c1256ee0e652c8",
+    "text": "Concrete bounding of computation time frequently produces complexity classes contingent upon what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 416
+    }
+  },
+  {
+    "id": "8887b4a83bafa3a1",
+    "text": "A multi-tape Turing machine requires what type of time for a solution?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 417
+    }
+  },
+  {
+    "id": "0c9524f3b7dd65eb",
+    "text": "A language solved in quadratic time implies the use of what type of Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 418
+    }
+  },
+  {
+    "id": "921f9acd02d477e5",
+    "text": "What thesis specifies that a polynomial relationship exists within time complexities in a computational model? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 419
+    }
+  },
+  {
+    "id": "ad165c8657caaa2f",
+    "text": "Decision problems capable of being solved by a deterministic Turing machine while maintaining adherence to polynomial time belong to what class?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 420
+    }
+  },
+  {
+    "id": "88cc7830fe79e401",
+    "text": "What does not often yield complexity classes that depend on the chosen machine model?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 421
+    }
+  },
+  {
+    "id": "f3dee9c6a2f1c841",
+    "text": "What does not frequently produce complexity classes that have concrete bounding of computation time?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 422
+    }
+  },
+  {
+    "id": "8a646527166b5575",
+    "text": "What can not be solved in linear time on multi-tape Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 423
+    }
+  },
+  {
+    "id": "290916032c275c0b",
+    "text": "What is not a binary string?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 424
+    }
+  },
+  {
+    "id": "8b6728a3891bac96",
+    "text": "What thesis specifies that a trinomial relationship exists within time complexities in a computational model?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 425
+    }
+  },
+  {
+    "id": "f3bea06da922b3e9",
+    "text": "What are two examples of measurements are bound within algorithms to establish complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 426
+    }
+  },
+  {
+    "id": "00f69f24376f6789",
+    "text": "What function is used by algorithms to define measurements like time or space?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 427
+    }
+  },
+  {
+    "id": "020b843d140e4edb",
+    "text": "Bounding of time and space or similar measurements is often used by algorithms to define what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 428
+    }
+  },
+  {
+    "id": "27c9621ed761aaa1",
+    "text": "What cannot be defined by bounding the time or space used the the algorithm?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 429
+    }
+  },
+  {
+    "id": "478344c62b713b07",
+    "text": "What are three examples of measurement that are bound within algorithms to establish complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 430
+    }
+  },
+  {
+    "id": "1c7050687839479a",
+    "text": "What function is used by algorithms to define measurements like time and numbers?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 431
+    }
+  },
+  {
+    "id": "51838a2045f90a84",
+    "text": "What is often used by algorithms to measure bounding of space and atmosphere measurements?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 432
+    }
+  },
+  {
+    "id": "b4f1354338eea7fb",
+    "text": "What are three examples of complexity classes associated with definitions established by probabilistic Turing machines?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 433
+    }
+  },
+  {
+    "id": "f8ef1f3dee9ab354",
+    "text": "AC and NC are complexity classes typically associated with what type of circuit?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 434
+    }
+  },
+  {
+    "id": "9b63463b64eec072",
+    "text": "BQP and QMA are examples of complexity classes most commonly associated with what type of Turing machine?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 435
+    }
+  },
+  {
+    "id": "0b33d9a5ce46cf47",
+    "text": "What is the expression used to represent a complexity class of counting problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 436
+    }
+  },
+  {
+    "id": "a09865c829047276",
+    "text": "IP and AM are most commonly defined by what type of proof system?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 437
+    }
+  },
+  {
+    "id": "c447a82ba1508067",
+    "text": "What are the other four important complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 438
+    }
+  },
+  {
+    "id": "5a9a4a6bef16f177",
+    "text": "What machine does not define BPP, ZPP, and RP?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 439
+    }
+  },
+  {
+    "id": "1c877307857ab3bb",
+    "text": "What machine does not define BQP or QMA?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 440
+    }
+  },
+  {
+    "id": "b5510fd4d9fbc550",
+    "text": "What is least important complexity class of counting problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 441
+    }
+  },
+  {
+    "id": "b98a855a179b0684",
+    "text": "What system not often define classes like IP and AM/",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 442
+    }
+  },
+  {
+    "id": "210f8f2d94f31cbe",
+    "text": "What is an example of a measurement within a complexity class that would create a bigger set of problems if the bounds were relaxed?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 443
+    }
+  },
+  {
+    "id": "6ce71d09ebe7df3d",
+    "text": "In what expression can one expect to find DTIME(n)",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 444
+    }
+  },
+  {
+    "id": "1fa247c7fcd04668",
+    "text": "What theorems are responsible for determining questions of time and space requirements?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 445
+    }
+  },
+  {
+    "id": "a0ff0609e51a362b",
+    "text": "Resources are constrained by hierarchy theorems to produce what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 446
+    }
+  },
+  {
+    "id": "373ab065cdc71c42",
+    "text": "What kind of statement is made in the effort of establishing the time and space requirements needed to enhance the ultimate number of problems solved?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 447
+    }
+  },
+  {
+    "id": "e5d427594c2dacd4",
+    "text": "What is not an example of a measurement within a complexity class that would create a bigger set of problems if the bounds were relaxed?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 448
+    }
+  },
+  {
+    "id": "e9e71284285e137e",
+    "text": "What does not define a bigger set of problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 449
+    }
+  },
+  {
+    "id": "67f4b949ead3f863",
+    "text": "What expression does not usually contain DTIME(n)?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 450
+    }
+  },
+  {
+    "id": "61a75b98a22e9949",
+    "text": "What does not induce a proper hierarchy on the classes defined by constraining the respective resources?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 451
+    }
+  },
+  {
+    "id": "2c419d672b45ed49",
+    "text": "What kind of statement is not made in an effort of establishing the time and space requirements needed to enhance the ultimate number of problems solved?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 452
+    }
+  },
+  {
+    "id": "7c0df9e7e32b1c7c",
+    "text": "What is the foundation for separation results within complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 453
+    }
+  },
+  {
+    "id": "c59f98ae3636e9bd",
+    "text": "What is responsible for constraining P according to the time hierarchy theorem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 454
+    }
+  },
+  {
+    "id": "703cad6f11393b9b",
+    "text": "Within what variable is L constrained according to the space hierarchy theorem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 455
+    }
+  },
+  {
+    "id": "be35d84882c78708",
+    "text": "What does not form the basis for most separation results of complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 456
+    }
+  },
+  {
+    "id": "00854c2aadf2ce94",
+    "text": "What does the past time and space hierarchy theorems form the basis of?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 457
+    }
+  },
+  {
+    "id": "42a1775536144142",
+    "text": "What is not strictly contained in EXPTIME?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 458
+    }
+  },
+  {
+    "id": "0c07146c982715a1",
+    "text": "What is not strictly contained in PSPACE?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 459
+    }
+  },
+  {
+    "id": "3edc7bc307259f98",
+    "text": "What concept is frequently used to define complexity classes?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 460
+    }
+  },
+  {
+    "id": "fc1ff46bb1f37952",
+    "text": "Reduction essentially takes one problem and converts into what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 461
+    }
+  },
+  {
+    "id": "046e92afbe6637ce",
+    "text": "According to reduction, if X and Y can be solved by the same algorithm then X performs what function in relationship to Y?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 462
+    }
+  },
+  {
+    "id": "c21f6699a18b4893",
+    "text": "What are two examples of different types of reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 463
+    }
+  },
+  {
+    "id": "fb89f3f761f5cea1",
+    "text": "Polynomial time reductions are an example of what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 464
+    }
+  },
+  {
+    "id": "48e57933b2e42ffb",
+    "text": "What are many complexity classes not defined by?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 465
+    }
+  },
+  {
+    "id": "843117c6477e6c73",
+    "text": "What is defined by using the theorem of reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 466
+    }
+  },
+  {
+    "id": "b3b9c9a89ee3db8c",
+    "text": "What is a transformation of two problems into on three problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 467
+    }
+  },
+  {
+    "id": "7ec9e9decadac048",
+    "text": "What captures the formal notion of a problem being at lease as difficult as another problem?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 468
+    }
+  },
+  {
+    "id": "3ac1e9a4dc68fb4a",
+    "text": "What are the six types of reductions?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 469
+    }
+  },
+  {
+    "id": "bd8cab67b4e2f3ab",
+    "text": "What is the most frequently employed type of reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 470
+    }
+  },
+  {
+    "id": "0208e02ddaad56ce",
+    "text": "What equates to a squared integer according to polynomial time reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 471
+    }
+  },
+  {
+    "id": "584650e276a7b916",
+    "text": "What measurement of time is used in polynomial time reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 472
+    }
+  },
+  {
+    "id": "748ca027747af45f",
+    "text": "What would need to remain constant in a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers?  ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 473
+    }
+  },
+  {
+    "id": "4a2e8fee5d48f04a",
+    "text": "According to polynomial time reduction squaring can ultimately be logically reduced to what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 474
+    }
+  },
+  {
+    "id": "68a541e7c3468113",
+    "text": "What is the least used type of reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 475
+    }
+  },
+  {
+    "id": "edbeca96732d6279",
+    "text": "What is the meaning of polynomial-space reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 476
+    }
+  },
+  {
+    "id": "b50fa7d483f2d385",
+    "text": "What can the problem of dividing an integer be reduced to?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 477
+    }
+  },
+  {
+    "id": "ff5f6dc0fd67ccc8",
+    "text": "What does one not need to remain constant in a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 478
+    }
+  },
+  {
+    "id": "0716b58fd48f4438",
+    "text": "What is more difficult that multiplication?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 479
+    }
+  },
+  {
+    "id": "32c5d083752c4ef4",
+    "text": "The complexity of problems often depends on what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 480
+    }
+  },
+  {
+    "id": "63c2b519982c4430",
+    "text": "What would create a conflict between a problem X and problem C within the context of reduction? ",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 481
+    }
+  },
+  {
+    "id": "48a61e3cdf68b682",
+    "text": "An algorithm for X which reduces to C would us to do what?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 482
+    }
+  },
+  {
+    "id": "2032436aca953f69",
+    "text": "A problem set that that is hard for the expression NP can also be stated how?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 483
+    }
+  },
+  {
+    "id": "d6abaee19cd0c18d",
+    "text": "What does the complexity of problems not often depend on?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 484
+    }
+  },
+  {
+    "id": "67a0e81ea13c7a6e",
+    "text": "What would not create a conflict between a problem X and problem C within the context of reduction?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 485
+    }
+  },
+  {
+    "id": "13803076f97fabe4",
+    "text": "What problem in C is harder than X?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 486
+    }
+  },
+  {
+    "id": "851b7f411be4d48c",
+    "text": "How is a problem set that is hard for expression QP be stated?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 487
+    }
+  },
+  {
+    "id": "a5299b7cbc5bf33b",
+    "text": "The hardest problems in NP can be analogously written as what class of problems?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 488
+    }
+  },
+  {
+    "id": "4b5fe6f3fe398374",
+    "text": "NP complete problems contain the lowest likelihood of being located in what problem class?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 489
+    }
+  },
+  {
+    "id": "28bd27b09908d520",
+    "text": "If P = NP is unsolved, and reduction is applied to a known NP-complete problem vis a vis \u03a02 to  \u03a01, what conclusion can be drawn for \u03a01?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 490
+    }
+  },
+  {
+    "id": "207e91dfff78626b",
+    "text": "If polynomial time can be utilized within an NP-complete problem, what does the imply P is equal to?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 491
+    }
+  },
+  {
+    "id": "9f8b4c9e66dafedc",
+    "text": "What happens if a problem X is in C, and soft for C?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 492
+    }
+  },
+  {
+    "id": "5f0a18a237ea3f7a",
+    "text": "What is the softest problem in C?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 493
+    }
+  },
+  {
+    "id": "5d8fef900d594719",
+    "text": "What is class contains the the least difficult problems in NP?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 494
+    }
+  },
+  {
+    "id": "fbfb8c0fc98ab4de",
+    "text": "What would indicate that there is a known polynomial-time solution for Ii1?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 495
+    }
+  },
+  {
+    "id": "88fc4ec0e36b0951",
+    "text": "What complexity class is characterized by a computational tasks and efficient algorithms?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 496
+    }
+  },
+  {
+    "id": "7d49705d4b939235",
+    "text": "What hypothesis is associated with the complexity class of P viewed as a mathematical abstraction with efficient algorithmic functionality?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 497
+    }
+  },
+  {
+    "id": "69be3e20e2847e30",
+    "text": "What complexity class is commonly characterized by unknown algorithms to enhance solvability?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 498
+    }
+  },
+  {
+    "id": "f0d51d860d0741fa",
+    "text": "What is an example of a problem that rests within the NP complexity class?",
+    "cluster_category": "good",
+    "domain": "general_qa",
+    "source": "squad_general_qa",
+    "metadata": {
+      "dataset": "rajpurkar/squad_v2",
+      "llm_performance": 0.86,
+      "index": 499
+    }
+  }
+]
