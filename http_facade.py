@@ -22,6 +22,7 @@ from togmal_mcp import (
     analyze_response,
     get_taxonomy,
     get_statistics,
+    togmal_check_prompt_difficulty,
     AnalyzePromptInput,
     AnalyzeResponseInput,
     GetTaxonomyInput,
@@ -55,7 +56,7 @@ class MCPHTTPRequestHandler(BaseHTTPRequestHandler):
   <li>POST /list-tools-dynamic - body: {\"conversation_history\": [...], \"user_context\": {...}}</li>
   <li>POST /call-tool - body: {\"name\": \"togmal_analyze_prompt\", \"arguments\": {...}}</li>
 </ul>
-<p>Supported names for /call-tool: togmal_analyze_prompt, togmal_analyze_response, togmal_get_taxonomy, togmal_get_statistics, togmal_list_tools_dynamic, togmal_get_recommended_checks.</p>
+<p>Supported names for /call-tool: togmal_analyze_prompt, togmal_analyze_response, togmal_get_taxonomy, togmal_get_statistics, togmal_list_tools_dynamic, togmal_get_recommended_checks, togmal_check_prompt_difficulty.</p>
 </body>
 </html>
 """
@@ -139,6 +140,18 @@ class MCPHTTPRequestHandler(BaseHTTPRequestHandler):
                     user_context = arguments.get("user_context")
                     result = loop.run_until_complete(
                         get_recommended_checks(conversation_history, user_context)
+                    )
+                    try:
+                        return self._write_json(200, json.loads(result))
+                    except Exception:
+                        return self._write_json(200, {"result": result})
+
+                elif name == "togmal_check_prompt_difficulty":
+                    prompt = arguments.get("prompt", "")
+                    k = arguments.get("k", 5)
+                    domain_filter = arguments.get("domain_filter")
+                    result = loop.run_until_complete(
+                        togmal_check_prompt_difficulty(prompt, k, domain_filter)
                     )
                     try:
                         return self._write_json(200, json.loads(result))

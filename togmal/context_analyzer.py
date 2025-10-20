@@ -81,6 +81,9 @@ def _score_domains_by_keywords(
     """
     domain_counts: Dict[str, float] = {}
     total_messages = len(conversation_history)
+    
+    if total_messages == 0:
+        return {}
 
     for i, message in enumerate(conversation_history):
         content = message.get("content", "").lower()
@@ -92,8 +95,14 @@ def _score_domains_by_keywords(
             matches = sum(1 for kw in keywords if kw in content)
             domain_counts[domain] = domain_counts.get(domain, 0.0) + matches * recency_weight
 
-    # Normalize scores
-    max_count = max(domain_counts.values()) if domain_counts else 1.0
+    # Normalize scores (prevent division by zero)
+    if not domain_counts:
+        return {}
+    
+    max_count = max(domain_counts.values())
+    if max_count == 0:
+        return {domain: 0.0 for domain in domain_counts.keys()}
+    
     return {
         domain: count / max_count
         for domain, count in domain_counts.items()

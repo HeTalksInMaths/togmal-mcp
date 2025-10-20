@@ -92,9 +92,15 @@ if _venv_bin and _venv_bin not in _path_current.split(":"):
 CHARACTER_LIMIT = 25000
 MAX_EVIDENCE_ENTRIES = 1000
 
+# Get absolute paths relative to this script
+from pathlib import Path
+SCRIPT_DIR = Path(__file__).parent.resolve()
+DATA_DIR = SCRIPT_DIR / "data"
+MODELS_DIR = SCRIPT_DIR / "models"
+
 # Persistence for taxonomy (in production, this would use persistent storage)
-TAXONOMY_FILE = "./data/taxonomy.json"
-os.makedirs("./data", exist_ok=True)
+TAXONOMY_FILE = str(DATA_DIR / "taxonomy.json")
+os.makedirs(DATA_DIR, exist_ok=True)
 
 DEFAULT_TAXONOMY: Dict[str, List[Dict[str, Any]]] = {
     "math_physics_speculation": [],
@@ -751,7 +757,7 @@ async def analyze_prompt(params: AnalyzePromptInput) -> str:
     
     # Optional ML enhancement
     try:
-        ml_detector = get_ml_detector(models_dir="./models")
+        ml_detector = get_ml_detector(models_dir=str(MODELS_DIR))
         analysis_results['ml'] = ml_detector.analyze_prompt_ml(params.prompt)
     except Exception:
         analysis_results['ml'] = {'detected': False, 'confidence': 0.0, 'method': 'ml_clustering_unavailable'}
@@ -827,7 +833,7 @@ async def analyze_response(params: AnalyzeResponseInput) -> str:
     
     # Optional ML enhancement
     try:
-        ml_detector = get_ml_detector(models_dir="./models")
+        ml_detector = get_ml_detector(models_dir=str(MODELS_DIR))
         if params.context:
             analysis_results['ml'] = ml_detector.analyze_pair_ml(params.context, params.response)
         else:
@@ -864,7 +870,7 @@ async def analyze_response(params: AnalyzeResponseInput) -> str:
         "openWorldHint": False
     }  # type: ignore[arg-type]
 )
-async def submit_evidence(params: SubmitEvidenceInput, ctx: Context) -> str:
+async def submit_evidence(params: SubmitEvidenceInput, ctx: Context = None) -> str:
     """Submit evidence of an LLM limitation to build the taxonomy database.
     
     This tool allows users to contribute examples of problematic LLM behaviors to improve
@@ -892,19 +898,27 @@ async def submit_evidence(params: SubmitEvidenceInput, ctx: Context) -> str:
         str: Confirmation of submission with assigned entry ID
     """
     
-    # Request confirmation from user (human-in-the-loop)
-    confirmation = await ctx.elicit(
-        prompt=f"You are about to submit evidence of a '{params.category}' limitation with severity '{params.severity}' and reason '{params.reason}'. This will be added to the taxonomy database. Confirm submission? (yes/no)",
-        input_type="text"
-    )  # type: ignore[call-arg]  # type: ignore[call-arg]
-    
-    if confirmation.lower() not in ['yes', 'y']:
-        return "Evidence submission cancelled by user."
+    # Try to request confirmation from user (human-in-the-loop) if context available
+    if ctx is not None:
+        try:
+            confirmation = await ctx.elicit(
+                prompt=f"You are about to submit evidence of a '{params.category}' limitation with severity '{params.severity}' and reason '{params.reason}'. This will be added to the taxonomy database. Confirm submission? (yes/no)",
+                input_type="text"
+            )  # type: ignore[call-arg]
+            
+            if confirmation.lower() not in ['yes', 'y']:
+                return "Evidence submission cancelled by user."
+        except Exception:
+            # If elicit fails (e.g., in some MCP clients), proceed without confirmation
+            pass
     
     # Check if taxonomy is getting too large
     total_entries = sum(len(entries) for entries in TAXONOMY_DB.values())
     if total_entries >= MAX_EVIDENCE_ENTRIES:
-        return f"Taxonomy database is at capacity ({MAX_EVIDENCE_ENTRIES} entries). Cannot accept new submissions."
+        return json.dumps({
+            "status": "error",
+            "message": f"Taxonomy database is at capacity ({MAX_EVIDENCE_ENTRIES} entries). Cannot accept new submissions."
+        }, indent=2)
     
     # Create evidence entry
     entry_id = hashlib.sha256(
@@ -1267,7 +1281,16 @@ async def togmal_list_tools_dynamic(
     return json.dumps(response, indent=2)
 
 
-@mcp.tool()
+@mcp.tool(
+    name="togmal_check_prompt_difficulty",
+    annotations={
+        "title": "Check Prompt Difficulty Using Vector Similarity",
+        "readOnlyHint": True,
+        "destructiveHint": False,
+        "idempotentHint": True,
+        "openWorldHint": False
+    }  # type: ignore[arg-type]
+)
 async def togmal_check_prompt_difficulty(
     prompt: str,
     k: int = 5,
@@ -1291,9 +1314,22 @@ async def togmal_check_prompt_difficulty(
         from benchmark_vector_db import BenchmarkVectorDB
         from pathlib import Path
         
+        # Validate inputs
+        if not prompt or not prompt.strip():
+            return json.dumps({
+                "error": "Invalid input",
+                "message": "Prompt cannot be empty"
+            }, indent=2)
+        
+        if k < 1 or k > 20:
+            return json.dumps({
+                "error": "Invalid input",
+                "message": "k must be between 1 and 20"
+            }, indent=2)
+        
         # Initialize vector DB (uses persistent storage)
         db = BenchmarkVectorDB(
-            db_path=Path("./data/benchmark_vector_db"),
+            db_path=DATA_DIR / "benchmark_vector_db",
             embedding_model="all-MiniLM-L6-v2"
         )
         
@@ -1302,7 +1338,8 @@ async def togmal_check_prompt_difficulty(
         if stats.get("total_questions", 0) == 0:
             return json.dumps({
                 "error": "Vector database not initialized",
-                "message": "Run 'python benchmark_vector_db.py' to build the database first"
+                "message": "Run 'python benchmark_vector_db.py' to build the database first",
+                "hint": "The database should be in ./data/benchmark_vector_db/"
             }, indent=2)
         
         # Query similar questions
@@ -1328,9 +1365,11 @@ async def togmal_check_prompt_difficulty(
             "details": str(e)
         }, indent=2)
     except Exception as e:
+        import traceback
         return json.dumps({
             "error": "Failed to check prompt difficulty",
-            "details": str(e)
+            "message": str(e),
+            "traceback": traceback.format_exc()
         }, indent=2)
 
 # ============================================================================
@@ -1340,7 +1379,7 @@ async def togmal_check_prompt_difficulty(
 if __name__ == "__main__":
     # Preload ML models into memory if available
     try:
-        get_ml_detector(models_dir="./models")
+        get_ml_detector(models_dir=str(MODELS_DIR))
     except Exception:
         pass
     mcp.run()
