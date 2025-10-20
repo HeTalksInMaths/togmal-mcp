@@ -568,9 +568,9 @@ class BenchmarkVectorDB:
         if count == 0:
             return {"total_questions": 0, "message": "No questions indexed yet"}
         
-        # Get sample to compute statistics (ChromaDB doesn't have aggregate functions)
-        sample_size = min(1000, count)
-        sample = self.collection.get(limit=sample_size, include=["metadatas"])
+        # Get ALL questions for accurate stats (not just sample of 1000)
+        logger.info(f"Computing statistics from all {count} questions...")
+        sample = self.collection.get(limit=count, include=["metadatas"])
         
         domains = defaultdict(int)
         sources = defaultdict(int)
