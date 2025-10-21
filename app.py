@@ -130,7 +130,7 @@ def analyze_prompt(prompt: str, k: int = 5) -> str:
 
 
 def expand_database(batch_size: int = 5000) -> str:
-    """Expand the database by adding another batch of questions."""
+    """Expand the database by adding another batch of questions from multiple sources."""
     try:
         from datasets import load_dataset
         from benchmark_vector_db import BenchmarkQuestion
@@ -138,43 +138,190 @@ def expand_database(batch_size: int = 5000) -> str:
         
         current_count = db.collection.count()
         
-        # Load full MMLU-Pro test dataset
-        logger.info("Loading MMLU-Pro test dataset...")
-        test_dataset = load_dataset("TIGER-Lab/MMLU-Pro", split="test")
-        total_available = len(test_dataset)
+        # Load from ALL available sources to reach 32K+
+        # We'll build a pool of all questions and track which ones we've indexed
+        all_questions_pool = []
         
-        # Figure out which questions we haven't indexed yet
-        # We'll use a simple offset approach
-        already_indexed = current_count
-        remaining = total_available - already_indexed
+        logger.info("Loading all available benchmark datasets...")
         
-        if remaining <= 0:
-            return f"✅ Database is complete! All {total_available:,} questions indexed."
+        # Source 1: MMLU-Pro test split (12,032 questions)
+        try:
+            logger.info("  Loading MMLU-Pro test...")
+            mmlu_pro_test = load_dataset("TIGER-Lab/MMLU-Pro", split="test")
+            for idx, item in enumerate(mmlu_pro_test):
+                all_questions_pool.append({
+                    'id': f"mmlu_pro_test_{idx}",
+                    'source': 'MMLU_Pro',
+                    'domain': item.get('category', 'unknown').lower(),
+                    'question': item['question'],
+                    'answer': item['answer'],
+                    'choices': item.get('options', []),
+                    'success_rate': 0.45
+                })
+            logger.info(f"    Added {len(mmlu_pro_test)} MMLU-Pro test questions")
+        except Exception as e:
+            logger.warning(f"    Could not load MMLU-Pro test: {e}")
         
-        # Sample next batch
-        start_idx = already_indexed
+        # Source 2: MMLU-Pro validation split (70 questions)
+        try:
+            logger.info("  Loading MMLU-Pro validation...")
+            mmlu_pro_val = load_dataset("TIGER-Lab/MMLU-Pro", split="validation")
+            for idx, item in enumerate(mmlu_pro_val):
+                all_questions_pool.append({
+                    'id': f"mmlu_pro_val_{idx}",
+                    'source': 'MMLU_Pro',
+                    'domain': item.get('category', 'unknown').lower(),
+                    'question': item['question'],
+                    'answer': item['answer'],
+                    'choices': item.get('options', []),
+                    'success_rate': 0.45
+                })
+            logger.info(f"    Added {len(mmlu_pro_val)} MMLU-Pro validation questions")
+        except Exception as e:
+            logger.warning(f"    Could not load MMLU-Pro validation: {e}")
+        
+        # Source 3: MMLU (original - 14,042 questions for cross-domain coverage)
+        try:
+            logger.info("  Loading MMLU (original)...")
+            # MMLU has multiple subjects, we'll load the test split
+            # Using the 'all' configuration to get all subjects
+            mmlu_dataset = load_dataset("cais/mmlu", "all", split="test")
+            for idx, item in enumerate(mmlu_dataset):
+                all_questions_pool.append({
+                    'id': f"mmlu_{idx}",
+                    'source': 'MMLU',
+                    'domain': item.get('subject', 'cross_domain').lower(),
+                    'question': item['question'],
+                    'answer': str(item['answer']),
+                    'choices': item.get('choices', []),
+                    'success_rate': 0.65  # MMLU is easier than MMLU-Pro
+                })
+            logger.info(f"    Added {len(mmlu_dataset)} MMLU questions")
+        except Exception as e:
+            logger.warning(f"    Could not load MMLU: {e}")
+        
+        # Source 4: ARC-Challenge - Science reasoning
+        try:
+            logger.info("  Loading ARC-Challenge...")
+            arc_dataset = load_dataset("allenai/ai2_arc", "ARC-Challenge", split="test")
+            for idx, item in enumerate(arc_dataset):
+                all_questions_pool.append({
+                    'id': f"arc_challenge_{idx}",
+                    'source': 'ARC-Challenge',
+                    'domain': 'science',
+                    'question': item['question'],
+                    'answer': item['answerKey'],
+                    'choices': item['choices']['text'] if 'choices' in item else [],
+                    'success_rate': 0.50
+                })
+            logger.info(f"    Added {len(arc_dataset)} ARC-Challenge questions")
+        except Exception as e:
+            logger.warning(f"    Could not load ARC-Challenge: {e}")
+        
+        # Source 5: HellaSwag - Commonsense NLI (sample 2K from 10K)
+        try:
+            logger.info("  Loading HellaSwag...")
+            hellaswag_dataset = load_dataset("Rowan/hellaswag", split="validation")
+            # Sample to 2000 to manage size
+            if len(hellaswag_dataset) > 2000:
+                indices = random.sample(range(len(hellaswag_dataset)), 2000)
+                hellaswag_dataset = hellaswag_dataset.select(indices)
+            for idx, item in enumerate(hellaswag_dataset):
+                all_questions_pool.append({
+                    'id': f"hellaswag_{idx}",
+                    'source': 'HellaSwag',
+                    'domain': 'commonsense',
+                    'question': item['ctx'],
+                    'answer': str(item['label']),
+                    'choices': item['endings'] if 'endings' in item else [],
+                    'success_rate': 0.65
+                })
+            logger.info(f"    Added {len(hellaswag_dataset)} HellaSwag questions")
+        except Exception as e:
+            logger.warning(f"    Could not load HellaSwag: {e}")
+        
+        # Source 6: GSM8K - Math word problems
+        try:
+            logger.info("  Loading GSM8K...")
+            gsm8k_dataset = load_dataset("openai/gsm8k", "main", split="test")
+            for idx, item in enumerate(gsm8k_dataset):
+                all_questions_pool.append({
+                    'id': f"gsm8k_{idx}",
+                    'source': 'GSM8K',
+                    'domain': 'math_word_problems',
+                    'question': item['question'],
+                    'answer': item['answer'],
+                    'choices': None,
+                    'success_rate': 0.55
+                })
+            logger.info(f"    Added {len(gsm8k_dataset)} GSM8K questions")
+        except Exception as e:
+            logger.warning(f"    Could not load GSM8K: {e}")
+        
+        # Source 7: TruthfulQA - Truthfulness detection
+        try:
+            logger.info("  Loading TruthfulQA...")
+            truthfulqa_dataset = load_dataset("truthful_qa", "generation", split="validation")
+            for idx, item in enumerate(truthfulqa_dataset):
+                all_questions_pool.append({
+                    'id': f"truthfulqa_{idx}",
+                    'source': 'TruthfulQA',
+                    'domain': 'truthfulness',
+                    'question': item['question'],
+                    'answer': item['best_answer'],
+                    'choices': None,
+                    'success_rate': 0.35
+                })
+            logger.info(f"    Added {len(truthfulqa_dataset)} TruthfulQA questions")
+        except Exception as e:
+            logger.warning(f"    Could not load TruthfulQA: {e}")
+        
+        # Source 8: Winogrande - Commonsense reasoning
+        try:
+            logger.info("  Loading Winogrande...")
+            winogrande_dataset = load_dataset("winogrande", "winogrande_xl", split="validation")
+            for idx, item in enumerate(winogrande_dataset):
+                all_questions_pool.append({
+                    'id': f"winogrande_{idx}",
+                    'source': 'Winogrande',
+                    'domain': 'commonsense_reasoning',
+                    'question': item['sentence'],
+                    'answer': item['answer'],
+                    'choices': [item['option1'], item['option2']],
+                    'success_rate': 0.70
+                })
+            logger.info(f"    Added {len(winogrande_dataset)} Winogrande questions")
+        except Exception as e:
+            logger.warning(f"    Could not load Winogrande: {e}")
+        
+        total_available = len(all_questions_pool)
+        logger.info(f"Total questions available: {total_available:,}")
+        
+        if current_count >= total_available:
+            return f"✅ Database is complete! All {total_available:,} questions already indexed.\n\n📊 **20 domains** across **7 benchmark sources**!"
+        
+        # Get next batch (skip ones we've already indexed)
+        start_idx = current_count
         end_idx = min(start_idx + batch_size, total_available)
+        batch_data = all_questions_pool[start_idx:end_idx]
+        
+        # Convert to BenchmarkQuestion objects
         batch_questions = []
-        
-        logger.info(f"Expanding database: adding questions {start_idx} to {end_idx}...")
-        
-        for idx in range(start_idx, end_idx):
-            item = test_dataset[idx]
+        for q_data in batch_data:
             question = BenchmarkQuestion(
-                question_id=f"mmlu_pro_test_{idx}",
-                source_benchmark="MMLU_Pro",
-                domain=item.get('category', 'unknown').lower(),
-                question_text=item['question'],
-                correct_answer=item['answer'],
-                choices=item.get('options', []),
-                success_rate=0.45,
-                difficulty_score=0.55,
-                difficulty_label="Hard",
+                question_id=q_data['id'],
+                source_benchmark=q_data['source'],
+                domain=q_data['domain'],
+                question_text=q_data['question'],
+                correct_answer=q_data['answer'],
+                choices=q_data.get('choices'),
+                success_rate=q_data['success_rate'],
+                difficulty_score=1.0 - q_data['success_rate'],
+                difficulty_label="Hard" if q_data['success_rate'] < 0.5 else "Moderate",
                 num_models_tested=0
             )
             batch_questions.append(question)
         
-        # Index the batch
         logger.info(f"Indexing {len(batch_questions)} new questions...")
         db.index_questions(batch_questions)
         
@@ -185,12 +332,16 @@ def expand_database(batch_size: int = 5000) -> str:
         result += f"**Database Stats:**\n"
         result += f"- Total Questions: {new_count:,}\n"
         result += f"- Just Added: {len(batch_questions)}\n"
+        result += f"- Total Available: {total_available:,}\n"
         result += f"- Remaining: {still_remaining:,}\n\n"
         
         if still_remaining > 0:
-            result += f"Click 'Expand Database' again to add {min(batch_size, still_remaining)} more questions."
+            result += f"💡 Click 'Expand Database' again to add up to {min(batch_size, still_remaining):,} more questions.\n"
+            result += f"📊 Progress: {(new_count/total_available*100):.1f}% complete"
         else:
-            result += f"🎉 Database is now complete with all {total_available:,} questions!"
+            result += f"🎉 Database is now complete with all {total_available:,} questions!\n\n"
+            result += f"📚 **Sources:** MMLU, MMLU-Pro, ARC-Challenge, HellaSwag, GSM8K, TruthfulQA, Winogrande\n"
+            result += f"🌐 **Domains:** 20+ including science, math, truthfulness, commonsense, and more!"
         
         return result
         
@@ -204,19 +355,27 @@ def get_database_info() -> str:
     try:
         current_count = db.collection.count()
         
-        # Estimate total available (MMLU-Pro test has ~12K)
-        total_available = 12032
+        # Total available across all sources
+        # MMLU: ~14,042 + MMLU-Pro: 12,102 + ARC: 1,172 + HellaSwag: 2,000
+        # + GSM8K: 1,319 + TruthfulQA: 817 + Winogrande: 1,267 = ~32,719 total
+        total_available = 32719
         remaining = total_available - current_count
+        progress_pct = (current_count / total_available * 100) if total_available > 0 else 0
         
         info = f"### 📊 Database Status\n\n"
         info += f"**Current Size:** {current_count:,} questions\n"
-        info += f"**Available:** {total_available:,} questions\n"
+        info += f"**Total Available:** {total_available:,} questions\n"
+        info += f"**Progress:** {progress_pct:.1f}% complete\n"
         info += f"**Remaining:** {max(0, remaining):,} questions\n\n"
         
         if remaining > 0:
-            info += f"💡 Click 'Expand Database' to add 5,000 more questions (takes ~2-3 min)"
+            info += f"💡 Click 'Expand Database' to add 5,000 more questions (~2-3 min per batch)\n\n"
+            clicks_needed = (remaining + 4999) // 5000  # Round up
+            info += f"📈 ~{clicks_needed} more clicks to reach full 32K+ dataset"
         else:
-            info += f"✅ Database is complete!"
+            info += f"🎉 Database is complete with all available questions!\n\n"
+            info += f"**Sources:** MMLU, MMLU-Pro, ARC-Challenge, HellaSwag, GSM8K, TruthfulQA, Winogrande\n"
+            info += f"**Domains:** 20+ including truthfulness, commonsense, math word problems, science, and more!"
         
         return info
     except Exception as e:
@@ -294,4 +453,8 @@ with gr.Blocks(title="ToGMAL Prompt Difficulty Analyzer") as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch(share=True, server_port=7861)
+    # HuggingFace Spaces: Use default port (7860) and auto-share
+    # Port is auto-assigned by HF Spaces infrastructure
+    import os
+    port = int(os.environ.get("GRADIO_SERVER_PORT", 7860))
+    demo.launch(server_name="0.0.0.0", server_port=port)
