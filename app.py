@@ -393,6 +393,27 @@ def expand_database(batch_size: int = 5000) -> str:
 
 def get_database_info() -> str:
     """Get current database statistics."""
+    global db
+    
+    # Check if database is initialized
+    if db is None:
+        return """### ⚠️ Database Not Initialized
+
+**Status:** Waiting for initialization
+
+The vector database is not yet ready. This can happen when:
+1. The embedding model is still downloading
+2. Network issues prevented model download during startup
+
+**To initialize:**
+1. Try entering a prompt below and clicking "Analyze Difficulty"
+2. This will trigger the database initialization
+3. Wait a few moments for the model to download
+4. Then refresh this page
+
+Or wait a few minutes and click the "🔄 Refresh Stats" button.
+"""
+    
     try:
         current_count = db.collection.count()
         
