@@ -1356,7 +1356,29 @@ async def togmal_check_prompt_difficulty(
             "domain_filter": domain_filter
         }
         
-        return json.dumps(result, indent=2)
+        # Convert numpy types to native Python types for JSON serialization
+        def convert_to_serializable(obj):
+            """Convert numpy/other types to JSON-serializable types"""
+            try:
+                import numpy as np
+                if isinstance(obj, np.integer):
+                    return int(obj)
+                elif isinstance(obj, np.floating):
+                    return float(obj)
+                elif isinstance(obj, np.ndarray):
+                    return obj.tolist()
+            except ImportError:
+                pass
+            
+            if isinstance(obj, dict):
+                return {k: convert_to_serializable(v) for k, v in obj.items()}
+            elif isinstance(obj, (list, tuple)):
+                return [convert_to_serializable(item) for item in obj]
+            return obj
+        
+        result = convert_to_serializable(result)
+        
+        return json.dumps(result, indent=2, ensure_ascii=False)
         
     except ImportError as e:
         return json.dumps({
