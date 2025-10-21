@@ -446,7 +446,13 @@ class BenchmarkVectorDB:
         self,
         prompt: str,
         k: int = 5,
-        domain_filter: Optional[str] = None
+        domain_filter: Optional[str] = None,
+        # Adaptive scoring parameters
+        similarity_threshold: float = 0.7,
+        low_sim_penalty: float = 0.5,
+        variance_penalty: float = 2.0,
+        low_avg_penalty: float = 0.4,
+        use_adaptive_scoring: bool = True
     ) -> Dict[str, Any]:
         """
         Find k most similar benchmark questions to the given prompt.
@@ -509,19 +515,32 @@ class BenchmarkVectorDB:
             difficulty_scores.append(metadata['difficulty_score'])
             success_rates.append(metadata['success_rate'])
         
-        # Compute weighted difficulty (weighted by similarity)
-        total_weight = sum(similarities)
-        if total_weight > 0:
-            weighted_difficulty = sum(
-                diff * sim for diff, sim in zip(difficulty_scores, similarities)
-            ) / total_weight
-            
-            weighted_success_rate = sum(
-                sr * sim for sr, sim in zip(success_rates, similarities)
-            ) / total_weight
+        # Compute weighted difficulty with adaptive scoring
+        if use_adaptive_scoring:
+            weighted_difficulty = self._compute_adaptive_difficulty(
+                similarities=similarities,
+                difficulty_scores=difficulty_scores,
+                similarity_threshold=similarity_threshold,
+                low_sim_penalty=low_sim_penalty,
+                variance_penalty=variance_penalty,
+                low_avg_penalty=low_avg_penalty
+            )
+            # Convert difficulty back to success rate for risk level determination
+            weighted_success_rate = 1.0 - weighted_difficulty
         else:
-            weighted_difficulty = np.mean(difficulty_scores)
-            weighted_success_rate = np.mean(success_rates)
+            # Original naive weighted average
+            total_weight = sum(similarities)
+            if total_weight > 0:
+                weighted_difficulty = sum(
+                    diff * sim for diff, sim in zip(difficulty_scores, similarities)
+                ) / total_weight
+                
+                weighted_success_rate = sum(
+                    sr * sim for sr, sim in zip(success_rates, similarities)
+                ) / total_weight
+            else:
+                weighted_difficulty = np.mean(difficulty_scores)
+                weighted_success_rate = np.mean(success_rates)
         
         # Determine risk level
         if weighted_success_rate < 0.1:
@@ -549,6 +568,86 @@ class BenchmarkVectorDB:
             "explanation": explanation,
             "recommendation": self._get_recommendation(risk_level, weighted_success_rate)
         }
+    
+    def _compute_adaptive_difficulty(
+        self,
+        similarities: List[float],
+        difficulty_scores: List[float],
+        similarity_threshold: float = 0.7,
+        low_sim_penalty: float = 0.5,
+        variance_penalty: float = 2.0,
+        low_avg_penalty: float = 0.4
+    ) -> float:
+        """
+        Compute difficulty score with adaptive uncertainty penalties.
+        
+        Key insight: When retrieved questions have low similarity to the prompt,
+        we should INCREASE the risk estimate because we're extrapolating beyond
+        our training distribution (out-of-distribution detection).
+        
+        This addresses the failure case: "Prove universe is 10,000 years old"
+        matched to factual recall questions (similarity ~0.57) incorrectly rated LOW risk.
+        
+        Args:
+            similarities: Cosine similarities of k-NN results (0.0 to 1.0)
+            difficulty_scores: Difficulty scores (1 - success_rate) of k-NN results
+            similarity_threshold: Below this, apply low similarity penalty (default: 0.7)
+            low_sim_penalty: Weight for low similarity penalty (default: 0.5)
+            variance_penalty: Weight for high variance penalty (default: 2.0)
+            low_avg_penalty: Weight for low average similarity penalty (default: 0.4)
+        
+        Returns:
+            Adjusted difficulty score (0.0 to 1.0, higher = more risky)
+        """
+        # Base weighted average (original naive approach)
+        weights = np.array(similarities) / sum(similarities)
+        base_score = np.dot(weights, difficulty_scores)
+        
+        # Compute uncertainty indicators
+        max_sim = max(similarities)
+        avg_sim = np.mean(similarities)
+        sim_variance = np.var(similarities)
+        
+        # Initialize uncertainty penalty
+        uncertainty_penalty = 0.0
+        
+        # Penalty 1: Low maximum similarity
+        # If even the best match is weak, we're likely out-of-distribution
+        if max_sim < similarity_threshold:
+            penalty = (similarity_threshold - max_sim) * low_sim_penalty
+            uncertainty_penalty += penalty
+            logger.debug(f"  Low max similarity penalty: +{penalty:.3f} (max_sim={max_sim:.3f})")
+        
+        # Penalty 2: High variance in similarities
+        # If k-NN results are very dissimilar to each other, the matches are unreliable
+        # (e.g., retrieved questions span multiple unrelated domains)
+        variance_threshold = 0.05
+        if sim_variance > variance_threshold:
+            penalty = min(sim_variance * variance_penalty, 0.3)  # Cap at 0.3
+            uncertainty_penalty += penalty
+            logger.debug(f"  High variance penalty: +{penalty:.3f} (variance={sim_variance:.3f})")
+        
+        # Penalty 3: Low average similarity
+        # If ALL matches are weak, we're definitely extrapolating
+        avg_threshold = 0.5
+        if avg_sim < avg_threshold:
+            penalty = (avg_threshold - avg_sim) * low_avg_penalty
+            uncertainty_penalty += penalty
+            logger.debug(f"  Low avg similarity penalty: +{penalty:.3f} (avg_sim={avg_sim:.3f})")
+        
+        # Final adjusted score
+        adjusted_score = base_score + uncertainty_penalty
+        
+        # Clip to [0, 1] range
+        adjusted_score = np.clip(adjusted_score, 0.0, 1.0)
+        
+        if uncertainty_penalty > 0:
+            logger.info(
+                f"Adaptive scoring: base={base_score:.3f}, uncertainty_penalty={uncertainty_penalty:.3f}, "
+                f"adjusted={adjusted_score:.3f} (max_sim={max_sim:.3f}, avg_sim={avg_sim:.3f}, var={sim_variance:.3f})"
+            )
+        
+        return adjusted_score
     
     def _get_recommendation(self, risk_level: str, success_rate: float) -> str:
         """Generate recommendation based on difficulty assessment"""
@@ -587,6 +686,57 @@ class BenchmarkVectorDB:
             "sources": dict(sources),
             "difficulty_levels": dict(difficulty_levels)
         }
+    
+    def get_all_questions_as_dataframe(self):
+        """
+        Export all questions from ChromaDB as a pandas DataFrame.
+        Used for train/val/test splitting and nested cross-validation.
+        
+        Returns:
+            DataFrame with columns:
+            - question_id, source_benchmark, domain, question_text,
+            - success_rate, difficulty_score, difficulty_label, num_models_tested
+        
+        Note: Requires pandas. Install with: pip install pandas
+        """
+        try:
+            import pandas as pd
+        except ImportError:
+            logger.error("pandas not installed. Run: pip install pandas")
+            return None
+        
+        count = self.collection.count()
+        logger.info(f"Exporting {count} questions from vector database...")
+        
+        # Get all questions from ChromaDB
+        all_data = self.collection.get(
+            limit=count,
+            include=["metadatas", "documents"]
+        )
+        
+        # Convert to DataFrame
+        rows = []
+        for i, qid in enumerate(all_data['ids']):
+            metadata = all_data['metadatas'][i]
+            rows.append({
+                'question_id': qid,
+                'question_text': all_data['documents'][i],
+                'source_benchmark': metadata['source'],
+                'domain': metadata['domain'],
+                'success_rate': metadata['success_rate'],
+                'difficulty_score': metadata['difficulty_score'],
+                'difficulty_label': metadata['difficulty_label'],
+                'num_models_tested': metadata.get('num_models', 0)
+            })
+        
+        df = pd.DataFrame(rows)
+        
+        logger.info(f"Exported {len(df)} questions to DataFrame")
+        logger.info(f"  Domains: {df['domain'].nunique()}")
+        logger.info(f"  Sources: {df['source_benchmark'].nunique()}")
+        logger.info(f"  Difficulty levels: {df['difficulty_label'].value_counts().to_dict()}")
+        
+        return df
     
     def build_database(
         self,
