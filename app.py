@@ -18,18 +18,33 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize the vector database
+# Initialize the vector database with error handling
 db_path = Path("./data/benchmark_vector_db")
-db = BenchmarkVectorDB(
-    db_path=db_path,
-    embedding_model="all-MiniLM-L6-v2"
-)
+db = None
+
+try:
+    logger.info("Initializing BenchmarkVectorDB...")
+    db = BenchmarkVectorDB(
+        db_path=db_path,
+        embedding_model="all-MiniLM-L6-v2"
+    )
+    logger.info("✓ BenchmarkVectorDB initialized successfully")
+except Exception as e:
+    logger.error(f"Failed to initialize BenchmarkVectorDB: {e}")
+    logger.error("This might be due to network issues downloading the embedding model.")
+    logger.error("The app will attempt to initialize on first use.")
+    # Will try again on first query
+    db = None
 
 # Build database if not exists (first launch on Hugging Face)
 # Start with a manageable size to avoid build timeout
-current_count = db.collection.count()
+if db is not None:
+    current_count = db.collection.count()
+else:
+    logger.warning("Database not initialized - will retry on first query")
+    current_count = 0
 
-if current_count == 0:
+if db is not None and current_count == 0:
     logger.info("Database is empty - building database...")
     logger.info("Building 5K questions to stay within build time limits.")
     
@@ -96,8 +111,34 @@ else:
 
 def analyze_prompt(prompt: str, k: int = 5) -> str:
     """Analyze a prompt and return difficulty assessment."""
+    global db
+    
     if not prompt.strip():
         return "Please enter a prompt to analyze."
+    
+    # Retry DB initialization if it failed before
+    if db is None:
+        try:
+            logger.info("Retrying database initialization...")
+            db = BenchmarkVectorDB(
+                db_path=db_path,
+                embedding_model="all-MiniLM-L6-v2"
+            )
+            logger.info("✓ Database initialized successfully on retry")
+        except Exception as e:
+            return f"""### ❌ Database Initialization Error
+
+The vector database could not be initialized due to a network error downloading the embedding model.
+
+**Error:** {str(e)}
+
+**This is a temporary HuggingFace Spaces issue.** Please:
+1. Wait a few minutes for the model to download
+2. Try refreshing the page
+3. Contact support if the issue persists
+
+The embedding model `sentence-transformers/all-MiniLM-L6-v2` is being downloaded from HuggingFace Hub.
+"""
     
     try:
         result = db.query_similar_questions(prompt, k=k)
