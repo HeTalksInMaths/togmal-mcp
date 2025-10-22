@@ -47,18 +47,18 @@ try:
     db = get_db()
     current_count = db.collection.count()
     
-    if current_count == 0:
+    if False and current_count == 0:
         logger.info("Database is empty - building initial 5K sample...")
         from datasets import load_dataset
         from benchmark_vector_db import BenchmarkQuestion
         import random
         
         test_dataset = load_dataset("TIGER-Lab/MMLU-Pro", split="test")
-        total_questions = len(test_dataset)
+        total_questions = 0  # disabled in demo
         
         if total_questions > 5000:
             indices = random.sample(range(total_questions), 5000)
-            test_dataset = test_dataset.select(indices)
+            pass  # selection disabled in demo
         
         all_questions = []
         for idx, item in enumerate(test_dataset):
@@ -124,6 +124,93 @@ def analyze_prompt_difficulty(prompt: str, k: int = 5) -> str:
         return "\n".join(output)
     except Exception as e:
         return f"Error analyzing prompt: {str(e)}"
+
+# ==========================================================================
+# Database status and expansion helpers
+# ==========================================================================
+
+def get_database_info() -> str:
+    global db
+    if db is None:
+        return """### ⚠️ Database Not Initialized
+
+**Status:** Waiting for initialization
+
+The vector database is not yet ready. It will initialize on first use.
+"""
+    try:
+        db = get_db()
+        current_count = db.collection.count()
+        total_available = 32719
+        remaining = max(0, total_available - current_count)
+        progress_pct = (current_count / total_available * 100) if total_available > 0 else 0
+        info = "### 📊 Database Status\n\n"
+        info += f"**Current Size:** {current_count:,} questions\n"
+        info += f"**Total Available:** {total_available:,} questions\n"
+        info += f"**Progress:** {progress_pct:.1f}% complete\n"
+        info += f"**Remaining:** {remaining:,} questions\n\n"
+        if remaining > 0:
+            clicks_needed = (remaining + 4999) // 5000
+            info += "💡 Click 'Expand Database' to add 5,000 more questions\n"
+            info += f"📈 ~{clicks_needed} more clicks to reach full 32K+ dataset"
+        else:
+            info += "🎉 Database is complete with all available questions!"
+        return info
+    except Exception as e:
+        return f"Error getting database info: {str(e)}"
+
+
+def expand_database(batch_size: int = 5000) -> str:
+    global db
+    try:
+        db = get_db()
+        from datasets import load_dataset
+        from benchmark_vector_db import BenchmarkQuestion
+        import random
+        
+        current_count = db.collection.count()
+        total_available = 32719
+        if current_count >= total_available:
+            return f"✅ Database complete at {current_count:,}/{total_available:,}."
+        
+        # Sample a batch from MMLU-Pro test for incremental expansion
+        mmlu_pro_test = load_dataset("TIGER-Lab/MMLU-Pro", split="test")
+        total_questions = 0  # disabled in demo
+        indices = list(range(total_questions))
+        random.shuffle(indices)
+        indices = indices[:batch_size]
+        batch = []  # selection disabled in demo
+        
+        new_questions = []
+        for idx, item in enumerate(batch):
+            q = BenchmarkQuestion(
+                question_id=f"mmlu_pro_expand_{current_count}_{idx}",
+                source_benchmark="MMLU_Pro",
+                domain=item.get('category', 'unknown').lower(),
+                question_text=item['question'],
+                correct_answer=item['answer'],
+                choices=item.get('options', []),
+                success_rate=0.45,
+                difficulty_score=0.55,
+                difficulty_label="Hard",
+                num_models_tested=0
+            )
+            new_questions.append(q)
+        
+        db.index_questions(new_questions)
+        new_count = db.collection.count()
+        remaining = max(0, total_available - new_count)
+        result = f"✅ Added {len(new_questions)} questions.\n\n"
+        result += f"**Total:** {new_count:,}/{total_available:,}\n"
+        result += f"**Remaining:** {remaining:,}\n"
+        if remaining > 0:
+            result += f"💡 Click again to add up to {min(batch_size, remaining):,} more."
+        else:
+            result += "🎉 Database is now complete!"
+        return result
+    except Exception as e:
+        logger.error(f"Expansion failed: {e}")
+        return f"❌ Error expanding database: {str(e)}"
 
 # ============================================================================
 # TAB 2: CHAT INTERFACE WITH MCP TOOLS
@@ -207,7 +294,8 @@ You have access to these tools:
 When a user asks about prompt difficulty, safety, or capabilities, use the appropriate tool.
 To call a tool, respond with: TOOL_CALL: tool_name(arg1="value1", arg2="value2")
 
-After receiving tool results, provide a helpful response based on the data."""
+After a tool is called, you will receive: TOOL_RESULT: name=<tool_name> data=<json>
+Use TOOL_RESULT to provide a helpful, comprehensive response to the user."""
         
         conversation = system_msg + "\n\n"
         for msg in messages:
@@ -258,11 +346,17 @@ def fallback_llm(messages: List[Dict[str, str]], available_tools: List[Dict]) ->
     """Fallback when HF API unavailable."""
     last_message = messages[-1]['content'].lower() if messages else ""
     
-    if any(word in last_message for word in ['difficult', 'difficulty', 'hard', 'easy', 'challenging']):
-        return "", {"name": "check_prompt_difficulty", "arguments": {"prompt": messages[-1]['content'], "k": 5}}
-    
+    # Safety intent first
     if any(word in last_message for word in ['safe', 'safety', 'dangerous', 'risk']):
         return "", {"name": "analyze_prompt_safety", "arguments": {"prompt": messages[-1]['content']}}
+    
+    # Difficulty intent (expanded triggers)
+    if any(word in last_message for word in ['difficult', 'difficulty', 'hard', 'easy', 'challenging', 'analyze', 'analysis', 'assess', 'check']):
+        return "", {"name": "check_prompt_difficulty", "arguments": {"prompt": messages[-1]['content'], "k": 5}}
+    
+    # Default: run difficulty analysis on any non-empty message
+    if last_message.strip():
+        return "", {"name": "check_prompt_difficulty", "arguments": {"prompt": messages[-1]['content'], "k": 5}}
     
     return """I'm ToGMAL Assistant. I can help analyze prompts for:
 - **Difficulty**: How challenging is this for current LLMs?
@@ -286,7 +380,13 @@ AVAILABLE_TOOLS = [
 def execute_tool(tool_name: str, arguments: Dict) -> Dict:
     """Execute a tool and return results."""
     if tool_name == "check_prompt_difficulty":
-        return tool_check_prompt_difficulty(arguments.get("prompt", ""), int(arguments.get("k", 5)))
+        prompt = arguments.get("prompt", "")
+        try:
+            k = int(arguments.get("k", 5))
+        except Exception:
+            k = 5
+        k = max(1, min(100, k))
+        return tool_check_prompt_difficulty(prompt, k)
     elif tool_name == "analyze_prompt_safety":
         return tool_analyze_prompt_safety(arguments.get("prompt", ""))
     else:
@@ -346,9 +446,16 @@ def chat(message: str, history: List[Tuple[str, str]]) -> Tuple[List[Tuple[str, 
         tool_result = execute_tool(tool_name, tool_args)
         tool_status += f"**Result:**\n```json\n{json.dumps(tool_result, indent=2)}\n```\n\n"
         
-        # Instead of calling LLM again (which often fails on free tier),
-        # directly format the tool result into a nice response
-        response_text = format_tool_result(tool_name, tool_result)
+        # Two-step: add TOOL_RESULT and call LLM again
+        messages.append({
+            "role": "system",
+            "content": f"TOOL_RESULT: name={tool_name} data={json.dumps(tool_result)}"
+        })
+        final_response, _ = call_llm_with_tools(messages, AVAILABLE_TOOLS)
+        if final_response:
+            response_text = final_response
+        else:
+            response_text = format_tool_result(tool_name, tool_result)
     
     # If no tool was called and no response, provide helpful message
     if not response_text:
@@ -384,6 +491,14 @@ with gr.Blocks(title="ToGMAL - Difficulty Analyzer + Chat", css="""
         with gr.Tab("📊 Difficulty Analyzer"):
             gr.Markdown("### Analyze Prompt Difficulty")
             gr.Markdown("Get instant difficulty assessment based on similarity to benchmark questions.")
+            with gr.Accordion("📚 Database Management", open=False):
+                db_info = gr.Markdown(get_database_info())
+                with gr.Row():
+                    expand_btn = gr.Button("🚀 Expand Database (+5K)")
+                    refresh_btn = gr.Button("🔄 Refresh Stats")
+                expand_output = gr.Markdown()
+                expand_btn.click(fn=lambda: "Expansion temporarily disabled in this demo. Use the 'ToGMAL Prompt Difficulty Analyzer' app for full control.", inputs=[], outputs=expand_output)
+                refresh_btn.click(fn=get_database_info, inputs=[], outputs=db_info)
             
             with gr.Row():
                 with gr.Column():
@@ -452,6 +567,7 @@ with gr.Blocks(title="ToGMAL - Difficulty Analyzer + Chat", css="""
                 
                 with gr.Column(scale=1):
                     gr.Markdown("### 🛠️ Tool Calls")
+                    show_details = gr.Checkbox(label="Show tool details", value=False)
                     tool_output = gr.Markdown("Tool calls will appear here...")
             
             gr.Examples(
@@ -464,21 +580,23 @@ with gr.Blocks(title="ToGMAL - Difficulty Analyzer + Chat", css="""
                 inputs=chat_input
             )
             
-            def send_message(message, history):
+            def send_message(message, history, show_details):
                 if not message.strip():
                     return history, ""
                 new_history, tool_status = chat(message, history)
+                if not show_details:
+                    tool_status = ""
                 return new_history, tool_status
             
             send_btn.click(
                 fn=send_message,
-                inputs=[chat_input, chatbot],
+                inputs=[chat_input, chatbot, show_details],
                 outputs=[chatbot, tool_output]
             ).then(lambda: "", outputs=chat_input)
             
             chat_input.submit(
                 fn=send_message,
-                inputs=[chat_input, chatbot],
+                inputs=[chat_input, chatbot, show_details],
                 outputs=[chatbot, tool_output]
             ).then(lambda: "", outputs=chat_input)
             
