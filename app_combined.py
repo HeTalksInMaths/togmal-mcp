@@ -346,14 +346,17 @@ def chat(message: str, history: List[Tuple[str, str]]) -> Tuple[List[Tuple[str, 
         tool_result = execute_tool(tool_name, tool_args)
         tool_status += f"**Result:**\n```json\n{json.dumps(tool_result, indent=2)}\n```\n\n"
         
-        messages.append({"role": "system", "content": f"Tool {tool_name} returned: {json.dumps(tool_result)}"})
-        
-        final_response, _ = call_llm_with_tools(messages, AVAILABLE_TOOLS)
-        
-        if final_response:
-            response_text = final_response
-        else:
-            response_text = format_tool_result(tool_name, tool_result)
+        # Instead of calling LLM again (which often fails on free tier),
+        # directly format the tool result into a nice response
+        response_text = format_tool_result(tool_name, tool_result)
+    
+    # If no tool was called and no response, provide helpful message
+    if not response_text:
+        response_text = """I'm ToGMAL Assistant. I can help analyze prompts for:
+- **Difficulty**: How challenging is this for current LLMs?
+- **Safety**: Are there any safety concerns?
+
+Try asking me to analyze a prompt!"""
     
     history.append((message, response_text))
     return history, tool_status
