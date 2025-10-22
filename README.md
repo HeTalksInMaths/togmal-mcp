@@ -1,19 +1,37 @@
 ---
-title: Togmal Demo
+title: ToGMAL - AI Difficulty & Safety Analysis
 emoji: 🧠
 colorFrom: yellow
 colorTo: purple
 sdk: gradio
 sdk_version: 5.42.0
-app_file: app.py
+app_file: app_combined.py
 pinned: false
 license: apache-2.0
-short_description: Prompt difficulty predictor using vector similarity
+short_description: LLM difficulty analyzer with chat assistant & MCP tools
 ---
 
-# 🧠 ToGMAL Prompt Difficulty Analyzer
+# 🧠 ToGMAL - Intelligent LLM Difficulty & Safety Analysis
 
-**Taxonomy of Generative Model Apparent Limitations** - Real-time difficulty assessment for LLM prompts.
+**Taxonomy of Generative Model Apparent Limitations** - Real-time difficulty assessment and chat interface with MCP tool integration.
+
+## 🎯 Unified Tabbed Interface
+
+Switch seamlessly between two powerful tools:
+
+### 📊 **Tab 1: Difficulty Analyzer**
+- Direct analysis using 32K+ benchmark questions
+- Instant difficulty ratings and success rates
+- Vector similarity search
+- Perfect for quick assessments
+
+### 🤖 **Tab 2: Chat Assistant** 🆕
+**Interactive chat where a free LLM can call MCP tools!**
+
+- 🤖 Chat with Mistral-7B (free via HuggingFace)
+- 🛠️ LLM calls tools dynamically based on context
+- 📊 Transparent tool execution (see what's happening)
+- 💬 Natural language responses using tool data
 
 ## Features
 
@@ -35,6 +53,34 @@ short_description: Prompt difficulty predictor using vector similarity
 - "Prove that there are infinitely many prime numbers"
 - "Diagnose a patient with acute chest pain and shortness of breath"
 - "Implement a binary search tree with insert and search operations"
+
+## 🎯 Quick Start
+
+### Run Combined Demo (Recommended)
+```bash
+python app_combined.py
+```
+
+Or run individual demos:
+
+### Run Difficulty Analyzer Only
+```bash
+python app.py
+```
+
+### Run Chat Demo Only
+```bash
+python chat_app.py
+# Or use the launcher:
+./launch_chat.sh
+```
+
+**Try in the Chat tab:**
+- "How difficult is this: [your prompt]?"
+- "Is this safe: [your prompt]?"
+- "Analyze the difficulty of: Calculate quantum corrections..."
+
+See [`CHAT_DEMO_README.md`](CHAT_DEMO_README.md) for full documentation.
 
 ## Technology
 
