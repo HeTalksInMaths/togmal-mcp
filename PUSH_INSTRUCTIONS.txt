@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════
+  PUSH TO HUGGINGFACE - SIMPLE INSTRUCTIONS
+═══════════════════════════════════════════════════════════
+
+Run this ONE command in your terminal:
+
+    cd /Users/hetalksinmaths/togmal/Togmal-demo && chmod +x deploy.sh && ./deploy.sh
+
+
+Or run manually:
+
+    cd /Users/hetalksinmaths/togmal/Togmal-demo
+    git add app_combined.py README.md PUSH_READY.md DEPLOY_NOW.md
+    git commit -m "Add combined tabbed interface"
+    git push origin main
+
+
+═══════════════════════════════════════════════════════════
+  AUTHENTICATION
+═══════════════════════════════════════════════════════════
+
+When prompted:
+
+  Username: JustTheStatsHuman
+  Password: [Your HuggingFace token - starts with hf_]
+
+Get your token at:
+  https://huggingface.co/settings/tokens
+
+⚠️  Token must have WRITE permission
+⚠️  Password won't be visible when typing (this is normal!)
+
+
+═══════════════════════════════════════════════════════════
+  AFTER PUSH
+═══════════════════════════════════════════════════════════
+
+✅ View your demo:
+   https://huggingface.co/spaces/JustTheStatsHuman/Togmal-demo
+
+📊 Monitor build logs:
+   https://huggingface.co/spaces/JustTheStatsHuman/Togmal-demo/logs
+
+⏱️  First build: ~3-5 minutes
+🚀 After build: Instant launches
+
+
+═══════════════════════════════════════════════════════════
+  WHAT'S BEING DEPLOYED
+═══════════════════════════════════════════════════════════
+
+✅ Combined tabbed interface
+   • Tab 1: Difficulty Analyzer
+   • Tab 2: Chat Assistant with MCP tools
+
+✅ Builds 5K question database on first launch
+✅ Free LLM integration (Mistral-7B)
+✅ Transparent tool calling
+✅ Ready for VC demo!
+
+
+═══════════════════════════════════════════════════════════
+
+Ready to deploy! Run the command above. 🚀
