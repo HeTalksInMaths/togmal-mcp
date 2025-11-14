@@ -6,6 +6,8 @@ __pycache__/
 data/benchmark_vector_db/
 data/benchmark_results/mmlu_real_results.json
 models/
+*.log
+data/
 # Development summary files
 COMPLETE_DEMO_ANALYSIS.md
 FINAL_SUMMARY.md
