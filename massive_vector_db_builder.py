@@ -14,12 +14,18 @@ Author: ToGMAL Project
 
 import json
 import logging
+import os
 from pathlib import Path
 from collections import defaultdict
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, asdict
 import time
 from datetime import datetime
+
+# Load HuggingFace token from environment
+from dotenv import load_dotenv
+load_dotenv()
+HF_TOKEN = os.getenv('HF_TOKEN')
 
 # Setup logging
 logging.basicConfig(
@@ -37,7 +43,15 @@ try:
     from sentence_transformers import SentenceTransformer
     import chromadb
     from chromadb.config import Settings
+    from huggingface_hub import login
     DEPS_AVAILABLE = True
+
+    # Login to HuggingFace if token is available
+    if HF_TOKEN:
+        logger.info("Logging in to HuggingFace with provided token...")
+        login(token=HF_TOKEN)
+    else:
+        logger.warning("No HF_TOKEN found in environment. You may encounter rate limits or access issues.")
 except ImportError as e:
     logger.error(f"Missing dependencies: {e}")
     DEPS_AVAILABLE = False

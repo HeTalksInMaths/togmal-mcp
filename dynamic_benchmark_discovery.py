@@ -17,20 +17,33 @@ Author: ToGMAL Project
 
 import json
 import logging
+import os
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Set, Tuple
 from dataclasses import dataclass, asdict
 from collections import defaultdict, Counter
 import re
 
+# Load HuggingFace token from environment
+from dotenv import load_dotenv
+load_dotenv()
+HF_TOKEN = os.getenv('HF_TOKEN')
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 try:
-    from datasets import load_dataset, list_datasets, get_dataset_config_names
-    from huggingface_hub import HfApi, DatasetSearchArguments
+    from datasets import load_dataset, get_dataset_config_names
+    from huggingface_hub import HfApi, login
     import chromadb
     DEPS_AVAILABLE = True
+
+    # Login to HuggingFace if token is available
+    if HF_TOKEN:
+        logger.info("Logging in to HuggingFace with provided token...")
+        login(token=HF_TOKEN)
+    else:
+        logger.warning("No HF_TOKEN found in environment. You may encounter rate limits or access issues.")
 except ImportError as e:
     logger.error(f"Missing dependencies: {e}")
     DEPS_AVAILABLE = False
