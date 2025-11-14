@@ -48,8 +48,15 @@ try:
 
     # Login to HuggingFace if token is available
     if HF_TOKEN:
-        logger.info("Logging in to HuggingFace with provided token...")
-        login(token=HF_TOKEN)
+        try:
+            logger.info("Logging in to HuggingFace with provided token...")
+            login(token=HF_TOKEN)
+            logger.info("Successfully logged in to HuggingFace")
+        except Exception as e:
+            logger.warning(f"Could not login to HuggingFace (network restriction?): {e}")
+            logger.info("Token will still be used passively for API requests")
+            # Set token as environment variable for libraries to use
+            os.environ['HF_TOKEN'] = HF_TOKEN
     else:
         logger.warning("No HF_TOKEN found in environment. You may encounter rate limits or access issues.")
 except ImportError as e:
