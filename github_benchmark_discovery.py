@@ -55,35 +55,11 @@ class GitHubBenchmark:
 class GitHubBenchmarkDiscovery:
     """Discovers benchmarks on GitHub."""
 
-    # Known benchmark repositories (verified GitHub repos)
-    KNOWN_BENCHMARKS = [
-        # Instruction/QA datasets (GitHub-hosted)
-        'tatsu-lab/stanford_alpaca',          # 52K instruction-following
-        'tloen/alpaca-lora',                   # Alpaca variant
-        'anyscale/aviary',                     # LLM training data
-        'project-baize/baize-chatbot',        # Chat data
-        'LianjiaTech/BELLE',                   # Chinese instruction data
-
-        # Code benchmarks
-        'openai/human-eval',                   # Code evaluation
-        'google-research/code-contests',       # Competitive programming
-        'microsoft/CodeXGLUE',                 # Code intelligence
-
-        # Math/Reasoning
-        'openai/grade-school-math',            # GSM8K
-        'google-deepmind/mathematics_dataset', # Math problems
-
-        # Evaluation frameworks
-        'EleutherAI/lm-evaluation-harness',    # Eval framework
-        'openai/evals',                         # OpenAI evals
-
-        # Conversational
-        'facebookresearch/ParlAI',             # Dialog tasks
-        'thu-coai/CDial-GPT',                  # Chinese dialog
-
-        # Domain-specific
-        'allenai/scitldr',                     # Scientific summarization
-        'allenai/semantic_scholar',            # Academic papers
+    # Starting keywords for dynamic discovery (will expand over time)
+    BASE_KEYWORDS = [
+        'benchmark', 'evaluation', 'dataset', 'llm', 'nlp',
+        'question answering', 'qa', 'chatbot', 'instruction',
+        'reasoning', 'math', 'code', 'language model'
     ]
 
     def __init__(self, github_token: Optional[str] = None):
@@ -100,61 +76,27 @@ class GitHubBenchmarkDiscovery:
         self.cache_dir = Path("./data/github_cache")
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
-    def load_known_benchmarks(self) -> List[GitHubBenchmark]:
-        """Load curated list of known benchmark repos."""
-        logger.info(f"Loading {len(self.KNOWN_BENCHMARKS)} known benchmark repos...")
-        benchmarks = []
-
-        for repo_name in self.KNOWN_BENCHMARKS:
-            try:
-                logger.info(f"  Checking {repo_name}...")
-                url = f"https://api.github.com/repos/{repo_name}"
-                response = self.session.get(url)
-
-                if response.status_code != 200:
-                    logger.warning(f"    Could not fetch {repo_name}: {response.status_code}")
-                    continue
-
-                repo = response.json()
-                benchmark = self._analyze_repo(repo)
-
-                if benchmark:
-                    benchmarks.append(benchmark)
-                    logger.info(f"    ✓ Added ({benchmark.num_files} files)")
-
-                time.sleep(1)  # Rate limiting
-
-            except Exception as e:
-                logger.warning(f"  Error loading {repo_name}: {e}")
-
-        return benchmarks
-
-    def search_benchmark_repos(
+    def discover_benchmarks(
         self,
         keywords: Optional[List[str]] = None,
-        min_stars: int = 50,
-        max_results: int = 20
+        min_stars: int = 10,
+        max_results: int = 30
     ) -> List[GitHubBenchmark]:
         """
-        Search GitHub for benchmark repositories.
+        Dynamically search GitHub for benchmark repositories.
 
         Args:
-            keywords: Search keywords
-            min_stars: Minimum star count
+            keywords: Search keywords (uses BASE_KEYWORDS if None)
+            min_stars: Minimum star count (lowered to 10 for more results)
             max_results: Maximum results to return
 
         Returns:
             List of discovered benchmarks
         """
         if keywords is None:
-            keywords = [
-                'llm benchmark evaluation',
-                'question answering benchmark',
-                'nlp evaluation dataset',
-                'reasoning benchmark',
-                'ai evaluation'
-            ]
+            keywords = self.BASE_KEYWORDS
 
+        logger.info(f"🔍 Dynamic discovery using {len(keywords)} keywords...")
         discovered = []
         seen_repos = set()
 
@@ -531,8 +473,8 @@ if __name__ == '__main__':
 
     discovery = GitHubBenchmarkDiscovery()
 
-    logger.info("\n=== Loading known benchmarks ===")
-    benchmarks = discovery.load_known_benchmarks()
+    logger.info("\n=== Dynamic Discovery ===")
+    benchmarks = discovery.discover_benchmarks(max_results=10)
 
     logger.info(f"\nFound {len(benchmarks)} benchmarks:")
     for bm in benchmarks:

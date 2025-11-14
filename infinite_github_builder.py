@@ -81,9 +81,9 @@ class InfiniteGitHubBenchmarkBuilder:
         logger.info(f"PROCESSING BATCH ({batch_size} repos max)")
         logger.info("="*60)
 
-        # Discover benchmarks
-        logger.info("Discovering benchmarks from known repos...")
-        benchmarks = self.discovery.load_known_benchmarks()
+        # Discover benchmarks dynamically
+        logger.info("🔍 Dynamically searching GitHub for benchmarks...")
+        benchmarks = self.discovery.discover_benchmarks(min_stars=10, max_results=50)
 
         if not benchmarks:
             logger.warning("No benchmarks discovered!")
