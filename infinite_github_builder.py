@@ -3,8 +3,8 @@
 Infinite GitHub-Based Benchmark Builder
 ========================================
 
-Simplified version that works in restricted networks.
-Uses GitHub as data source instead of HuggingFace.
+Continuously discovers and loads benchmarks from GitHub.
+Works in restricted networks (no HuggingFace required).
 
 Author: ToGMAL Project
 """
@@ -30,10 +30,7 @@ logger = logging.getLogger(__name__)
 
 
 class InfiniteGitHubBenchmarkBuilder:
-    """
-    Infinite benchmark builder using GitHub as data source.
-    Continuously discovers and integrates benchmarks.
-    """
+    """Infinite benchmark builder using GitHub as data source."""
 
     def __init__(
         self,
@@ -46,15 +43,13 @@ class InfiniteGitHubBenchmarkBuilder:
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
         self.discovery = GitHubBenchmarkDiscovery()
-
-        # Load state
         self.state = self._load_state()
 
         logger.info("="*60)
         logger.info("Infinite GitHub Benchmark Builder")
         logger.info("="*60)
         logger.info(f"Data directory: {self.data_dir}")
-        logger.info(f"Total questions collected: {self.state['total_questions']}")
+        logger.info(f"Total questions: {self.state['total_questions']}")
         logger.info(f"Benchmarks processed: {len(self.state['processed_benchmarks'])}")
 
     def _load_state(self) -> Dict[str, Any]:
@@ -66,7 +61,7 @@ class InfiniteGitHubBenchmarkBuilder:
         return {
             'total_questions': 0,
             'processed_benchmarks': [],
-            'last_discovery': None,
+            'last_check': None,
             'start_time': datetime.now().isoformat()
         }
 
@@ -75,43 +70,48 @@ class InfiniteGitHubBenchmarkBuilder:
         with open(self.state_file, 'w') as f:
             json.dump(self.state, f, indent=2)
 
-    def phase1_foundation(self, max_benchmarks: int = 3):
+    def process_next_batch(self, batch_size: int = 3) -> int:
         """
-        Phase 1: Build foundation with known benchmarks.
+        Process next batch of benchmarks.
 
-        Args:
-            max_benchmarks: Maximum benchmarks to load
+        Returns:
+            Number of benchmarks processed
         """
         logger.info("\n" + "="*60)
-        logger.info("PHASE 1: FOUNDATION BUILD")
+        logger.info(f"PROCESSING BATCH ({batch_size} repos max)")
         logger.info("="*60)
 
-        # Discover known benchmarks
+        # Discover benchmarks
+        logger.info("Discovering benchmarks from known repos...")
         benchmarks = self.discovery.load_known_benchmarks()
 
         if not benchmarks:
             logger.warning("No benchmarks discovered!")
-            return
+            return 0
 
-        logger.info(f"\nDiscovered {len(benchmarks)} benchmarks")
-        logger.info(f"Will process first {max_benchmarks} for foundation")
+        # Filter unprocessed
+        new_benchmarks = [b for b in benchmarks
+                         if b.repo_full_name not in self.state['processed_benchmarks']]
 
-        for i, benchmark in enumerate(benchmarks[:max_benchmarks]):
-            if benchmark.repo_full_name in self.state['processed_benchmarks']:
-                logger.info(f"\n[{i+1}/{max_benchmarks}] {benchmark.repo_full_name} - Already processed, skipping")
-                continue
+        if not new_benchmarks:
+            logger.info("✓ All available benchmarks already processed!")
+            return 0
 
-            logger.info(f"\n[{i+1}/{max_benchmarks}] {benchmark.repo_full_name} ({benchmark.stars}⭐)")
-            logger.info(f"  Description: {benchmark.description[:100]}...")
-            logger.info(f"  Data files: {benchmark.num_files}")
-            logger.info(f"  Schema: Q={benchmark.question_fields}, A={benchmark.answer_fields}")
+        logger.info(f"Found {len(new_benchmarks)} unprocessed benchmarks")
+        to_process = new_benchmarks[:batch_size]
+        logger.info(f"Processing {len(to_process)} in this batch\n")
 
-            # Load data
+        processed_count = 0
+        for i, benchmark in enumerate(to_process):
+            logger.info(f"[{i+1}/{len(to_process)}] {benchmark.repo_full_name} ({benchmark.stars}⭐)")
+            logger.info(f"  Desc: {benchmark.description[:70]}...")
+            logger.info(f"  Files: {benchmark.num_files}, Schema: Q={benchmark.question_fields}, A={benchmark.answer_fields}")
+
             try:
                 data = self.discovery.load_benchmark_data(benchmark, max_questions=10000)
 
                 if data:
-                    # Save to file
+                    # Save
                     output_file = self.data_dir / f"{benchmark.repo_full_name.replace('/', '_')}.json"
                     with open(output_file, 'w') as f:
                         json.dump({
@@ -122,89 +122,62 @@ class InfiniteGitHubBenchmarkBuilder:
                             'questions': data
                         }, f, indent=2)
 
-                    logger.info(f"  ✓ Saved {len(data)} questions to {output_file.name}")
+                    logger.info(f"  ✓ Saved {len(data):,} questions ({output_file.stat().st_size / 1024 / 1024:.1f}MB)")
 
                     # Update state
                     self.state['total_questions'] += len(data)
                     self.state['processed_benchmarks'].append(benchmark.repo_full_name)
                     self._save_state()
+                    processed_count += 1
                 else:
-                    logger.warning(f"  ✗ No data loaded from {benchmark.repo_full_name}")
+                    logger.warning(f"  ✗ No data extracted")
 
             except Exception as e:
-                logger.error(f"  ✗ Error loading {benchmark.repo_full_name}: {e}")
+                logger.error(f"  ✗ Error: {e}")
 
-        logger.info("\n" + "="*60)
-        logger.info(f"PHASE 1 COMPLETE!")
-        logger.info(f"Total questions: {self.state['total_questions']}")
-        logger.info(f"Benchmarks processed: {len(self.state['processed_benchmarks'])}")
+            logger.info("")
+
+        logger.info("="*60)
+        logger.info(f"BATCH COMPLETE: {processed_count} benchmarks added")
+        logger.info(f"TOTAL: {self.state['total_questions']:,} questions, {len(self.state['processed_benchmarks'])} benchmarks")
         logger.info("="*60)
 
-    def phase2_continuous(self, check_interval_hours: int = 24):
+        return processed_count
+
+    def run_continuous(self, batch_size: int = 3, interval_minutes: int = 60):
         """
-        Phase 2: Continuous discovery mode.
+        Run in continuous mode.
 
         Args:
-            check_interval_hours: Hours between discovery checks
+            batch_size: Benchmarks per batch
+            interval_minutes: Minutes between batches
         """
-        logger.info("\n" + "="*60)
-        logger.info("PHASE 2: CONTINUOUS DISCOVERY MODE")
-        logger.info("="*60)
-        logger.info(f"Will check for new benchmarks every {check_interval_hours} hours")
-        logger.info("(Press Ctrl+C to stop)")
+        logger.info("\n🚀 CONTINUOUS MODE ACTIVATED")
+        logger.info(f"  Batch size: {batch_size} benchmarks")
+        logger.info(f"  Check interval: {interval_minutes} minutes")
+        logger.info(f"  Press Ctrl+C to stop\n")
 
         iteration = 0
         while True:
             iteration += 1
-            logger.info(f"\n--- Discovery Iteration #{iteration} ---")
-            logger.info(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            logger.info(f"\n{'='*60}")
+            logger.info(f"ITERATION #{iteration} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            logger.info(f"{'='*60}")
 
-            # Check for new benchmarks
-            benchmarks = self.discovery.load_known_benchmarks()
-            new_benchmarks = [b for b in benchmarks if b.repo_full_name not in self.state['processed_benchmarks']]
+            processed = self.process_next_batch(batch_size=batch_size)
 
-            if new_benchmarks:
-                logger.info(f"Found {len(new_benchmarks)} new benchmarks!")
+            if processed == 0:
+                logger.info("\n✓ No new benchmarks to process")
 
-                for benchmark in new_benchmarks:
-                    logger.info(f"\nProcessing: {benchmark.repo_full_name}")
-
-                    try:
-                        data = self.discovery.load_benchmark_data(benchmark, max_questions=10000)
-
-                        if data:
-                            output_file = self.data_dir / f"{benchmark.repo_full_name.replace('/', '_')}.json"
-                            with open(output_file, 'w') as f:
-                                json.dump({
-                                    'benchmark': benchmark.repo_full_name,
-                                    'stars': benchmark.stars,
-                                    'description': benchmark.description,
-                                    'num_questions': len(data),
-                                    'questions': data
-                                }, f, indent=2)
-
-                            logger.info(f"  ✓ Saved {len(data)} questions")
-
-                            self.state['total_questions'] += len(data)
-                            self.state['processed_benchmarks'].append(benchmark.repo_full_name)
-                            self._save_state()
-
-                    except Exception as e:
-                        logger.error(f"  ✗ Error: {e}")
-            else:
-                logger.info("No new benchmarks found")
-
-            self.state['last_discovery'] = datetime.now().isoformat()
+            self.state['last_check'] = datetime.now().isoformat()
             self._save_state()
 
-            logger.info(f"\nCurrent stats:")
-            logger.info(f"  Total questions: {self.state['total_questions']}")
-            logger.info(f"  Benchmarks: {len(self.state['processed_benchmarks'])}")
+            # Wait
+            next_run = datetime.fromtimestamp(time.time() + interval_minutes * 60)
+            logger.info(f"\n💤 Sleeping {interval_minutes} minutes...")
+            logger.info(f"   Next run: {next_run.strftime('%Y-%m-%d %H:%M:%S')}")
 
-            logger.info(f"\nSleeping for {check_interval_hours} hours...")
-            logger.info(f"Next check: {datetime.fromtimestamp(time.time() + check_interval_hours * 3600).strftime('%Y-%m-%d %H:%M:%S')}")
-
-            time.sleep(check_interval_hours * 3600)
+            time.sleep(interval_minutes * 60)
 
 
 def main():
@@ -213,29 +186,37 @@ def main():
 
     builder = InfiniteGitHubBenchmarkBuilder()
 
-    if len(sys.argv) > 1 and sys.argv[1] == 'infinite':
-        # Full infinite mode
-        logger.info("\nStarting INFINITE mode...")
-        logger.info("Phase 1: Building foundation")
-        builder.phase1_foundation(max_benchmarks=3)
+    if len(sys.argv) > 1:
+        mode = sys.argv[1]
 
-        logger.info("\nPhase 2: Starting continuous discovery")
-        builder.phase2_continuous(check_interval_hours=24)
+        if mode == 'infinite':
+            # Continuous mode
+            batch_size = int(sys.argv[2]) if len(sys.argv) > 2 else 3
+            interval = int(sys.argv[3]) if len(sys.argv) > 3 else 60
+
+            logger.info(f"\nStarting INFINITE mode (batch={batch_size}, interval={interval}min)")
+            builder.run_continuous(batch_size=batch_size, interval_minutes=interval)
+
+        elif mode == 'batch':
+            # Single batch
+            batch_size = int(sys.argv[2]) if len(sys.argv) > 2 else 5
+            logger.info(f"\nProcessing single batch ({batch_size} benchmarks)")
+            builder.process_next_batch(batch_size=batch_size)
+
     else:
-        # Quick test mode
-        logger.info("\nRunning in TEST mode (use 'infinite' argument for full mode)")
-        builder.phase1_foundation(max_benchmarks=2)
-
-        logger.info("\n" + "="*60)
-        logger.info("Test complete! Run with 'infinite' argument for continuous mode:")
-        logger.info("  python infinite_github_builder.py infinite")
-        logger.info("="*60)
+        # Quick test - just 1 benchmark
+        logger.info("\nQUICK TEST mode (1 benchmark)")
+        logger.info("Usage:")
+        logger.info("  python infinite_github_builder.py batch 5          # Process 5 benchmarks once")
+        logger.info("  python infinite_github_builder.py infinite 3 60   # Continuous: 3 benchmarks every 60min")
+        logger.info("")
+        builder.process_next_batch(batch_size=1)
 
 
 if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
-        logger.info("\n\nStopped by user")
+        logger.info("\n\n⏹️  Stopped by user")
     except Exception as e:
-        logger.error(f"\nFatal error: {e}", exc_info=True)
+        logger.error(f"\n❌ Fatal error: {e}", exc_info=True)

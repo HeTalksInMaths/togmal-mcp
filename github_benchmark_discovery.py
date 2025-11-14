@@ -55,15 +55,35 @@ class GitHubBenchmark:
 class GitHubBenchmarkDiscovery:
     """Discovers benchmarks on GitHub."""
 
-    # Known benchmark repositories
+    # Known benchmark repositories (verified GitHub repos)
     KNOWN_BENCHMARKS = [
-        'openai/evals',
-        'EleutherAI/lm-evaluation-harness',
-        'google/BIG-bench',
-        'tatsu-lab/stanford_alpaca',
-        'declare-lab/instruct-eval',
-        'anthropics/evals',
-        'bigcode-project/bigcodebench'
+        # Instruction/QA datasets (GitHub-hosted)
+        'tatsu-lab/stanford_alpaca',          # 52K instruction-following
+        'tloen/alpaca-lora',                   # Alpaca variant
+        'anyscale/aviary',                     # LLM training data
+        'project-baize/baize-chatbot',        # Chat data
+        'LianjiaTech/BELLE',                   # Chinese instruction data
+
+        # Code benchmarks
+        'openai/human-eval',                   # Code evaluation
+        'google-research/code-contests',       # Competitive programming
+        'microsoft/CodeXGLUE',                 # Code intelligence
+
+        # Math/Reasoning
+        'openai/grade-school-math',            # GSM8K
+        'google-deepmind/mathematics_dataset', # Math problems
+
+        # Evaluation frameworks
+        'EleutherAI/lm-evaluation-harness',    # Eval framework
+        'openai/evals',                         # OpenAI evals
+
+        # Conversational
+        'facebookresearch/ParlAI',             # Dialog tasks
+        'thu-coai/CDial-GPT',                  # Chinese dialog
+
+        # Domain-specific
+        'allenai/scitldr',                     # Scientific summarization
+        'allenai/semantic_scholar',            # Academic papers
     ]
 
     def __init__(self, github_token: Optional[str] = None):
