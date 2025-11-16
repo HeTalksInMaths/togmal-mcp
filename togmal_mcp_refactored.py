@@ -25,6 +25,7 @@ from typing import List, Dict, Any, Optional
 import mcp.server.stdio
 import mcp.types as types
 from mcp.server import NotificationOptions, Server
+from lightweight_prompt_checker import LightweightPromptChecker
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -35,6 +36,9 @@ DATASTORE_DIR = Path("./mcp_datastore")
 
 # Initialize MCP server
 server = Server("togmal-mcp")
+
+# Initialize lightweight checker
+lightweight_checker = LightweightPromptChecker()
 
 # ============================================================================
 # Data Loading Functions
@@ -55,8 +59,22 @@ def load_json(filename: str) -> Any:
 
 @server.list_tools()
 async def handle_list_tools() -> list[types.Tool]:
-    """List available tools for data fetching"""
+    """List available tools"""
     return [
+        types.Tool(
+            name="quick_risk_check",
+            description="LIGHTWEIGHT pre-screening tool: Fast pattern-based check to determine if a prompt needs deep ToGMAL analysis. Run this FIRST on every prompt. Uses regex patterns, no data needed. Returns risk level and whether to invoke full Skill analysis.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "prompt": {
+                        "type": "string",
+                        "description": "The user's prompt to check for risk indicators"
+                    }
+                },
+                "required": ["prompt"]
+            }
+        ),
         types.Tool(
             name="fetch_question",
             description="Fetch a specific benchmark question by ID. Returns question text, difficulty, success rate, model scores, and error patterns (if available).",
@@ -158,9 +176,17 @@ async def handle_call_tool(
     name: str,
     arguments: dict | None
 ) -> list[types.TextContent | types.ImageContent | types.EmbeddedResource]:
-    """Handle tool calls - pure data fetching only"""
+    """Handle tool calls"""
 
-    if name == "fetch_question":
+    if name == "quick_risk_check":
+        prompt = arguments.get("prompt", "")
+        result = lightweight_checker.quick_check(prompt)
+        return [types.TextContent(
+            type="text",
+            text=json.dumps(result, indent=2)
+        )]
+
+    elif name == "fetch_question":
         question_id = arguments.get("question_id")
         questions_by_id = load_json("questions_by_id.json")
 
