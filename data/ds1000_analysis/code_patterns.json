@@ -1,0 +1,29 @@
+{
+  "codex002": {
+    "avg_length": 118.686,
+    "avg_lines": 4.147,
+    "avg_function_calls": 2.844,
+    "libraries_used": {
+      "pandas": 297,
+      "numpy": 245
+    }
+  },
+  "gpt-3.5-turbo-0613": {
+    "avg_length": 219.921,
+    "avg_lines": 9.298,
+    "avg_function_calls": 3.716,
+    "libraries_used": {
+      "pandas": 297,
+      "numpy": 315
+    }
+  },
+  "gpt-4-0613": {
+    "avg_length": 145.692,
+    "avg_lines": 5.514,
+    "avg_function_calls": 3.224,
+    "libraries_used": {
+      "pandas": 294,
+      "numpy": 261
+    }
+  }
+}

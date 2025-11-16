@@ -1,0 +1,49 @@
+{
+  "by_model": {
+    "codex002": {
+      "logic_error": 886,
+      "wrong_library": 111,
+      "execution_error": 1,
+      "incomplete_solution": 2
+    },
+    "gpt-3.5-turbo-0613": {
+      "logic_error": 912,
+      "wrong_library": 86,
+      "execution_error": 2
+    },
+    "gpt-4-0613": {
+      "logic_error": 887,
+      "wrong_library": 112,
+      "execution_error": 1
+    }
+  },
+  "by_library": {
+    "Pandas": {
+      "logic_error": 712,
+      "wrong_library": 161
+    },
+    "Numpy": {
+      "wrong_library": 148,
+      "logic_error": 511,
+      "execution_error": 1
+    },
+    "Matplotlib": {
+      "logic_error": 465
+    },
+    "Tensorflow": {
+      "logic_error": 135
+    },
+    "Scipy": {
+      "logic_error": 315,
+      "execution_error": 1,
+      "incomplete_solution": 2
+    },
+    "Sklearn": {
+      "logic_error": 345
+    },
+    "Pytorch": {
+      "logic_error": 202,
+      "execution_error": 2
+    }
+  }
+}

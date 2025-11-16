@@ -1,5 +1,5 @@
 {
-  "total_questions": 10000,
+  "total_questions": 12000,
   "selected_models": [
     "arx_0314_5shots.json",
     "iask_pro_5shots.json",
@@ -70,7 +70,7 @@
   "benchmarks_processed": [
     "MMLU-Pro"
   ],
-  "last_check": "2025-11-16T17:15:46.660834",
+  "last_check": "2025-11-16T17:57:04.151502",
   "selection_criteria": {
     "top_sota": 5,
     "top_medium": 1,

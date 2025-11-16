@@ -1,0 +1,121 @@
+{
+  "Pandas": {
+    "total": 291,
+    "models": {
+      "codex002": {
+        "correct": 289,
+        "total": 291
+      },
+      "gpt-3.5-turbo-0613": {
+        "correct": 290,
+        "total": 291
+      },
+      "gpt-4-0613": {
+        "correct": 291,
+        "total": 291
+      }
+    }
+  },
+  "Numpy": {
+    "total": 220,
+    "models": {
+      "codex002": {
+        "correct": 202,
+        "total": 220
+      },
+      "gpt-3.5-turbo-0613": {
+        "correct": 218,
+        "total": 220
+      },
+      "gpt-4-0613": {
+        "correct": 220,
+        "total": 220
+      }
+    }
+  },
+  "Matplotlib": {
+    "total": 155,
+    "models": {
+      "codex002": {
+        "correct": 140,
+        "total": 155
+      },
+      "gpt-3.5-turbo-0613": {
+        "correct": 154,
+        "total": 155
+      },
+      "gpt-4-0613": {
+        "correct": 155,
+        "total": 155
+      }
+    }
+  },
+  "Tensorflow": {
+    "total": 45,
+    "models": {
+      "codex002": {
+        "correct": 44,
+        "total": 45
+      },
+      "gpt-3.5-turbo-0613": {
+        "correct": 45,
+        "total": 45
+      },
+      "gpt-4-0613": {
+        "correct": 45,
+        "total": 45
+      }
+    }
+  },
+  "Scipy": {
+    "total": 106,
+    "models": {
+      "codex002": {
+        "correct": 100,
+        "total": 106
+      },
+      "gpt-3.5-turbo-0613": {
+        "correct": 104,
+        "total": 106
+      },
+      "gpt-4-0613": {
+        "correct": 103,
+        "total": 106
+      }
+    }
+  },
+  "Sklearn": {
+    "total": 115,
+    "models": {
+      "codex002": {
+        "correct": 112,
+        "total": 115
+      },
+      "gpt-3.5-turbo-0613": {
+        "correct": 115,
+        "total": 115
+      },
+      "gpt-4-0613": {
+        "correct": 115,
+        "total": 115
+      }
+    }
+  },
+  "Pytorch": {
+    "total": 68,
+    "models": {
+      "codex002": {
+        "correct": 67,
+        "total": 68
+      },
+      "gpt-3.5-turbo-0613": {
+        "correct": 68,
+        "total": 68
+      },
+      "gpt-4-0613": {
+        "correct": 68,
+        "total": 68
+      }
+    }
+  }
+}
