@@ -20,7 +20,6 @@ CLUSTERING_TO_DYNAMIC_TOOLS_STRATEGY.md
 REAL_DATA_FETCH_STATUS.md
 VECTOR_DB_STATUS.md
 VECTOR_DB_SUMMARY.md
-ARCHITECTURE.md
 CHANGELOG_ROADMAP.md
 CLAUDE_DESKTOP_TROUBLESHOOTING.md
 DEPLOYMENT.md
@@ -38,3 +37,9 @@ SERVER_INFO.md
 SETUP_COMPLETE.mdTogmal-demo/
 ML-Bench/
 DataSciBench/
+
+# MCP data store (generated files)
+mcp_datastore/
+
+# ChromaDB (generated files)
+chroma_db/
