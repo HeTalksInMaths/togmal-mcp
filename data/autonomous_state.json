@@ -1,0 +1,80 @@
+{
+  "total_questions": 10000,
+  "selected_models": [
+    "arx_0314_5shots.json",
+    "iask_pro_5shots.json",
+    "arx_3_5shots",
+    "claude-3-5-sonnet-20241022_5shots.json",
+    "gemini-2.0-flash-exp_5shots.json",
+    "Yi-34B_5shots",
+    "Meta-Llama-3_1-8B-Instruct_5shots"
+  ],
+  "model_metadata": {
+    "arx_0314_5shots.json": {
+      "name": "arx_0314_5shots.json",
+      "size_params": null,
+      "size_category": "unknown",
+      "accuracy": 82.96543107038734,
+      "total_questions": 12005,
+      "source": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_arx_0314_5shots.json.zip"
+    },
+    "iask_pro_5shots.json": {
+      "name": "iask_pro_5shots.json",
+      "size_params": null,
+      "size_category": "unknown",
+      "accuracy": 81.18770416282771,
+      "total_questions": 11939,
+      "source": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_iask_pro_5shots.json.zip"
+    },
+    "arx_3_5shots": {
+      "name": "arx_3_5shots",
+      "size_params": null,
+      "size_category": "unknown",
+      "accuracy": 78.2395478347602,
+      "total_questions": 12031,
+      "source": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_arx_3_5shots.zip"
+    },
+    "claude-3-5-sonnet-20241022_5shots.json": {
+      "name": "claude-3-5-sonnet-20241022_5shots.json",
+      "size_params": null,
+      "size_category": "unknown",
+      "accuracy": 77.64295212765957,
+      "total_questions": 12032,
+      "source": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_claude-3-5-sonnet-20241022_5shots.json.zip"
+    },
+    "gemini-2.0-flash-exp_5shots.json": {
+      "name": "gemini-2.0-flash-exp_5shots.json",
+      "size_params": null,
+      "size_category": "unknown",
+      "accuracy": 76.24406101525382,
+      "total_questions": 11997,
+      "source": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_gemini-2.0-flash-exp_5shots.json.zip"
+    },
+    "Yi-34B_5shots": {
+      "name": "Yi-34B_5shots",
+      "size_params": 34.0,
+      "size_category": "medium",
+      "accuracy": 42.07945478723404,
+      "total_questions": 12032,
+      "source": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_Yi-34B_5shots.zip"
+    },
+    "Meta-Llama-3_1-8B-Instruct_5shots": {
+      "name": "Meta-Llama-3_1-8B-Instruct_5shots",
+      "size_params": 8.0,
+      "size_category": "small",
+      "accuracy": 44.1904920212766,
+      "total_questions": 12032,
+      "source": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_Meta-Llama-3_1-8B-Instruct_5shots.zip"
+    }
+  },
+  "benchmarks_processed": [
+    "MMLU-Pro"
+  ],
+  "last_check": "2025-11-16T17:15:46.660834",
+  "selection_criteria": {
+    "top_sota": 5,
+    "top_medium": 1,
+    "top_small": 1
+  },
+  "start_time": "2025-11-16T17:13:52.970624"
+}

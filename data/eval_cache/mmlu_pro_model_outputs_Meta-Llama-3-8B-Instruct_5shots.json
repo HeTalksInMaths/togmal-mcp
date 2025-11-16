@@ -1,0 +1,10 @@
+{
+  "model_name": "model_outputs_Meta-Llama-3-8B-Instruct_5shots",
+  "benchmark_name": "MMLU-Pro",
+  "overall_score": 40.11801861702128,
+  "metrics": {
+    "accuracy": 40.11801861702128,
+    "total_questions": 12032
+  },
+  "source_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_Meta-Llama-3-8B-Instruct_5shots.zip"
+}

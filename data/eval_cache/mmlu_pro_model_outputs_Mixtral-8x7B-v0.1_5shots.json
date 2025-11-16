@@ -1,0 +1,10 @@
+{
+  "model_name": "model_outputs_Mixtral-8x7B-v0.1_5shots",
+  "benchmark_name": "MMLU-Pro",
+  "overall_score": 39.87699468085106,
+  "metrics": {
+    "accuracy": 39.87699468085106,
+    "total_questions": 12032
+  },
+  "source_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_Mixtral-8x7B-v0.1_5shots.zip"
+}

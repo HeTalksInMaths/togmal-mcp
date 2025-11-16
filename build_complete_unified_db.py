@@ -38,7 +38,7 @@ def main():
     logger.info("\nBuilding unified database from all sources...")
     all_questions = builder.build_unified_database(
         include_mmlu_pro=True,
-        include_ds1000=True,
+        include_ds1000=False,  # Skip DS-1000 (not available)
         include_datasci=False  # Not implemented yet
     )
 

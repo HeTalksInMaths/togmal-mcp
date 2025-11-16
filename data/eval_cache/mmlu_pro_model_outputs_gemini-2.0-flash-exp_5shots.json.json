@@ -1,0 +1,10 @@
+{
+  "model_name": "model_outputs_gemini-2.0-flash-exp_5shots.json",
+  "benchmark_name": "MMLU-Pro",
+  "overall_score": 76.24406101525382,
+  "metrics": {
+    "accuracy": 76.24406101525382,
+    "total_questions": 11997
+  },
+  "source_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_gemini-2.0-flash-exp_5shots.json.zip"
+}
