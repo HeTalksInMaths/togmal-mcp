@@ -4,13 +4,21 @@ Unified Vector Database Builder
 ================================
 
 Builds a single vector database combining:
-1. MMLU-Pro (12K questions, 37 models, NO error analysis)
+1. MMLU-Pro (12K questions, 37 models, WITH error analysis from taxonomy)
 2. DS-1000 (1K problems, 3 models, WITH error analysis)
 3. DataSciBench (222 tasks, 28 models, NO error analysis yet)
 
 Schema supports both types:
-- error_patterns: [] (empty for MMLU-Pro/DataSciBench)
-- error_patterns: [...] (populated for DS-1000)
+- error_patterns: [] (empty for DataSciBench)
+- error_patterns: [...] (populated for MMLU-Pro + DS-1000)
+
+Error Pattern Sources:
+- DS-1000: 8 patterns (code errors)
+- Universal Failures: 20 patterns (questions all models fail)
+- CoT Failures: 2 patterns (reasoning errors)
+- ML-Discovered: 2 patterns (dangerous clusters)
+
+Total: 32 error patterns integrated
 """
 
 import json
@@ -25,13 +33,17 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class ErrorPattern:
-    """Represents a specific error pattern (DS-1000 only)"""
-    pattern: str  # e.g., "mutability_misunderstanding"
-    frequency: float  # 0.0 to 1.0
+    """Represents a specific error pattern (all sources)"""
+    pattern: str  # e.g., "mutability_misunderstanding", "always_fails", "Complex unit conversion"
+    source: str  # "ds1000", "universal_failure", "cot_failure", "ml_discovered"
+    frequency: float  # 0.0 to 1.0 or absolute count
     severity: str  # CRITICAL, HIGH, MEDIUM, LOW
-    example_wrong: str
-    example_correct: str
-    evidence: str  # "Most common error in DS-1000: 800+ cases"
+    description: str  # Human-readable description
+    example_wrong: str = ""  # Optional example (DS-1000 only)
+    example_correct: str = ""  # Optional example (DS-1000 only)
+    evidence: str = ""  # Supporting evidence
+    category: str = ""  # Domain/category (if applicable)
+    confidence: float = 0.0  # ML-discovered only
     
 @dataclass
 class UnifiedBenchmarkQuestion:
@@ -49,13 +61,18 @@ class UnifiedBenchmarkQuestion:
     model_scores: Dict[str, bool]  # {model_name: correct/incorrect}
     num_models_tested: int
     
-    # Error analysis (DS-1000 only, empty for others)
-    error_patterns: List[ErrorPattern]  # Populated for DS-1000, [] for others
+    # Error analysis (populated based on source)
+    error_patterns: List[ErrorPattern]  # Populated for DS-1000 + MMLU-Pro (if has analysis)
     error_categories: List[str]  # ["missing_method", "wrong_attribute"]
     conceptual_gaps: List[str]  # ["mutability_misunderstanding", ...]
-    
+
     # Metadata
     difficulty_label: str  # "Easy", "Medium", "Hard", "Expert"
+
+    # Additional error analysis fields (with defaults)
+    is_universal_failure: bool = False  # True if ALL models fail (MMLU-Pro)
+    cot_failure_mode: Optional[str] = None  # CoT failure mode (if applicable)
+    ml_cluster_id: Optional[int] = None  # Dangerous cluster ID (if applicable)
     category: Optional[str] = None  # MMLU-Pro category
     subject: Optional[str] = None
     
@@ -73,21 +90,76 @@ class UnifiedBenchmarkQuestion:
 
 class UnifiedVectorDBBuilder:
     """Builds unified vector database from multiple benchmark sources"""
-    
+
     def __init__(self, data_dir: Path = Path("./data")):
         self.data_dir = data_dir
         self.questions: List[UnifiedBenchmarkQuestion] = []
+
+        # Load comprehensive error patterns
+        self.comprehensive_patterns = self._load_comprehensive_patterns()
+
+    def _load_comprehensive_patterns(self) -> Dict[str, Any]:
+        """Load comprehensive error patterns from analysis"""
+        patterns_path = self.data_dir / "comprehensive_error_patterns.json"
+
+        if not patterns_path.exists():
+            logger.warning(f"Comprehensive error patterns not found at {patterns_path}")
+            return {}
+
+        with open(patterns_path, 'r') as f:
+            data = json.load(f)
+
+        logger.info(f"Loaded {data['metadata']['total_patterns']} error patterns from all sources")
+        return data
+
+    def _get_error_taxonomy(self) -> Dict[str, Any]:
+        """Load MMLU-Pro error taxonomy"""
+        taxonomy_path = self.data_dir / "error_taxonomy.json"
+
+        if not taxonomy_path.exists():
+            return {}
+
+        with open(taxonomy_path, 'r') as f:
+            return json.load(f)
+
+    def _get_cot_failure_analysis(self) -> Dict[str, Any]:
+        """Load Chain-of-Thought failure analysis"""
+        cot_path = self.data_dir / "cot_failure_analysis.json"
+
+        if not cot_path.exists():
+            return {}
+
+        with open(cot_path, 'r') as f:
+            return json.load(f)
     
     def load_mmlu_pro_autonomous(self) -> List[UnifiedBenchmarkQuestion]:
         """
-        Load MMLU-Pro from autonomous dataset.
-        
+        Load MMLU-Pro from autonomous dataset with error analysis.
+
         Returns questions with:
         - success_rate: ✅ (from 37 models)
         - model_scores: ✅ (per-model results)
-        - error_patterns: ❌ (empty list)
+        - error_patterns: ✅ (from taxonomy + CoT analysis)
         """
-        logger.info("Loading MMLU-Pro from autonomous dataset...")
+        logger.info("Loading MMLU-Pro from autonomous dataset with error analysis...")
+
+        # Load error analysis data
+        error_taxonomy = self._get_error_taxonomy()
+        cot_analysis = self._get_cot_failure_analysis()
+
+        # Create lookup maps
+        universal_failures_set = set()
+        cot_failures_map = {}
+
+        if error_taxonomy:
+            for failure in error_taxonomy.get('universal_failures', []):
+                q_text = failure.get('question', '')[:100]  # Use first 100 chars as key
+                universal_failures_set.add(q_text)
+
+        if cot_analysis:
+            for analysis in cot_analysis.get('analyses', []):
+                q_text = analysis.get('question', '')[:100]
+                cot_failures_map[q_text] = analysis
         
         autonomous_path = self.data_dir / "autonomous_benchmarks" / "vector_db_ready.json"
         
@@ -124,6 +196,46 @@ class UnifiedVectorDBBuilder:
             else:
                 difficulty_label = "Easy"
             
+            # Check for error analysis
+            error_patterns_list = []
+            error_categories = []
+            conceptual_gaps = []
+            is_universal_failure = False
+            cot_failure_mode = None
+
+            # Check if this is a universal failure (all models fail)
+            q_key = doc[:100]
+            if q_key in universal_failures_set:
+                is_universal_failure = True
+                error_patterns_list.append(ErrorPattern(
+                    pattern="always_fails",
+                    source="universal_failure",
+                    frequency=37.0,  # All 37 models fail
+                    severity="CRITICAL",
+                    description="Question that all models fail",
+                    category=metadata.get('category', 'unknown'),
+                    evidence=f"All {metadata.get('num_models', 37)} models tested failed this question"
+                ))
+                conceptual_gaps.append("universal_failure")
+
+            # Check for CoT failure analysis
+            if q_key in cot_failures_map:
+                cot_analysis_data = cot_failures_map[q_key]
+                cot_failure_mode = cot_analysis_data.get('primary_failure_mode', '')
+
+                if cot_failure_mode:
+                    error_patterns_list.append(ErrorPattern(
+                        pattern=cot_failure_mode,
+                        source="cot_failure",
+                        frequency=1.0,
+                        severity="CRITICAL" if "Complex unit conversion" in cot_failure_mode else "HIGH",
+                        description=f"Chain-of-thought failure mode",
+                        category=cot_analysis_data.get('category', 'unknown'),
+                        evidence=", ".join(cot_analysis_data.get('contributing_factors', [])[:2])
+                    ))
+
+                    conceptual_gaps.extend(cot_analysis_data.get('required_knowledge', [])[:3])
+
             question = UnifiedBenchmarkQuestion(
                 question_id=qid,
                 question_text=doc,
@@ -133,18 +245,30 @@ class UnifiedVectorDBBuilder:
                 difficulty_score=difficulty_score,
                 model_scores=model_scores,
                 num_models_tested=metadata.get('num_models', 37),
-                # ERROR ANALYSIS FIELDS - EMPTY for MMLU-Pro
-                error_patterns=[],  # NO error analysis available
-                error_categories=[],  # NO error categories
-                conceptual_gaps=[],  # NO conceptual gap analysis
+                # ERROR ANALYSIS FIELDS - NOW POPULATED
+                error_patterns=error_patterns_list,
+                error_categories=error_categories,
+                conceptual_gaps=conceptual_gaps,
+                is_universal_failure=is_universal_failure,
+                cot_failure_mode=cot_failure_mode,
+                ml_cluster_id=None,  # Not applicable for MMLU-Pro
                 difficulty_label=difficulty_label,
                 category=metadata.get('category'),
                 subject=metadata.get('subject', '')
             )
             
             questions.append(question)
-        
-        logger.info(f"Loaded {len(questions)} MMLU-Pro questions (no error analysis)")
+
+        # Log statistics
+        with_error_analysis = sum(1 for q in questions if q.has_error_analysis())
+        universal_failures = sum(1 for q in questions if q.is_universal_failure)
+        cot_failures = sum(1 for q in questions if q.cot_failure_mode is not None)
+
+        logger.info(f"Loaded {len(questions)} MMLU-Pro questions")
+        logger.info(f"  With error analysis: {with_error_analysis} ({with_error_analysis/len(questions)*100:.1f}%)")
+        logger.info(f"  Universal failures: {universal_failures}")
+        logger.info(f"  CoT failures: {cot_failures}")
+
         return questions
     
     def load_ds1000_with_errors(self) -> List[UnifiedBenchmarkQuestion]:
@@ -216,11 +340,14 @@ class UnifiedVectorDBBuilder:
                 for pattern_data in analysis.get('patterns', []):
                     pattern = ErrorPattern(
                         pattern=pattern_data['name'],
+                        source="ds1000",
                         frequency=pattern_data.get('frequency', 0.0),
                         severity=pattern_data.get('severity', 'MEDIUM'),
+                        description=pattern_data.get('description', ''),
                         example_wrong=pattern_data.get('example_wrong', ''),
                         example_correct=pattern_data.get('example_correct', ''),
-                        evidence=pattern_data.get('evidence', '')
+                        evidence=pattern_data.get('evidence', ''),
+                        category=problem['metadata']['library']
                     )
                     error_patterns_list.append(pattern)
                 
@@ -250,6 +377,9 @@ class UnifiedVectorDBBuilder:
                 error_patterns=error_patterns_list,
                 error_categories=error_categories,
                 conceptual_gaps=conceptual_gaps,
+                is_universal_failure=False,  # Not applicable for DS-1000
+                cot_failure_mode=None,  # Not applicable for DS-1000
+                ml_cluster_id=None,  # Not applicable for DS-1000
                 difficulty_label=difficulty_label
             )
             
