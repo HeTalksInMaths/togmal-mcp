@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "domain_weight": 0.6233436318781975,
+    "complexity_weight": 0.1943109984206411,
+    "similarity_weight": 0.18234536970116147,
+    "high_risk_threshold": 0.6,
+    "medium_risk_threshold": 0.4207544797203341,
+    "math_notation_weight": 2.0,
+    "technical_terms_weight": 1.223794657325562
+  },
+  "val_score": 0.4911465141673969,
+  "test_accuracy": 0.6460446247464503,
+  "test_f1": 0.4997187027484542,
+  "test_precision": 0.6249865133424737,
+  "test_recall": 0.47550687686673926,
+  "n_evaluations": 30
+}
