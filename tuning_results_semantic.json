@@ -1,0 +1,25 @@
+{
+  "method": "TF-IDF + LSA (local)",
+  "best_params": {
+    "embedding_dim": 488,
+    "max_features": 5004,
+    "domain_boost": 0.49610577964560887
+  },
+  "validation_score": 0.7229002303391643,
+  "final_metrics": {
+    "precision@1": 0.047619047619047616,
+    "precision@3": 0.6287094547964114,
+    "precision@5": 0.723809523809524,
+    "precision@10": 0.7401656314699794,
+    "mrr": 0.5104406980183378,
+    "domain_coherence": 0.8393374741200827,
+    "difficulty_coherence": 0.7076604554865423
+  },
+  "bm25_comparison": {
+    "precision@1": 0.246,
+    "precision@10": 0.18333333333333335,
+    "mrr": 0.3623515873015873,
+    "domain_coherence": 0.6386666666666667
+  },
+  "n_evaluations": 20
+}
