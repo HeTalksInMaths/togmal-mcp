@@ -510,21 +510,29 @@ def main():
     print("\nStep 3: Evaluating baseline (V3)...")
     from lightweight_prompt_checker_v3 import LightweightPromptChecker as CheckerV3
     baseline_checker = CheckerV3()
-    baseline_metrics = evaluator.evaluate_checker(baseline_checker, test_set, dataset_name="test_baseline")
+    baseline_metrics = evaluator.evaluate_checker(baseline_checker, test_set, dataset_name="test_v3_baseline")
 
-    # Step 4: Grid search for V4 (adaptive)
-    print("\nStep 4: Tuning V4 (adaptive) hyperparameters...")
+    # Step 4: Evaluate V5 (difficulty-aware checker)
+    print("\nStep 4: Evaluating V5 (difficulty-aware) with default hyperparameters...")
+    from difficulty_aware_checker_v5 import DifficultyAwareChecker as CheckerV5
+    v5_checker = CheckerV5()
+    v5_metrics = evaluator.evaluate_checker(v5_checker, test_set, dataset_name="test_v5_default")
 
-    # Example parameter grid
-    param_grid = {
-        'pattern_threshold': [0.15, 0.20, 0.25],
-        'cooccurrence_boost': [0.10, 0.15, 0.20],
-        'domain_risk_multiplier': [1.0, 1.2, 1.5]
-    }
+    # Step 5: Compare V3 vs V5
+    print("\n" + "="*80)
+    print("COMPARISON: V3 vs V5")
+    print("="*80)
+    print(f"\n{'Metric':<25} {'V3 (Baseline)':<20} {'V5 (Difficulty-Aware)':<20} {'Improvement':<15}")
+    print("-" * 80)
+    print(f"{'Accuracy':<25} {baseline_metrics.accuracy:<20.3f} {v5_metrics.accuracy:<20.3f} {v5_metrics.accuracy - baseline_metrics.accuracy:>+14.3f}")
+    print(f"{'Precision (macro)':<25} {baseline_metrics.precision:<20.3f} {v5_metrics.precision:<20.3f} {v5_metrics.precision - baseline_metrics.precision:>+14.3f}")
+    print(f"{'Recall (macro)':<25} {baseline_metrics.recall:<20.3f} {v5_metrics.recall:<20.3f} {v5_metrics.recall - baseline_metrics.recall:>+14.3f}")
+    print(f"{'F1 Score (macro)':<25} {baseline_metrics.f1_score:<20.3f} {v5_metrics.f1_score:<20.3f} {v5_metrics.f1_score - baseline_metrics.f1_score:>+14.3f}")
+    print(f"{'Calibration Error':<25} {baseline_metrics.calibration_error:<20.3f} {v5_metrics.calibration_error:<20.3f} {v5_metrics.calibration_error - baseline_metrics.calibration_error:>+14.3f}")
+    print(f"{'Brier Score':<25} {baseline_metrics.brier_score:<20.3f} {v5_metrics.brier_score:<20.3f} {v5_metrics.brier_score - baseline_metrics.brier_score:>+14.3f}")
 
-    # Note: You'd need to modify V4 class to accept these parameters
-    # This is a placeholder showing the approach
-    logger.info("Note: V4 hyperparameter tuning requires modification to accept init params")
+    # Note: Future hyperparameter tuning can be done here
+    logger.info("\nNote: Hyperparameter tuning can further improve V5 performance")
 
     print("\n" + "="*80)
     print("✅ Evaluation framework complete!")
