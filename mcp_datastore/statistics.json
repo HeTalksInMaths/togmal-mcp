@@ -1,0 +1,51 @@
+{
+  "total_questions": 13000,
+  "by_benchmark": {
+    "MMLU-Pro": 12000,
+    "DS-1000": 1000
+  },
+  "by_difficulty": {
+    "Easy": 8292,
+    "Medium": 1043,
+    "Expert": 1077,
+    "Nearly_Impossible": 1888,
+    "Hard": 700
+  },
+  "by_domain": {
+    "math": 1350,
+    "physics": 1298,
+    "chemistry": 1127,
+    "law": 1101,
+    "engineering": 951,
+    "other": 924,
+    "economics": 844,
+    "health": 818,
+    "psychology": 798,
+    "business": 789,
+    "biology": 712,
+    "philosophy": 497,
+    "computer science": 410,
+    "history": 381,
+    "Pandas": 291,
+    "Numpy": 220,
+    "Matplotlib": 155,
+    "Sklearn": 115,
+    "Scipy": 106,
+    "Pytorch": 68,
+    "Tensorflow": 45
+  },
+  "error_analysis": {
+    "questions_with_patterns": 0,
+    "percentage_with_patterns": "0.0%",
+    "universal_failures": 0,
+    "cot_failures": 0,
+    "total_pattern_instances": 0,
+    "patterns_by_source": {},
+    "patterns_by_severity": {}
+  },
+  "success_rates": {
+    "average": "63.7%",
+    "min": "0.0%",
+    "max": "100.0%"
+  }
+}

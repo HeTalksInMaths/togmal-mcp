@@ -1,0 +1,10 @@
+{
+  "model_name": "model_outputs_deepseek-chat-v2_5_5shots",
+  "benchmark_name": "MMLU-Pro",
+  "overall_score": 65.83277925531915,
+  "metrics": {
+    "accuracy": 65.83277925531915,
+    "total_questions": 12032
+  },
+  "source_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_deepseek-chat-v2_5_5shots.zip"
+}

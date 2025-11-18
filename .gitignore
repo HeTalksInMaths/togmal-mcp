@@ -7,7 +7,7 @@ data/benchmark_vector_db/
 data/benchmark_results/mmlu_real_results.json
 models/
 *.log
-data/
+# data/  ← Uncommenting to push data files (103 MB total)
 .env
 # Development summary files
 COMPLETE_DEMO_ANALYSIS.md
@@ -39,7 +39,7 @@ ML-Bench/
 DataSciBench/
 
 # MCP data store (generated files)
-mcp_datastore/
+# mcp_datastore/  ← Uncommenting to push indexed data (56 MB)
 
 # ChromaDB with neural embeddings (large files, build locally)
 # chroma_db/  ← Commented out: TF-IDF version (87 MB) is small enough for GitHub

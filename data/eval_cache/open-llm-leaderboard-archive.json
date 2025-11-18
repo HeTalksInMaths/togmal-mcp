@@ -1,0 +1,1637 @@
+[
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 74.17,
+    "metrics": {
+      "ARC": 73.0,
+      "HellaSwag": 87.9,
+      "MMLU": 71.0,
+      "TruthfulQA": 64.9
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/ValiantLabs/ShiningValiant",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 74.11,
+    "metrics": {
+      "ARC": 73.0,
+      "HellaSwag": 88.2,
+      "MMLU": 70.1,
+      "TruthfulQA": 65.2
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/ICBU-NPU/FashionGPT-70B-V1.2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 74.1,
+    "metrics": {
+      "ARC": 73.0,
+      "HellaSwag": 87.8,
+      "MMLU": 71.2,
+      "TruthfulQA": 64.5
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/sequelbox/StellarBright",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 74.07,
+    "metrics": {
+      "ARC": 73.0,
+      "HellaSwag": 87.8,
+      "MMLU": 70.8,
+      "TruthfulQA": 64.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/Riiid/sheep-duck-llama-2-70b-v1.1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 74.06,
+    "metrics": {
+      "ARC": 73.6,
+      "HellaSwag": 87.6,
+      "MMLU": 70.7,
+      "TruthfulQA": 64.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/AIDC-ai-business/Marcoroni-70B-v1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 74.05,
+    "metrics": {
+      "ARC": 71.8,
+      "HellaSwag": 88.2,
+      "MMLU": 71.0,
+      "TruthfulQA": 65.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/ICBU-NPU/FashionGPT-70B-V1.1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.9,
+    "metrics": {
+      "ARC": 72.7,
+      "HellaSwag": 87.6,
+      "MMLU": 70.8,
+      "TruthfulQA": 64.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/adonlee/LLaMA_2_70B_LoRA",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.81,
+    "metrics": {
+      "ARC": 72.1,
+      "HellaSwag": 87.4,
+      "MMLU": 69.9,
+      "TruthfulQA": 65.8
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/uni-tianyan/Uni-TianYan",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.69,
+    "metrics": {
+      "ARC": 72.4,
+      "HellaSwag": 87.8,
+      "MMLU": 70.8,
+      "TruthfulQA": 63.8
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/Riiid/sheep-duck-llama-2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.67,
+    "metrics": {
+      "ARC": 72.3,
+      "HellaSwag": 87.8,
+      "MMLU": 70.8,
+      "TruthfulQA": 63.8
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/Riiid/sheep-duck-llama-2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.4,
+    "metrics": {
+      "ARC": 72.3,
+      "HellaSwag": 87.7,
+      "MMLU": 70.2,
+      "TruthfulQA": 63.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/fangloveskari/ORCA_LLaMA_70B_QLoRA",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.26,
+    "metrics": {
+      "ARC": 71.1,
+      "HellaSwag": 87.3,
+      "MMLU": 70.7,
+      "TruthfulQA": 63.9
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/ICBU-NPU/FashionGPT-70B-V1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.22,
+    "metrics": {
+      "ARC": 71.8,
+      "HellaSwag": 86.9,
+      "MMLU": 69.4,
+      "TruthfulQA": 64.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/oh-yeontaek/llama-2-70B-LoRA-assemble-v2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.21,
+    "metrics": {
+      "ARC": 71.4,
+      "HellaSwag": 88.0,
+      "MMLU": 70.8,
+      "TruthfulQA": 62.7
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/budecosystem/genz-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.2,
+    "metrics": {
+      "ARC": 71.8,
+      "HellaSwag": 86.8,
+      "MMLU": 69.4,
+      "TruthfulQA": 64.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/oh-yeontaek/llama-2-70B-LoRA-assemble",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 73.13,
+    "metrics": {
+      "ARC": 71.8,
+      "HellaSwag": 87.9,
+      "MMLU": 70.5,
+      "TruthfulQA": 62.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/garage-bAInd/Platypus2-70B-instruct",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.95,
+    "metrics": {
+      "ARC": 71.1,
+      "HellaSwag": 87.9,
+      "MMLU": 70.6,
+      "TruthfulQA": 62.2
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/upstage/SOLAR-0-70b-16bit",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.94,
+    "metrics": {
+      "ARC": 72.1,
+      "HellaSwag": 87.5,
+      "MMLU": 71.0,
+      "TruthfulQA": 61.2
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/fangloveskari/Platypus_QLoRA_LLaMA_70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.86,
+    "metrics": {
+      "ARC": 71.2,
+      "HellaSwag": 87.2,
+      "MMLU": 69.6,
+      "TruthfulQA": 63.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v5",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.82,
+    "metrics": {
+      "ARC": 71.1,
+      "HellaSwag": 87.6,
+      "MMLU": 70.3,
+      "TruthfulQA": 62.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/TheBloke/Genz-70b-GPTQ",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.81,
+    "metrics": {
+      "ARC": 71.2,
+      "HellaSwag": 87.6,
+      "MMLU": 69.9,
+      "TruthfulQA": 62.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GPTQ",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.72,
+    "metrics": {
+      "ARC": 71.1,
+      "HellaSwag": 87.6,
+      "MMLU": 69.0,
+      "TruthfulQA": 63.1
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/psmathur/model_007",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.72,
+    "metrics": {
+      "ARC": 71.1,
+      "HellaSwag": 87.6,
+      "MMLU": 69.0,
+      "TruthfulQA": 63.1
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/pankajmathur/model_007",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.64,
+    "metrics": {
+      "ARC": 70.9,
+      "HellaSwag": 87.3,
+      "MMLU": 69.7,
+      "TruthfulQA": 62.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v4",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.64,
+    "metrics": {
+      "ARC": 71.2,
+      "HellaSwag": 87.8,
+      "MMLU": 70.2,
+      "TruthfulQA": 61.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/psmathur/orca_mini_v3_70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.64,
+    "metrics": {
+      "ARC": 71.2,
+      "HellaSwag": 87.8,
+      "MMLU": 70.2,
+      "TruthfulQA": 61.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/pankajmathur/orca_mini_v3_70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.61,
+    "metrics": {
+      "ARC": 70.0,
+      "HellaSwag": 87.6,
+      "MMLU": 67.8,
+      "TruthfulQA": 65.0
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/ehartford/Samantha-1.11-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.59,
+    "metrics": {
+      "ARC": 71.4,
+      "HellaSwag": 87.5,
+      "MMLU": 69.9,
+      "TruthfulQA": 61.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/MayaPH/GodziLLa2-70B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.49,
+    "metrics": {
+      "ARC": 71.4,
+      "HellaSwag": 87.3,
+      "MMLU": 68.6,
+      "TruthfulQA": 62.6
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/psmathur/model_007_v2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.43,
+    "metrics": {
+      "ARC": 71.2,
+      "HellaSwag": 87.3,
+      "MMLU": 70.6,
+      "TruthfulQA": 60.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/chargoddard/MelangeA-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.42,
+    "metrics": {
+      "ARC": 68.8,
+      "HellaSwag": 87.5,
+      "MMLU": 68.6,
+      "TruthfulQA": 64.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/ehartford/Samantha-1.1-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.36,
+    "metrics": {
+      "ARC": 71.6,
+      "HellaSwag": 87.7,
+      "MMLU": 69.4,
+      "TruthfulQA": 60.7
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/psmathur/model_009",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 72.29,
+    "metrics": {
+      "ARC": 70.9,
+      "HellaSwag": 87.5,
+      "MMLU": 69.8,
+      "TruthfulQA": 61.0
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/upstage/Llama-2-70b-instruct",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.67,
+    "metrics": {
+      "ARC": 68.8,
+      "HellaSwag": 85.4,
+      "MMLU": 68.0,
+      "TruthfulQA": 64.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.66,
+    "metrics": {
+      "ARC": 71.2,
+      "HellaSwag": 87.6,
+      "MMLU": 69.6,
+      "TruthfulQA": 58.2
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/garage-bAInd/Camel-Platypus2-70B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.56,
+    "metrics": {
+      "ARC": 70.5,
+      "HellaSwag": 87.0,
+      "MMLU": 70.1,
+      "TruthfulQA": 58.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/migtissera/Synthia-70B-v1.2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.55,
+    "metrics": {
+      "ARC": 69.6,
+      "HellaSwag": 87.3,
+      "MMLU": 70.0,
+      "TruthfulQA": 59.2
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/lloorree/jfdslijsijdgis",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.5,
+    "metrics": {
+      "ARC": 67.6,
+      "HellaSwag": 87.5,
+      "MMLU": 69.1,
+      "TruthfulQA": 61.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/v2ray/LLaMA-2-Wizard-70B-QLoRA",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.5,
+    "metrics": {
+      "ARC": 76.8,
+      "HellaSwag": 87.8,
+      "MMLU": 66.4,
+      "TruthfulQA": 55.1
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/TigerResearch/tigerbot-70b-chat",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.48,
+    "metrics": {
+      "ARC": 68.1,
+      "HellaSwag": 87.1,
+      "MMLU": 69.2,
+      "TruthfulQA": 61.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/quantumaikr/llama-2-70b-fb16-orca-chat-10k",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.48,
+    "metrics": {
+      "ARC": 67.8,
+      "HellaSwag": 87.5,
+      "MMLU": 69.0,
+      "TruthfulQA": 61.7
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/v2ray/LLaMA-2-Wizard-70B-QLoRA",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.45,
+    "metrics": {
+      "ARC": 76.8,
+      "HellaSwag": 87.8,
+      "MMLU": 66.1,
+      "TruthfulQA": 55.1
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/TigerResearch/tigerbot-70b-chat",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.42,
+    "metrics": {
+      "ARC": 71.1,
+      "HellaSwag": 86.4,
+      "MMLU": 68.8,
+      "TruthfulQA": 59.4
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/stabilityai/StableBeluga2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.41,
+    "metrics": {
+      "ARC": 70.5,
+      "HellaSwag": 87.3,
+      "MMLU": 70.2,
+      "TruthfulQA": 57.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/quantumaikr/llama-2-70b-fb16-guanaco-1k",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.36,
+    "metrics": {
+      "ARC": 70.1,
+      "HellaSwag": 87.7,
+      "MMLU": 69.8,
+      "TruthfulQA": 57.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/garage-bAInd/Camel-Platypus2-70B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.36,
+    "metrics": {
+      "ARC": 69.3,
+      "HellaSwag": 87.6,
+      "MMLU": 69.5,
+      "TruthfulQA": 59.0
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/sequelbox/SharpBalance",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.34,
+    "metrics": {
+      "ARC": 70.0,
+      "HellaSwag": 87.1,
+      "MMLU": 70.3,
+      "TruthfulQA": 57.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/migtissera/Synthia-70B-v1.1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.32,
+    "metrics": {
+      "ARC": 69.4,
+      "HellaSwag": 87.1,
+      "MMLU": 68.9,
+      "TruthfulQA": 59.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/migtissera/Synthia-70B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 71.16,
+    "metrics": {
+      "ARC": 70.1,
+      "HellaSwag": 87.5,
+      "MMLU": 69.3,
+      "TruthfulQA": 57.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/elinas/chronos007-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.99,
+    "metrics": {
+      "ARC": 69.6,
+      "HellaSwag": 87.0,
+      "MMLU": 69.2,
+      "TruthfulQA": 58.2
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/lloorree/jfdslijsijdgis",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.97,
+    "metrics": {
+      "ARC": 68.7,
+      "HellaSwag": 86.4,
+      "MMLU": 69.9,
+      "TruthfulQA": 58.8
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/psmathur/model_101",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.97,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.9,
+      "MMLU": 70.2,
+      "TruthfulQA": 57.5
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/augtoma/qCammel70",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.97,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.9,
+      "MMLU": 70.2,
+      "TruthfulQA": 57.5
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/augtoma/qCammel-70-x",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.97,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.9,
+      "MMLU": 70.2,
+      "TruthfulQA": 57.5
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/augtoma/qCammel-70v1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.97,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.9,
+      "MMLU": 70.2,
+      "TruthfulQA": 57.5
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/augtoma/qCammel-70",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.97,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.9,
+      "MMLU": 70.2,
+      "TruthfulQA": 57.5
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/augtoma/qCammel-70x",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.94,
+    "metrics": {
+      "ARC": 69.5,
+      "HellaSwag": 87.5,
+      "MMLU": 70.4,
+      "TruthfulQA": 56.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/lloorree/kssht-castor-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.93,
+    "metrics": {
+      "ARC": 70.4,
+      "HellaSwag": 87.8,
+      "MMLU": 70.3,
+      "TruthfulQA": 55.2
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.92,
+    "metrics": {
+      "ARC": 69.3,
+      "HellaSwag": 87.5,
+      "MMLU": 70.1,
+      "TruthfulQA": 56.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/Doctor-Shotgun/mythospice-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.83,
+    "metrics": {
+      "ARC": 69.8,
+      "HellaSwag": 87.6,
+      "MMLU": 70.4,
+      "TruthfulQA": 55.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/lloorree/kssht-euripedes-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.76,
+    "metrics": {
+      "ARC": 69.6,
+      "HellaSwag": 86.8,
+      "MMLU": 69.2,
+      "TruthfulQA": 57.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/dfurman/llama-2-70b-dolphin-peft",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.71,
+    "metrics": {
+      "ARC": 68.8,
+      "HellaSwag": 87.6,
+      "MMLU": 68.8,
+      "TruthfulQA": 57.7
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/migtissera/Synthia-70B-v1.2b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.66,
+    "metrics": {
+      "ARC": 69.2,
+      "HellaSwag": 87.5,
+      "MMLU": 70.1,
+      "TruthfulQA": 55.9
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/Doctor-Shotgun/mythospice-limarp-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.66,
+    "metrics": {
+      "ARC": 70.6,
+      "HellaSwag": 86.8,
+      "MMLU": 69.2,
+      "TruthfulQA": 56.0
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jondurbin/airoboros-l2-70b-2.1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.63,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 88.3,
+      "MMLU": 70.2,
+      "TruthfulQA": 55.7
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/TheBloke/llama-2-70b-Guanaco-QLoRA-fp16",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.61,
+    "metrics": {
+      "ARC": 70.6,
+      "HellaSwag": 86.4,
+      "MMLU": 69.4,
+      "TruthfulQA": 56.1
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/quantumaikr/QuantumLM-llama2-70B-Korean-LoRA",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.56,
+    "metrics": {
+      "ARC": 70.3,
+      "HellaSwag": 87.0,
+      "MMLU": 70.5,
+      "TruthfulQA": 54.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/quantumaikr/quantumairk-llama-2-70B-instruct",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.55,
+    "metrics": {
+      "ARC": 70.1,
+      "HellaSwag": 87.7,
+      "MMLU": 70.4,
+      "TruthfulQA": 54.0
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/psmathur/model_420",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.41,
+    "metrics": {
+      "ARC": 68.4,
+      "HellaSwag": 86.7,
+      "MMLU": 69.3,
+      "TruthfulQA": 57.2
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/psmathur/model_51",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.37,
+    "metrics": {
+      "ARC": 69.3,
+      "HellaSwag": 87.3,
+      "MMLU": 69.0,
+      "TruthfulQA": 55.9
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/garage-bAInd/Camel-Platypus2-70B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.34,
+    "metrics": {
+      "ARC": 70.4,
+      "HellaSwag": 86.5,
+      "MMLU": 68.9,
+      "TruthfulQA": 55.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/TheBloke/Airoboros-L2-70B-2.1-GPTQ",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.25,
+    "metrics": {
+      "ARC": 67.6,
+      "HellaSwag": 86.9,
+      "MMLU": 69.2,
+      "TruthfulQA": 57.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/quantumaikr/llama-2-70B-chat",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.12,
+    "metrics": {
+      "ARC": 68.0,
+      "HellaSwag": 86.8,
+      "MMLU": 68.4,
+      "TruthfulQA": 57.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/OpenAssistant/llama2-70b-oasst-sft-v10",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.06,
+    "metrics": {
+      "ARC": 70.6,
+      "HellaSwag": 87.2,
+      "MMLU": 70.1,
+      "TruthfulQA": 52.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/garage-bAInd/Platypus2-70B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 70.0,
+    "metrics": {
+      "ARC": 70.3,
+      "HellaSwag": 86.4,
+      "MMLU": 69.3,
+      "TruthfulQA": 54.0
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/liuxiang886/llama2-70B-qlora-gpt4",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.94,
+    "metrics": {
+      "ARC": 68.9,
+      "HellaSwag": 86.4,
+      "MMLU": 64.8,
+      "TruthfulQA": 59.7
+    },
+    "predictions": [],
+    "parameters": "36.11111111111111",
+    "source_url": "https://huggingface.co/upstage/llama-65b-instruct",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.93,
+    "metrics": {
+      "ARC": 67.2,
+      "HellaSwag": 86.8,
+      "MMLU": 69.3,
+      "TruthfulQA": 56.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/quantumaikr/llama-2-70b-fb16-korean",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.91,
+    "metrics": {
+      "ARC": 69.0,
+      "HellaSwag": 87.2,
+      "MMLU": 71.0,
+      "TruthfulQA": 52.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/s1ghhh/medllama-2-70b-qlora-1.1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.84,
+    "metrics": {
+      "ARC": 68.9,
+      "HellaSwag": 87.1,
+      "MMLU": 68.8,
+      "TruthfulQA": 54.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/Sao10K/Euryale-L2-70B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.79,
+    "metrics": {
+      "ARC": 67.6,
+      "HellaSwag": 86.8,
+      "MMLU": 69.7,
+      "TruthfulQA": 55.0
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.72,
+    "metrics": {
+      "ARC": 68.9,
+      "HellaSwag": 86.9,
+      "MMLU": 69.4,
+      "TruthfulQA": 53.7
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/v2ray/LLaMA-2-Jannie-70B-QLoRA",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.59,
+    "metrics": {
+      "ARC": 70.0,
+      "HellaSwag": 87.8,
+      "MMLU": 70.7,
+      "TruthfulQA": 49.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-m2.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.51,
+    "metrics": {
+      "ARC": 70.0,
+      "HellaSwag": 87.8,
+      "MMLU": 70.5,
+      "TruthfulQA": 49.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-m2.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.4,
+    "metrics": {
+      "ARC": 67.1,
+      "HellaSwag": 86.4,
+      "MMLU": 67.7,
+      "TruthfulQA": 56.4
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/OpenAssistant/llama2-70b-oasst-sft-v10",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.37,
+    "metrics": {
+      "ARC": 67.2,
+      "HellaSwag": 84.6,
+      "MMLU": 63.6,
+      "TruthfulQA": 62.1
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v8",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.15,
+    "metrics": {
+      "ARC": 68.5,
+      "HellaSwag": 87.9,
+      "MMLU": 70.4,
+      "TruthfulQA": 49.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-2.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.14,
+    "metrics": {
+      "ARC": 68.1,
+      "HellaSwag": 86.5,
+      "MMLU": 68.3,
+      "TruthfulQA": 53.7
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/elinas/chronos-70b-v2",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.11,
+    "metrics": {
+      "ARC": 68.4,
+      "HellaSwag": 86.8,
+      "MMLU": 68.8,
+      "TruthfulQA": 52.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jarradh/llama2_70b_chat_uncensored",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.06,
+    "metrics": {
+      "ARC": 68.2,
+      "HellaSwag": 86.5,
+      "MMLU": 68.9,
+      "TruthfulQA": 52.7
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/WizardLM/WizardMath-70B-V1.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.04,
+    "metrics": {
+      "ARC": 67.7,
+      "HellaSwag": 87.2,
+      "MMLU": 70.0,
+      "TruthfulQA": 51.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jordiclive/Llama-2-70b-oasst-1-200",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 69.02,
+    "metrics": {
+      "ARC": 67.9,
+      "HellaSwag": 86.5,
+      "MMLU": 68.9,
+      "TruthfulQA": 52.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/WizardLM/WizardMath-70B-V1.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.99,
+    "metrics": {
+      "ARC": 68.2,
+      "HellaSwag": 87.9,
+      "MMLU": 70.1,
+      "TruthfulQA": 49.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-2.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.82,
+    "metrics": {
+      "ARC": 67.0,
+      "HellaSwag": 85.7,
+      "MMLU": 66.0,
+      "TruthfulQA": 56.6
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/OpenLemur/lemur-70b-chat-v1",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.78,
+    "metrics": {
+      "ARC": 68.0,
+      "HellaSwag": 86.8,
+      "MMLU": 69.3,
+      "TruthfulQA": 51.0
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/meta-math/MetaMath-70B-V1.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.74,
+    "metrics": {
+      "ARC": 69.8,
+      "HellaSwag": 89.0,
+      "MMLU": 70.5,
+      "TruthfulQA": 45.7
+    },
+    "predictions": [],
+    "parameters": "100.0",
+    "source_url": "https://huggingface.co/tiiuae/falcon-180B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.7,
+    "metrics": {
+      "ARC": 69.7,
+      "HellaSwag": 89.0,
+      "MMLU": 70.4,
+      "TruthfulQA": 45.7
+    },
+    "predictions": [],
+    "parameters": "100.0",
+    "source_url": "https://huggingface.co/tiiuae/falcon-180B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.67,
+    "metrics": {
+      "ARC": 68.2,
+      "HellaSwag": 85.9,
+      "MMLU": 64.8,
+      "TruthfulQA": 55.8
+    },
+    "predictions": [],
+    "parameters": "0.0",
+    "source_url": "https://huggingface.co/stabilityai/StableBeluga1-Delta",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.67,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.6,
+      "MMLU": 70.0,
+      "TruthfulQA": 48.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/psmathur/model_42_70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.67,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.6,
+      "MMLU": 70.0,
+      "TruthfulQA": 48.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/psmathur/test_42_70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.67,
+    "metrics": {
+      "ARC": 68.3,
+      "HellaSwag": 87.6,
+      "MMLU": 70.0,
+      "TruthfulQA": 48.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/pankajmathur/Lima_Unchained_70b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.65,
+    "metrics": {
+      "ARC": 67.8,
+      "HellaSwag": 85.8,
+      "MMLU": 69.2,
+      "TruthfulQA": 51.8
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/llm-agents/tora-70b-v1.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.6,
+    "metrics": {
+      "ARC": 67.7,
+      "HellaSwag": 87.6,
+      "MMLU": 69.8,
+      "TruthfulQA": 49.3
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/TheBloke/fiction.live-Kimiko-V2-70B-fp16",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.57,
+    "metrics": {
+      "ARC": 69.4,
+      "HellaSwag": 88.9,
+      "MMLU": 70.5,
+      "TruthfulQA": 45.5
+    },
+    "predictions": [],
+    "parameters": "100.0",
+    "source_url": "https://huggingface.co/tiiuae/falcon-180B",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.55,
+    "metrics": {
+      "ARC": 67.5,
+      "HellaSwag": 86.0,
+      "MMLU": 68.4,
+      "TruthfulQA": 52.2
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/WizardLM/WizardMath-70B-V1.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.55,
+    "metrics": {
+      "ARC": 64.4,
+      "HellaSwag": 88.0,
+      "MMLU": 68.0,
+      "TruthfulQA": 53.7
+    },
+    "predictions": [],
+    "parameters": "100.0",
+    "source_url": "https://huggingface.co/tiiuae/falcon-180B-chat",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.51,
+    "metrics": {
+      "ARC": 68.6,
+      "HellaSwag": 87.5,
+      "MMLU": 69.4,
+      "TruthfulQA": 48.5
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-2.0",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.34,
+    "metrics": {
+      "ARC": 67.8,
+      "HellaSwag": 85.6,
+      "MMLU": 58.8,
+      "TruthfulQA": 61.2
+    },
+    "predictions": [],
+    "parameters": "18.333333333333332",
+    "source_url": "https://huggingface.co/ehartford/samantha-1.1-llama-33b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.32,
+    "metrics": {
+      "ARC": 67.8,
+      "HellaSwag": 85.5,
+      "MMLU": 59.0,
+      "TruthfulQA": 61.0
+    },
+    "predictions": [],
+    "parameters": "18.333333333333332",
+    "source_url": "https://huggingface.co/ajibawa-2023/scarlett-33b",
+    "last_updated": "2023-10-31"
+  },
+  {
+    "model_name": "",
+    "benchmark_name": "Open-LLM-Leaderboard",
+    "overall_score": 68.29,
+    "metrics": {
+      "ARC": 64.8,
+      "HellaSwag": 85.2,
+      "MMLU": 66.9,
+      "TruthfulQA": 56.2
+    },
+    "predictions": [],
+    "parameters": "38.88888888888889",
+    "source_url": "https://huggingface.co/ddobokki/Llama-2-70b-orca-200k",
+    "last_updated": "2023-10-31"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "model_name": "model_outputs_Yi-6B_5shots",
+  "benchmark_name": "MMLU-Pro",
+  "overall_score": 24.966755319148938,
+  "metrics": {
+    "accuracy": 24.966755319148938,
+    "total_questions": 12032
+  },
+  "source_url": "https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/eval_results/model_outputs_Yi-6B_5shots.zip"
+}
