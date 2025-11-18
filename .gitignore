@@ -41,5 +41,5 @@ DataSciBench/
 # MCP data store (generated files)
 mcp_datastore/
 
-# ChromaDB (generated files)
-chroma_db/
+# ChromaDB with neural embeddings (large files, build locally)
+# chroma_db/  ← Commented out: TF-IDF version (87 MB) is small enough for GitHub
