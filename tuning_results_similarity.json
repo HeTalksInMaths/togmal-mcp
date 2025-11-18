@@ -1,0 +1,28 @@
+{
+  "best_params": {
+    "k1": 1.4256450433344725,
+    "b": 1.0,
+    "max_features": 8000,
+    "max_ngram": 1,
+    "domain_boost": 0.4
+  },
+  "validation_score": 0.29250106264667786,
+  "final_metrics": {
+    "precision@1": 0.246,
+    "precision@3": 0.21133333333333332,
+    "precision@5": 0.20200000000000004,
+    "precision@10": 0.18333333333333335,
+    "mrr": 0.3623515873015873,
+    "domain_coherence": 0.6386666666666667,
+    "difficulty_coherence": 0.7205132275132275
+  },
+  "baseline_metrics": {
+    "precision@1": 0.208,
+    "precision@3": 0.176,
+    "precision@5": 0.1612,
+    "precision@10": 0.1484222222222222,
+    "mrr": 0.29495952380952384,
+    "domain_coherence": 0.4832888888888889
+  },
+  "n_evaluations": 25
+}
