@@ -1,0 +1,135 @@
+{
+  "total": 8,
+  "valid": 8,
+  "invalid": 0,
+  "average_score": 0.8859374999999999,
+  "results": [
+    {
+      "question_id": 83,
+      "valid": true,
+      "score": 0.9125,
+      "issues": [],
+      "warnings": [
+        "Capability 'Phonetic Similarity Modeling' is related to 'Prosodic Reasoning' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 86,
+      "valid": true,
+      "score": 0.8875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 105,
+      "valid": true,
+      "score": 0.9125,
+      "issues": [],
+      "warnings": [
+        "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 87,
+      "valid": true,
+      "score": 0.8875000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure doesn't match known patterns for Constraint Satisfaction",
+        "Error chain lacks explicit causal connections",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 104,
+      "valid": true,
+      "score": 0.875,
+      "issues": [],
+      "warnings": [
+        "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 91,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 101,
+      "valid": true,
+      "score": 0.8875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Constraint Validation and Contradiction Detection' is related to 'Contradiction Detection' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 82,
+      "valid": true,
+      "score": 0.875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    }
+  ],
+  "issues": [],
+  "warnings": [
+    "Capability 'Phonetic Similarity Modeling' is related to 'Prosodic Reasoning' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure doesn't match known patterns for Constraint Satisfaction",
+    "Error chain lacks explicit causal connections",
+    "Conceptual error lacks technical specificity",
+    "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Constraint Validation and Contradiction Detection' is related to 'Contradiction Detection' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity"
+  ]
+}
