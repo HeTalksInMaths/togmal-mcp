@@ -402,12 +402,15 @@ class ErrorAnalyzer:
             model_results = item.get('model_results', {})
 
             for model_name, result in model_results.items():
-                is_correct = bool(result)
+                # Handle both formats: dict with 'is_correct' or simple boolean/int
+                if isinstance(result, dict):
+                    is_correct = result.get('is_correct', False)
+                    model_answer = result.get('answer', 'UNKNOWN')
+                else:
+                    is_correct = bool(result)
+                    model_answer = "UNKNOWN"
 
                 if not is_correct:  # Only collect errors
-                    # We need the actual wrong answer - for now use placeholder
-                    # This should be populated from actual model outputs
-                    model_answer = "UNKNOWN"
 
                     error = ErrorRecord(
                         question_id=question_id,
