@@ -323,7 +323,7 @@ class ErrorDetector:
             patterns.append(f'answered_{error.model_answer}')
 
         # Check for length bias
-        if error.choices:
+        if error.choices and error.model_answer and len(error.model_answer) == 1:
             choice_lengths = [len(c) for c in error.choices]
             answer_idx = ord(error.model_answer) - ord('A')
             if 0 <= answer_idx < len(choice_lengths):
