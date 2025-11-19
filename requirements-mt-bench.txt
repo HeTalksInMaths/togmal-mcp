@@ -1,0 +1,15 @@
+# MT-Bench Error Analysis Requirements
+
+# Core dependencies
+requests>=2.31.0
+datasets>=2.14.0
+
+# For LLM-based analysis (optional)
+anthropic>=0.18.0
+
+# For vector DB integration (optional, requires existing ToGMAL deps)
+sentence-transformers>=2.2.2
+chromadb>=0.4.0
+
+# Common dependencies (may already be installed)
+numpy>=1.24.0
