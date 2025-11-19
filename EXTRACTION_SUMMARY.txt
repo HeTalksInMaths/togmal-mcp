@@ -1,0 +1,158 @@
+================================================================================
+MMLU-Pro EXTRACTION: ACTUAL vs THEORETICAL
+================================================================================
+
+WHAT WE ACTUALLY DID:
+--------------------
+
+1. SOURCE: Local eval cache (data/eval_cache/)
+   - 47 JSON files with model evaluation results
+   - Pre-downloaded from previous evaluation runs
+
+2. EXTRACTION:
+   ├─ Scanned 47 files
+   ├─ Found predictions array in 4 files only
+   ├─ Extracted 100 unique questions
+   └─ Got performance data for 170 questions from 4 models
+
+3. OUTPUT:
+   ├─ unified_database_with_mmlu_pro.json (13,100 questions)
+   └─ model_performance_database.json (170 questions with perf)
+
+4. MODELS EXTRACTED:
+   - Llama-2-7b-hf
+   - Llama-2-13b-hf
+   - Llama-2-70b-hf
+   - Meta-Llama-3-70B-Instruct
+
+5. COVERAGE:
+   - Questions: 170 / 12,031 (1.4%)
+   - Models: 4 / 47 potential
+
+
+WHAT COULD BE DONE (Full 12K):
+------------------------------
+
+1. SOURCE: GitHub/HuggingFace
+   URL: https://github.com/TIGER-AI-Lab/MMLU-Pro
+   OR: huggingface.co/datasets/TIGER-Lab/MMLU-Pro
+
+2. PROCESS:
+   ├─ Download complete dataset (12,031 questions)
+   ├─ Download eval results for 40+ models
+   ├─ Aggregate performance across all models
+   └─ Build comprehensive performance DB
+
+3. EXPECTED OUTPUT:
+   ├─ 12,031 questions (vs current 100)
+   └─ 40+ models tracked (vs current 4)
+
+4. BLOCKER:
+   - Network restrictions prevented downloads
+   - Could only use local eval cache
+   - Most eval files missing predictions array
+
+
+DATA FLOW DIAGRAM:
+-----------------
+
+┌─────────────────────────────────────────────────────────────┐
+│ INPUT: 47 Eval Cache Files                                 │
+│ data/eval_cache/mmlu_pro_model_outputs_*.json              │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│ STEP 1: Extract from Each File                             │
+│                                                             │
+│ File: mmlu_pro_model_outputs_Llama-2-13b-hf_5shots.json   │
+│ {                                                           │
+│   "predictions": [                                          │
+│     {                                                       │
+│       "question_id": 70,                                    │
+│       "question": "Advertising regulations...",             │
+│       "answer": "I",                                        │
+│       "pred": "I"  ← Model prediction                      │
+│     }                                                       │
+│   ]                                                         │
+│ }                                                           │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│ STEP 2: Aggregate by Question ID                           │
+│                                                             │
+│ Question 70: {                                              │
+│   question_data: {...},                                     │
+│   model_results: {                                          │
+│     "Llama-2-13b": {correct: true},                        │
+│     "Llama-2-7b": {correct: false},                        │
+│     "Llama-2-70b": {correct: true}                         │
+│   }                                                         │
+│ }                                                           │
+└──────────────┬──────────────┬───────────────────────────────┘
+               │              │
+               ▼              ▼
+┌──────────────────────┐  ┌──────────────────────────────────┐
+│ OUTPUT 1:            │  │ OUTPUT 2:                        │
+│ Unified Database     │  │ Performance Database             │
+│                      │  │                                  │
+│ {                    │  │ {                                │
+│   "questions": [     │  │   "questions": {                 │
+│     {                │  │     "70": {                      │
+│       "id":          │  │       "Llama-2-13b": {          │
+│         "mmlu_70",   │  │         "is_correct": true      │
+│       "text": "...", │  │       },                         │
+│       "domain":      │  │       "Llama-2-7b": {           │
+│         "business",  │  │         "is_correct": false     │
+│       "difficulty":  │  │       }                          │
+│         0.67         │  │     }                            │
+│     }                │  │   }                              │
+│   ]                  │  │ }                                │
+│ }                    │  │                                  │
+│                      │  │                                  │
+│ Used for:            │  │ Used for:                        │
+│ Semantic search      │  │ Failure rate prediction          │
+└──────────────────────┘  └──────────────────────────────────┘
+
+
+FILE STRUCTURE EXAMPLE:
+----------------------
+
+data/eval_cache/
+├── mmlu_pro_model_outputs_Llama-2-13b-hf_5shots.json
+│   └── Contains: {"predictions": [100 questions with results]}
+│
+├── mmlu_pro_model_outputs_claude-3-5-sonnet_5shots.json
+│   └── Contains: {"overall_score": 55.1, "predictions": []} ← Empty!
+│
+└── ... (45 more files, most with empty predictions)
+
+
+ACTUAL EXTRACTION CODE (Simplified):
+------------------------------------
+
+# From extract_model_performance.py:
+
+for eval_file in glob("data/eval_cache/mmlu_pro_*.json"):
+    data = json.load(eval_file)
+    
+    model_name = clean_model_name(data["model_name"])
+    
+    if not data.get("predictions"):
+        continue  # Skip files with no predictions
+    
+    for pred in data["predictions"]:
+        qid = pred["question_id"]
+        
+        all_questions[qid][model_name] = {
+            "question_text": pred["question"],
+            "correct_answer": pred["answer"],
+            "model_prediction": pred["pred"],
+            "is_correct": pred["pred"] == pred["answer"]
+        }
+
+# Result:
+# - 4 files had predictions
+# - 170 unique question IDs
+# - 4 models tracked
