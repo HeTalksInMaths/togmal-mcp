@@ -382,7 +382,16 @@ class ErrorAnalyzer:
 
         errors_loaded = 0
 
-        for item in data:
+        # Handle both list and dict formats
+        if isinstance(data, dict):
+            # New format: {"metadata": ..., "questions": {...}}
+            questions = data.get('questions', {})
+            items = questions.values() if isinstance(questions, dict) else questions
+        else:
+            # Old format: just a list
+            items = data
+
+        for item in items:
             question_id = item['question_id']
             question_text = item['question_text']
             correct_answer = item['correct_answer']
