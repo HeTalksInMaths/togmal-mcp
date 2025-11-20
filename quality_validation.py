@@ -650,20 +650,31 @@ def validate_taxonomy(taxonomy_file: str) -> Dict:
 
 
 def main():
-    """Validate demo taxonomy"""
+    """Validate taxonomy with optional command-line argument"""
     import sys
+    import argparse
 
-    taxonomy_file = './data/mt_bench/task_analysis/demo_taxonomy.json'
+    parser = argparse.ArgumentParser(description='Validate task-oriented taxonomy')
+    parser.add_argument('--taxonomy-file',
+                       default='./data/mt_bench/task_analysis/demo_taxonomy.json',
+                       help='Path to taxonomy JSON file')
+    parser.add_argument('--output',
+                       default='./data/mt_bench/task_analysis/validation_report.json',
+                       help='Path to output validation report')
+
+    args = parser.parse_args()
+    taxonomy_file = args.taxonomy_file
 
     if not Path(taxonomy_file).exists():
         print(f"Error: Taxonomy file not found: {taxonomy_file}")
-        print("Run demo_task_analysis.py first to generate it.")
+        print("Run demo_task_analysis.py or analyze_complete_mt_bench.py first to generate it.")
         sys.exit(1)
 
+    print(f"Loading taxonomy from {taxonomy_file}...")
     validation_results = validate_taxonomy(taxonomy_file)
 
     # Save validation report
-    output_file = './data/mt_bench/task_analysis/validation_report.json'
+    output_file = args.output
     with open(output_file, 'w') as f:
         json.dump(validation_results, f, indent=2)
 

@@ -1,0 +1,2873 @@
+{
+  "total": 168,
+  "valid": 168,
+  "invalid": 0,
+  "average_score": 0.8446428571428564,
+  "results": [
+    {
+      "question_id": 83,
+      "valid": true,
+      "score": 0.9125,
+      "issues": [],
+      "warnings": [
+        "Capability 'Phonetic Similarity Modeling' is related to 'Prosodic Reasoning' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 86,
+      "valid": true,
+      "score": 0.8875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 105,
+      "valid": true,
+      "score": 0.9125,
+      "issues": [],
+      "warnings": [
+        "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 87,
+      "valid": true,
+      "score": 0.8875000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure doesn't match known patterns for Constraint Satisfaction",
+        "Error chain lacks explicit causal connections",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 104,
+      "valid": true,
+      "score": 0.875,
+      "issues": [],
+      "warnings": [
+        "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 91,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 101,
+      "valid": true,
+      "score": 0.8875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Constraint Validation and Contradiction Detection' is related to 'Contradiction Detection' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 82,
+      "valid": true,
+      "score": 0.875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 81,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 81,
+      "valid": true,
+      "score": 0.8875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 82,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 82,
+      "valid": true,
+      "score": 0.9,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Error chain lacks explicit causal connections",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 83,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 83,
+      "valid": true,
+      "score": 0.9375,
+      "issues": [],
+      "warnings": [
+        "Capability 'Phonetic Similarity Modeling' is related to 'Prosodic Reasoning' but not exact match",
+        "Error chain lacks explicit causal connections"
+      ]
+    },
+    {
+      "question_id": 84,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 84,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Language Generation' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 85,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 85,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Language Generation' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 86,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 86,
+      "valid": true,
+      "score": 0.8875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 87,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 87,
+      "valid": true,
+      "score": 0.8875000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure doesn't match known patterns for Constraint Satisfaction",
+        "Error chain lacks explicit causal connections",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 88,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 88,
+      "valid": true,
+      "score": 0.8875,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 89,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 89,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 90,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 90,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 91,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 91,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 92,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 92,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 93,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 93,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 94,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 94,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 95,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 95,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 96,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 96,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 97,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 97,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 98,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 98,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 99,
+      "valid": true,
+      "score": 0.9125,
+      "issues": [],
+      "warnings": [
+        "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 99,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 100,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 100,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 101,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 101,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 102,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 102,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 103,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 103,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 104,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 104,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 105,
+      "valid": true,
+      "score": 0.9125,
+      "issues": [],
+      "warnings": [
+        "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 105,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 106,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 106,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 107,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 107,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 108,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 108,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 109,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 109,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 110,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 110,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 111,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 111,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 112,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 112,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 113,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 113,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 114,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 114,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 115,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 115,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 116,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 116,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 117,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 117,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 118,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 118,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 119,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 119,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 120,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 120,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 121,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 121,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 122,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 122,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 123,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 123,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 124,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 124,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 125,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 125,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 126,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 126,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 127,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 127,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 128,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 128,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 129,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 129,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 130,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 130,
+      "valid": true,
+      "score": 0.8375,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Error chain should end with observable failure"
+      ]
+    },
+    {
+      "question_id": 131,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 131,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 132,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 132,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 133,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 133,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 134,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 134,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 135,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 135,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 136,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 136,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 137,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 137,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 138,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 138,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 139,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 139,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 140,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 140,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should start with root capability gap",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 141,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 141,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 142,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 142,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 143,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 143,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 144,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 144,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 145,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 145,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 146,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 146,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 147,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 147,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 148,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 148,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 149,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 149,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 150,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 150,
+      "valid": true,
+      "score": 0.85,
+      "issues": [],
+      "warnings": [
+        "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 151,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 151,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 152,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 152,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 153,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 153,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 154,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 154,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 155,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 155,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 156,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 156,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 157,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 157,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 158,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 158,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 159,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 159,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 160,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    },
+    {
+      "question_id": 160,
+      "valid": true,
+      "score": 0.8250000000000001,
+      "issues": [],
+      "warnings": [
+        "Observable failure lacks specific description",
+        "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+        "Error chain lacks explicit causal connections",
+        "Error chain should end with observable failure",
+        "Conceptual error lacks technical specificity"
+      ]
+    }
+  ],
+  "issues": [],
+  "warnings": [
+    "Capability 'Phonetic Similarity Modeling' is related to 'Prosodic Reasoning' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure doesn't match known patterns for Constraint Satisfaction",
+    "Error chain lacks explicit causal connections",
+    "Conceptual error lacks technical specificity",
+    "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Constraint Validation and Contradiction Detection' is related to 'Contradiction Detection' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Error chain lacks explicit causal connections",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Capability 'Phonetic Similarity Modeling' is related to 'Prosodic Reasoning' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Language Generation' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Language Generation' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure doesn't match known patterns for Constraint Satisfaction",
+    "Error chain lacks explicit causal connections",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Constraint Satisfaction and State Tracking' is related to 'Constraint Satisfaction' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Creative Writing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "Capability 'Persona Consistency and Knowledge Grounding' is related to 'Persona Consistency' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Capability 'Theory of Mind / Perspective Reasoning' is related to 'Theory of Mind' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Capability 'Constraint Satisfaction Reasoning' is related to 'Constraint Propagation' but not exact match",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Logical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Mathematical Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Algorithmic Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Error chain should end with observable failure",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Information Processing' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should start with root capability gap",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "NEW CAPABILITY: 'Scientific Reasoning' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity",
+    "Observable failure lacks specific description",
+    "NEW CAPABILITY: 'Critical Thinking' not in registry - needs grounding review",
+    "Error chain lacks explicit causal connections",
+    "Error chain should end with observable failure",
+    "Conceptual error lacks technical specificity"
+  ]
+}
