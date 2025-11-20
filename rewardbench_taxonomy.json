@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "total_errors_analyzed": 3,
+    "analyzer": "Claude Code Direct Analysis"
+  },
+  "statistics": {
+    "total_errors": 3,
+    "by_domain": {
+      "STEM Knowledge": 1,
+      "Code Generation": 1,
+      "Logical Reasoning": 1
+    },
+    "by_capability_category": {
+      "Scientific Reasoning": 1,
+      "Algorithmic Thinking": 1,
+      "Logical Reasoning": 1
+    },
+    "by_severity": {
+      "major": 2,
+      "moderate": 1
+    },
+    "by_model": {
+      "reward-model-rejected": 3
+    },
+    "understanding_vs_execution": {
+      "understanding_failures": 0,
+      "execution_failures": 3
+    }
+  },
+  "taxonomy": {
+    "STEM Knowledge": {
+      "Historical fact recall": {
+        "Scientific Reasoning": {
+          "Confuses first and second moonwalkers": [
+            {
+              "question_id": "rb_factual_001",
+              "turn": 1,
+              "observable_failure": "States Buzz Aldrin instead of Neil Armstrong",
+              "losing_model": "reward-model-rejected",
+              "severity": "major",
+              "is_understanding_failure": false
+            }
+          ]
+        }
+      }
+    },
+    "Code Generation": {
+      "List operations with edge case handling": {
+        "Algorithmic Thinking": {
+          "Does not handle empty list edge case": [
+            {
+              "question_id": "rb_code_bug_001",
+              "turn": 1,
+              "observable_failure": "Function raises ValueError on empty list",
+              "losing_model": "reward-model-rejected",
+              "severity": "moderate",
+              "is_understanding_failure": false
+            }
+          ]
+        }
+      }
+    },
+    "Logical Reasoning": {
+      "Syllogistic reasoning with quantifiers": {
+        "Logical Reasoning": {
+          "Confuses \"all\" and \"some\" quantifiers in logical inference": [
+            {
+              "question_id": "rb_logic_error_001",
+              "turn": 1,
+              "observable_failure": "Makes invalid deduction from correct premises",
+              "losing_model": "reward-model-rejected",
+              "severity": "major",
+              "is_understanding_failure": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "capability_gap_analysis": {
+    "Scientific Reasoning": {
+      "count": 1,
+      "models": [
+        "reward-model-rejected"
+      ],
+      "severity_distribution": {
+        "major": 1
+      },
+      "criticality_score": 2.0
+    },
+    "Algorithmic Thinking": {
+      "count": 1,
+      "models": [
+        "reward-model-rejected"
+      ],
+      "severity_distribution": {
+        "moderate": 1
+      },
+      "criticality_score": 0.0
+    },
+    "Logical Reasoning": {
+      "count": 1,
+      "models": [
+        "reward-model-rejected"
+      ],
+      "severity_distribution": {
+        "major": 1
+      },
+      "criticality_score": 2.0
+    }
+  },
+  "model_specific_gaps": {
+    "reward-model-rejected": {
+      "Scientific Reasoning": 1,
+      "Algorithmic Thinking": 1,
+      "Logical Reasoning": 1
+    }
+  },
+  "detailed_errors": [
+    {
+      "question_id": "rb_factual_001",
+      "turn": 1,
+      "category": "reasoning",
+      "losing_model": "reward-model-rejected",
+      "winning_model": "reward-model-chosen",
+      "task_domain": "STEM Knowledge",
+      "specific_task": "Historical fact recall",
+      "task_complexity": "low",
+      "required_capabilities": [
+        "Factual Knowledge",
+        "Scientific Reasoning"
+      ],
+      "missing_capability": "Factual Knowledge - Space Exploration History",
+      "capability_category": "Scientific Reasoning",
+      "conceptual_error": "Confuses first and second moonwalkers",
+      "observable_failure": "States Buzz Aldrin instead of Neil Armstrong",
+      "error_chain": [
+        "Knows both Armstrong and Aldrin walked on Moon",
+        "Fails to recall temporal ordering",
+        "States second person as first"
+      ],
+      "error_severity": "major",
+      "is_understanding_failure": false,
+      "is_systematic_error": false,
+      "losing_response_snippet": "Buzz Aldrin was the first person to walk on the Moon.",
+      "winning_response_snippet": "Neil Armstrong was the first person to walk on the Moon on July 20, 1969.",
+      "explanation": "Verifiable factual error. Neil Armstrong was first (10:56 PM EDT), Buzz Aldrin second (11:11 PM EDT). Model confused ordering."
+    },
+    {
+      "question_id": "rb_code_bug_001",
+      "turn": 1,
+      "category": "coding",
+      "losing_model": "reward-model-rejected",
+      "winning_model": "reward-model-chosen",
+      "task_domain": "Code Generation",
+      "specific_task": "List operations with edge case handling",
+      "task_complexity": "low",
+      "required_capabilities": [
+        "Algorithmic Thinking",
+        "Edge Case Handling"
+      ],
+      "missing_capability": "Algorithmic Thinking - Edge Case Handling",
+      "capability_category": "Algorithmic Thinking",
+      "conceptual_error": "Does not handle empty list edge case",
+      "observable_failure": "Function raises ValueError on empty list",
+      "error_chain": [
+        "Implements core logic correctly (max function)",
+        "Missing: empty list check",
+        "Bug: max([]) raises ValueError"
+      ],
+      "error_severity": "moderate",
+      "is_understanding_failure": false,
+      "is_systematic_error": true,
+      "losing_response_snippet": "def find_max(lst):\n    return max(lst)",
+      "winning_response_snippet": "def find_max(lst):\n    if not lst:\n        return None\n    return max(lst)",
+      "explanation": "Verifiable bug. Rejected version crashes on empty input. Chosen version handles edge case gracefully."
+    },
+    {
+      "question_id": "rb_logic_error_001",
+      "turn": 1,
+      "category": "reasoning",
+      "losing_model": "reward-model-rejected",
+      "winning_model": "reward-model-chosen",
+      "task_domain": "Logical Reasoning",
+      "specific_task": "Syllogistic reasoning with quantifiers",
+      "task_complexity": "medium",
+      "required_capabilities": [
+        "Logical Reasoning",
+        "Quantifier Logic"
+      ],
+      "missing_capability": "Logical Reasoning - Universal vs Existential Quantifiers",
+      "capability_category": "Logical Reasoning",
+      "conceptual_error": "Confuses \"all\" and \"some\" quantifiers in logical inference",
+      "observable_failure": "Makes invalid deduction from correct premises",
+      "error_chain": [
+        "Correctly understands: all roses \u2208 flowers",
+        "Correctly understands: \u2203 flowers that are red",
+        "Incorrectly concludes: \u2203 roses that are red",
+        "Logical error: existential quantifier does not distribute over subset"
+      ],
+      "error_severity": "major",
+      "is_understanding_failure": false,
+      "is_systematic_error": true,
+      "losing_response_snippet": "Yes, since some flowers are red and roses are flowers, some roses must be red.",
+      "winning_response_snippet": "No, we cannot conclude that. While all roses are flowers, and some flowers are red, the red flowers might not be roses - they could be tulips, carnations, etc.",
+      "explanation": "Verifiable logical error. Rejected response commits quantifier fallacy. The red flowers could be entirely non-roses."
+    }
+  ]
+}
