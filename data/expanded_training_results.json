@@ -1,0 +1,23 @@
+{
+  "dataset_size": 252,
+  "train_size": 58,
+  "val_size": 8,
+  "test_size": 16,
+  "baseline_metrics": {
+    "mae": 9.3914375,
+    "rmse": 10.60865859510523,
+    "correlation": -0.3726470220750685,
+    "ece": 0.06309687500000016,
+    "n_test": 16,
+    "mean_confidence": 0.2439097558004073
+  },
+  "improved_metrics": {
+    "mae": 8.584135214216856,
+    "rmse": 11.363104851419696,
+    "correlation": -0.35442126562372395,
+    "ece": 0.06408467175340585,
+    "n_test": 16,
+    "mean_confidence": 0.2439097558004073
+  },
+  "temperature": 0.8634931727752644
+}
