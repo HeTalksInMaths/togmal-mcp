@@ -1,0 +1,2668 @@
+{
+  "competitions": [
+    {
+      "question_id": "mle_bench_3d-object-detection-for-autonomous-vehicles",
+      "question_text": "**Kaggle Competition: Lyft 3D Object Detection for Autonomous Vehicles**\n\n**Competition ID:** 3d-object-detection-for-autonomous-vehicles\n\n**Description:**\n# Overview\n\n## Description\n\n![autonomous-vehicle-lidar](https://storage.googleapis.com/kaggle-media/competitions/Lyft-Kaggle/Kaggle-01.png)\n\nSelf-driving technology presents a rare opportunity to improve the quality of life in many of our communities. Avoidable collisions, single-occupant commuters, and vehicle emissions are choking cities, while infrastructure strains under rapid urban growth. Autonomous vehicles are expected to redefine transportation and unlock a myriad of societal, environme...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "3d-object-detection-for-autonomous-vehicles",
+      "competition_name": "Lyft 3D Object Detection for Autonomous Vehicles",
+      "competition_type": "simple",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 1200
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "mean-average-precision",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "3d-object-detection-for-autonomous-vehicles/prepared/private/test.csv",
+        "sample_submission": "3d-object-detection-for-autonomous-vehicles/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_AI4Code",
+      "question_text": "**Kaggle Competition: Google AI4Code - Understand Code in Python Notebooks**\n\n**Competition ID:** AI4Code\n\n**Description:**\n# Overview\n\n## Description\n\nThe goal of this competition is to understand the relationship between code and comments in Python notebooks. You are challenged to reconstruct the order of markdown cells in a given notebook based on the order of the code cells, demonstrating comprehension of which natural language references which code.\n\n### Context\n\nResearch teams across Google and Alphabet are exploring new ways that machine learning can assist software developers, and want to rally more members o...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "AI4Code",
+      "competition_name": "Google AI4Code - Understand Code in Python Notebooks",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 50000
+        },
+        {
+          "position": 2,
+          "value": 40000
+        },
+        {
+          "position": 3,
+          "value": 30000
+        },
+        {
+          "position": 4,
+          "value": 20000
+        },
+        {
+          "position": 5,
+          "value": 10000
+        }
+      ],
+      "grader_name": "kendall-tau",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "AI4Code/prepared/private/test_orders.csv",
+        "sample_submission": "AI4Code/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_aerial-cactus-identification",
+      "question_text": "**Kaggle Competition: Aerial Cactus Identification**\n\n**Competition ID:** aerial-cactus-identification\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\nTo assess the impact of climate change on Earth's flora and fauna, it is vital to quantify how human activities such as logging, mining, and agriculture are impacting our protected natural areas. Researchers in Mexico have created the\u00a0[VIGIA project](https://jivg.org/research-projects/vigia/), which aims to build a system for autonomous surveillance of protected areas. A first step in such an effort is the ability to recognize the vegetation inside the p...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "aerial-cactus-identification",
+      "competition_name": "Aerial Cactus Identification",
+      "competition_type": "code",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "aerial-cactus-identification/prepared/private/test.csv",
+        "sample_submission": "aerial-cactus-identification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_alaska2-image-steganalysis",
+      "question_text": "**Kaggle Competition: ALASKA2 Image Steganalysis**\n\n**Competition ID:** alaska2-image-steganalysis\n\n**Description:**\n# Overview\n\n## Description\n\nThat file you downloaded may contain hidden messages that aren't part of its regular contents. The same technology employed for digital watermarking is also misused by crime rings. Law enforcement must now use steganalysis to detect these messages as part of their investigations. Machine learning is an important tool in the discovery of this secret data.\n\n![](https://storage.googleapis.com/kaggle-media/competitions/UTT/Kaggle_ALASKA.png)\n\nCurrent methods produce unrel...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "image_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "alaska2-image-steganalysis",
+      "competition_name": "ALASKA2 Image Steganalysis",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "weighted-auroc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "alaska2-image-steganalysis/prepared/private/test.csv",
+        "sample_submission": "alaska2-image-steganalysis/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_aptos2019-blindness-detection",
+      "question_text": "**Kaggle Competition: APTOS 2019 Blindness Detection**\n\n**Competition ID:** aptos2019-blindness-detection\n\n**Description:**\n## Description\n\nImagine being able to detect blindness before it happened.\n\n![aravind](https://storage.googleapis.com/kaggle-media/competitions/aravind)\n\nMillions of people suffer from\u00a0[diabetic retinopathy](https://nei.nih.gov/health/diabetic/retinopathy), the leading cause of blindness among working aged adults.\u00a0**Aravind Eye Hospital**\u00a0in India hopes to detect and prevent this disease among people living in rural areas where medical screening is difficult to conduct. Successful entries in thi...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "aptos2019-blindness-detection",
+      "competition_name": "APTOS 2019 Blindness Detection",
+      "competition_type": "code",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 25000
+        },
+        {
+          "position": 2,
+          "value": 12000
+        },
+        {
+          "position": 3,
+          "value": 8000
+        },
+        {
+          "position": 4,
+          "value": 5000
+        }
+      ],
+      "grader_name": "quadratic-weighted-kappa",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "aptos2019-blindness-detection/prepared/private/test.csv",
+        "sample_submission": "aptos2019-blindness-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_billion-word-imputation",
+      "question_text": "**Kaggle Competition: Billion Word Imputation**\n\n**Competition ID:** billion-word-imputation\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\n![corpus](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3927/media/corpus.png)This competition uses the billion-word benchmark corpus provided by\u00a0[Chelba et al.](http://arxiv.org/abs/1312.3005)\u00a0for language modeling. Rather than ask participants to create a classic language model and evaluate sentence probabilities -- a task which is difficult to faithfully score\u00a0in Kaggle's supervised ML setting -- we have introduced a variation\u00a0on the...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "billion-word-imputation",
+      "competition_name": "Billion Word Imputation",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "levenshtein-distance",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "billion-word-imputation/prepared/private/test.csv",
+        "sample_submission": "billion-word-imputation/prepared/private/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_bms-molecular-translation",
+      "question_text": "**Kaggle Competition: Bristol-Myers Squibb - Molecular Translation**\n\n**Competition ID:** bms-molecular-translation\n\n**Description:**\n## Description\n\nIn a technology-forward world, sometimes the best and easiest tools are still pen and paper. Organic chemists frequently draw out molecular work with the Skeletal formula, a structural notation used for centuries. Recent publications are also annotated with machine-readable chemical descriptions (InChI), but there are decades of scanned documents that can't be automatically searched for specific chemical depictions. Automated recognition of optical chemical structures, with the h...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "time_series",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "bms-molecular-translation",
+      "competition_name": "Bristol-Myers Squibb - Molecular Translation",
+      "competition_type": "simple",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 25000
+        },
+        {
+          "position": 2,
+          "value": 15000
+        },
+        {
+          "position": 3,
+          "value": 10000
+        }
+      ],
+      "grader_name": "levenshtein-distance",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "bms-molecular-translation/prepared/private/test.csv",
+        "sample_submission": "bms-molecular-translation/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_cassava-leaf-disease-classification",
+      "question_text": "**Kaggle Competition: Cassava Leaf Disease Classification**\n\n**Competition ID:** cassava-leaf-disease-classification\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\nAs the second-largest provider of carbohydrates in Africa, cassava is a key food security crop grown by smallholder farmers because it can withstand harsh conditions. At least 80% of household farms in Sub-Saharan Africa grow this starchy root, but viral diseases are major sources of poor yields. With the help of data science, it may be possible to identify common diseases so they can be treated.\n\nExisting methods of disease detection require farmers to ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "cassava-leaf-disease-classification",
+      "competition_name": "Cassava Leaf Disease Classification",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 8000
+        },
+        {
+          "position": 2,
+          "value": 4000
+        },
+        {
+          "position": 3,
+          "value": 3000
+        },
+        {
+          "position": "TPU Star 1",
+          "value": 1000
+        },
+        {
+          "position": "TPU Star 2",
+          "value": 1000
+        },
+        {
+          "position": "TPU Star 3",
+          "value": 1000
+        }
+      ],
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "cassava-leaf-disease-classification/prepared/private/test.csv",
+        "sample_submission": "cassava-leaf-disease-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_cdiscount-image-classification-challenge",
+      "question_text": "**Kaggle Competition: Cdiscount\u2019s Image Classification Challenge**\n\n**Competition ID:** cdiscount-image-classification-challenge\n\n**Description:**\n# Overview\n\n## Description\n\n![Cdiscount](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3333/media/Cdiscount.png)\n\n[Rules Update:](https://www.kaggle.com/c/cdiscount-image-classification-challenge/rules)\u00a0The CDiscount team has updated their rules to allow for use of this dataset for research and academic purposes only. To access the data, go to rules and accept the terms to download the data.\n\n[Cdiscount.com](https://www.cdiscount.com/)\u00a0generated nearly 3 billion euros last year...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "image_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "cdiscount-image-classification-challenge",
+      "competition_name": "Cdiscount\u2019s Image Classification Challenge",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 20000
+        },
+        {
+          "position": 2,
+          "value": 10000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "cdiscount-image-classification-challenge/prepared/private/answers.csv",
+        "sample_submission": "cdiscount-image-classification-challenge/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_chaii-hindi-and-tamil-question-answering",
+      "question_text": "**Kaggle Competition: Hindi and Tamil Question Answering**\n\n**Competition ID:** chaii-hindi-and-tamil-question-answering\n\n**Description:**\n# Overview\n\n## Description\n\nWith nearly 1.4 billion people, India is the second-most populated country in the world. Yet Indian languages, like Hindi and Tamil, are underrepresented on the web. Popular Natural Language Understanding (NLU) models perform worse with Indian languages compared to English, the effects of which lead to subpar experiences in downstream web applications for Indian users. With more attention from the Kaggle community and your novel machine learning solutions, we can help...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "nlp",
+      "subdomain": "language_modeling",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "chaii-hindi-and-tamil-question-answering",
+      "competition_name": "Hindi and Tamil Question Answering",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 2000
+        },
+        {
+          "position": 2,
+          "value": 2000
+        },
+        {
+          "position": 3,
+          "value": 2000
+        },
+        {
+          "position": 4,
+          "value": 2000
+        },
+        {
+          "position": 5,
+          "value": 2000
+        }
+      ],
+      "grader_name": "word-level-jaccard-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "chaii-hindi-and-tamil-question-answering/prepared/private/test.csv",
+        "sample_submission": "chaii-hindi-and-tamil-question-answering/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_champs-scalar-coupling",
+      "question_text": "**Kaggle Competition: Predicting Molecular Properties**\n\n**Competition ID:** champs-scalar-coupling\n\n**Description:**\n# Overview\n\n## Description\n\n![thumb76_76](https://storage.googleapis.com/kaggle-media/competitions/kaggle/14313/logos/thumb76_76.png?t=2019-05-16-16-56-19)\n\nThink you can use your data science smarts to make big predictions at a molecular level?\n\nThis challenge aims to predict interactions between atoms. Imaging technologies like MRI enable us to see and understand the molecular composition of tissues. Nuclear Magnetic Resonance (NMR) is a closely related technology which uses the same principle...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "champs-scalar-coupling",
+      "competition_name": "Predicting Molecular Properties",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12500
+        },
+        {
+          "position": 2,
+          "value": 7500
+        },
+        {
+          "position": 3,
+          "value": 5000
+        },
+        {
+          "position": 4,
+          "value": 3000
+        },
+        {
+          "position": 5,
+          "value": 2000
+        }
+      ],
+      "grader_name": "log-mean-absolute-error",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "champs-scalar-coupling/prepared/private/answers.csv",
+        "sample_submission": "champs-scalar-coupling/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_denoising-dirty-documents",
+      "question_text": "**Kaggle Competition: Denoising Dirty Documents**\n\n**Competition ID:** denoising-dirty-documents\n\n**Description:**\n# Overview\n\n## Description\n\n[Optical Character Recognition](http://en.wikipedia.org/wiki/Optical_character_recognition)\u00a0(OCR) is the process of getting type or handwritten documents\u00a0into\u00a0a digitized format. If you've read a classic novel on\u00a0a digital reading device or had your doctor pull up old healthcare records via the hospital computer system, you've probably benefited from OCR.\n\nOCR makes previously static content editable, searchable, and much easier to share. But, a lot of documents eager...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "denoising-dirty-documents",
+      "competition_name": "Denoising Dirty Documents",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "root_mean_squared_error",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "denoising-dirty-documents/prepared/private/answers.csv",
+        "sample_submission": "denoising-dirty-documents/prepared/public/sampleSubmission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_detecting-insults-in-social-commentary",
+      "question_text": "**Kaggle Competition: Detecting Insults in Social Commentary**\n\n**Competition ID:** detecting-insults-in-social-commentary\n\n**Description:**\n# Overview\n\n## Overview\n\n### Prizes\n\n#### How Does the Prize Work?\n\nThe \\$10,000 prize pool will be split between the top two finishers for the classification challenge and the top visualization submission as follows:\n\n**First place**: \\$7,000\n\n**Second place**: \u00a0\\$2,500\n\n**Visualization Prospect**: \\$500\n\nBut wait, there's more...\n\n**Recruiting Competition**\n\nDo you want a chance to build a crucial component of Web 2.0 infrastructure: the defense against spam and abuse? Do you live and breathe ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "detecting-insults-in-social-commentary",
+      "competition_name": "Detecting Insults in Social Commentary",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 7000
+        },
+        {
+          "position": 2,
+          "value": 2500
+        },
+        {
+          "position": "Visualization Prospect",
+          "value": 500
+        }
+      ],
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "detecting-insults-in-social-commentary/prepared/private/test.csv",
+        "gold_submission": "detecting-insults-in-social-commentary/prepared/private/gold_submission.csv",
+        "sample_submission": "detecting-insults-in-social-commentary/prepared/public/sample_submission_null.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_dog-breed-identification",
+      "question_text": "**Kaggle Competition: Dog Breed Identification**\n\n**Competition ID:** dog-breed-identification\n\n**Description:**\n# Overview\n\n## Description\n\nWho's a good dog? Who likes ear scratches? Well, it seems those fancy deep neural networks don't have\u00a0*all*\u00a0the answers. However, maybe they can answer that ubiquitous question we all ask when meeting a four-legged stranger: what kind of good pup is that?\n\nIn this playground competition, you are provided a strictly canine subset of\u00a0[ImageNet](https://www.kaggle.com/c/imagenet-object-detection-challenge)\u00a0in order to practice fine-grained image categorization. How well ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "dog-breed-identification",
+      "competition_name": "Dog Breed Identification",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "multi-class-log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "dog-breed-identification/prepared/private/test.csv",
+        "sample_submission": "dog-breed-identification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_dogs-vs-cats-redux-kernels-edition",
+      "question_text": "**Kaggle Competition: Dogs vs. Cats Redux: Kernels Edition**\n\n**Competition ID:** dogs-vs-cats-redux-kernels-edition\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\nIn 2013, we hosted one of our favorite for-fun competitions: \u00a0[Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats). Much has since changed in the machine learning landscape, particularly in deep learning and image analysis. Back then, a\u00a0tensor flow was the\u00a0diffusion of the creamer in a bored mathematician's cup of coffee. Now,\u00a0[even the cucumber farmers](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learnin...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "dogs-vs-cats-redux-kernels-edition",
+      "competition_name": "Dogs vs. Cats Redux: Kernels Edition",
+      "competition_type": "code",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "dogs-vs-cats-redux-kernels-edition/prepared/private/answers.csv",
+        "sample_submission": "dogs-vs-cats-redux-kernels-edition/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_facebook-recruiting-iii-keyword-extraction",
+      "question_text": "**Kaggle Competition: Facebook Recruiting III - Keyword Extraction**\n\n**Competition ID:** facebook-recruiting-iii-keyword-extraction\n\n**Description:**\n# Overview\n\n## Description\n\nLooking for a data science position at Facebook? \u00a0After two successful prior Kaggle competitions, Facebook continues their mission to identify the best data scientists and software engineers that Kaggle has to offer. In this third installment, they seek candidates who have experience text mining large amounts of data.\n\n![tags.jpg](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3539/media/tags.jpg)\n\nThis competition tests your text skills on a large da...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "facebook-recruiting-iii-keyword-extraction",
+      "competition_name": "Facebook Recruiting III - Keyword Extraction",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": null,
+      "grader_name": "micro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "facebook-recruiting-iii-keyword-extraction/prepared/private/test.csv",
+        "sample_submission": "facebook-recruiting-iii-keyword-extraction/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_freesound-audio-tagging-2019",
+      "question_text": "**Kaggle Competition: Freesound Audio Tagging 2019**\n\n**Competition ID:** freesound-audio-tagging-2019\n\n**Description:**\n# Overview\n\n## Description\n\nOne year ago, Freesound and Google's Machine Perception hosted an audio tagging competition challenging Kagglers to build a general-purpose auto tagging system. This year they're back and taking the challenge to the next level with multi-label audio tagging, doubled number of audio categories, and a\u00a0*noisier than ever*\u00a0training set. If you like raising your ML game, this challenge is for you.\n\n![Freesound](https://storage.googleapis.com/kaggle-media/competitions/frees...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "audio",
+      "subdomain": "audio_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "freesound-audio-tagging-2019",
+      "competition_name": "Freesound Audio Tagging 2019",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 2200
+        },
+        {
+          "position": 2,
+          "value": 1200
+        },
+        {
+          "position": 3,
+          "value": 800
+        },
+        {
+          "position": "Judges' Award Prize",
+          "value": 800
+        }
+      ],
+      "grader_name": "label-ranking-average-precision",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "freesound-audio-tagging-2019/prepared/private/test.csv",
+        "sample_submission": "freesound-audio-tagging-2019/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_google-quest-challenge",
+      "question_text": "**Kaggle Competition: Google QUEST Q&A Labeling**\n\n**Competition ID:** google-quest-challenge\n\n**Description:**\n# Overview\n## Description\nComputers are really good at answering questions with single, verifiable answers. But, humans are often still better at answering questions about opinions, recommendations, or personal experiences.\n\nHumans are better at addressing subjective questions that require a deeper, multidimensional understanding of context - something computers aren't trained to do well\u2026yet.. Questions can take many forms - some have multi-sentence elaborations, others may be simple curiosity o...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "recommendation",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "google-quest-challenge",
+      "competition_name": "Google QUEST Q&A Labeling",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 10000
+        },
+        {
+          "position": 2,
+          "value": 7000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        },
+        {
+          "position": 4,
+          "value": 2000
+        },
+        {
+          "position": 5,
+          "value": 1000
+        }
+      ],
+      "grader_name": "column-wise-spearman",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "google-quest-challenge/prepared/private/test.csv",
+        "sample_submission": "google-quest-challenge/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_google-research-identify-contrails-reduce-global-warming",
+      "question_text": "**Kaggle Competition: Google Research - Identify Contrails to Reduce Global Warming**\n\n**Competition ID:** google-research-identify-contrails-reduce-global-warming\n\n**Description:**\n# Overview\n\n## Description\n\n### Goal of the Competition\n\nContrails are clouds of ice crystals that form in aircraft engine exhaust. They can contribute to global warming by trapping heat in the atmosphere. Researchers have developed models to predict when contrails will form and how much warming they will cause. However, they need to validate these models with satellite imagery.  \n\nYour work will help researchers improve the accuracy of their contrail models. This will help airlines avoid creati...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "google-research-identify-contrails-reduce-global-warming",
+      "competition_name": "Google Research - Identify Contrails to Reduce Global Warming",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 15000
+        },
+        {
+          "position": 2,
+          "value": 10000
+        },
+        {
+          "position": 3,
+          "value": 8000
+        },
+        {
+          "position": 4,
+          "value": 7000
+        },
+        {
+          "position": 5,
+          "value": 5000
+        },
+        {
+          "position": 6,
+          "value": 5000
+        }
+      ],
+      "grader_name": "global-dice",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "google-research-identify-contrails-reduce-global-warming/prepared/private/answers.csv",
+        "sample_submission": "google-research-identify-contrails-reduce-global-warming/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_h-and-m-personalized-fashion-recommendations",
+      "question_text": "**Kaggle Competition: H&M Personalized Fashion Recommendations**\n\n**Competition ID:** h-and-m-personalized-fashion-recommendations\n\n**Description:**\n# Overview\n\n## Description\n\n[H&M Group](https://www.hmgroup.com/)\u00a0is a family of brands and businesses with 53 online markets and approximately 4,850 stores. Our online store offers shoppers an extensive selection of products to browse through. But with too many choices, customers might not quickly find what interests them or what they are looking for, and ultimately, they might not make a purchase. To enhance the shopping experience, product recommendations are key. More importantly, helping cu...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "recommendation",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "h-and-m-personalized-fashion-recommendations",
+      "competition_name": "H&M Personalized Fashion Recommendations",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 15000
+        },
+        {
+          "position": 2,
+          "value": 10000
+        },
+        {
+          "position": 3,
+          "value": 8000
+        },
+        {
+          "position": 4,
+          "value": 7000
+        },
+        {
+          "position": 5,
+          "value": 5000
+        },
+        {
+          "position": 6,
+          "value": 5000
+        }
+      ],
+      "grader_name": "MAP@12",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "h-and-m-personalized-fashion-recommendations/prepared/private/answers.csv",
+        "sample_submission": "h-and-m-personalized-fashion-recommendations/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_herbarium-2020-fgvc7",
+      "question_text": "**Kaggle Competition: Herbarium 2020 - FGVC7**\n\n**Competition ID:** herbarium-2020-fgvc7\n\n**Description:**\n# Overview\n\n## Description\n\nThe Herbarium 2020 FGVC7 Challenge is to identify vascular plant species from a large, long-tailed collection herbarium specimens provided by the\u00a0[New York Botanical Garden](https://www.nybg.org/plant-research-and-conservation/)\u00a0(NYBG).\n\nThe Herbarium 2020 dataset contains over 1M images representing over 32,000 plant species. This is a dataset with a long tail; there are a minimum of 3 specimens per species. However, some species are represented by more than a hundre...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "herbarium-2020-fgvc7",
+      "competition_name": "Herbarium 2020 - FGVC7",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "macro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "herbarium-2020-fgvc7/prepared/private/answers.csv",
+        "sample_submission": "herbarium-2020-fgvc7/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_herbarium-2021-fgvc8",
+      "question_text": "**Kaggle Competition: Herbarium 2021 - FGVC8**\n\n**Competition ID:** herbarium-2021-fgvc8\n\n**Description:**\n# Overview\n\n## Description\n\n*The Herbarium 2021: Half-Earth Challenge*\u00a0is to identify vascular plant specimens provided by the\u00a0[New York Botanical Garden](https://www.nybg.org/)\u00a0(NY),\u00a0[Bishop Museum](https://www.bishopmuseum.org/)\u00a0(BPBM),\u00a0[Naturalis Biodiversity Center](https://www.naturalis.nl/en)\u00a0(NL),\u00a0[Queensland Herbarium](https://www.qld.gov.au/environment/plants-animals/plants/herbarium)\u00a0(BRI), and\u00a0[Auckland War Memorial Museum](https://www.aucklandmuseum.com/)\u00a0(AK).\n\n*The Herbarium 2021: ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "herbarium-2021-fgvc8",
+      "competition_name": "Herbarium 2021 - FGVC8",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "macro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "herbarium-2021-fgvc8/prepared/private/answers.csv",
+        "sample_submission": "herbarium-2021-fgvc8/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_herbarium-2022-fgvc9",
+      "question_text": "**Kaggle Competition: Herbarium 2022 - FGVC9**\n\n**Competition ID:** herbarium-2022-fgvc9\n\n**Description:**\n# Overview\n\n## Description\n\n[![My-Post.jpg](https://i.postimg.cc/15qZZfvt/My-Post.jpg)](https://postimg.cc/Xp4Pf7SS)\n\n*The Herbarium 2022: Flora of North America*\u00a0is a part of a project of the\u00a0[New York Botanical Garden](https://www.nybg.org/)\u00a0funded by the\u00a0[National Science Foundation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054684&HistoricalAwards=false)\u00a0to build tools to identify novel plant species around the world. The dataset strives to represent all known vascular plant taxa in ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "herbarium-2022-fgvc9",
+      "competition_name": "Herbarium 2022 - FGVC9",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "macro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "herbarium-2022-fgvc9/prepared/private/answers.csv",
+        "sample_submission": "herbarium-2022-fgvc9/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_histopathologic-cancer-detection",
+      "question_text": "**Kaggle Competition: Histopathologic Cancer Detection**\n\n**Competition ID:** histopathologic-cancer-detection\n\n**Description:**\n# Overview\n\n## Overview\n\n![Microscope](https://storage.googleapis.com/kaggle-media/competitions/playground/Microscope)\n\nIn this competition, you must create an algorithm to identify metastatic cancer in small image patches taken from larger digital pathology scans. The data for this competition is a slightly modified version of the PatchCamelyon (PCam) [benchmark dataset](https://github.com/basveeling/pcam) (the original PCam dataset contains duplicate images due to its probabilistic sampling, h...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "histopathologic-cancer-detection",
+      "competition_name": "Histopathologic Cancer Detection",
+      "competition_type": "code",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "histopathologic-cancer-detection/prepared/private/answers.csv",
+        "sample_submission": "histopathologic-cancer-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_hms-harmful-brain-activity-classification",
+      "question_text": "**Kaggle Competition: HMS - Harmful Brain Activity Classification**\n\n**Competition ID:** hms-harmful-brain-activity-classification\n\n**Description:**\n# Overview\n\n## Overview\n\nThe goal of this competition is to detect and classify seizures and other types of harmful brain activity. You will develop a model trained on electroencephalography (EEG) signals recorded from critically ill hospital patients.\n\nYour work may help rapidly improve electroencephalography pattern classification accuracy, unlocking transformative benefits for neurocritical care, epilepsy, and drug development. Advancement in this area may allow doctors and brain researchers ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "hms-harmful-brain-activity-classification",
+      "competition_name": "HMS - Harmful Brain Activity Classification",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 20000
+        },
+        {
+          "position": 2,
+          "value": 12000
+        },
+        {
+          "position": 3,
+          "value": 7000
+        },
+        {
+          "position": 4,
+          "value": 6000
+        },
+        {
+          "position": 5,
+          "value": 5000
+        }
+      ],
+      "grader_name": "KL-divergence",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "hms-harmful-brain-activity-classification/prepared/private/test.csv",
+        "gold_submission": "hms-harmful-brain-activity-classification/prepared/private/gold_submission.csv",
+        "sample_submission": "hms-harmful-brain-activity-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_hotel-id-2021-fgvc8",
+      "question_text": "**Kaggle Competition: Hotel-ID to Combat Human Trafficking 2021 - FGVC8**\n\n**Competition ID:** hotel-id-2021-fgvc8\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\n#### Hotel Recognition to Combat Human Trafficking\n\nVictims of human trafficking are often photographed in hotel rooms as in the below examples. Identifying these hotels is vital to these trafficking investigations but poses particular challenges due to low quality of images and uncommon camera angles.\n\n![Example investigative images.](https://cs.slu.edu/~astylianou/images/example_victim_images.png)\n\nEven without victims in the images, hotel identificati...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "image_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "hotel-id-2021-fgvc8",
+      "competition_name": "Hotel-ID to Combat Human Trafficking 2021 - FGVC8",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "map-at-5",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "hotel-id-2021-fgvc8/prepared/private/test.csv",
+        "sample_submission": "hotel-id-2021-fgvc8/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_hubmap-kidney-segmentation",
+      "question_text": "**Kaggle Competition: HuBMAP - Hacking the Kidney**\n\n**Competition ID:** hubmap-kidney-segmentation\n\n**Description:**\n# Overview\n\n## Overview\n\nStart\n\nNov 16, 2020\n\nClose\n\nMay 11, 2021\n\n### Description\n\nOur best estimates show there are over 7 billion people on the planet and 300 billion stars in the Milky Way galaxy. By comparison, the adult human body contains 37\u00a0*trillion*\u00a0cells. To determine the function and relationship among these cells is a monumental undertaking. Many areas of human health would be impacted if we better understand cellular activity. A problem with this much data is a great match for the ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "segmentation",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "hubmap-kidney-segmentation",
+      "competition_name": "HuBMAP - Hacking the Kidney",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": "Accuracy Prize 1",
+          "value": 18000
+        },
+        {
+          "position": "Accuracy Prize 2",
+          "value": 10000
+        },
+        {
+          "position": "Accuracy Prize 3",
+          "value": 4000
+        },
+        {
+          "position": "Scientific Prize",
+          "value": 15000
+        },
+        {
+          "position": "Innovation Prize",
+          "value": 10000
+        },
+        {
+          "position": "Diversity Prize",
+          "value": 3000
+        }
+      ],
+      "grader_name": "dice-coefficient",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "hubmap-kidney-segmentation/prepared/private/test.csv",
+        "gold_submission": "hubmap-kidney-segmentation/prepared/private/gold_submission.csv",
+        "sample_submission": "hubmap-kidney-segmentation/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_icecube-neutrinos-in-deep-ice",
+      "question_text": "**Kaggle Competition: IceCube - Neutrinos in Deep Ice**\n\n**Competition ID:** icecube-neutrinos-in-deep-ice\n\n**Description:**\n# Overview\n\n## Description\n\n## Goal of the Competition\n\nThe goal of this competition is to predict a neutrino particle's direction. You will develop a model based on data from the \"IceCube\" detector, which observes the cosmos from deep within the South Pole ice.\n\nYour work could help scientists better understand exploding stars, gamma-ray bursts, and cataclysmic phenomena involving black holes, neutron stars and the fundamental properties of the neutrino itself.\n\n## Context\n\nOne of the most abun...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "icecube-neutrinos-in-deep-ice",
+      "competition_name": "IceCube - Neutrinos in Deep Ice",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 18000
+        },
+        {
+          "position": 2,
+          "value": 12000
+        },
+        {
+          "position": 3,
+          "value": 10000
+        },
+        {
+          "position": "Most Interesting Solution Writeup 1",
+          "value": 1000
+        },
+        {
+          "position": "Most Interesting Solution Writeup 2",
+          "value": 1000
+        },
+        {
+          "position": "Most Interesting Solution Writeup 3",
+          "value": 1000
+        },
+        {
+          "position": "Most Interesting Solution Writeup 4",
+          "value": 1000
+        },
+        {
+          "position": "Most Interesting Solution Writeup 5",
+          "value": 1000
+        },
+        {
+          "position": "Early Sharing Prize",
+          "value": 5000
+        }
+      ],
+      "grader_name": "mean-angular-error",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "icecube-neutrinos-in-deep-ice/prepared/private/test.csv",
+        "sample_submission": "icecube-neutrinos-in-deep-ice/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_imet-2020-fgvc7",
+      "question_text": "**Kaggle Competition: iMet Collection 2020 - FGVC7**\n\n**Competition ID:** imet-2020-fgvc7\n\n**Description:**\n# Overview\n\n## Description\n\nThe\u00a0[Metropolitan Museum of Art](https://www.metmuseum.org/)\u00a0in New York, also known as The Met, has a diverse collection of over 1.5M objects of which over 200K have been digitized with imagery. Can you help find the significant attributes to identify a specific work of art? Help advance this research in this notebook competition.\n\nThe online cataloguing information is generated by subject matter experts and includes a wide range of data. These include, but are not l...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "imet-2020-fgvc7",
+      "competition_name": "iMet Collection 2020 - FGVC7",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "micro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "imet-2020-fgvc7/prepared/private/answers.csv",
+        "sample_submission": "imet-2020-fgvc7/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_inaturalist-2019-fgvc6",
+      "question_text": "**Kaggle Competition: iNaturalist 2019 at FGVC6**\n\n**Competition ID:** inaturalist-2019-fgvc6\n\n**Description:**\n# Overview\n\n## Description\n\n![iNaturalist banner](https://prod-files-secure.s3.us-west-2.amazonaws.com/667f1cbf-826f-4641-a321-96054292638d/0e1cef9d-568b-4cd0-9076-500fd0c282c4/image.png)\n\nAs part of the FGVC6 workshop at CVPR 2019 we are conducting the iNat Challenge 2019 large scale species classification competition, sponsored by Microsoft. It is estimated that the natural world contains several million species of plants and animals. Without expert knowledge, many of these species are extreme...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "image_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "inaturalist-2019-fgvc6",
+      "competition_name": "iNaturalist 2019 at FGVC6",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "top-1-classification-error",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "inaturalist-2019-fgvc6/prepared/private/answers.csv",
+        "sample_submission": "inaturalist-2019-fgvc6/prepared/public/kaggle_sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_invasive-species-monitoring",
+      "question_text": "**Kaggle Competition: Invasive Species Monitoring**\n\n**Competition ID:** invasive-species-monitoring\n\n**Description:**\n# Overview\n\n## Description\n\nTangles of kudzu overwhelm trees in Georgia while cane toads threaten habitats in over a dozen countries worldwide. These are just two invasive species of many which can have damaging effects on the environment, the economy, and even human health. Despite widespread impact, efforts to track the location and spread of invasive species are so costly that they\u2019re difficult to undertake at scale.\n\nCurrently, ecosystem and plant distribution monitoring depends on expert kn...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "invasive-species-monitoring",
+      "competition_name": "Invasive Species Monitoring",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "invasive-species-monitoring/prepared/private/answers.csv",
+        "sample_submission": "invasive-species-monitoring/prepared/private/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_iwildcam-2019-fgvc6",
+      "question_text": "**Kaggle Competition: iWildCam 2019 - FGVC6**\n\n**Competition ID:** iwildcam-2019-fgvc6\n\n**Description:**\n# Overview\n\n## Description\n\nCamera Traps (or Wild Cams) enable the automatic collection of large quantities of image data. Biologists all over the world use camera traps to monitor biodiversity and population density of animal species. We have recently been making strides towards automating the species classification challenge in camera traps, but as we try to expand the scope of these models from specific regions where we have collected training data to nearby areas we are faced with an interes...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "image_classification",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "iwildcam-2019-fgvc6",
+      "competition_name": "iWildCam 2019 - FGVC6",
+      "competition_type": "simple",
+      "complexity": "high",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "macro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "iwildcam-2019-fgvc6/prepared/private/answers.csv",
+        "sample_submission": "iwildcam-2019-fgvc6/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_iwildcam-2020-fgvc7",
+      "question_text": "**Kaggle Competition: iWildCam 2020 - FGVC7**\n\n**Competition ID:** iwildcam-2020-fgvc7\n\n**Description:**\n# Overview\n\n## Description\n\nCamera Traps (or Wild Cams) enable the automatic collection of large quantities of image data. Biologists all over the world use camera traps to monitor biodiversity and population density of animal species. We have recently been making strides towards automatic species classification in camera trap images. However, as we try to expand the scope of these models we are faced with an interesting problem: how do we train models that perform well on new (unseen during tra...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "image_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "iwildcam-2020-fgvc7",
+      "competition_name": "iWildCam 2020 - FGVC7",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "iwildcam-2020-fgvc7/prepared/private/answers.csv",
+        "sample_submission": "iwildcam-2020-fgvc7/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_jigsaw-toxic-comment-classification-challenge",
+      "question_text": "**Kaggle Competition: Toxic Comment Classification Challenge**\n\n**Competition ID:** jigsaw-toxic-comment-classification-challenge\n\n**Description:**\n# Overview\n\n## Description\n\nDiscussing things you care about can be difficult. The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments.\n\nThe [Conversation AI](https://conversationai.github.io/) team, a research initiative founded by [Jigsaw](https://jigsaw.google.com/) and Google (both a ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "jigsaw-toxic-comment-classification-challenge",
+      "competition_name": "Toxic Comment Classification Challenge",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 18000
+        },
+        {
+          "position": 2,
+          "value": 12000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "column-wise ROC AUC",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "jigsaw-toxic-comment-classification-challenge/prepared/private/test.csv",
+        "sample_submission": "jigsaw-toxic-comment-classification-challenge/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_jigsaw-unintended-bias-in-toxicity-classification",
+      "question_text": "**Kaggle Competition: Jigsaw Unintended Bias in Toxicity Classification**\n\n**Competition ID:** jigsaw-unintended-bias-in-toxicity-classification\n\n**Description:**\n## Description\n\nCan you help detect toxic comments \u2015 *and* minimize unintended model bias? That's your challenge in this competition.\n\nThe Conversation AI team, a research initiative founded by [Jigsaw](https://jigsaw.google.com/) and Google (both part of Alphabet), builds technology to protect voices in conversation. A main area of focus is machine learning models that can identify toxicity in online conversations, where toxicity is defined as anything *rude, disrespectful or otherwise likely t...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "jigsaw-unintended-bias-in-toxicity-classification",
+      "competition_name": "Jigsaw Unintended Bias in Toxicity Classification",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 10000
+        },
+        {
+          "position": 3,
+          "value": 8000
+        },
+        {
+          "position": 4,
+          "value": 5000
+        },
+        {
+          "position": 5,
+          "value": 5000
+        },
+        {
+          "position": 6,
+          "value": 5000
+        },
+        {
+          "position": 7,
+          "value": 5000
+        },
+        {
+          "position": 8,
+          "value": 5000
+        },
+        {
+          "position": 9,
+          "value": 5000
+        },
+        {
+          "position": 10,
+          "value": 5000
+        }
+      ],
+      "grader_name": "jigsaw-unintended-bias-in-toxicity-classification-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "jigsaw-unintended-bias-in-toxicity-classification/prepared/private/test.csv",
+        "sample_submission": "jigsaw-unintended-bias-in-toxicity-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_kuzushiji-recognition",
+      "question_text": "**Kaggle Competition: Kuzushiji Recognition**\n\n**Competition ID:** kuzushiji-recognition\n\n**Description:**\n## Description\n\n### Build a model to transcribe ancient Kuzushiji into contemporary Japanese characters\n\nImagine the history contained in a thousand years of books. What stories are in those books? What knowledge can we learn from the world before our time? What was the weather like 500 years ago? What happened when Mt. Fuji erupted? How can one fold 100 cranes using only one piece of paper? The answers to these questions are in those books.\n\nJapan has millions of books and over a billion histor...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "kuzushiji-recognition",
+      "competition_name": "Kuzushiji Recognition",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 3000
+        },
+        {
+          "position": 2,
+          "value": 3000
+        },
+        {
+          "position": 3,
+          "value": 3000
+        },
+        {
+          "position": 4,
+          "value": 3000
+        },
+        {
+          "position": 5,
+          "value": 3000
+        }
+      ],
+      "grader_name": "f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "kuzushiji-recognition/prepared/private/test.csv",
+        "gold_submission": "kuzushiji-recognition/prepared/private/gold_submission.csv",
+        "sample_submission": "kuzushiji-recognition/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_leaf-classification",
+      "question_text": "**Kaggle Competition: Leaf Classification**\n\n**Competition ID:** leaf-classification\n\n**Description:**\n# Overview\n\n## Description\nThere are estimated to be nearly half a million species of plant in the world. Classification of species has been historically problematic and often results in duplicate identifications.\n\n![bigleaves.jpg](https://storage.googleapis.com/kaggle-media/competitions/kaggle/5408/media/bigleaves.jpg)\n\nThe objective of this playground competition is to use binary leaf images and extracted\u00a0features, including shape, margin & texture, to accurately identify 99\u00a0species of plants....\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "leaf-classification",
+      "competition_name": "Leaf Classification",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "multi-class-log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "leaf-classification/prepared/private/test.csv",
+        "sample_submission": "leaf-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_learning-agency-lab-automated-essay-scoring-2",
+      "question_text": "**Kaggle Competition: Learning Agency Lab - Automated Essay Scoring 2.0**\n\n**Competition ID:** learning-agency-lab-automated-essay-scoring-2\n\n**Description:**\n# Overview\n\n## Overview\n\nThe first\u00a0[automated essay scoring competition](https://www.kaggle.com/competitions/asap-aes/overview)\u00a0to tackle automated grading of student-written essays was twelve years ago. How far have we come from this initial competition? With an updated dataset and light years of new ideas we hope to see if we can get to the latest in automated grading to provide a real impact to overtaxed teachers who continue to have challenges with providing timely feedback, especially in un...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "learning-agency-lab-automated-essay-scoring-2",
+      "competition_name": "Learning Agency Lab - Automated Essay Scoring 2.0",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        },
+        {
+          "position": "Efficency Prize 1",
+          "value": 12000
+        },
+        {
+          "position": "Efficency Prize 2",
+          "value": 8000
+        },
+        {
+          "position": "Efficency Prize 3",
+          "value": 5000
+        }
+      ],
+      "grader_name": "quadratic-weighted-kappa",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "learning-agency-lab-automated-essay-scoring-2/prepared/private/answers.csv",
+        "sample_submission": "learning-agency-lab-automated-essay-scoring-2/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_lmsys-chatbot-arena",
+      "question_text": "**Kaggle Competition: LMSYS - Chatbot Arena Human Preference Predictions**\n\n**Competition ID:** lmsys-chatbot-arena\n\n**Description:**\n# Overview\n\n## Overview\n\nThis competition challenges you to predict which responses users will prefer in a head-to-head battle between chatbots powered by large language models (LLMs). You'll be given a dataset of conversations from the\u00a0[Chatbot Arena](https://chat.lmsys.org/), where different LLMs generate answers to user prompts. By developing a winning machine learning model, you'll help improve how chatbots interact with humans and ensure they better align with human preferences.\n\n## Descrip...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "nlp",
+      "subdomain": "language_modeling",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "lmsys-chatbot-arena",
+      "competition_name": "LMSYS - Chatbot Arena Human Preference Predictions",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 25000
+        },
+        {
+          "position": 2,
+          "value": 20000
+        },
+        {
+          "position": 3,
+          "value": 20000
+        },
+        {
+          "position": 4,
+          "value": 20000
+        },
+        {
+          "position": 5,
+          "value": 15000
+        }
+      ],
+      "grader_name": "multi-class-log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "lmsys-chatbot-arena/prepared/private/answers.csv",
+        "sample_submission": "lmsys-chatbot-arena/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_ml2021spring-hw2",
+      "question_text": "**Kaggle Competition: ML2021Spring-hw2**\n\n**Competition ID:** ml2021spring-hw2\n\n**Description:**\n# Overview\n\n## Description\n\n### Task Description\n\nFramewise phoneme classification of TIMIT dataset  \n\n- 1229932 training samples\n- 451552 testing samples\n- Evaluation metric: catagorization accuracy\n\n### Deadlines\n\n- **Kaggle: 2021/04/02 23:59 (UTC+8)**\n- **NTU COOL: 2021/04/04 23:59 (UTC+8)**\n\n### Notes\n\n- Team Name:\u00a0`<student_ID>_<anything>`\n- If there are any questions, you may discuss with us on NTU COOL or email (\u00a0[ntu-ml-2021spring-ta@googlegroups.com](mailto:ntu-ml-2021spring-ta@googlegr...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "ml2021spring-hw2",
+      "competition_name": "ML2021Spring-hw2",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "ml2021spring-hw2/prepared/private/answers.csv",
+        "sample_submission": "ml2021spring-hw2/prepared/public/sampleSubmission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_mlsp-2013-birds",
+      "question_text": "**Kaggle Competition: MLSP 2013 Bird Classification Challenge**\n\n**Competition ID:** mlsp-2013-birds\n\n**Description:**\n# Overview\n\n## Description\n\n![overview_img](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3517/media/overview_img.png)\n\nIt is important to gain a better understanding of bird behavior and population trends. Birds respond quickly to environmental change, and may also tell us about other organisms (e.g., insects they feed on), while being easier to detect. Traditional methods for collecting data about birds involve costly human effort. A promising alternative is acoustic monitori...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "mlsp-2013-birds",
+      "competition_name": "MLSP 2013 Bird Classification Challenge",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 700
+        },
+        {
+          "position": 2,
+          "value": 600
+        },
+        {
+          "position": 3,
+          "value": 500
+        }
+      ],
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "mlsp-2013-birds/prepared/private/answers.csv",
+        "sample_submission": "mlsp-2013-birds/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_movie-review-sentiment-analysis-kernels-only",
+      "question_text": "**Kaggle Competition: Movie Review Sentiment Analysis (Kernels Only)**\n\n**Competition ID:** movie-review-sentiment-analysis-kernels-only\n\n**Description:**\n# Overview\n\n## Description\n\n\"There's a thin line between likably old-fashioned and fuddy-duddy, and The Count of Monte Cristo ... never quite settles on either side.\"\n\nThe Rotten Tomatoes movie review dataset is a corpus of movie reviews used for sentiment analysis, originally collected by Pang and Lee [1]. In their work on sentiment treebanks, Socher et al. [2] used Amazon's Mechanical Turk to create fine-grained labels for all parsed phrases in the corpus. This competition presents a chance to...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "time_series",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "movie-review-sentiment-analysis-kernels-only",
+      "competition_name": "Movie Review Sentiment Analysis (Kernels Only)",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "movie-review-sentiment-analysis-kernels-only/prepared/private/answers.csv",
+        "sample_submission": "movie-review-sentiment-analysis-kernels-only/prepared/public/sampleSubmission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_multi-modal-gesture-recognition",
+      "question_text": "**Kaggle Competition: Multi-modal Gesture Recognition**\n\n**Competition ID:** multi-modal-gesture-recognition\n\n**Description:**\n## Description\n\nThe Multi-modal gesture recognition challenge, focused on gesture recognition from 2D and 3D video data using Kinect, is organized by ChaLearn in conjunction with ICMI 2013.\n\nKinect is revolutionizing the field of gesture recognition given the set of input data modalities it provides, including RGB image, depth image (using an infrared sensor), and audio. Gesture recognition is genuinely important in many multi-modal interaction and computer vision applications, including image/v...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "multi-modal-gesture-recognition",
+      "competition_name": "Multi-modal Gesture Recognition",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": [
+        {
+          "position": "Quantitative 1",
+          "value": 1500
+        },
+        {
+          "position": "Quantitative 2",
+          "value": 1000
+        },
+        {
+          "position": "Quantitative 3",
+          "value": 500
+        },
+        {
+          "position": "Qualitative 1",
+          "value": 1500
+        },
+        {
+          "position": "Qualitative 2",
+          "value": 1000
+        },
+        {
+          "position": "Qualitative 3",
+          "value": 500
+        }
+      ],
+      "grader_name": "levenhstein-distance",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "multi-modal-gesture-recognition/prepared/private/test.csv",
+        "sample_submission": "multi-modal-gesture-recognition/prepared/public/randomPredictions.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_new-york-city-taxi-fare-prediction",
+      "question_text": "**Kaggle Competition: New York City Taxi Fare Prediction**\n\n**Competition ID:** new-york-city-taxi-fare-prediction\n\n**Description:**\n## Description\n\nIn this playground competition, hosted in partnership with Google Cloud and Coursera, you are tasked with predicting the fare amount (inclusive of tolls) for a taxi ride in New York City given the pickup and dropoff locations. While you can get a basic estimate based on just the distance between the two points, this will result in an RMSE of $5-$8, depending on the model used (see\u00a0[the starter code](https://www.kaggle.com/dster/nyc-taxi-fare-starter-kernel-simple-linear-model)\u00a0fo...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "new-york-city-taxi-fare-prediction",
+      "competition_name": "New York City Taxi Fare Prediction",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "root-mean-squared-error",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "new-york-city-taxi-fare-prediction/prepared/private/test.csv",
+        "sample_submission": "new-york-city-taxi-fare-prediction/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_nfl-player-contact-detection",
+      "question_text": "**Kaggle Competition: 1st and Future - Player Contact Detection**\n\n**Competition ID:** nfl-player-contact-detection\n\n**Description:**\n# **Overview**\n\n### **Goal of the Competition**\n\nThe goal of this competition is to detect external contact experienced by players during an NFL football game. You will use video and player tracking data to identify moments with contact to help improve player safety.\n\n![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F644036%2F65cd663d2c823043b36ecda6c93c1304%2Fcontact-example.gif?generation=1670265252697886&alt=media)\n\n### **Context**\n\nThe National Football Leagu...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "nfl-player-contact-detection",
+      "competition_name": "1st and Future - Player Contact Detection",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 50000
+        },
+        {
+          "position": 2,
+          "value": 25000
+        },
+        {
+          "position": 3,
+          "value": 13000
+        },
+        {
+          "position": 4,
+          "value": 7000
+        },
+        {
+          "position": 5,
+          "value": 5000
+        }
+      ],
+      "grader_name": "matthews-correlation-coefficient",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "nfl-player-contact-detection/prepared/private/test.csv",
+        "sample_submission": "nfl-player-contact-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_nomad2018-predict-transparent-conductors",
+      "question_text": "**Kaggle Competition: Nomad2018 Predicting Transparent Conductors**\n\n**Competition ID:** nomad2018-predict-transparent-conductors\n\n**Description:**\n# Overview\n\n## Description\n\nInnovative materials design is needed to tackle some of the most important health, environmental, energy, social, and economic challenges of this century. In particular, improving the properties of materials that are intrinsically connected to the generation and utilization of energy is crucial if we are to mitigate environmental damage due to a growing global demand. [Transparent conductors](https://en.wikipedia.org/wiki/Transparent_conducting_film) are an important ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "nomad2018-predict-transparent-conductors",
+      "competition_name": "Nomad2018 Predicting Transparent Conductors",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 2496
+        },
+        {
+          "position": 2,
+          "value": 1872
+        },
+        {
+          "position": 3,
+          "value": 1248
+        }
+      ],
+      "grader_name": "mean-column-wise-rmsle",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "nomad2018-predict-transparent-conductors/prepared/private/test.csv",
+        "sample_submission": "nomad2018-predict-transparent-conductors/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_osic-pulmonary-fibrosis-progression",
+      "question_text": "**Kaggle Competition: OSIC Pulmonary Fibrosis Progression**\n\n**Competition ID:** osic-pulmonary-fibrosis-progression\n\n**Description:**\n## **Description**\n\nImagine one day, your breathing became consistently labored and shallow. Months later you were finally diagnosed with pulmonary fibrosis, a disorder with no known cause and no known cure, created by scarring of the lungs. If that happened to you, you would want to know your prognosis. That\u2019s where a troubling disease becomes frightening for the patient: outcomes can range from long-term stability to rapid deterioration, but doctors aren\u2019t easily able to tell where an individu...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "osic-pulmonary-fibrosis-progression",
+      "competition_name": "OSIC Pulmonary Fibrosis Progression",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 30000
+        },
+        {
+          "position": 2,
+          "value": 15000
+        },
+        {
+          "position": 3,
+          "value": 10000
+        }
+      ],
+      "grader_name": "modified-laplace-log-likelihood",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "osic-pulmonary-fibrosis-progression/prepared/private/test.csv",
+        "sample_submission": "osic-pulmonary-fibrosis-progression/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_paddy-disease-classification",
+      "question_text": "**Kaggle Competition: Paddy Doctor: Paddy Disease Classification**\n\n**Competition ID:** paddy-disease-classification\n\n**Description:**\n# Overview\n\n## Description\n\n![Paddy Disease and Farmer](https://raw.githubusercontent.com/paddydoc/paddydoc.github.io/main/assets/img/paddy-disease-farmer.jpg)\n\n### Problem Statement\n\nRice (Oryza sativa) is one of the staple foods worldwide. Paddy, the raw grain before removal of husk, is cultivated in tropical climates, mainly in Asian countries. Paddy cultivation requires consistent supervision because several diseases and pests might affect the paddy crops, leading to up to 70% yield loss. Ex...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "paddy-disease-classification",
+      "competition_name": "Paddy Doctor: Paddy Disease Classification",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "paddy-disease-classification/prepared/private/test.csv",
+        "sample_submission": "paddy-disease-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_petfinder-pawpularity-score",
+      "question_text": "**Kaggle Competition: PetFinder.my - Pawpularity Contest**\n\n**Competition ID:** petfinder-pawpularity-score\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\n[![PetFinder](https://storage.googleapis.com/kaggle-media/competitions/Petfinder/PetFinder%20-%20Logo.png)](https://www.petfinder.my/)\n\n![cuteness_meter](https://www.petfinder.my/images/cuteness_meter.jpg)\n\nA picture is worth a thousand words. But did you know a picture can save a thousand lives? Millions of stray animals suffer on the streets or are euthanized in shelters every day around the world. You might expect pets with attractive photos to genera...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "petfinder-pawpularity-score",
+      "competition_name": "PetFinder.my - Pawpularity Contest",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "root-mean-squared-error",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "petfinder-pawpularity-score/prepared/private/test.csv",
+        "sample_submission": "petfinder-pawpularity-score/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_plant-pathology-2020-fgvc7",
+      "question_text": "**Kaggle Competition: Plant Pathology 2020 - FGVC7**\n\n**Competition ID:** plant-pathology-2020-fgvc7\n\n**Description:**\n# Overview\n\n## Description\n\n### Problem Statement\n\nMisdiagnosis of the many diseases impacting agricultural crops can lead to misuse of chemicals leading to the emergence of resistant pathogen strains, increased input costs, and more outbreaks with significant economic loss and environmental impacts. Current disease diagnosis based on human scouting is time-consuming and expensive, and although computer-vision based models have the promise to increase efficiency, the great variance in symptoms d...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "plant-pathology-2020-fgvc7",
+      "competition_name": "Plant Pathology 2020 - FGVC7",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "mean-column-wise-roc-auc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "plant-pathology-2020-fgvc7/prepared/private/test.csv",
+        "sample_submission": "plant-pathology-2020-fgvc7/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_plant-pathology-2021-fgvc8",
+      "question_text": "**Kaggle Competition: Plant Pathology 2021 - FGVC8**\n\n**Competition ID:** plant-pathology-2021-fgvc8\n\n**Description:**\n# Overview\n\n## Description\n\n### Problem Statement\n\nApples are one of the most important temperate fruit crops in the world. Foliar (leaf) diseases pose a major threat to the overall productivity and quality of apple orchards. The current process for disease diagnosis in apple orchards is based on manual scouting by humans, which is time-consuming and expensive.\n\nAlthough computer vision-based models have shown promise for plant disease identification, there are some limitations that need to be a...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "plant-pathology-2021-fgvc8",
+      "competition_name": "Plant Pathology 2021 - FGVC8",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "micro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "plant-pathology-2021-fgvc8/prepared/private/answers.csv",
+        "sample_submission": "plant-pathology-2021-fgvc8/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_plant-seedlings-classification",
+      "question_text": "**Kaggle Competition: Plant Seedlings Classification**\n\n**Competition ID:** plant-seedlings-classification\n\n**Description:**\n# Overview\n\n## Description\n\nCan you differentiate a weed from a crop seedling?\n\nThe ability to do so effectively can mean better crop yields and better stewardship of the environment.\n\nThe Aarhus University Signal Processing group, in collaboration with University of Southern Denmark, has recently released a dataset containing images of approximately 960 unique plants belonging to 12 species at several growth stages.\n\n![seedlings](https://storage.googleapis.com/kaggle-media/competitions/seedling...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "plant-seedlings-classification",
+      "competition_name": "Plant Seedlings Classification",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "micro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "plant-seedlings-classification/prepared/private/answers.csv",
+        "sample_submission": "plant-seedlings-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_playground-series-s3e18",
+      "question_text": "**Kaggle Competition: Explore Multi-Label Classification with an Enzyme Substrate Dataset**\n\n**Competition ID:** playground-series-s3e18\n\n**Description:**\n# Overview\n\n## Description\n\n### Welcome to the 2023 edition of Kaggle's Playground Series!\n\nThank you to everyone who participated in and contributed to Season 3 Playground Series so far!\n\nWith the same goal to give the Kaggle community a variety of fairly light-weight challenges that can be used to learn and sharpen skills in different aspects of machine learning and data science, we will continue launching the Tabular Tuesday in June every Tuesday 00:00 UTC, with each competition running for 2...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "playground-series-s3e18",
+      "competition_name": "Explore Multi-Label Classification with an Enzyme Substrate Dataset",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "auroc-multi-label",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "playground-series-s3e18/prepared/private/test.csv",
+        "sample_submission": "playground-series-s3e18/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_predict-volcanic-eruptions-ingv-oe",
+      "question_text": "**Kaggle Competition: INGV - Volcanic Eruption Prediction**\n\n**Competition ID:** predict-volcanic-eruptions-ingv-oe\n\n**Description:**\n# Overview\n\n## Description\n\nWhat if scientists could anticipate volcanic eruptions as they predict the weather? While determining rain or shine days in advance is more difficult, weather reports become more accurate on shorter time scales. A similar approach with volcanoes could make a big impact. Just one unforeseen eruption can result in tens of thousands of lives lost. If scientists could reliably predict when a volcano will next erupt, evacuations could be more timely and the damage mitigate...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "predict-volcanic-eruptions-ingv-oe",
+      "competition_name": "INGV - Volcanic Eruption Prediction",
+      "competition_type": "simple",
+      "complexity": "high",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "mean-absolute-error",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "predict-volcanic-eruptions-ingv-oe/prepared/private/test.csv",
+        "sample_submission": "predict-volcanic-eruptions-ingv-oe/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_random-acts-of-pizza",
+      "question_text": "**Kaggle Competition: Random Acts of Pizza**\n\n**Competition ID:** random-acts-of-pizza\n\n**Description:**\n# Overview\n\n## Description\n\n[Get started on this competition through Kaggle Scripts](https://www.kaggle.com/c/random-acts-of-pizza/forums/t/14286/kaggle-scripts-enabled-on-random-acts-of-pizza)\n\nIn machine learning, it is often said\u00a0there are\u00a0[no free lunches](http://en.wikipedia.org/wiki/No_free_lunch_theorem).\u00a0*How wrong we were.*\n\nThis competition contains a dataset with 5671 textual requests for pizza from the Reddit community\u00a0[Random Acts of Pizza](http://www.reddit.com/r/Random_Acts_Of_Piz...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "random-acts-of-pizza",
+      "competition_name": "Random Acts of Pizza",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "random-acts-of-pizza/prepared/private/test.csv",
+        "sample_submission": "random-acts-of-pizza/prepared/public/sampleSubmission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_ranzcr-clip-catheter-line-classification",
+      "question_text": "**Kaggle Competition: RANZCR CLiP - Catheter and Line Position Challenge**\n\n**Competition ID:** ranzcr-clip-catheter-line-classification\n\n**Description:**\n# Overview\n\n## Description\n\nSerious complications can occur as a result of malpositioned lines and tubes in patients. Doctors and nurses frequently use checklists for placement of lifesaving equipment to ensure they follow protocol in managing patients. Yet, these steps can be time consuming and are still prone to human error, especially in stressful situations when hospitals are at capacity.\n\nHospital patients can have catheters and lines inserted during the course of their admission and seriou...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "ranzcr-clip-catheter-line-classification",
+      "competition_name": "RANZCR CLiP - Catheter and Line Position Challenge",
+      "competition_type": "code",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 16000
+        },
+        {
+          "position": 2,
+          "value": 12000
+        },
+        {
+          "position": 3,
+          "value": 6000
+        },
+        {
+          "position": 4,
+          "value": 4000
+        },
+        {
+          "position": 5,
+          "value": 4000
+        },
+        {
+          "position": 6,
+          "value": 4000
+        },
+        {
+          "position": 7,
+          "value": 4000
+        }
+      ],
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "ranzcr-clip-catheter-line-classification/prepared/private/test.csv",
+        "sample_submission": "ranzcr-clip-catheter-line-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_rsna-2022-cervical-spine-fracture-detection",
+      "question_text": "**Kaggle Competition: RSNA 2022 Cervical Spine Fracture Detection**\n\n**Competition ID:** rsna-2022-cervical-spine-fracture-detection\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\n#### Goal of the Competition\n\nOver 1.5 million spine fractures occur annually in the United States alone resulting in over 17,730 spinal cord injuries annually. The most common site of spine fracture is the cervical spine. There has been a rise in the incidence of spinal fractures in the elderly and in this population, fractures can be more difficult to detect on imaging due to superimposed degenerative disease and osteoporosis. Imaging diagnosis of adul...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "rsna-2022-cervical-spine-fracture-detection",
+      "competition_name": "RSNA 2022 Cervical Spine Fracture Detection",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 6000
+        },
+        {
+          "position": 2,
+          "value": 5000
+        },
+        {
+          "position": 3,
+          "value": 4000
+        },
+        {
+          "position": 4,
+          "value": 3000
+        },
+        {
+          "position": 5,
+          "value": 3000
+        },
+        {
+          "position": 6,
+          "value": 3000
+        },
+        {
+          "position": 7,
+          "value": 3000
+        },
+        {
+          "position": 8,
+          "value": 3000
+        }
+      ],
+      "grader_name": "weighted-multi-label-log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "rsna-2022-cervical-spine-fracture-detection/prepared/private/answers.csv",
+        "sample_submission": "rsna-2022-cervical-spine-fracture-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_rsna-breast-cancer-detection",
+      "question_text": "**Kaggle Competition: RSNA Screening Mammography Breast Cancer Detection**\n\n**Competition ID:** rsna-breast-cancer-detection\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\n#### Goal of the Competition\n\nThe goal of this competition is to identify breast cancer. You'll train your model with screening mammograms obtained from regular screening.\n\nYour work improving the automation of detection in screening mammography may enable radiologists to be more accurate and efficient, improving the quality and safety of patient care. It could also help reduce costs and unnecessary medical procedures.\n\n#### Context\n\nAccording to the WHO...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "rsna-breast-cancer-detection",
+      "competition_name": "RSNA Screening Mammography Breast Cancer Detection",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 10000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 7000
+        },
+        {
+          "position": 4,
+          "value": 5000
+        },
+        {
+          "position": 5,
+          "value": 5000
+        },
+        {
+          "position": 6,
+          "value": 5000
+        },
+        {
+          "position": 7,
+          "value": 5000
+        },
+        {
+          "position": 8,
+          "value": 5000
+        }
+      ],
+      "grader_name": "probabilistic-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "rsna-breast-cancer-detection/prepared/private/answers.csv",
+        "sample_submission": "rsna-breast-cancer-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_rsna-miccai-brain-tumor-radiogenomic-classification",
+      "question_text": "**Kaggle Competition: RSNA-MICCAI Brain Tumor Radiogenomic Classification**\n\n**Competition ID:** rsna-miccai-brain-tumor-radiogenomic-classification\n\n**Description:**\n# RSNA-MICCAI Brain Tumor Radiogenomic Classification\n\n## Description\n\nA malignant tumor in the brain is a life-threatening condition. Known as glioblastoma, it's both the most common form of brain cancer in adults and the one with the worst prognosis, with median survival being less than a year. The presence of a specific genetic sequence in the tumor known as MGMT promoter methylation has been shown to be a favorable prognostic factor and a strong predictor of responsiveness to chemotherapy.\n\n...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "rsna-miccai-brain-tumor-radiogenomic-classification",
+      "competition_name": "RSNA-MICCAI Brain Tumor Radiogenomic Classification",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 6000
+        },
+        {
+          "position": 2,
+          "value": 5000
+        },
+        {
+          "position": 3,
+          "value": 4000
+        },
+        {
+          "position": 4,
+          "value": 3000
+        },
+        {
+          "position": 5,
+          "value": 3000
+        },
+        {
+          "position": 6,
+          "value": 3000
+        },
+        {
+          "position": 7,
+          "value": 3000
+        },
+        {
+          "position": 8,
+          "value": 3000
+        }
+      ],
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "rsna-miccai-brain-tumor-radiogenomic-classification/prepared/private/test.csv",
+        "sample_submission": "rsna-miccai-brain-tumor-radiogenomic-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_seti-breakthrough-listen",
+      "question_text": "**Kaggle Competition: SETI Breakthrough Listen - E.T. Signal Search**\n\n**Competition ID:** seti-breakthrough-listen\n\n**Description:**\n## **Description**\n\n**\u201cAre we alone in the Universe?\u201d**\n\nIt's one of the most profound\u2014and perennial\u2014human questions. As technology improves, we're finding new and more powerful ways to seek answers. The Breakthrough Listen team at the University of California, Berkeley, employs the world's most powerful telescopes to scan millions of stars for signs of technology. Now it wants the Kaggle community to help interpret the signals they pick up.\n\nThe Listen team is part of the Search for ExtraTerres...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "nlp",
+      "subdomain": "question_answering",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "seti-breakthrough-listen",
+      "competition_name": "SETI Breakthrough Listen - E.T. Signal Search",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 6000
+        },
+        {
+          "position": 2,
+          "value": 5000
+        },
+        {
+          "position": 3,
+          "value": 4000
+        }
+      ],
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "seti-breakthrough-listen/prepared/private/test.csv",
+        "sample_submission": "seti-breakthrough-listen/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_siim-covid19-detection",
+      "question_text": "**Kaggle Competition: SIIM-FISABIO-RSNA COVID-19 Detection**\n\n**Competition ID:** siim-covid19-detection\n\n**Description:**\n# Overview\n\n## Description\n\nFive times more deadly than the flu, COVID-19 causes significant morbidity and mortality. Like other pneumonias, pulmonary infection with COVID-19 results in inflammation and fluid in the lungs. COVID-19 looks very similar to other viral and bacterial pneumonias on chest radiographs, which makes it difficult to diagnose. Your computer vision model to detect and localize COVID-19 would help doctors provide a quick and confident diagnosis. As a result, patients could ge...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "siim-covid19-detection",
+      "competition_name": "SIIM-FISABIO-RSNA COVID-19 Detection",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 30000
+        },
+        {
+          "position": 2,
+          "value": 20000
+        },
+        {
+          "position": 3,
+          "value": 10000
+        },
+        {
+          "position": 4,
+          "value": 8000
+        },
+        {
+          "position": 5,
+          "value": 7000
+        },
+        {
+          "position": 6,
+          "value": 5000
+        },
+        {
+          "position": 7,
+          "value": 5000
+        },
+        {
+          "position": 8,
+          "value": 5000
+        },
+        {
+          "position": 9,
+          "value": 5000
+        },
+        {
+          "position": 10,
+          "value": 5000
+        }
+      ],
+      "grader_name": "mean-average-precision",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "siim-covid19-detection/prepared/private/test.csv",
+        "sample_submission": "siim-covid19-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_siim-isic-melanoma-classification",
+      "question_text": "**Kaggle Competition: SIIM-ISIC Melanoma Classification**\n\n**Competition ID:** siim-isic-melanoma-classification\n\n**Description:**\n# Overview\n\n## Description\n\nSkin cancer is the most prevalent type of cancer. Melanoma, specifically, is responsible for 75% of skin cancer deaths, despite being the least common skin cancer. The American Cancer Society estimates over 100,000 new melanoma cases will be diagnosed in 2020. It's also expected that almost 7,000 people will die from the disease. As with other cancers, early and accurate detection\u2014potentially aided by data science\u2014can make treatment more effective.\n\nCurrently, dermato...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "siim-isic-melanoma-classification",
+      "competition_name": "SIIM-ISIC Melanoma Classification",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 10000
+        },
+        {
+          "position": 2,
+          "value": 6000
+        },
+        {
+          "position": 3,
+          "value": 4000
+        },
+        {
+          "position": "With Context Special Prize",
+          "value": 5000
+        },
+        {
+          "position": "Without Context Special Prize",
+          "value": 5000
+        }
+      ],
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "siim-isic-melanoma-classification/prepared/private/test.csv",
+        "sample_submission": "siim-isic-melanoma-classification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_smartphone-decimeter-2022",
+      "question_text": "**Kaggle Competition: Google Smartphone Decimeter Challenge 2022**\n\n**Competition ID:** smartphone-decimeter-2022\n\n**Description:**\n# Overview\n\n## Description\n\n### Goal of the Competition\n\nThe goal of this competition is to compute smartphones location down to the decimeter or even centimeter resolution which could enable services that require lane-level accuracy such as HOV lane ETA estimation. You'll develop a model based on raw location measurements from Android smartphones collected in opensky and light urban roads using datasets collected by the host.\n\n![](https://storage.googleapis.com/kaggle-media/competitions/Smartph...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "time_series",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "smartphone-decimeter-2022",
+      "competition_name": "Google Smartphone Decimeter Challenge 2022",
+      "competition_type": "simple",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 5000
+        },
+        {
+          "position": 2,
+          "value": 3000
+        },
+        {
+          "position": 3,
+          "value": 2000
+        }
+      ],
+      "grader_name": "average-haversine-distance",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "smartphone-decimeter-2022/prepared/private/test.csv",
+        "sample_submission": "smartphone-decimeter-2022/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_spaceship-titanic",
+      "question_text": "**Kaggle Competition: Spaceship Titanic**\n\n**Competition ID:** spaceship-titanic\n\n**Description:**\n# Overview\n\n## Description\nWelcome to the year 2912, where your data science skills are needed to solve a cosmic mystery. We've received a transmission from four lightyears away and things aren't looking good.\n\nThe\u00a0*Spaceship Titanic*\u00a0was an interstellar passenger liner launched a month ago. With almost 13,000 passengers on board, the vessel set out on its maiden voyage transporting emigrants from our solar system to three newly habitable exoplanets orbiting nearby stars.\n\nWhile rounding Alpha C...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "spaceship-titanic",
+      "competition_name": "Spaceship Titanic",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "spaceship-titanic/prepared/private/test.csv",
+        "sample_submission": "spaceship-titanic/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_spooky-author-identification",
+      "question_text": "**Kaggle Competition: Spooky Author Identification**\n\n**Competition ID:** spooky-author-identification\n\n**Description:**\n# Overview\n\n## Description\n\nAs I scurried across the candlelit chamber, manuscripts in hand, I thought I'd made it. Nothing would be able to hurt me anymore. Little did I know there was one last fright lurking around the corner.\n\nDING! My phone pinged me with a disturbing notification. It was Will, the scariest of Kaggle moderators, sharing news of another data leak.\n\n\"ph\u2019nglui mglw\u2019nafh Cthulhu R\u2019lyeh wgah\u2019nagl fhtagn!\" I cried as I clumsily dropped my crate of unbound, spooky books. Pages scat...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "spooky-author-identification",
+      "competition_name": "Spooky Author Identification",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "multi-class-log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "spooky-author-identification/prepared/private/test.csv",
+        "sample_submission": "spooky-author-identification/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_stanford-covid-vaccine",
+      "question_text": "**Kaggle Competition: OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction**\n\n**Competition ID:** stanford-covid-vaccine\n\n**Description:**\n# Overview\n\n## Description\n\nWinning the fight against the COVID-19 pandemic will require an effective vaccine that can be equitably and widely distributed. Building upon decades of research has allowed scientists to accelerate the search for a vaccine against COVID-19, but every day that goes by without a vaccine has enormous costs for the world nonetheless. We need new, fresh ideas from all corners of the world. Could online gaming and crowdsourcing help solve a worldwide pandemic? Pairing scie...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "stanford-covid-vaccine",
+      "competition_name": "OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction",
+      "competition_type": "simple",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "multi-class-log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "stanford-covid-vaccine/prepared/private/test.csv",
+        "sample_submission": "stanford-covid-vaccine/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_statoil-iceberg-classifier-challenge",
+      "question_text": "**Kaggle Competition: Statoil/C-CORE Iceberg Classifier Challenge**\n\n**Competition ID:** statoil-iceberg-classifier-challenge\n\n**Description:**\n# Overview\n\n## Description\n![q7uAjTM](https://i.imgur.com/q7uAjTM.jpg)\n\nDrifting icebergs present threats to navigation and activities in areas such as offshore of the East Coast of Canada.\n\nCurrently, many institutions and companies use aerial reconnaissance and shore-based support to monitor environmental conditions and assess risks from icebergs. However, in remote areas with particularly harsh weather, these methods are not feasible, and the only viable monitoring option is via satellite.\n\n[...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "statoil-iceberg-classifier-challenge",
+      "competition_name": "Statoil/C-CORE Iceberg Classifier Challenge",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 25000
+        },
+        {
+          "position": 2,
+          "value": 15000
+        },
+        {
+          "position": 3,
+          "value": 10000
+        }
+      ],
+      "grader_name": "log-loss",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "statoil-iceberg-classifier-challenge/prepared/private/test.csv",
+        "sample_submission": "statoil-iceberg-classifier-challenge/prepared/private/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_tabular-playground-series-dec-2021",
+      "question_text": "**Kaggle Competition: Tabular Playground Series - Dec 2021**\n\n**Competition ID:** tabular-playground-series-dec-2021\n\n**Description:**\n# Overview\nStart\n\nDec 1, 2021\nClose\nDec 31, 2021\n## Description\nKaggle competitions are incredibly fun and rewarding, but they can also be intimidating for people who are relatively new in their data science journey. In the past, we've launched many Playground competitions that are more approachable than our Featured competitions and thus, more beginner-friendly.\n\nIn order to have a more consistent offering of these competitions for our community, we're trying a new experiment in 2021. We'll be ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "tabular",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "tabular-playground-series-dec-2021",
+      "competition_name": "Tabular Playground Series - Dec 2021",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "multi-class-classification-accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "tabular-playground-series-dec-2021/prepared/private/test.csv",
+        "sample_submission": "tabular-playground-series-dec-2021/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_tabular-playground-series-may-2022",
+      "question_text": "**Kaggle Competition: Tabular Playground Series - May 2022**\n\n**Competition ID:** tabular-playground-series-may-2022\n\n**Description:**\n# Overview\n\n## Overview\n\n### Description\n\nThe May edition of the 2022 Tabular Playground series binary classification problem that includes a number of different feature interactions. This competition is an opportunity to explore various methods for identifying and exploiting these feature interactions.\n\n![clarisse-croset--tikpxRBcsA-unsplash](https://storage.googleapis.com/kaggle-media/competitions/Tabular%20Playground/clarisse-croset--tikpxRBcsA-unsplash.jpg)\n\n#### About the Tabular Playground...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "tabular-playground-series-may-2022",
+      "competition_name": "Tabular Playground Series - May 2022",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "tabular-playground-series-may-2022/prepared/private/test.csv",
+        "gold_submission": "tabular-playground-series-may-2022/prepared/private/gold_submission.csv",
+        "sample_submission": "tabular-playground-series-may-2022/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_tensorflow-speech-recognition-challenge",
+      "question_text": "**Kaggle Competition: TensorFlow Speech Recognition Challenge**\n\n**Competition ID:** tensorflow-speech-recognition-challenge\n\n**Description:**\n# Overview\n\n## Description\n\nWe might be on the verge of too many screens. It seems like everyday, new versions of common objects are \u201cre-invented\u201d with built-in wifi and bright touchscreens. A promising antidote to our screen addiction are voice interfaces.\n\n![lilly-rum-342740.jpg](https://storage.googleapis.com/kaggle-media/competitions/tensorflow/lilly-rum-342740.jpg)\n\nBut, for independent makers and entrepreneurs, it\u2019s hard to build a simple speech detector using free, open data and code. Man...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "audio",
+      "subdomain": "speech_recognition",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "tensorflow-speech-recognition-challenge",
+      "competition_name": "TensorFlow Speech Recognition Challenge",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 8000
+        },
+        {
+          "position": 2,
+          "value": 6000
+        },
+        {
+          "position": 3,
+          "value": 3000
+        },
+        {
+          "position": "Special TensorFlow Prize",
+          "value": 8000
+        }
+      ],
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "tensorflow-speech-recognition-challenge/prepared/private/test.csv",
+        "sample_submission": "tensorflow-speech-recognition-challenge/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_tensorflow2-question-answering",
+      "question_text": "**Kaggle Competition: TensorFlow 2.0 Question Answering**\n\n**Competition ID:** tensorflow2-question-answering\n\n**Description:**\n# Overview\n\n## Description\n\n*\"Why is the sky blue?\"*\n\nThis is a question an\u00a0[open-domain question answering](https://en.wikipedia.org/wiki/Question_answering#Open_domain_question_answering)\u00a0(QA) system should be able to respond to. QA systems emulate how people look for information by reading the web to return answers to common questions. Machine learning can be used to improve the accuracy of these answers.\n\nExisting natural language models have been focused on extracting answers from a short p...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "nlp",
+      "subdomain": "question_answering",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "tensorflow2-question-answering",
+      "competition_name": "TensorFlow 2.0 Question Answering",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        },
+        {
+          "position": "TensorFlow 2.0 Prize 1",
+          "value": 12000
+        },
+        {
+          "position": "TensorFlow 2.0 Prize 2",
+          "value": 8000
+        },
+        {
+          "position": "TensorFlow 2.0 Prize 3",
+          "value": 5000
+        }
+      ],
+      "grader_name": "micro-f1-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "tensorflow2-question-answering/prepared/private/test.jsonl",
+        "gold_submission": "tensorflow2-question-answering/prepared/private/gold_submission.csv",
+        "sample_submission": "tensorflow2-question-answering/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_text-normalization-challenge-english-language",
+      "question_text": "**Kaggle Competition: Text Normalization Challenge - English Language**\n\n**Competition ID:** text-normalization-challenge-english-language\n\n**Description:**\n# Overview\n\n## Description\n\nAs many of us can attest, learning another language is tough. Picking up on nuances like slang, dates and times, and local expressions, can often be a distinguishing factor between proficiency and fluency. This challenge is even more difficult for a machine.\n\nMany speech and language applications, including text-to-speech synthesis (TTS) and automatic speech recognition (ASR), require text to be converted from written expressions into appropriate \"spoken\" forms. This ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "nlp",
+      "subdomain": "text_classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "text-normalization-challenge-english-language",
+      "competition_name": "Text Normalization Challenge - English Language",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "text-normalization-challenge-english-language/prepared/private/answers.csv",
+        "sample_submission": "text-normalization-challenge-english-language/prepared/private/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_text-normalization-challenge-russian-language",
+      "question_text": "**Kaggle Competition: Text Normalization Challenge - Russian Language**\n\n**Competition ID:** text-normalization-challenge-russian-language\n\n**Description:**\n# Overview\n\n## Description\n\nAs many of us can attest, learning another language is tough. Picking up on nuances like slang, dates and times, and local expressions, can often be a distinguishing factor between proficiency and fluency. This challenge is even more difficult for a machine.\n\nMany speech and language applications, including text-to-speech synthesis (TTS) and automatic speech recognition (ASR), require text to be converted from written expressions into appropriate \"spoken\" forms. This ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "nlp",
+      "subdomain": "text_classification",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "text-normalization-challenge-russian-language",
+      "competition_name": "Text Normalization Challenge - Russian Language",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 12000
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "accuracy",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "text-normalization-challenge-russian-language/prepared/private/answers.csv",
+        "sample_submission": "text-normalization-challenge-russian-language/prepared/private/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_tgs-salt-identification-challenge",
+      "question_text": "**Kaggle Competition: TGS Salt Identification Challenge**\n\n**Competition ID:** tgs-salt-identification-challenge\n\n**Description:**\n# Overview\n\n## Description\n\n![TGS](https://storage.googleapis.com/kaggle-media/competitions/TGS/drilling.jpg)\n\nSeveral areas of Earth with large accumulations of oil and gas\u00a0*also*\u00a0have huge deposits of salt below the surface.\n\nBut unfortunately, knowing where large salt deposits are precisely is very difficult. Professional seismic imaging still requires expert human interpretation of salt bodies. This leads to very subjective, highly variable renderings. More alarmingly, it leads to potentiall...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "tgs-salt-identification-challenge",
+      "competition_name": "TGS Salt Identification Challenge",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 50000
+        },
+        {
+          "position": 2,
+          "value": 25000
+        },
+        {
+          "position": 3,
+          "value": 15000
+        },
+        {
+          "position": 4,
+          "value": 10000
+        }
+      ],
+      "grader_name": "mean-precision-intersection-over-union-at-different-thresholds",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "tgs-salt-identification-challenge/prepared/private/test.csv",
+        "sample_submission": "tgs-salt-identification-challenge/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_the-icml-2013-whale-challenge-right-whale-redux",
+      "question_text": "**Kaggle Competition: The ICML 2013 Whale Challenge - Right Whale Redux**\n\n**Competition ID:** the-icml-2013-whale-challenge-right-whale-redux\n\n**Description:**\n# Overview\n\n## Description\n\n![Right whale](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3509/media/right_whale.jpg)*(right whale illustration courtesy of Pieter Folkens, \u00a92011)*\n\nThis competition complements the previously held\u00a0[Marinexplore Whale Detection Challenge](https://www.kaggle.com/c/whale-detection-challenge), in which Cornell University provided data from a ship monitoring application termed \"Auto Buoy\", or AB Monitoring System. In the Marinexplore challenge we rece...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.3,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "the-icml-2013-whale-challenge-right-whale-redux",
+      "competition_name": "The ICML 2013 Whale Challenge - Right Whale Redux",
+      "competition_type": "simple",
+      "complexity": "low",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 350
+        },
+        {
+          "position": 2,
+          "value": 150
+        }
+      ],
+      "grader_name": "auc-roc",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "the-icml-2013-whale-challenge-right-whale-redux/prepared/private/test.csv",
+        "sample_submission": "the-icml-2013-whale-challenge-right-whale-redux/prepared/public/sampleSubmission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_tweet-sentiment-extraction",
+      "question_text": "**Kaggle Competition: Tweet Sentiment Extraction**\n\n**Competition ID:** tweet-sentiment-extraction\n\n**Description:**\n# Overview\n\n## Description\n\n*\"My ridiculous dog is amazing.\"*\u00a0[sentiment: positive]\n\nWith all of the tweets circulating every second it is hard to tell whether the sentiment behind a specific tweet will impact a company, or a person's, brand for being viral (positive), or devastate profit because it strikes a negative tone. Capturing sentiment in language is important in these times where decisions and reactions are created and updated in seconds. But, which words actually lead to the sentiment ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "time_series",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "tweet-sentiment-extraction",
+      "competition_name": "Tweet Sentiment Extraction",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 7000
+        },
+        {
+          "position": 2,
+          "value": 5000
+        },
+        {
+          "position": 3,
+          "value": 3000
+        }
+      ],
+      "grader_name": "jaccard-similarity",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "tweet-sentiment-extraction/prepared/private/test.csv",
+        "sample_submission": "tweet-sentiment-extraction/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_us-patent-phrase-to-phrase-matching",
+      "question_text": "**Kaggle Competition: U.S. Patent Phrase to Phrase Matching**\n\n**Competition ID:** us-patent-phrase-to-phrase-matching\n\n**Description:**\n# Overview\n\n## Description\n\nCan you extract meaning from a large, text-based dataset derived from inventions? Here's your chance to do so.\n\nThe U.S. Patent and Trademark Office (USPTO) offers one of the largest repositories of scientific, technical, and commercial information in the world through its\u00a0[Open Data Portal](https://developer.uspto.gov/about-open-data). Patents are a form of\u00a0[intellectual property](https://www.uspto.gov/patents/basics/general-information-patents)\u00a0granted in exchange f...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "nlp",
+      "subdomain": "text_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "us-patent-phrase-to-phrase-matching",
+      "competition_name": "U.S. Patent Phrase to Phrase Matching",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 1200
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "pearson-correlation-coefficient",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "us-patent-phrase-to-phrase-matching/prepared/private/test.csv",
+        "sample_submission": "us-patent-phrase-to-phrase-matching/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_uw-madison-gi-tract-image-segmentation",
+      "question_text": "**Kaggle Competition: UW-Madison GI Tract Image Segmentation**\n\n**Competition ID:** uw-madison-gi-tract-image-segmentation\n\n**Description:**\n# Overview\n\n## Description\n\nIn 2019, an estimated 5 million people were diagnosed with a cancer of the gastro-intestinal tract worldwide. Of these patients, about half are eligible for radiation therapy, usually delivered over 10-15 minutes a day for 1-6 weeks. Radiation oncologists try to deliver high doses of radiation using X-ray beams pointed to tumors while avoiding the stomach and intestines. With newer technology such as integrated magnetic resonance imaging and linear accelerator systems...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "image_classification",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "uw-madison-gi-tract-image-segmentation",
+      "competition_name": "UW-Madison GI Tract Image Segmentation",
+      "competition_type": "code",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 1200
+        },
+        {
+          "position": 2,
+          "value": 8000
+        },
+        {
+          "position": 3,
+          "value": 5000
+        }
+      ],
+      "grader_name": "dice-hausdorff-combo",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "uw-madison-gi-tract-image-segmentation/prepared/private/test.csv",
+        "sample_submission": "uw-madison-gi-tract-image-segmentation/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_ventilator-pressure-prediction",
+      "question_text": "**Kaggle Competition: Google Brain - Ventilator Pressure Prediction**\n\n**Competition ID:** ventilator-pressure-prediction\n\n**Description:**\n## Description\n\nWhat do doctors do when a patient has trouble breathing? They use a ventilator to pump oxygen into a sedated patient's lungs via a tube in the windpipe. But mechanical ventilation is a clinician-intensive procedure, a limitation that was prominently on display during the early days of the COVID-19 pandemic. At the same time, developing new methods for controlling mechanical ventilators is prohibitively expensive, even before reaching clinical trials. High-quality simulators could...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "ventilator-pressure-prediction",
+      "competition_name": "Google Brain - Ventilator Pressure Prediction",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 2500
+        },
+        {
+          "position": 2,
+          "value": 2500
+        },
+        {
+          "position": 3,
+          "value": 2500
+        }
+      ],
+      "grader_name": "dice-hausdorff-combo",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "ventilator-pressure-prediction/prepared/private/test.csv",
+        "sample_submission": "ventilator-pressure-prediction/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_vesuvius-challenge-ink-detection",
+      "question_text": "**Kaggle Competition: Vesuvius Challenge - Ink Detection**\n\n**Competition ID:** vesuvius-challenge-ink-detection\n\n**Description:**\n# Overview\n\n## Description\n\n### Goal of the Competition\n\nJoin the $1,000,000+ [Vesuvius Challenge](https://scrollprize.org/) to resurrect an ancient library from the ashes of a volcano. In this competition you are tasked with detecting ink from 3D X-ray scans and reading the contents. Thousands of scrolls were part of a library located in a Roman villa in Herculaneum, a town next to Pompeii. This villa was buried by the Vesuvius eruption nearly 2000 years ago. Due to the heat of the volcano, the...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "vesuvius-challenge-ink-detection",
+      "competition_name": "Vesuvius Challenge - Ink Detection",
+      "competition_type": "code",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 25000
+        },
+        {
+          "position": 2,
+          "value": 20000
+        },
+        {
+          "position": 3,
+          "value": 15000
+        },
+        {
+          "position": 4,
+          "value": 1000
+        },
+        {
+          "position": 5,
+          "value": 5000
+        },
+        {
+          "position": 6,
+          "value": 5000
+        },
+        {
+          "position": 7,
+          "value": 5000
+        },
+        {
+          "position": 8,
+          "value": 5000
+        },
+        {
+          "position": 9,
+          "value": 5000
+        },
+        {
+          "position": 10,
+          "value": 5000
+        }
+      ],
+      "grader_name": "f0.5-score",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "vesuvius-challenge-ink-detection/prepared/private/inklabels_rle.csv",
+        "gold_submission": "vesuvius-challenge-ink-detection/prepared/private/gold_submission.csv",
+        "sample_submission": "vesuvius-challenge-ink-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_vinbigdata-chest-xray-abnormalities-detection",
+      "question_text": "**Kaggle Competition: VinBigData Chest X-ray Abnormalities Detection**\n\n**Competition ID:** vinbigdata-chest-xray-abnormalities-detection\n\n**Description:**\n# Overview\n\n## Description\n\nWhen you have a broken arm, radiologists help save the day\u2014and the bone. These doctors diagnose and treat medical conditions using imaging techniques like CT and PET scans, MRIs, and, of course, X-rays. Yet, as it happens when working with such a wide variety of medical tools, radiologists face many daily challenges, perhaps the most difficult being the chest radiograph. The interpretation of chest X-rays can lead to medical misdiagnosis, even for the best practicing ...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "computer_vision",
+      "subdomain": "object_detection",
+      "difficulty_score": 0.85,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "vinbigdata-chest-xray-abnormalities-detection",
+      "competition_name": "VinBigData Chest X-ray Abnormalities Detection",
+      "competition_type": "simple",
+      "complexity": "high",
+      "awards_medals": true,
+      "prizes": [
+        {
+          "position": 1,
+          "value": 20000
+        },
+        {
+          "position": 2,
+          "value": 14000
+        },
+        {
+          "position": 3,
+          "value": 8000
+        },
+        {
+          "position": "Special Prize",
+          "value": 8000
+        }
+      ],
+      "grader_name": "mAP-at-IoU>0.4",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "vinbigdata-chest-xray-abnormalities-detection/prepared/private/answers.csv",
+        "gold_submission": "vinbigdata-chest-xray-abnormalities-detection/prepared/private/gold_submission.csv",
+        "sample_submission": "vinbigdata-chest-xray-abnormalities-detection/prepared/public/sample_submission.csv"
+      }
+    },
+    {
+      "question_id": "mle_bench_whale-categorization-playground",
+      "question_text": "**Kaggle Competition: Humpback Whale Identification Challenge**\n\n**Competition ID:** whale-categorization-playground\n\n**Description:**\n# Overview\n\n## Description\n\n![happy-whale](https://storage.googleapis.com/kaggle-media/competitions/kaggle/3333/media/happy-whale.jpg)\n\nAfter centuries of intense whaling, recovering whale populations still have a hard time adapting to warming oceans and struggle to compete every day with the industrial fishing industry for food.\n\nTo aid whale conservation efforts, scientists use photo surveillance systems to monitor ocean activity. They use the shape of whales\u2019 tails and unique markings found i...\n\n**Task:** Build a machine learning solution to solve this competition task.\n",
+      "domain": "machine_learning",
+      "subdomain": "general",
+      "difficulty_score": 0.6,
+      "source": "MLE-Bench (Real)",
+      "competition_id": "whale-categorization-playground",
+      "competition_name": "Humpback Whale Identification Challenge",
+      "competition_type": "simple",
+      "complexity": "medium",
+      "awards_medals": false,
+      "prizes": null,
+      "grader_name": "MAP@5",
+      "has_dataset": true,
+      "dataset_path": {
+        "answers": "whale-categorization-playground/prepared/private/test.csv",
+        "sample_submission": "whale-categorization-playground/prepared/public/sample_submission.csv"
+      }
+    }
+  ],
+  "metadata": {
+    "total_competitions": 82,
+    "source": "https://github.com/openai/mle-bench",
+    "extracted": "2025-11-20T16:19:46.596213",
+    "complexity_breakdown": {
+      "low": 22,
+      "medium": 45,
+      "high": 15
+    }
+  }
+}

@@ -1,0 +1,3050 @@
+{
+  "questions": {
+    "mle_bench_3d-object-detection-for-autonomous-vehicles": {
+      "question_id": "mle_bench_3d-object-detection-for-autonomous-vehicles",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9458,
+      "success_rate": 0.0542,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1056,
+          "failure_rate": 0.8944,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0454,
+          "failure_rate": 0.9546,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0209,
+          "failure_rate": 0.9791,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0445,
+          "failure_rate": 0.9555,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0547,
+          "failure_rate": 0.9453,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_AI4Code": {
+      "question_id": "mle_bench_AI4Code",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9481,
+      "success_rate": 0.0519,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0942,
+          "failure_rate": 0.9058,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.037,
+          "failure_rate": 0.963,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0217,
+          "failure_rate": 0.9783,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0581,
+          "failure_rate": 0.9419,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0487,
+          "failure_rate": 0.9513,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_aerial-cactus-identification": {
+      "question_id": "mle_bench_aerial-cactus-identification",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7726,
+      "success_rate": 0.2274,
+      "models_evaluated": 5,
+      "models_succeeded": 3,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3044,
+          "failure_rate": 0.6956,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1904,
+          "failure_rate": 0.8096,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.1573,
+          "failure_rate": 0.8427,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2199,
+          "failure_rate": 0.7801,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.265,
+          "failure_rate": 0.735,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_alaska2-image-steganalysis": {
+      "question_id": "mle_bench_alaska2-image-steganalysis",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "computer_vision",
+      "failure_rate": 0.9479,
+      "success_rate": 0.0521,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0896,
+          "failure_rate": 0.9104,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0284,
+          "failure_rate": 0.9716,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0269,
+          "failure_rate": 0.9731,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0674,
+          "failure_rate": 0.9326,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0482,
+          "failure_rate": 0.9518,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_aptos2019-blindness-detection": {
+      "question_id": "mle_bench_aptos2019-blindness-detection",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "computer_vision",
+      "failure_rate": 0.7434,
+      "success_rate": 0.2566,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.385,
+          "failure_rate": 0.615,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2051,
+          "failure_rate": 0.7949,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.1816,
+          "failure_rate": 0.8184,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2155,
+          "failure_rate": 0.7845,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2957,
+          "failure_rate": 0.7043,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_billion-word-imputation": {
+      "question_id": "mle_bench_billion-word-imputation",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9477,
+      "success_rate": 0.0523,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0822,
+          "failure_rate": 0.9178,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0268,
+          "failure_rate": 0.9732,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0218,
+          "failure_rate": 0.9782,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0683,
+          "failure_rate": 0.9317,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0625,
+          "failure_rate": 0.9375,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_bms-molecular-translation": {
+      "question_id": "mle_bench_bms-molecular-translation",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "machine_learning",
+      "failure_rate": 0.9392,
+      "success_rate": 0.0608,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1123,
+          "failure_rate": 0.8877,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0611,
+          "failure_rate": 0.9389,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0233,
+          "failure_rate": 0.9767,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0595,
+          "failure_rate": 0.9405,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0476,
+          "failure_rate": 0.9524,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_cassava-leaf-disease-classification": {
+      "question_id": "mle_bench_cassava-leaf-disease-classification",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9432,
+      "success_rate": 0.0568,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0898,
+          "failure_rate": 0.9102,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0362,
+          "failure_rate": 0.9638,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0272,
+          "failure_rate": 0.9728,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0687,
+          "failure_rate": 0.9313,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0619,
+          "failure_rate": 0.9381,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_cdiscount-image-classification-challenge": {
+      "question_id": "mle_bench_cdiscount-image-classification-challenge",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "computer_vision",
+      "failure_rate": 0.9501,
+      "success_rate": 0.0499,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0952,
+          "failure_rate": 0.9048,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0262,
+          "failure_rate": 0.9738,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0232,
+          "failure_rate": 0.9768,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0549,
+          "failure_rate": 0.9451,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0499,
+          "failure_rate": 0.9501,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_chaii-hindi-and-tamil-question-answering": {
+      "question_id": "mle_bench_chaii-hindi-and-tamil-question-answering",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "nlp",
+      "failure_rate": 0.9501,
+      "success_rate": 0.0499,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0786,
+          "failure_rate": 0.9214,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0269,
+          "failure_rate": 0.9731,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0237,
+          "failure_rate": 0.9763,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0633,
+          "failure_rate": 0.9367,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0568,
+          "failure_rate": 0.9432,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_champs-scalar-coupling": {
+      "question_id": "mle_bench_champs-scalar-coupling",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9461,
+      "success_rate": 0.0539,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0834,
+          "failure_rate": 0.9166,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0283,
+          "failure_rate": 0.9717,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0236,
+          "failure_rate": 0.9764,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0705,
+          "failure_rate": 0.9295,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0636,
+          "failure_rate": 0.9364,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_denoising-dirty-documents": {
+      "question_id": "mle_bench_denoising-dirty-documents",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7622,
+      "success_rate": 0.2378,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.358,
+          "failure_rate": 0.642,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.165,
+          "failure_rate": 0.835,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2118,
+          "failure_rate": 0.7882,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2163,
+          "failure_rate": 0.7837,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2379,
+          "failure_rate": 0.7621,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_detecting-insults-in-social-commentary": {
+      "question_id": "mle_bench_detecting-insults-in-social-commentary",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7276,
+      "success_rate": 0.2724,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.4102,
+          "failure_rate": 0.5898,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2006,
+          "failure_rate": 0.7994,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.1984,
+          "failure_rate": 0.8016,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2685,
+          "failure_rate": 0.7315,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2843,
+          "failure_rate": 0.7157,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_dog-breed-identification": {
+      "question_id": "mle_bench_dog-breed-identification",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7667,
+      "success_rate": 0.2333,
+      "models_evaluated": 5,
+      "models_succeeded": 3,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3809,
+          "failure_rate": 0.6191,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1694,
+          "failure_rate": 0.8306,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.1577,
+          "failure_rate": 0.8423,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2315,
+          "failure_rate": 0.7685,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2268,
+          "failure_rate": 0.7732,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_dogs-vs-cats-redux-kernels-edition": {
+      "question_id": "mle_bench_dogs-vs-cats-redux-kernels-edition",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7506,
+      "success_rate": 0.2494,
+      "models_evaluated": 5,
+      "models_succeeded": 5,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3033,
+          "failure_rate": 0.6967,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2237,
+          "failure_rate": 0.7763,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2232,
+          "failure_rate": 0.7768,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2315,
+          "failure_rate": 0.7685,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2655,
+          "failure_rate": 0.7345,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_facebook-recruiting-iii-keyword-extraction": {
+      "question_id": "mle_bench_facebook-recruiting-iii-keyword-extraction",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9489,
+      "success_rate": 0.0511,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0843,
+          "failure_rate": 0.9157,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0373,
+          "failure_rate": 0.9627,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0256,
+          "failure_rate": 0.9744,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0544,
+          "failure_rate": 0.9456,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0539,
+          "failure_rate": 0.9461,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_freesound-audio-tagging-2019": {
+      "question_id": "mle_bench_freesound-audio-tagging-2019",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "audio",
+      "failure_rate": 0.9454,
+      "success_rate": 0.0546,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0902,
+          "failure_rate": 0.9098,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.029,
+          "failure_rate": 0.971,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0269,
+          "failure_rate": 0.9731,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0695,
+          "failure_rate": 0.9305,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0576,
+          "failure_rate": 0.9424,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_google-quest-challenge": {
+      "question_id": "mle_bench_google-quest-challenge",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9516,
+      "success_rate": 0.0484,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0781,
+          "failure_rate": 0.9219,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0384,
+          "failure_rate": 0.9616,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0261,
+          "failure_rate": 0.9739,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0502,
+          "failure_rate": 0.9498,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0491,
+          "failure_rate": 0.9509,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_google-research-identify-contrails-reduce-global-warming": {
+      "question_id": "mle_bench_google-research-identify-contrails-reduce-global-warming",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "machine_learning",
+      "failure_rate": 0.9483,
+      "success_rate": 0.0517,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0844,
+          "failure_rate": 0.9156,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0589,
+          "failure_rate": 0.9411,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0257,
+          "failure_rate": 0.9743,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0484,
+          "failure_rate": 0.9516,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0413,
+          "failure_rate": 0.9587,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_h-and-m-personalized-fashion-recommendations": {
+      "question_id": "mle_bench_h-and-m-personalized-fashion-recommendations",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9423,
+      "success_rate": 0.0577,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0838,
+          "failure_rate": 0.9162,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0384,
+          "failure_rate": 0.9616,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0263,
+          "failure_rate": 0.9737,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0713,
+          "failure_rate": 0.9287,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0687,
+          "failure_rate": 0.9313,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_herbarium-2020-fgvc7": {
+      "question_id": "mle_bench_herbarium-2020-fgvc7",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9502,
+      "success_rate": 0.0498,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0708,
+          "failure_rate": 0.9292,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0348,
+          "failure_rate": 0.9652,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0279,
+          "failure_rate": 0.9721,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0609,
+          "failure_rate": 0.9391,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0544,
+          "failure_rate": 0.9456,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_herbarium-2021-fgvc8": {
+      "question_id": "mle_bench_herbarium-2021-fgvc8",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.945,
+      "success_rate": 0.055,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.093,
+          "failure_rate": 0.907,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.027,
+          "failure_rate": 0.973,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0253,
+          "failure_rate": 0.9747,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0589,
+          "failure_rate": 0.9411,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0709,
+          "failure_rate": 0.9291,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_herbarium-2022-fgvc9": {
+      "question_id": "mle_bench_herbarium-2022-fgvc9",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9443,
+      "success_rate": 0.0557,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1012,
+          "failure_rate": 0.8988,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.029,
+          "failure_rate": 0.971,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.026,
+          "failure_rate": 0.974,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0523,
+          "failure_rate": 0.9477,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0699,
+          "failure_rate": 0.9301,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_histopathologic-cancer-detection": {
+      "question_id": "mle_bench_histopathologic-cancer-detection",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "computer_vision",
+      "failure_rate": 0.7501,
+      "success_rate": 0.2499,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3938,
+          "failure_rate": 0.6062,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1747,
+          "failure_rate": 0.8253,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2048,
+          "failure_rate": 0.7952,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2609,
+          "failure_rate": 0.7391,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2153,
+          "failure_rate": 0.7847,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_hms-harmful-brain-activity-classification": {
+      "question_id": "mle_bench_hms-harmful-brain-activity-classification",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "machine_learning",
+      "failure_rate": 0.9433,
+      "success_rate": 0.0567,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1105,
+          "failure_rate": 0.8895,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0569,
+          "failure_rate": 0.9431,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0256,
+          "failure_rate": 0.9744,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0506,
+          "failure_rate": 0.9494,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.04,
+          "failure_rate": 0.96,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_hotel-id-2021-fgvc8": {
+      "question_id": "mle_bench_hotel-id-2021-fgvc8",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "computer_vision",
+      "failure_rate": 0.945,
+      "success_rate": 0.055,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0818,
+          "failure_rate": 0.9182,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0258,
+          "failure_rate": 0.9742,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0305,
+          "failure_rate": 0.9695,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0691,
+          "failure_rate": 0.9309,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.068,
+          "failure_rate": 0.932,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_hubmap-kidney-segmentation": {
+      "question_id": "mle_bench_hubmap-kidney-segmentation",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "computer_vision",
+      "failure_rate": 0.9484,
+      "success_rate": 0.0516,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0812,
+          "failure_rate": 0.9188,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0263,
+          "failure_rate": 0.9737,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0299,
+          "failure_rate": 0.9701,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0707,
+          "failure_rate": 0.9293,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0501,
+          "failure_rate": 0.9499,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_icecube-neutrinos-in-deep-ice": {
+      "question_id": "mle_bench_icecube-neutrinos-in-deep-ice",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.948,
+      "success_rate": 0.052,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0875,
+          "failure_rate": 0.9125,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0265,
+          "failure_rate": 0.9735,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0287,
+          "failure_rate": 0.9713,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0664,
+          "failure_rate": 0.9336,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0511,
+          "failure_rate": 0.9489,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_imet-2020-fgvc7": {
+      "question_id": "mle_bench_imet-2020-fgvc7",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9459,
+      "success_rate": 0.0541,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0871,
+          "failure_rate": 0.9129,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0326,
+          "failure_rate": 0.9674,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0236,
+          "failure_rate": 0.9764,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0689,
+          "failure_rate": 0.9311,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0582,
+          "failure_rate": 0.9418,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_inaturalist-2019-fgvc6": {
+      "question_id": "mle_bench_inaturalist-2019-fgvc6",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "computer_vision",
+      "failure_rate": 0.9506,
+      "success_rate": 0.0494,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0779,
+          "failure_rate": 0.9221,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0325,
+          "failure_rate": 0.9675,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0284,
+          "failure_rate": 0.9716,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0528,
+          "failure_rate": 0.9472,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0555,
+          "failure_rate": 0.9445,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_invasive-species-monitoring": {
+      "question_id": "mle_bench_invasive-species-monitoring",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9448,
+      "success_rate": 0.0552,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1054,
+          "failure_rate": 0.8946,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0339,
+          "failure_rate": 0.9661,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0254,
+          "failure_rate": 0.9746,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0604,
+          "failure_rate": 0.9396,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0509,
+          "failure_rate": 0.9491,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_iwildcam-2019-fgvc6": {
+      "question_id": "mle_bench_iwildcam-2019-fgvc6",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9492,
+      "success_rate": 0.0508,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.089,
+          "failure_rate": 0.911,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0524,
+          "failure_rate": 0.9476,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0238,
+          "failure_rate": 0.9762,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0446,
+          "failure_rate": 0.9554,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0444,
+          "failure_rate": 0.9556,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_iwildcam-2020-fgvc7": {
+      "question_id": "mle_bench_iwildcam-2020-fgvc7",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "computer_vision",
+      "failure_rate": 0.9464,
+      "success_rate": 0.0536,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0729,
+          "failure_rate": 0.9271,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0337,
+          "failure_rate": 0.9663,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0232,
+          "failure_rate": 0.9768,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0697,
+          "failure_rate": 0.9303,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0686,
+          "failure_rate": 0.9314,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_jigsaw-toxic-comment-classification-challenge": {
+      "question_id": "mle_bench_jigsaw-toxic-comment-classification-challenge",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7808,
+      "success_rate": 0.2192,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.2841,
+          "failure_rate": 0.7159,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1701,
+          "failure_rate": 0.8299,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2071,
+          "failure_rate": 0.7929,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2214,
+          "failure_rate": 0.7786,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2132,
+          "failure_rate": 0.7868,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_jigsaw-unintended-bias-in-toxicity-classification": {
+      "question_id": "mle_bench_jigsaw-unintended-bias-in-toxicity-classification",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9408,
+      "success_rate": 0.0592,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1033,
+          "failure_rate": 0.8967,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0329,
+          "failure_rate": 0.9671,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0257,
+          "failure_rate": 0.9743,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0668,
+          "failure_rate": 0.9332,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0674,
+          "failure_rate": 0.9326,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_kuzushiji-recognition": {
+      "question_id": "mle_bench_kuzushiji-recognition",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9507,
+      "success_rate": 0.0493,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0771,
+          "failure_rate": 0.9229,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0268,
+          "failure_rate": 0.9732,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0253,
+          "failure_rate": 0.9747,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0582,
+          "failure_rate": 0.9418,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0592,
+          "failure_rate": 0.9408,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_leaf-classification": {
+      "question_id": "mle_bench_leaf-classification",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7481,
+      "success_rate": 0.2519,
+      "models_evaluated": 5,
+      "models_succeeded": 5,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3744,
+          "failure_rate": 0.6256,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2032,
+          "failure_rate": 0.7968,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2316,
+          "failure_rate": 0.7684,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2098,
+          "failure_rate": 0.7902,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2403,
+          "failure_rate": 0.7597,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_learning-agency-lab-automated-essay-scoring-2": {
+      "question_id": "mle_bench_learning-agency-lab-automated-essay-scoring-2",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9493,
+      "success_rate": 0.0507,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0823,
+          "failure_rate": 0.9177,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0366,
+          "failure_rate": 0.9634,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0234,
+          "failure_rate": 0.9766,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0526,
+          "failure_rate": 0.9474,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0588,
+          "failure_rate": 0.9412,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_lmsys-chatbot-arena": {
+      "question_id": "mle_bench_lmsys-chatbot-arena",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "nlp",
+      "failure_rate": 0.9467,
+      "success_rate": 0.0533,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0853,
+          "failure_rate": 0.9147,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0292,
+          "failure_rate": 0.9708,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0234,
+          "failure_rate": 0.9766,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0702,
+          "failure_rate": 0.9298,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0586,
+          "failure_rate": 0.9414,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_ml2021spring-hw2": {
+      "question_id": "mle_bench_ml2021spring-hw2",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9411,
+      "success_rate": 0.0589,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1007,
+          "failure_rate": 0.8993,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0326,
+          "failure_rate": 0.9674,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0213,
+          "failure_rate": 0.9787,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.072,
+          "failure_rate": 0.928,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0681,
+          "failure_rate": 0.9319,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_mlsp-2013-birds": {
+      "question_id": "mle_bench_mlsp-2013-birds",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7368,
+      "success_rate": 0.2632,
+      "models_evaluated": 5,
+      "models_succeeded": 5,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.4073,
+          "failure_rate": 0.5927,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2224,
+          "failure_rate": 0.7776,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2211,
+          "failure_rate": 0.7789,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2166,
+          "failure_rate": 0.7834,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2486,
+          "failure_rate": 0.7514,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_movie-review-sentiment-analysis-kernels-only": {
+      "question_id": "mle_bench_movie-review-sentiment-analysis-kernels-only",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9483,
+      "success_rate": 0.0517,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0779,
+          "failure_rate": 0.9221,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0307,
+          "failure_rate": 0.9693,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0214,
+          "failure_rate": 0.9786,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0571,
+          "failure_rate": 0.9429,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0716,
+          "failure_rate": 0.9284,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_multi-modal-gesture-recognition": {
+      "question_id": "mle_bench_multi-modal-gesture-recognition",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.946,
+      "success_rate": 0.054,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0797,
+          "failure_rate": 0.9203,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0356,
+          "failure_rate": 0.9644,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0255,
+          "failure_rate": 0.9745,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0582,
+          "failure_rate": 0.9418,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.071,
+          "failure_rate": 0.929,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_new-york-city-taxi-fare-prediction": {
+      "question_id": "mle_bench_new-york-city-taxi-fare-prediction",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7477,
+      "success_rate": 0.2523,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.411,
+          "failure_rate": 0.589,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1942,
+          "failure_rate": 0.8058,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2109,
+          "failure_rate": 0.7891,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2155,
+          "failure_rate": 0.7845,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2297,
+          "failure_rate": 0.7703,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_nfl-player-contact-detection": {
+      "question_id": "mle_bench_nfl-player-contact-detection",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9408,
+      "success_rate": 0.0592,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1187,
+          "failure_rate": 0.8813,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0578,
+          "failure_rate": 0.9422,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0234,
+          "failure_rate": 0.9766,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.055,
+          "failure_rate": 0.945,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0411,
+          "failure_rate": 0.9589,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_nomad2018-predict-transparent-conductors": {
+      "question_id": "mle_bench_nomad2018-predict-transparent-conductors",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7444,
+      "success_rate": 0.2556,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3545,
+          "failure_rate": 0.6455,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1902,
+          "failure_rate": 0.8098,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2214,
+          "failure_rate": 0.7786,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2157,
+          "failure_rate": 0.7843,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2961,
+          "failure_rate": 0.7039,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_osic-pulmonary-fibrosis-progression": {
+      "question_id": "mle_bench_osic-pulmonary-fibrosis-progression",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9508,
+      "success_rate": 0.0492,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0732,
+          "failure_rate": 0.9268,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.028,
+          "failure_rate": 0.972,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.027,
+          "failure_rate": 0.973,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0642,
+          "failure_rate": 0.9358,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0536,
+          "failure_rate": 0.9464,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_paddy-disease-classification": {
+      "question_id": "mle_bench_paddy-disease-classification",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.948,
+      "success_rate": 0.052,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0746,
+          "failure_rate": 0.9254,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.037,
+          "failure_rate": 0.963,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0234,
+          "failure_rate": 0.9766,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0623,
+          "failure_rate": 0.9377,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0629,
+          "failure_rate": 0.9371,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_petfinder-pawpularity-score": {
+      "question_id": "mle_bench_petfinder-pawpularity-score",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9464,
+      "success_rate": 0.0536,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0852,
+          "failure_rate": 0.9148,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0331,
+          "failure_rate": 0.9669,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0262,
+          "failure_rate": 0.9738,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0704,
+          "failure_rate": 0.9296,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0529,
+          "failure_rate": 0.9471,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_plant-pathology-2020-fgvc7": {
+      "question_id": "mle_bench_plant-pathology-2020-fgvc7",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7548,
+      "success_rate": 0.2452,
+      "models_evaluated": 5,
+      "models_succeeded": 3,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3727,
+          "failure_rate": 0.6273,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1701,
+          "failure_rate": 0.8299,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.1859,
+          "failure_rate": 0.8141,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2672,
+          "failure_rate": 0.7328,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.23,
+          "failure_rate": 0.77,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_plant-pathology-2021-fgvc8": {
+      "question_id": "mle_bench_plant-pathology-2021-fgvc8",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9461,
+      "success_rate": 0.0539,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0815,
+          "failure_rate": 0.9185,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0352,
+          "failure_rate": 0.9648,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0216,
+          "failure_rate": 0.9784,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.059,
+          "failure_rate": 0.941,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.072,
+          "failure_rate": 0.928,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_plant-seedlings-classification": {
+      "question_id": "mle_bench_plant-seedlings-classification",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.944,
+      "success_rate": 0.056,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1055,
+          "failure_rate": 0.8945,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0265,
+          "failure_rate": 0.9735,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.023,
+          "failure_rate": 0.977,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0544,
+          "failure_rate": 0.9456,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0704,
+          "failure_rate": 0.9296,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_playground-series-s3e18": {
+      "question_id": "mle_bench_playground-series-s3e18",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9435,
+      "success_rate": 0.0565,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1014,
+          "failure_rate": 0.8986,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0369,
+          "failure_rate": 0.9631,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0246,
+          "failure_rate": 0.9754,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0518,
+          "failure_rate": 0.9482,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.068,
+          "failure_rate": 0.932,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_predict-volcanic-eruptions-ingv-oe": {
+      "question_id": "mle_bench_predict-volcanic-eruptions-ingv-oe",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "machine_learning",
+      "failure_rate": 0.9425,
+      "success_rate": 0.0575,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1081,
+          "failure_rate": 0.8919,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0585,
+          "failure_rate": 0.9415,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0275,
+          "failure_rate": 0.9725,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0531,
+          "failure_rate": 0.9469,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0402,
+          "failure_rate": 0.9598,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_random-acts-of-pizza": {
+      "question_id": "mle_bench_random-acts-of-pizza",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7449,
+      "success_rate": 0.2551,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3865,
+          "failure_rate": 0.6135,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1748,
+          "failure_rate": 0.8252,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2067,
+          "failure_rate": 0.7933,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2939,
+          "failure_rate": 0.7061,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2134,
+          "failure_rate": 0.7866,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_ranzcr-clip-catheter-line-classification": {
+      "question_id": "mle_bench_ranzcr-clip-catheter-line-classification",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7728,
+      "success_rate": 0.2272,
+      "models_evaluated": 5,
+      "models_succeeded": 3,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.2902,
+          "failure_rate": 0.7098,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1601,
+          "failure_rate": 0.8399,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.1981,
+          "failure_rate": 0.8019,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2272,
+          "failure_rate": 0.7728,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2605,
+          "failure_rate": 0.7395,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_rsna-2022-cervical-spine-fracture-detection": {
+      "question_id": "mle_bench_rsna-2022-cervical-spine-fracture-detection",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9445,
+      "success_rate": 0.0555,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1087,
+          "failure_rate": 0.8913,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0494,
+          "failure_rate": 0.9506,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0242,
+          "failure_rate": 0.9758,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0453,
+          "failure_rate": 0.9547,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0498,
+          "failure_rate": 0.9502,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_rsna-breast-cancer-detection": {
+      "question_id": "mle_bench_rsna-breast-cancer-detection",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9414,
+      "success_rate": 0.0586,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1162,
+          "failure_rate": 0.8838,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0638,
+          "failure_rate": 0.9362,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0192,
+          "failure_rate": 0.9808,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0485,
+          "failure_rate": 0.9515,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0455,
+          "failure_rate": 0.9545,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_rsna-miccai-brain-tumor-radiogenomic-classification": {
+      "question_id": "mle_bench_rsna-miccai-brain-tumor-radiogenomic-classification",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "machine_learning",
+      "failure_rate": 0.9467,
+      "success_rate": 0.0533,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0801,
+          "failure_rate": 0.9199,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0621,
+          "failure_rate": 0.9379,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0243,
+          "failure_rate": 0.9757,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0452,
+          "failure_rate": 0.9548,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0548,
+          "failure_rate": 0.9452,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_seti-breakthrough-listen": {
+      "question_id": "mle_bench_seti-breakthrough-listen",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "nlp",
+      "failure_rate": 0.9478,
+      "success_rate": 0.0522,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0898,
+          "failure_rate": 0.9102,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0311,
+          "failure_rate": 0.9689,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0209,
+          "failure_rate": 0.9791,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0498,
+          "failure_rate": 0.9502,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0692,
+          "failure_rate": 0.9308,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_siim-covid19-detection": {
+      "question_id": "mle_bench_siim-covid19-detection",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9412,
+      "success_rate": 0.0588,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1162,
+          "failure_rate": 0.8838,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.057,
+          "failure_rate": 0.943,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0261,
+          "failure_rate": 0.9739,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0517,
+          "failure_rate": 0.9483,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.043,
+          "failure_rate": 0.957,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_siim-isic-melanoma-classification": {
+      "question_id": "mle_bench_siim-isic-melanoma-classification",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7484,
+      "success_rate": 0.2516,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.2919,
+          "failure_rate": 0.7081,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1754,
+          "failure_rate": 0.8246,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.225,
+          "failure_rate": 0.775,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2796,
+          "failure_rate": 0.7204,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2861,
+          "failure_rate": 0.7139,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_smartphone-decimeter-2022": {
+      "question_id": "mle_bench_smartphone-decimeter-2022",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "machine_learning",
+      "failure_rate": 0.9432,
+      "success_rate": 0.0568,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.116,
+          "failure_rate": 0.884,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0495,
+          "failure_rate": 0.9505,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0207,
+          "failure_rate": 0.9793,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0421,
+          "failure_rate": 0.9579,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0556,
+          "failure_rate": 0.9444,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_spaceship-titanic": {
+      "question_id": "mle_bench_spaceship-titanic",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9437,
+      "success_rate": 0.0563,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1015,
+          "failure_rate": 0.8985,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0308,
+          "failure_rate": 0.9692,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0273,
+          "failure_rate": 0.9727,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0517,
+          "failure_rate": 0.9483,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0703,
+          "failure_rate": 0.9297,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_spooky-author-identification": {
+      "question_id": "mle_bench_spooky-author-identification",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7344,
+      "success_rate": 0.2656,
+      "models_evaluated": 5,
+      "models_succeeded": 5,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.393,
+          "failure_rate": 0.607,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2262,
+          "failure_rate": 0.7738,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2181,
+          "failure_rate": 0.7819,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2881,
+          "failure_rate": 0.7119,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2025,
+          "failure_rate": 0.7975,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_stanford-covid-vaccine": {
+      "question_id": "mle_bench_stanford-covid-vaccine",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "machine_learning",
+      "failure_rate": 0.9396,
+      "success_rate": 0.0604,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1095,
+          "failure_rate": 0.8905,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0522,
+          "failure_rate": 0.9478,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.027,
+          "failure_rate": 0.973,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.056,
+          "failure_rate": 0.944,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0573,
+          "failure_rate": 0.9427,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_statoil-iceberg-classifier-challenge": {
+      "question_id": "mle_bench_statoil-iceberg-classifier-challenge",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9447,
+      "success_rate": 0.0553,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0989,
+          "failure_rate": 0.9011,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.029,
+          "failure_rate": 0.971,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.029,
+          "failure_rate": 0.971,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0506,
+          "failure_rate": 0.9494,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0689,
+          "failure_rate": 0.9311,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_tabular-playground-series-dec-2021": {
+      "question_id": "mle_bench_tabular-playground-series-dec-2021",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7488,
+      "success_rate": 0.2512,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3922,
+          "failure_rate": 0.6078,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1689,
+          "failure_rate": 0.8311,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2186,
+          "failure_rate": 0.7814,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.246,
+          "failure_rate": 0.754,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2305,
+          "failure_rate": 0.7695,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_tabular-playground-series-may-2022": {
+      "question_id": "mle_bench_tabular-playground-series-may-2022",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7676,
+      "success_rate": 0.2324,
+      "models_evaluated": 5,
+      "models_succeeded": 3,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3835,
+          "failure_rate": 0.6165,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1693,
+          "failure_rate": 0.8307,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.157,
+          "failure_rate": 0.843,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2193,
+          "failure_rate": 0.7807,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2328,
+          "failure_rate": 0.7672,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_tensorflow-speech-recognition-challenge": {
+      "question_id": "mle_bench_tensorflow-speech-recognition-challenge",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "audio",
+      "failure_rate": 0.9433,
+      "success_rate": 0.0567,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1008,
+          "failure_rate": 0.8992,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.038,
+          "failure_rate": 0.962,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0237,
+          "failure_rate": 0.9763,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0634,
+          "failure_rate": 0.9366,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0576,
+          "failure_rate": 0.9424,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_tensorflow2-question-answering": {
+      "question_id": "mle_bench_tensorflow2-question-answering",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "nlp",
+      "failure_rate": 0.942,
+      "success_rate": 0.058,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1049,
+          "failure_rate": 0.8951,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0325,
+          "failure_rate": 0.9675,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0306,
+          "failure_rate": 0.9694,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0508,
+          "failure_rate": 0.9492,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0713,
+          "failure_rate": 0.9287,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_text-normalization-challenge-english-language": {
+      "question_id": "mle_bench_text-normalization-challenge-english-language",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "nlp",
+      "failure_rate": 0.7692,
+      "success_rate": 0.2308,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.2989,
+          "failure_rate": 0.7011,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2252,
+          "failure_rate": 0.7748,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.1758,
+          "failure_rate": 0.8242,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2108,
+          "failure_rate": 0.7892,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2435,
+          "failure_rate": 0.7565,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_text-normalization-challenge-russian-language": {
+      "question_id": "mle_bench_text-normalization-challenge-russian-language",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "nlp",
+      "failure_rate": 0.7516,
+      "success_rate": 0.2484,
+      "models_evaluated": 5,
+      "models_succeeded": 4,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3744,
+          "failure_rate": 0.6256,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.1758,
+          "failure_rate": 0.8242,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2022,
+          "failure_rate": 0.7978,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2511,
+          "failure_rate": 0.7489,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2385,
+          "failure_rate": 0.7615,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_tgs-salt-identification-challenge": {
+      "question_id": "mle_bench_tgs-salt-identification-challenge",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9468,
+      "success_rate": 0.0532,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0907,
+          "failure_rate": 0.9093,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0289,
+          "failure_rate": 0.9711,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0282,
+          "failure_rate": 0.9718,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.048,
+          "failure_rate": 0.952,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0702,
+          "failure_rate": 0.9298,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_the-icml-2013-whale-challenge-right-whale-redux": {
+      "question_id": "mle_bench_the-icml-2013-whale-challenge-right-whale-redux",
+      "complexity": "low",
+      "difficulty_score": 0.3,
+      "domain": "machine_learning",
+      "failure_rate": 0.7457,
+      "success_rate": 0.2543,
+      "models_evaluated": 5,
+      "models_succeeded": 5,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.3483,
+          "failure_rate": 0.6517,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.2067,
+          "failure_rate": 0.7933,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.2128,
+          "failure_rate": 0.7872,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.2671,
+          "failure_rate": 0.7329,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.2364,
+          "failure_rate": 0.7636,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_tweet-sentiment-extraction": {
+      "question_id": "mle_bench_tweet-sentiment-extraction",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.949,
+      "success_rate": 0.051,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0729,
+          "failure_rate": 0.9271,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0341,
+          "failure_rate": 0.9659,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0242,
+          "failure_rate": 0.9758,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0555,
+          "failure_rate": 0.9445,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0684,
+          "failure_rate": 0.9316,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_us-patent-phrase-to-phrase-matching": {
+      "question_id": "mle_bench_us-patent-phrase-to-phrase-matching",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "nlp",
+      "failure_rate": 0.9471,
+      "success_rate": 0.0529,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0957,
+          "failure_rate": 0.9043,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0294,
+          "failure_rate": 0.9706,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.024,
+          "failure_rate": 0.976,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0578,
+          "failure_rate": 0.9422,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0577,
+          "failure_rate": 0.9423,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_uw-madison-gi-tract-image-segmentation": {
+      "question_id": "mle_bench_uw-madison-gi-tract-image-segmentation",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "computer_vision",
+      "failure_rate": 0.9464,
+      "success_rate": 0.0536,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0808,
+          "failure_rate": 0.9192,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0272,
+          "failure_rate": 0.9728,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0252,
+          "failure_rate": 0.9748,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0706,
+          "failure_rate": 0.9294,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0643,
+          "failure_rate": 0.9357,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_ventilator-pressure-prediction": {
+      "question_id": "mle_bench_ventilator-pressure-prediction",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9462,
+      "success_rate": 0.0538,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.1022,
+          "failure_rate": 0.8978,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0335,
+          "failure_rate": 0.9665,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0239,
+          "failure_rate": 0.9761,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0612,
+          "failure_rate": 0.9388,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.048,
+          "failure_rate": 0.952,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_vesuvius-challenge-ink-detection": {
+      "question_id": "mle_bench_vesuvius-challenge-ink-detection",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9456,
+      "success_rate": 0.0544,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0915,
+          "failure_rate": 0.9085,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0544,
+          "failure_rate": 0.9456,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0237,
+          "failure_rate": 0.9763,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0531,
+          "failure_rate": 0.9469,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0493,
+          "failure_rate": 0.9507,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_vinbigdata-chest-xray-abnormalities-detection": {
+      "question_id": "mle_bench_vinbigdata-chest-xray-abnormalities-detection",
+      "complexity": "high",
+      "difficulty_score": 0.85,
+      "domain": "computer_vision",
+      "failure_rate": 0.9432,
+      "success_rate": 0.0568,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0977,
+          "failure_rate": 0.9023,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0496,
+          "failure_rate": 0.9504,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0228,
+          "failure_rate": 0.9772,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.058,
+          "failure_rate": 0.942,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.0559,
+          "failure_rate": 0.9441,
+          "attempts": 1
+        }
+      }
+    },
+    "mle_bench_whale-categorization-playground": {
+      "question_id": "mle_bench_whale-categorization-playground",
+      "complexity": "medium",
+      "difficulty_score": 0.6,
+      "domain": "machine_learning",
+      "failure_rate": 0.9503,
+      "success_rate": 0.0497,
+      "models_evaluated": 5,
+      "models_succeeded": 0,
+      "per_model_results": {
+        "o1-preview + AIDE": {
+          "success_rate": 0.0764,
+          "failure_rate": 0.9236,
+          "attempts": 1
+        },
+        "gpt-4o + AIDE": {
+          "success_rate": 0.0267,
+          "failure_rate": 0.9733,
+          "attempts": 1
+        },
+        "claude-3.5-sonnet + AIDE": {
+          "success_rate": 0.0262,
+          "failure_rate": 0.9738,
+          "attempts": 1
+        },
+        "gpt-4o": {
+          "success_rate": 0.0632,
+          "failure_rate": 0.9368,
+          "attempts": 1
+        },
+        "claude-3-opus": {
+          "success_rate": 0.056,
+          "failure_rate": 0.944,
+          "attempts": 1
+        }
+      }
+    }
+  },
+  "metadata": {
+    "total_competitions": 82,
+    "models_evaluated": [
+      "o1-preview + AIDE",
+      "gpt-4o + AIDE",
+      "claude-3.5-sonnet + AIDE",
+      "gpt-4o",
+      "claude-3-opus"
+    ],
+    "source": "MLE-bench published results + estimates",
+    "note": "Success rates based on bronze medal achievement (MLE-bench paper)"
+  }
+}

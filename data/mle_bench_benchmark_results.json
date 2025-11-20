@@ -1,0 +1,37 @@
+{
+  "benchmark": "MLE-Bench Real Data",
+  "date": "2025-11-20",
+  "n_train": 59,
+  "n_test": 23,
+  "baseline_metrics": {
+    "mae": 0.4847826086956514,
+    "rmse": 0.6015667948745603,
+    "correlation": 0.9978528965124718,
+    "ece": 0.0021434782608695754
+  },
+  "test_questions": [
+    "mle_bench_rsna-miccai-brain-tumor-radiogenomic-classification",
+    "mle_bench_smartphone-decimeter-2022",
+    "mle_bench_3d-object-detection-for-autonomous-vehicles",
+    "mle_bench_vesuvius-challenge-ink-detection",
+    "mle_bench_AI4Code",
+    "mle_bench_chaii-hindi-and-tamil-question-answering",
+    "mle_bench_seti-breakthrough-listen",
+    "mle_bench_herbarium-2022-fgvc9",
+    "mle_bench_spaceship-titanic",
+    "mle_bench_facebook-recruiting-iii-keyword-extraction",
+    "mle_bench_tensorflow2-question-answering",
+    "mle_bench_ml2021spring-hw2",
+    "mle_bench_h-and-m-personalized-fashion-recommendations",
+    "mle_bench_herbarium-2021-fgvc8",
+    "mle_bench_kuzushiji-recognition",
+    "mle_bench_cassava-leaf-disease-classification",
+    "mle_bench_statoil-iceberg-classifier-challenge",
+    "mle_bench_siim-isic-melanoma-classification",
+    "mle_bench_the-icml-2013-whale-challenge-right-whale-redux",
+    "mle_bench_plant-pathology-2020-fgvc7",
+    "mle_bench_tabular-playground-series-dec-2021",
+    "mle_bench_dog-breed-identification",
+    "mle_bench_leaf-classification"
+  ]
+}
