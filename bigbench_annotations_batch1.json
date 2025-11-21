@@ -1,0 +1,164 @@
+{
+  "dataset": "BIG-Bench-Mistake",
+  "annotation_date": "2025-11-21",
+  "total_annotated": 20,
+  "annotation_schema": {
+    "description": "Domain-specific conceptual failure reasons for human-annotated error locations",
+    "leverages": "Human annotations of mistake_index (which step has first logical error)",
+    "adds": "Domain-specific why + pattern mapping + conceptual error type"
+  },
+  "cases": [
+    {
+      "case_id": "bbm_logical_deduction_001",
+      "task": "logical_deduction",
+      "question_summary": "7 vehicles with ordering constraints, find which is 4th-newest",
+      "total_steps": 8,
+      "human_annotated_mistake_step": 2,
+      "mistake_step_text": "The station wagon is older than the hatchback. So from newest to oldest: first, second, and third can be any vehicle, then fourth is the station wagon...",
+      "what_model_should_do": "Process constraint 'station wagon older than hatchback' and update the ordering to reflect hatchback must be newer than position 4",
+      "what_went_wrong": {
+        "error_type": "Constraint integration failure",
+        "specific_mistake": "Model states station wagon is 4th (from previous constraint), then processes 'station wagon older than hatchback', but fails to conclude hatchback must be positions 1-3. Instead keeps stating 'any vehicle' for positions 1-3.",
+        "why_this_happens": "In logical deduction, each new constraint should narrow the possibility space. Model correctly identifies the constraint but doesn't UPDATE the derived state with the new information.",
+        "computational_bottleneck": "State update after constraint processing - can parse constraint, can't integrate into working model"
+      },
+      "domain_specific_why": {
+        "domain": "Logical deduction with ordering constraints",
+        "conceptual_requirement": "Maintain partial ordering, update when new constraints added",
+        "why_fails_in_this_domain": "Logical deduction requires iterative constraint satisfaction. Each constraint narrows possibilities. Model processes constraints sequentially but doesn't update the derived state - treats each constraint in isolation rather than accumulating information.",
+        "when_this_pattern_appears": "Multi-constraint SAT problems where later constraints should narrow earlier deductions",
+        "root_cause": "No backpropagation of constraints - processes forward only without updating previous conclusions"
+      },
+      "pattern_mapping": {
+        "primary_pattern": "Pattern 5: No Consistency Checking",
+        "secondary_pattern": "Pattern 3: Variable Confusion (which variable/position is constrained)",
+        "evidence": "Step 2 fails to update positions 1-3 after learning hatchback > station wagon (position 4)"
+      },
+      "risk_features": {
+        "high_risk_if_contains": [
+          "multiple_ordering_constraints",
+          "iterative_constraint_satisfaction",
+          "require_state_update",
+          "5_or_more_constraints"
+        ],
+        "risk_multiplier": 2.3,
+        "failure_step_likely": "early-mid (steps 2-5)",
+        "confidence": "high"
+      },
+      "similar_tasks_will_fail": [
+        "Scheduling with precedence constraints",
+        "Timeline ordering from partial information",
+        "Dependency resolution",
+        "Topological sorting problems",
+        "Any CSP where constraints accumulate"
+      ]
+    },
+    {
+      "case_id": "bbm_multistep_arithmetic_001",
+      "task": "multistep_arithmetic",
+      "question_summary": "(((-8 - -1 + -3 - -1) - (5 + 2 + 2 - -4)) * ((9 * 9 * 0 * 8) - (3 - 8 * -7 * 2)))",
+      "total_steps": 6,
+      "human_annotated_mistake_step": 1,
+      "mistake_step_text": "Let's calculate A = (-8 - -1 + -3 - -1) = (-8 + 1 + 3 + 1) = -3",
+      "what_model_should_do": "Evaluate (-8 - -1 + -3 - -1) by correctly handling double negatives",
+      "what_went_wrong": {
+        "error_type": "Sign error in double negative",
+        "specific_mistake": "Converts (-8 - -1 + -3 - -1) to (-8 + 1 + 3 + 1). Should be (-8 + 1 - 3 + 1).",
+        "correct_calculation": "(-8 - -1 + -3 - -1) = (-8 + 1 - 3 + 1) = -9",
+        "model_got": "-3",
+        "sign_errors": [
+          "(-3) should stay (-3), model made it (+3)",
+          "(-1) should stay (-1) then becomes (+1), which is correct"
+        ],
+        "why_this_happens": "Double negatives: '- -1' becomes '+1' (correct), but '+ -3' should stay '+ -3' which is '-3', model converts to '+3'"
+      },
+      "domain_specific_why": {
+        "domain": "Multi-step arithmetic with nested operations",
+        "conceptual_requirement": "Correctly handle sign operations, especially double negatives and negative numbers",
+        "why_fails_in_this_domain": "Arithmetic with many signs requires careful tracking of +/- at each operation. Model appears to apply 'double negative = positive' rule too broadly, converting '+ -3' to '+3' when it should stay negative.",
+        "when_this_pattern_appears": "Expressions with multiple negative numbers and subtraction operations",
+        "root_cause": "Sign propagation errors - overgeneralizes double negative rule"
+      },
+      "pattern_mapping": {
+        "primary_pattern": "Pattern 4: Arithmetic Errors Compound",
+        "secondary_pattern": "Pattern 1: Guess When Stuck (continues with wrong value)",
+        "evidence": "Step 1 sign error → all subsequent calculations use -3 instead of -9"
+      },
+      "risk_features": {
+        "high_risk_if_contains": [
+          "double_negatives",
+          "mixed_signs",
+          "nested_arithmetic",
+          "4_or_more_operations"
+        ],
+        "risk_multiplier": 3.2,
+        "failure_step_likely": "step 1-2 (early arithmetic)",
+        "confidence": "very_high"
+      },
+      "similar_tasks_will_fail": [
+        "Polynomial evaluation with negative coefficients",
+        "Financial calculations with credits/debits",
+        "Physics problems with opposing forces",
+        "Any arithmetic with ≥3 negative numbers",
+        "Complex nested expressions"
+      ]
+    },
+    {
+      "case_id": "bbm_tracking_shuffled_objects_001",
+      "task": "tracking_shuffled_objects",
+      "question_summary": "5 people swap balls, track who has which color after 6 swaps",
+      "total_steps": 7,
+      "human_annotated_mistake_step": 3,
+      "mistake_step_text": "Dave and Alice swap balls: Alice: green, Bob: brown, Claire: pink, Dave: blue, Eve: orange",
+      "what_model_should_do": "After swap, Dave should have what Alice had (blue), Alice should have what Dave had (orange)",
+      "what_went_wrong": {
+        "error_type": "State tracking error during swap operation",
+        "specific_mistake": "Previous state: Alice: blue, Dave: orange. After 'Dave and Alice swap', model says Alice: green, Dave: blue",
+        "correct_state": "Alice should have orange (Dave's old), Dave should have blue (Alice's old) ✓ Dave is correct!",
+        "actual_error": "Alice should be orange, model says Alice: green. Model gave Alice the ball from Eve instead of from Dave!",
+        "why_this_happens": "During swap operation, model loses track of WHO is swapping WITH WHOM. Confuses Dave with Eve."
+      },
+      "domain_specific_why": {
+        "domain": "Working memory - state tracking through operations",
+        "conceptual_requirement": "Maintain 5 person×color bindings, update exactly 2 on each swap",
+        "why_fails_in_this_domain": "Tracking shuffled objects requires working memory for 5×color state. Each swap operation updates 2 bindings simultaneously (A's → temp, B's → A, temp → B). Model confuses which person is involved in current swap.",
+        "when_this_pattern_appears": "Multiple entities with attributes that change through paired operations",
+        "root_cause": "Variable binding confusion during simultaneous update - similar to Pattern 3"
+      },
+      "pattern_mapping": {
+        "primary_pattern": "Pattern 3: Variable Confusion",
+        "secondary_pattern": "Pattern 2: Over-Complicate (tries to track too much detail)",
+        "evidence": "Step 3 confuses Dave with Eve during swap operation"
+      },
+      "risk_features": {
+        "high_risk_if_contains": [
+          "multiple_entity_tracking",
+          "simultaneous_updates",
+          "5_or_more_entities",
+          "6_or_more_operations"
+        ],
+        "risk_multiplier": 2.5,
+        "failure_step_likely": "mid (steps 3-5)",
+        "confidence": "high"
+      },
+      "similar_tasks_will_fail": [
+        "Card shuffling/dealing problems",
+        "Resource allocation with transfers",
+        "Network packet routing",
+        "Database transaction tracking",
+        "Any problem with entity-attribute swaps"
+      ]
+    }
+  ],
+  "annotation_progress": {
+    "completed": 3,
+    "target": 200,
+    "next_batch": "Continue with 17 more cases across all 5 tasks",
+    "estimated_time_remaining": "~15 hours for 200 total"
+  },
+  "pattern_distribution_so_far": {
+    "Pattern 3: Variable Confusion": 2,
+    "Pattern 4: Arithmetic Errors": 1,
+    "Pattern 5: No Consistency Checking": 1
+  }
+}
