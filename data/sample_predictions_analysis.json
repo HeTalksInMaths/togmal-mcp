@@ -1,0 +1,102 @@
+[
+  {
+    "qid": "q_747",
+    "domain": "engineering",
+    "actual": 0.1428571428571429,
+    "predicted": 0.28699933039213954,
+    "error": 0.14414218753499664,
+    "confidence": 0.5920155496675008,
+    "n_similar": 20,
+    "credible": true
+  },
+  {
+    "qid": "q_1358",
+    "domain": "health",
+    "actual": 0.0,
+    "predicted": 0.45958106972564317,
+    "error": 0.45958106972564317,
+    "confidence": 0.451043042851876,
+    "n_similar": 20,
+    "credible": false
+  },
+  {
+    "qid": "q_7841",
+    "domain": "law",
+    "actual": 0.0,
+    "predicted": 0.38894198314278317,
+    "error": 0.38894198314278317,
+    "confidence": 0.3786897582645811,
+    "n_similar": 20,
+    "credible": false
+  },
+  {
+    "qid": "q_9359",
+    "domain": "psychology",
+    "actual": 0.0,
+    "predicted": 0.3257774608418768,
+    "error": 0.3257774608418768,
+    "confidence": 0.37632631320014687,
+    "n_similar": 20,
+    "credible": false
+  },
+  {
+    "qid": "q_4509",
+    "domain": "chemistry",
+    "actual": 0.2857142857142857,
+    "predicted": 0.47043359467698515,
+    "error": 0.18471930896269945,
+    "confidence": 0.4495284446240285,
+    "n_similar": 20,
+    "credible": true
+  },
+  {
+    "qid": "q_2536",
+    "domain": "physics",
+    "actual": 0.2857142857142857,
+    "predicted": 0.2098026914453484,
+    "error": 0.07591159426893729,
+    "confidence": 0.32493349950273814,
+    "n_similar": 20,
+    "credible": true
+  },
+  {
+    "qid": "q_353",
+    "domain": "engineering",
+    "actual": 0.4285714285714286,
+    "predicted": 0.2746198877022026,
+    "error": 0.15395154086922602,
+    "confidence": 0.2935928415056989,
+    "n_similar": 20,
+    "credible": false
+  },
+  {
+    "qid": "q_6632",
+    "domain": "computer science",
+    "actual": 0.7142857142857143,
+    "predicted": 0.3226769142621043,
+    "error": 0.39160880002361,
+    "confidence": 0.355725405948324,
+    "n_similar": 20,
+    "credible": false
+  },
+  {
+    "qid": "q_5234",
+    "domain": "math",
+    "actual": 0.4285714285714286,
+    "predicted": 0.4344182568778002,
+    "error": 0.005846828306371621,
+    "confidence": 0.5709690347349394,
+    "n_similar": 20,
+    "credible": true
+  },
+  {
+    "qid": "ds1000_Pandas_51",
+    "domain": "Pandas",
+    "actual": 1.0,
+    "predicted": 1.0,
+    "error": 0.0,
+    "confidence": 0.5720623959419546,
+    "n_similar": 20,
+    "credible": true
+  }
+]
