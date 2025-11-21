@@ -1,0 +1,343 @@
+{
+  "test_date": "2025-11-21",
+  "dataset_size": 14766,
+  "threshold": 0.6,
+  "results_by_category": {
+    "Easy Coding": {
+      "prompts": [
+        "Write a Python function to check if a number is even",
+        "Create a function that reverses a string",
+        "Write a function to find the maximum element in a list",
+        "How do I print 'Hello World' in Python?"
+      ],
+      "avg_failure_rate": 0.222385603465907,
+      "avg_confidence": 0.40734398377449454,
+      "num_lightweight": 4,
+      "num_full": 0,
+      "details": [
+        {
+          "prompt": "Write a Python function to check if a number is even",
+          "predicted_failure_rate": 0.2170277848600612,
+          "confidence": 0.37870352313970007,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Create a function that reverses a string",
+          "predicted_failure_rate": 0.188184364959554,
+          "confidence": 0.4192908159389625,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Write a function to find the maximum element in a list",
+          "predicted_failure_rate": 0.2868412740373939,
+          "confidence": 0.390607895082903,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "How do I print 'Hello World' in Python?",
+          "predicted_failure_rate": 0.19748899000661893,
+          "confidence": 0.44077370093641244,
+          "use_lightweight": true,
+          "similar_count": 20
+        }
+      ]
+    },
+    "Medium Coding": {
+      "prompts": [
+        "Implement a binary search algorithm in Python",
+        "Write a function to detect cycles in a linked list",
+        "Create a LRU cache implementation",
+        "Implement merge sort in Python"
+      ],
+      "avg_failure_rate": 0.27938708934897644,
+      "avg_confidence": 0.3831004255355057,
+      "num_lightweight": 4,
+      "num_full": 0,
+      "details": [
+        {
+          "prompt": "Implement a binary search algorithm in Python",
+          "predicted_failure_rate": 0.16859725848832927,
+          "confidence": 0.3783306497335929,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Write a function to detect cycles in a linked list",
+          "predicted_failure_rate": 0.20817473488926708,
+          "confidence": 0.4496074587867973,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Create a LRU cache implementation",
+          "predicted_failure_rate": 0.47976483451917074,
+          "confidence": 0.35079426814143877,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Implement merge sort in Python",
+          "predicted_failure_rate": 0.2610115294991387,
+          "confidence": 0.35366932548019386,
+          "use_lightweight": true,
+          "similar_count": 20
+        }
+      ]
+    },
+    "Data Science": {
+      "prompts": [
+        "How do I load a CSV file using pandas?",
+        "Calculate the correlation between two columns in a DataFrame",
+        "How to handle missing values in pandas?",
+        "Create a scatter plot with matplotlib"
+      ],
+      "avg_failure_rate": 0.6518728440764876,
+      "avg_confidence": 0.36713509380449,
+      "num_lightweight": 2,
+      "num_full": 2,
+      "details": [
+        {
+          "prompt": "How do I load a CSV file using pandas?",
+          "predicted_failure_rate": 0.46938465806302615,
+          "confidence": 0.3236334849972761,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Calculate the correlation between two columns in a DataFrame",
+          "predicted_failure_rate": 0.9933650942396004,
+          "confidence": 0.4250927067241137,
+          "use_lightweight": false,
+          "similar_count": 20
+        },
+        {
+          "prompt": "How to handle missing values in pandas?",
+          "predicted_failure_rate": 0.3983007195685679,
+          "confidence": 0.4255609388600248,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Create a scatter plot with matplotlib",
+          "predicted_failure_rate": 0.7464409044347562,
+          "confidence": 0.2942532446365453,
+          "use_lightweight": false,
+          "similar_count": 20
+        }
+      ]
+    },
+    "Machine Learning": {
+      "prompts": [
+        "Train a simple linear regression model with scikit-learn",
+        "How to split data into train and test sets?",
+        "Implement k-means clustering on iris dataset",
+        "Fine-tune a BERT model for text classification"
+      ],
+      "avg_failure_rate": 0.38098590420881645,
+      "avg_confidence": 0.35273713702807025,
+      "num_lightweight": 4,
+      "num_full": 0,
+      "details": [
+        {
+          "prompt": "Train a simple linear regression model with scikit-learn",
+          "predicted_failure_rate": 0.33852621380992914,
+          "confidence": 0.3167967052160687,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "How to split data into train and test sets?",
+          "predicted_failure_rate": 0.4629079217876255,
+          "confidence": 0.38169923304102177,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Implement k-means clustering on iris dataset",
+          "predicted_failure_rate": 0.3813910058508216,
+          "confidence": 0.34642797308963064,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Fine-tune a BERT model for text classification",
+          "predicted_failure_rate": 0.3411184753868895,
+          "confidence": 0.3660246367655599,
+          "use_lightweight": true,
+          "similar_count": 20
+        }
+      ]
+    },
+    "Advanced ML/Research": {
+      "prompts": [
+        "Implement a custom neural scaling law analysis for transformer models",
+        "Optimize GPU kernel for custom attention mechanism",
+        "Detect dataset contamination in pre-training corpus",
+        "Implement distributed training with gradient checkpointing and ZeRO optimization"
+      ],
+      "avg_failure_rate": 0.3887946986277563,
+      "avg_confidence": 0.26557532159013963,
+      "num_lightweight": 4,
+      "num_full": 0,
+      "details": [
+        {
+          "prompt": "Implement a custom neural scaling law analysis for transformer models",
+          "predicted_failure_rate": 0.22249374530218025,
+          "confidence": 0.34126586637434914,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Optimize GPU kernel for custom attention mechanism",
+          "predicted_failure_rate": 0.5,
+          "confidence": 0.0,
+          "use_lightweight": true,
+          "similar_count": 0
+        },
+        {
+          "prompt": "Detect dataset contamination in pre-training corpus",
+          "predicted_failure_rate": 0.48354378218245697,
+          "confidence": 0.39494406240228674,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Implement distributed training with gradient checkpointing and ZeRO optimization",
+          "predicted_failure_rate": 0.3491412670263879,
+          "confidence": 0.3260913575839226,
+          "use_lightweight": true,
+          "similar_count": 20
+        }
+      ]
+    },
+    "Complex Math/Science": {
+      "prompts": [
+        "Prove the Pythagorean theorem",
+        "Solve the differential equation dy/dx = xy",
+        "Explain quantum entanglement and derive the Bell inequality",
+        "Calculate the eigenvalues of a 3x3 matrix"
+      ],
+      "avg_failure_rate": 0.347000709480331,
+      "avg_confidence": 0.48584174524158563,
+      "num_lightweight": 4,
+      "num_full": 0,
+      "details": [
+        {
+          "prompt": "Prove the Pythagorean theorem",
+          "predicted_failure_rate": 0.5,
+          "confidence": 0.0,
+          "use_lightweight": true,
+          "similar_count": 0
+        },
+        {
+          "prompt": "Solve the differential equation dy/dx = xy",
+          "predicted_failure_rate": 0.2050599711406934,
+          "confidence": 0.6288176351455246,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Explain quantum entanglement and derive the Bell inequality",
+          "predicted_failure_rate": 0.1379582627206158,
+          "confidence": 0.6876034561205062,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Calculate the eigenvalues of a 3x3 matrix",
+          "predicted_failure_rate": 0.5449846040600148,
+          "confidence": 0.6269458897003118,
+          "use_lightweight": true,
+          "similar_count": 20
+        }
+      ]
+    },
+    "General Knowledge": {
+      "prompts": [
+        "What is the capital of France?",
+        "Explain how photosynthesis works",
+        "Who wrote Romeo and Juliet?",
+        "What is the theory of relativity?"
+      ],
+      "avg_failure_rate": 0.25827019808779383,
+      "avg_confidence": 0.4512859145626833,
+      "num_lightweight": 4,
+      "num_full": 0,
+      "details": [
+        {
+          "prompt": "What is the capital of France?",
+          "predicted_failure_rate": 0.2058243863381372,
+          "confidence": 0.5677406877178265,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Explain how photosynthesis works",
+          "predicted_failure_rate": 0.12390403662627279,
+          "confidence": 0.48412936823143476,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Who wrote Romeo and Juliet?",
+          "predicted_failure_rate": 0.5,
+          "confidence": 0.0,
+          "use_lightweight": true,
+          "similar_count": 0
+        },
+        {
+          "prompt": "What is the theory of relativity?",
+          "predicted_failure_rate": 0.2033523693867653,
+          "confidence": 0.7532736023014719,
+          "use_lightweight": true,
+          "similar_count": 20
+        }
+      ]
+    },
+    "Repository-Level Tasks": {
+      "prompts": [
+        "Add a new feature to scikit-learn for custom kernel functions",
+        "Implement a new optimizer in PyTorch",
+        "Create a custom TensorFlow layer with gradient checkpointing",
+        "Add support for nested DataFrames in pandas"
+      ],
+      "avg_failure_rate": 0.40292142503917394,
+      "avg_confidence": 0.34112988439873493,
+      "num_lightweight": 4,
+      "num_full": 0,
+      "details": [
+        {
+          "prompt": "Add a new feature to scikit-learn for custom kernel functions",
+          "predicted_failure_rate": 0.30986354916421555,
+          "confidence": 0.3175377997415497,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Implement a new optimizer in PyTorch",
+          "predicted_failure_rate": 0.4829692237279321,
+          "confidence": 0.3852296439686746,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Create a custom TensorFlow layer with gradient checkpointing",
+          "predicted_failure_rate": 0.4775322807488722,
+          "confidence": 0.3158700462293133,
+          "use_lightweight": true,
+          "similar_count": 20
+        },
+        {
+          "prompt": "Add support for nested DataFrames in pandas",
+          "predicted_failure_rate": 0.34132064651567595,
+          "confidence": 0.3458820476554022,
+          "use_lightweight": true,
+          "similar_count": 20
+        }
+      ]
+    }
+  }
+}
