@@ -1,0 +1,24 @@
+{
+  "dataset_size": 252,
+  "train_size": 58,
+  "val_size": 8,
+  "test_size": 16,
+  "tfidf_metrics": {
+    "mae": 7.688903305764116,
+    "rmse": 10.418494695849336,
+    "correlation": 0.13298749622489006,
+    "ece": 0.045581311621225515,
+    "n_test": 16,
+    "mean_confidence": 0.17647437197710727
+  },
+  "word_overlap_metrics": {
+    "mae": 8.584135214216856,
+    "rmse": 11.363104851419696,
+    "correlation": -0.35442126562372395,
+    "ece": 0.06408467175340585,
+    "n_test": 16,
+    "mean_confidence": 0.2439097558004073
+  },
+  "temperature": 0.9091287627458318,
+  "embedding_method": "TF-IDF (sklearn)"
+}
