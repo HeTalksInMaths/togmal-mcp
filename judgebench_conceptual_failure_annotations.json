@@ -1,0 +1,606 @@
+{
+  "dataset": "JudgeBench",
+  "total_cases_annotated": 9,
+  "annotation_schema": {
+    "description": "Each case maps to domain-specific conceptual failure reasons for ToGMAL similarity-based retrieval",
+    "fields": {
+      "case_id": "Unique identifier",
+      "source": "Benchmark source (livebench-math, mmlu-pro, etc.)",
+      "domain": "Mathematical domain or field",
+      "question_type": "Specific problem category",
+      "conceptual_requirements": "What understanding is needed",
+      "conceptual_understanding": "What the model understands correctly",
+      "execution_failure_point": "Where execution breaks down",
+      "domain_specific_why": "Why this domain causes this failure",
+      "failure_mechanism": "Cognitive/computational mechanism that fails",
+      "similar_tasks_will_fail": "Other tasks with same conceptual profile"
+    }
+  },
+  "cases": [
+    {
+      "case_id": "case_1_pentagon_folding",
+      "pair_id": "c5b7580d-a60f-5cb0-bc3b-0e01afda4e20",
+      "source": "livebench-math",
+      "domain": "Geometry",
+      "question_type": "Geometric transformation with golden ratio",
+      "task_description": "Regular pentagon area after folding vertices to center",
+      "conceptual_requirements": [
+        "Understanding of regular pentagon properties",
+        "Golden ratio φ = (1+√5)/2 in pentagon geometry",
+        "Similarity ratios in nested pentagons",
+        "Algebraic manipulation of expressions with √5"
+      ],
+      "conceptual_understanding": {
+        "what_model_knows": [
+          "Pentagon folding creates smaller similar pentagon ✓",
+          "Ratio involves golden ratio φ ✓",
+          "Area scales as (side ratio)² ✓",
+          "Need to rationalize 1/φ ✓"
+        ],
+        "understanding_level": "Complete - model grasps all geometric concepts"
+      },
+      "execution_failure_point": {
+        "where": "Algebraic simplification of (√5 + 1) × (3 - √5) / 2",
+        "what_happened": "Gets 2 - 2√5 but then claims this equals √5 - 1",
+        "correct_answer": "Should get (3√5 + 3 - 5 - √5)/2 = (2√5 - 2)/2 = √5 - 1",
+        "error_type": "Sign error in algebraic manipulation"
+      },
+      "domain_specific_why": {
+        "reason": "Irrational number algebra requires careful tracking of √5 terms",
+        "why_geometry_specific": "Pentagon geometry inherently involves φ and √5 - not simple rational numbers",
+        "computational_challenge": "Cannot verify (a + b√5)(c + d√5) expansions reliably",
+        "when_this_matters": "Any geometry with golden ratio (pentagons, pentagrams, icosahedrons)",
+        "root_cause": "Algebraic manipulation of nested radicals"
+      },
+      "failure_mechanism": {
+        "mechanism": "Algebraic manipulation failures",
+        "pattern": "Pattern 6: Makes error in polynomial/radical expansion, doesn't verify by substitution",
+        "why_no_recovery": "Doesn't expand back to check (√5+1)×(3-√5)/2 = √5-1",
+        "guessing_behavior": "Gets nonsense result, guesses answer from choices"
+      },
+      "similar_tasks_will_fail": [
+        "Golden ratio in fibonacci spirals",
+        "Pentagon/pentagram angle calculations",
+        "Icosahedron surface area with √5 terms",
+        "Any algebraic manipulation with nested radicals (√(a+b√c))",
+        "Trigonometric simplifications with √2, √3, √5"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "golden_ratio",
+          "nested_radicals",
+          "pentagon_geometry",
+          "algebraic_simplification_of_surds"
+        ],
+        "risk_multiplier": 2.5,
+        "confidence": "high",
+        "evidence_strength": "direct"
+      }
+    },
+    {
+      "case_id": "case_2_almost_equal_chars",
+      "pair_id": "377f8d5c-8ab3-5e42-b36d-bea220b19ac3",
+      "source": "livecodebench",
+      "domain": "Dynamic Programming",
+      "question_type": "String optimization with local constraints",
+      "task_description": "Minimum operations to remove adjacent almost-equal characters",
+      "conceptual_requirements": [
+        "Understanding DP state definition",
+        "Recognizing optimal substructure",
+        "Adjacent character constraint checking",
+        "State transition correctness"
+      ],
+      "conceptual_understanding": {
+        "what_model_knows": [
+          "DP approach is correct ✓",
+          "Need to track position i ✓",
+          "Changing char[i] affects neighbors ✓",
+          "Recurrence relation structure ✓"
+        ],
+        "understanding_level": "Complete algorithmic understanding"
+      },
+      "execution_failure_point": {
+        "where": "DP recurrence for position i > 2",
+        "what_happened": "Checks if word[i] almost-equals word[i-2] (non-adjacent!)",
+        "correct_logic": "Should only check word[i] vs word[i-1] (adjacent only)",
+        "error_type": "Over-complication - adds irrelevant constraint check"
+      },
+      "domain_specific_why": {
+        "reason": "Confusion between DP index relationships and problem adjacency constraint",
+        "why_dp_specific": "DP naturally considers previous states (i-1, i-2, ...) but problem constraint is about string adjacency, not DP index adjacency",
+        "conceptual_conflation": "Mixes 'DP lookback' (i-2 is relevant for DP) with 'problem constraint' (only i-1 is adjacent in string)",
+        "when_this_matters": "Any DP where problem constraint differs from DP index relationships",
+        "root_cause": "Problem space (string adjacency) ≠ solution space (DP index)"
+      },
+      "failure_mechanism": {
+        "mechanism": "Over-complication",
+        "pattern": "Pattern 2: Understands core, but adds unnecessary complexity that creates bugs",
+        "why_no_recovery": "Code looks reasonable, extra check seems 'defensive'",
+        "subtlety": "i-2 is relevant for DP state, just not for this problem's constraint"
+      },
+      "similar_tasks_will_fail": [
+        "DP on sequences where constraint is local (k-window) but DP considers broader history",
+        "Stock trading with cooldown (1-day cooldown ≠ i-1 state dependency)",
+        "House robber with specific spacing constraints",
+        "String matching where pattern constraint differs from DP recurrence structure",
+        "Any problem where 'previous step in DP' ≠ 'relevant constraint scope'"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "dp_with_local_constraint",
+          "adjacency_constraint",
+          "window_size_k",
+          "constraint_scope_differs_from_dp_lookback"
+        ],
+        "risk_multiplier": 1.8,
+        "confidence": "medium",
+        "evidence_strength": "direct"
+      }
+    },
+    {
+      "case_id": "case_3_constraint_satisfaction",
+      "pair_id": "9b0d8cfb-f165-5bcd-9a35-3f9cff879a80",
+      "source": "livebench-reasoning",
+      "domain": "Logic/Constraint Satisfaction",
+      "question_type": "Position deduction with multiple constraints",
+      "task_description": "3 people, 4 attributes each, 7 constraints - find avocado's position",
+      "conceptual_requirements": [
+        "Process ordering constraints (A left of B)",
+        "Process parity constraints (same odd/even positions)",
+        "Logical deduction chain",
+        "Variable binding (person → attributes)"
+      ],
+      "conceptual_understanding": {
+        "what_model_knows": [
+          "Constraints imply ordering: cranberry < tram < avocado ✓",
+          "Can deduce: tram is position 2 ✓",
+          "Therefore: avocado is position 3 ✓",
+          "Logical reasoning is completely correct ✓"
+        ],
+        "understanding_level": "Perfect logical deduction"
+      },
+      "execution_failure_point": {
+        "where": "Final answer extraction",
+        "what_happened": "Correctly deduces avocado at position 3, but answers '2'",
+        "correct_answer": "Position 3",
+        "error_type": "Variable reference confusion - answers with tram's position instead"
+      },
+      "domain_specific_why": {
+        "reason": "Multiple variables (cranberry, tram, avocado) bound to positions - reports wrong variable",
+        "why_csp_specific": "CSPs have many variable bindings in working memory (person1→{tram, cranberry, ...}, person2→{...}, person3→{avocado, ...})",
+        "cognitive_load": "Tracks 3 people × 4 attributes = 12 variable bindings simultaneously",
+        "when_this_matters": "When question asks 'where is X?' but model just reasoned about Y's position",
+        "root_cause": "Variable retrieval from working memory fails - gets 'position just mentioned' not 'position of queried item'"
+      },
+      "failure_mechanism": {
+        "mechanism": "Variable confusion",
+        "pattern": "Pattern 3: Correct reasoning, but substitutes wrong variable at retrieval",
+        "why_no_recovery": "Model doesn't re-check 'question asks for avocado, I'm answering with position 2, does avocado have position 2?'",
+        "recency_bias": "Likely answers with most recently mentioned position (tram's)"
+      },
+      "similar_tasks_will_fail": [
+        "Scheduling: 'Which day does Alice work?' when just reasoned about Bob's schedule",
+        "Network routing: 'Which port for service X?' when just computed Y's port",
+        "Database query: Multiple JOINs, SELECT asks for column from table A, returns column from table B",
+        "Any multi-variable binding where final question requires lookup",
+        "Configuration problems with many attribute assignments"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "multi_entity_attributes",
+          "final_question_requires_lookup",
+          "many_variable_bindings",
+          "similar_attribute_names"
+        ],
+        "risk_multiplier": 2.0,
+        "confidence": "high",
+        "evidence_strength": "direct"
+      }
+    },
+    {
+      "case_id": "case_4_eulers_method",
+      "pair_id": "39a96169-92fd-5027-be7e-e31926ecc033",
+      "source": "mmlu-pro-math",
+      "domain": "Numerical Methods",
+      "question_type": "Numerical ODE integration",
+      "task_description": "Euler's method for dy/dx = 3x + 4y, h=0.25, find y(1)",
+      "conceptual_requirements": [
+        "Understanding Euler's method formula",
+        "Iterative calculation structure",
+        "Function evaluation at each step",
+        "Arithmetic accuracy over multiple steps"
+      ],
+      "conceptual_understanding": {
+        "what_model_knows": [
+          "Euler's method: y_{n+1} = y_n + h·f(x_n, y_n) ✓",
+          "Need 4 steps (h=0.25, reach x=1) ✓",
+          "Evaluate f(x,y) = 3x + 4y at each step ✓",
+          "Iterate x: 0 → 0.25 → 0.5 → 0.75 → 1.0 ✓"
+        ],
+        "understanding_level": "Perfect algorithmic understanding"
+      },
+      "execution_failure_point": {
+        "where": "Arithmetic in steps 3-4",
+        "what_happened": {
+          "claude_response": "Step 3: computes 0.765625 instead of 0.75 (off by 0.015625)",
+          "gpt4o_response": "Step 3: computes 0.625 instead of 0.75 (off by 0.125)"
+        },
+        "correct_values": {
+          "step_3": "y(0.75) should be 0.75",
+          "step_4": "y(1.0) should be 2.0625"
+        },
+        "error_type": "Basic arithmetic failures in multi-step computation"
+      },
+      "domain_specific_why": {
+        "reason": "Numerical methods require exact arithmetic across many iterations - errors compound",
+        "why_numerical_methods_specific": "Each step feeds into next step, so errors propagate exponentially in iterative algorithms",
+        "arithmetic_chain": "Step 1 error → affects step 2 → affects step 3 → affects step 4",
+        "when_this_matters": "Any iterative numerical algorithm (Newton's method, Runge-Kutta, finite differences, gradient descent)",
+        "root_cause": "Cannot reliably compute 0.1875 + 0.25*(3*0.5 + 4*0.1875) = 0.1875 + 0.25*2.25 = 0.75",
+        "shocking_finding": "BOTH SOTA models made arithmetic errors - winner just had SMALLER errors"
+      },
+      "failure_mechanism": {
+        "mechanism": "Arithmetic errors compound",
+        "pattern": "Pattern 4: Basic arithmetic fails (addition, multiplication), errors cascade through iterations",
+        "why_no_recovery": "Doesn't verify by substituting final y(1) back into original ODE",
+        "severity": "50-100% of steps have errors"
+      },
+      "similar_tasks_will_fail": [
+        "All numerical ODE solvers (Runge-Kutta, Adams-Bashforth)",
+        "Finite difference PDE solving",
+        "Newton's method root finding (iterative)",
+        "Gradient descent optimization",
+        "Monte Carlo simulations with iterative updates",
+        "Compound interest calculations over multiple periods",
+        "Recursive financial models (pension calculations)",
+        "Any algorithm where y_{n+1} = f(y_n) and need 5+ iterations"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "iterative_computation",
+          "numerical_integration",
+          "multi_step_arithmetic",
+          "error_propagation",
+          "5_or_more_iterations"
+        ],
+        "risk_multiplier": 3.5,
+        "confidence": "very_high",
+        "evidence_strength": "direct_both_models_failed"
+      }
+    },
+    {
+      "case_id": "case_5_liar_truthteller",
+      "pair_id": "ccb99d7c-3aca-5501-bfe5-66738a394278",
+      "source": "livebench-reasoning",
+      "domain": "Logic/Boolean Satisfiability",
+      "question_type": "Truth-teller/liar puzzle with constraints",
+      "task_description": "20+ people at locations, each tells truth or lies. Given statements, deduce who's truthful.",
+      "conceptual_requirements": [
+        "Boolean constraint propagation",
+        "Consistency checking across statements",
+        "Logical implication chains",
+        "Verification against known facts"
+      ],
+      "conceptual_understanding": {
+        "what_model_knows": [
+          "If A says 'B lies' and A is truthful, then B lies ✓",
+          "Can chain implications ✓",
+          "Some facts are given (Tala tells truth) ✓",
+          "Can deduce Quan lies from Tala's truthfulness ✓"
+        ],
+        "understanding_level": "Good logical reasoning"
+      },
+      "execution_failure_point": {
+        "where": "Final answer without verification",
+        "what_happened": "Deduces Jaxon lies, Hiroshi tells truth, Anika tells truth",
+        "correct_answer": "Jaxon tells truth, Hiroshi lies, Anika lies (exactly backwards!)",
+        "error_type": "Never verified conclusion against established facts"
+      },
+      "domain_specific_why": {
+        "reason": "Boolean SAT problems require checking assignments satisfy ALL constraints",
+        "why_logic_specific": "In logic puzzles, you deduce implications but must verify final assignment is consistent with all given facts",
+        "missing_step": "Should check: 'If Jaxon lies, then his statement about Quan must be false. Jaxon said Quan lies. Quan DOES lie. Contradiction!'",
+        "when_this_matters": "Any constraint satisfaction where you generate candidates but must validate",
+        "root_cause": "No verification phase - generates answer, doesn't backtrack when inconsistent",
+        "cognitive_gap": "Forward chaining (implications) works, backward verification missing"
+      },
+      "failure_mechanism": {
+        "mechanism": "No consistency checking",
+        "pattern": "Pattern 5: Performs deduction, arrives at conclusion, never verifies against known facts",
+        "why_no_recovery": "Doesn't have 'check solution' phase",
+        "severity": "Gets answer exactly backwards (0% accuracy)"
+      },
+      "similar_tasks_will_fail": [
+        "SAT/CSP solving (generate assignment, must verify constraints)",
+        "Sudoku (deduce numbers, must check rows/columns/boxes)",
+        "Graph coloring (assign colors, must verify no adjacent same color)",
+        "Scheduling constraints (assign times, must verify all constraints met)",
+        "Type inference (assign types, must verify consistency)",
+        "Database integrity constraints",
+        "Any problem where solution is 'proposed assignment' that must satisfy multiple constraints"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "boolean_satisfiability",
+          "constraint_verification_required",
+          "many_interdependent_constraints",
+          "logical_consistency_check"
+        ],
+        "risk_multiplier": 2.8,
+        "confidence": "high",
+        "evidence_strength": "direct_backwards_answer"
+      }
+    },
+    {
+      "case_id": "case_6_combinatorics",
+      "pair_id": "d3c9f4fb-13a9-50f9-859a-3dbf42e8b866",
+      "source": "livebench-math",
+      "domain": "Combinatorics/Discrete Math",
+      "question_type": "Counting sequences with constraints",
+      "task_description": "Count sequences of increasing subsets, compute K mod 10",
+      "conceptual_requirements": [
+        "Understanding sequence constraints (A_i ⊆ A_{i+1})",
+        "Counting principle for independent choices",
+        "Modular arithmetic",
+        "Exponentiation and summation"
+      ],
+      "conceptual_understanding": {
+        "response_a": "Wrong formula (thinks n choices per element, forgets 'not included' option) but arithmetic correct",
+        "response_b": "Correct formula (n+1 choices per element) but arithmetic wrong",
+        "understanding_level": "Mixed - one understands concept, other executes correctly"
+      },
+      "execution_failure_point": {
+        "where": "Modular arithmetic computation",
+        "what_happened": "Response B claims 10^10 mod 10 = 5 (completely wrong! should be 0)",
+        "correct_computation": "10^10 = 10,000,000,000 ≡ 0 (mod 10)",
+        "error_type": "Cannot compute basic modular arithmetic",
+        "shocking": "Response A: wrong concept + correct arithmetic → WINS"
+      },
+      "domain_specific_why": {
+        "reason": "Combinatorics requires both setup AND computation - failure in either means wrong answer",
+        "why_combinatorics_specific": "Counting problems have two phases: (1) identify formula, (2) compute value. Phase 2 can dominate outcome.",
+        "arithmetic_dominance": "In this case, arithmetic accuracy mattered MORE than conceptual understanding",
+        "when_this_matters": "Probability calculations, expected values, counting problems with large numbers",
+        "root_cause": "Even trivial modular arithmetic (10^k mod 10 = 0) fails",
+        "implication": "Correct reasoning doesn't guarantee correct answer if arithmetic fails"
+      },
+      "failure_mechanism": {
+        "mechanism": "Arithmetic errors compound + guessing when stuck",
+        "pattern": "Pattern 4: Basic arithmetic failures. Pattern 1: Gives up and guesses",
+        "why_no_recovery": "Response B gets 0, sees it doesn't match choices, gives up and guesses B",
+        "counter_intuitive": "Better understanding can LOSE to worse understanding with better arithmetic"
+      },
+      "similar_tasks_will_fail": [
+        "Probability of compound events (multiplication of many small probabilities)",
+        "Expected value calculations (sum of products)",
+        "Permutations/combinations with large n (n!/(k!(n-k)!))",
+        "Modular arithmetic in cryptography (a^b mod m)",
+        "Binomial coefficients",
+        "Generating functions",
+        "Any counting problem requiring exact numerical answer"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "counting_problem",
+          "requires_numerical_answer",
+          "modular_arithmetic",
+          "large_exponents",
+          "factorial_computation"
+        ],
+        "risk_multiplier": 3.0,
+        "confidence": "very_high",
+        "evidence_strength": "direct_cant_compute_10^10_mod_10"
+      }
+    },
+    {
+      "case_id": "case_7_trigonometric_equation",
+      "pair_id": "4b324d8b-aac1-5d0a-af11-cebaa6759e67",
+      "source": "livebench-math",
+      "domain": "Algebra/Trigonometry",
+      "question_type": "Solving cubic equations",
+      "task_description": "Solve 1 + 2sin(x) - 4sin²(x) - 8sin³(x) = 0 for 0° < x < 360°",
+      "conceptual_requirements": [
+        "Substitution to convert to polynomial",
+        "Finding rational roots",
+        "Polynomial factorization",
+        "Solving quadratic equations",
+        "Inverse trigonometric functions"
+      ],
+      "conceptual_understanding": {
+        "what_model_knows": [
+          "Substitute y = sin(x) ✓",
+          "Get cubic 8y³ + 4y² - 2y - 1 = 0 ✓",
+          "Test rational roots, find y = 1/2 ✓",
+          "Factor out (y - 1/2) ✓",
+          "Solve remaining quadratic ✓"
+        ],
+        "understanding_level": "Complete problem-solving strategy"
+      },
+      "execution_failure_point": {
+        "where": "Polynomial factorization",
+        "what_happened": "Writes (y - 1/2)(-8y² - 2) but this is WRONG",
+        "correct_factorization": "(y - 1/2)(8y² + 8y + 2)",
+        "verification_failure": "Doesn't expand back to check",
+        "consequence": "Gets y² = -1/4 → 'imaginary roots' → misses y = -1/2 solutions"
+      },
+      "domain_specific_why": {
+        "reason": "Polynomial factorization requires synthetic division or algebraic manipulation - error-prone for models",
+        "why_algebra_specific": "Factoring (ax³ + bx² + cx + d) / (x - r) → (x - r)(ax² + bx + c) requires careful coefficient matching",
+        "missing_verification": "Should expand (y - 1/2)(-8y² - 2) back and see it doesn't equal original",
+        "when_this_matters": "Solving higher-order polynomials, partial fraction decomposition, algebraic simplification",
+        "root_cause": "Can't perform polynomial long division reliably",
+        "propagation": "Wrong factorization → wrong quadratic → wrong roots → misses half the solutions"
+      },
+      "failure_mechanism": {
+        "mechanism": "Algebraic manipulation failures",
+        "pattern": "Pattern 6: Makes error in factorization, doesn't verify by expanding",
+        "why_no_recovery": "Accepts 'imaginary roots' conclusion without questioning why cubic over reals would have complex roots",
+        "severity": "Misses 50% of solutions (2 out of 4 angles)"
+      },
+      "similar_tasks_will_fail": [
+        "Solving cubic/quartic equations",
+        "Partial fraction decomposition",
+        "Polynomial long division",
+        "Rational function simplification",
+        "Finding asymptotes (requires factoring)",
+        "Root finding for higher-order polynomials",
+        "Any algebraic manipulation with multiple steps"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "polynomial_factorization",
+          "degree_3_or_higher",
+          "algebraic_simplification",
+          "multi_step_manipulation"
+        ],
+        "risk_multiplier": 2.5,
+        "confidence": "high",
+        "evidence_strength": "direct_wrong_factorization"
+      }
+    },
+    {
+      "case_id": "case_8_dp_restaurant",
+      "pair_id": "1826fccc-d9b5-5b35-93b9-4ef682953cb2",
+      "source": "livecodebench",
+      "domain": "Dynamic Programming",
+      "question_type": "DP with state transitions",
+      "task_description": "Maximize tastiness eating courses, two states (healthy/upset), don't die",
+      "conceptual_requirements": [
+        "Define DP states (healthy, upset)",
+        "State transition logic (antidotal → changes state, poisonous → changes state)",
+        "Recurrence relations",
+        "State tracking across iterations"
+      ],
+      "conceptual_understanding": {
+        "what_model_knows": [
+          "DP approach correct ✓",
+          "Two states needed (dp_healthy, dp_upset) ✓",
+          "Antidotal course: upset → healthy ✓",
+          "Poisonous course: healthy → upset ✓"
+        ],
+        "understanding_level": "Complete DP strategy"
+      },
+      "execution_failure_point": {
+        "where": "State transition for antidotal course",
+        "what_happened": "Updates dp_upset[i] when should update dp_healthy[i]",
+        "code_bug": "dp_upset[i] = max(dp_healthy[i-1] + Y, dp_upset[i-1])",
+        "correct_code": "dp_healthy[i] = max(dp_healthy[i], dp_upset[i-1] + Y)",
+        "error_type": "State confusion - which state to update"
+      },
+      "domain_specific_why": {
+        "reason": "DP state transitions require tracking 'from state X, action A, go to state Y' - confuses source and target",
+        "why_dp_specific": "DP maintains multiple state arrays. Transition 'upset + antidotal → healthy' means update dp_healthy, not dp_upset",
+        "cognitive_load": "Two state arrays (dp_healthy, dp_upset) in working memory, easy to confuse which to update",
+        "when_this_matters": "Any DP with 2+ states (stock buy/sell, game states, network states)",
+        "root_cause": "Similar to variable confusion (Pattern 3) but in DP context",
+        "subtlety": "Logic 'if upset, eat antidotal → become healthy' is clear, but translating to 'update dp_healthy[i]' fails"
+      },
+      "failure_mechanism": {
+        "mechanism": "Variable/state confusion in DP",
+        "pattern": "Pattern 3: Right logic, wrong target variable",
+        "why_no_recovery": "Code compiles, logic sounds reasonable on surface",
+        "severity": "Wrong state updated → wrong answer on test cases"
+      },
+      "similar_tasks_will_fail": [
+        "Stock trading with buy/sell states",
+        "Game DP with player turns (Alice/Bob)",
+        "Network flow with node states",
+        "Markov Decision Processes",
+        "String DP with multiple states (match/insert/delete in edit distance)",
+        "Any DP where dp[state1][i] vs dp[state2][i] matters"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "multi_state_dp",
+          "state_transition_logic",
+          "2_or_more_dp_arrays",
+          "complex_state_changes"
+        ],
+        "risk_multiplier": 2.0,
+        "confidence": "medium-high",
+        "evidence_strength": "direct_wrong_state_updated"
+      }
+    },
+    {
+      "case_id": "case_9_economics_formula",
+      "pair_id": "8a434591-3536-5802-9480-1ed7d9cd60ac",
+      "source": "mmlu-pro-economics",
+      "domain": "Economics/Finance",
+      "question_type": "Formula recall",
+      "task_description": "What is Baumol-Tobin money holdings formula?",
+      "conceptual_requirements": [
+        "Recall Baumol-Tobin model",
+        "Understand transaction costs, interest rate, bonds",
+        "Know formula structure (square root, division)",
+        "Recall exact placement of constants"
+      ],
+      "conceptual_understanding": {
+        "response_a": "Correctly recalls M = √(bZ / 2i) ✓",
+        "response_b": "Recalls M = √(2bZ / i) - factor of 2 in WRONG place ✗",
+        "qualitative_understanding": "Both understand M increases with b,Z and decreases with i ✓",
+        "understanding_level": "Qualitative understanding perfect, quantitative precision inconsistent"
+      },
+      "execution_failure_point": {
+        "where": "Exact formula recall",
+        "what_happened": "Factor of 2 appears in numerator instead of denominator",
+        "correct": "√(bZ / 2i)",
+        "incorrect": "√(2bZ / i)",
+        "error_type": "Factual recall precision error"
+      },
+      "domain_specific_why": {
+        "reason": "Economic models have precise formulas with constants - misremembering placement changes result",
+        "why_economics_specific": "Baumol-Tobin derivation from optimization gives specific √(bZ/2i). Factor of 2 from FOC of cost minimization.",
+        "qualitative_vs_quantitative": "Qualitative relationships (↑b → ↑M) are robust, quantitative constants (factor of 2) are fragile",
+        "when_this_matters": "Black-Scholes (exact σ√T term), CAPM (β coefficient), Solow growth (saving rate s)",
+        "root_cause": "Factual recall from training data - stochastic retrieval",
+        "stochasticity": "SAME model (Claude-3.5) gets it right in one response, wrong in another"
+      },
+      "failure_mechanism": {
+        "mechanism": "Factual recall precision errors",
+        "pattern": "Pattern 7: Knows concept/model name, gets constants/factors wrong",
+        "why_no_recovery": "Doesn't verify by deriving from first principles or checking textbook",
+        "severity": "10-20% of formula recalls may have wrong constant placement"
+      },
+      "similar_tasks_will_fail": [
+        "Black-Scholes option pricing (exact formula)",
+        "CAPM expected return formula",
+        "Keynesian multiplier (exact coefficient)",
+        "Cobb-Douglas production function (exponents)",
+        "Any finance/economics formula with specific constants",
+        "Physics formulas (4πε₀ in Coulomb's law)",
+        "Statistical formulas (n-1 vs n in variance)"
+      ],
+      "risk_features_for_similarity": {
+        "high_risk_if_contains": [
+          "formula_recall",
+          "named_model_equation",
+          "constants_matter",
+          "factor_placement_critical"
+        ],
+        "risk_multiplier": 1.5,
+        "confidence": "medium",
+        "evidence_strength": "direct_but_stochastic"
+      }
+    }
+  ],
+  "summary_for_togmal": {
+    "usage": "For similarity-based task risk assessment",
+    "retrieval_flow": [
+      "1. New task comes in",
+      "2. ToGMAL computes similarity to these 9 annotated cases",
+      "3. Retrieve nearest neighbors (top-k)",
+      "4. Aggregate 'domain_specific_why' and 'failure_mechanism' from neighbors",
+      "5. Return contextualized risk: 'This task is similar to Case 4 (Euler's method). LLMs fail because: iterative arithmetic compounds errors over 5+ steps. Risk multiplier: 3.5x'"
+    ],
+    "risk_aggregation": {
+      "if_multiple_neighbors_match": "Take max(risk_multiplier) or average weighted by similarity",
+      "confidence_levels": {
+        "very_high": "Both models failed directly on this pattern",
+        "high": "One model failed directly, mechanism clear",
+        "medium": "Indirect evidence, plausible mechanism",
+        "low": "Extrapolated from related failures"
+      }
+    },
+    "key_insight": "Each annotation provides DOMAIN-SPECIFIC WHY, not just generic pattern. ToGMAL can say 'Fails because pentagon geometry involves golden ratio and algebraic manipulation of √5' not just 'fails at algebra'."
+  }
+}
