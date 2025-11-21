@@ -1,0 +1,237 @@
+{
+  "expanded_dataset": {
+    "total_questions": 14766,
+    "train_size": 11813,
+    "test_size": 2953,
+    "correlation": 0.5371972936653281,
+    "p_value": 1.7684790563574859e-220,
+    "mae": 0.21672014987408855,
+    "avg_confidence": 0.4788210349931062
+  },
+  "baseline": {
+    "correlation": 0.5,
+    "mae": 0.233,
+    "confidence": 0.406,
+    "train_size": 9277
+  },
+  "improvements": {
+    "correlation_change": 0.03719729366532809,
+    "correlation_pct": 7.439458733065618,
+    "mae_change": -0.01627985012591146,
+    "mae_pct": -6.987060139876163,
+    "confidence_change": 0.07282103499310616,
+    "confidence_pct": 17.936215515543388
+  },
+  "domain_performance": [
+    {
+      "domain": "math",
+      "count": 268,
+      "correlation": 0.08333339776658738,
+      "mae": 0.20548390750343068
+    },
+    {
+      "domain": "physics",
+      "count": 260,
+      "correlation": 0.06047211118001484,
+      "mae": 0.21375228110061484
+    },
+    {
+      "domain": "chemistry",
+      "count": 234,
+      "correlation": 0.09885451794308756,
+      "mae": 0.2017178456832676
+    },
+    {
+      "domain": "law",
+      "count": 218,
+      "correlation": 0.09703062832641852,
+      "mae": 0.263545440536803
+    },
+    {
+      "domain": "engineering",
+      "count": 209,
+      "correlation": 0.23045053240794802,
+      "mae": 0.2675205331289982
+    },
+    {
+      "domain": "other",
+      "count": 189,
+      "correlation": 0.127222141592068,
+      "mae": 0.2685576444409046
+    },
+    {
+      "domain": "business",
+      "count": 175,
+      "correlation": 0.14308336450542344,
+      "mae": 0.25532595037294453
+    },
+    {
+      "domain": "health",
+      "count": 171,
+      "correlation": 0.15613492251128772,
+      "mae": 0.27811740716852557
+    },
+    {
+      "domain": "psychology",
+      "count": 160,
+      "correlation": 0.02853122781635955,
+      "mae": 0.2592187939007189
+    },
+    {
+      "domain": "biology",
+      "count": 149,
+      "correlation": 0.09263143640458868,
+      "mae": 0.21970216142435742
+    },
+    {
+      "domain": "economics",
+      "count": 143,
+      "correlation": -0.11692144609300532,
+      "mae": 0.2548295928852442
+    },
+    {
+      "domain": "philosophy",
+      "count": 105,
+      "correlation": -0.14098886478354736,
+      "mae": 0.28224736423850144
+    },
+    {
+      "domain": "history",
+      "count": 98,
+      "correlation": 0.011749648298521933,
+      "mae": 0.32773549877209507
+    },
+    {
+      "domain": "computer science",
+      "count": 87,
+      "correlation": 0.017974939968490183,
+      "mae": 0.24789080624927698
+    },
+    {
+      "domain": "Pandas",
+      "count": 57,
+      "correlation": NaN,
+      "mae": 0.04666527884185955
+    },
+    {
+      "domain": "Deep Learning",
+      "count": 57,
+      "correlation": 0.5139122795429004,
+      "mae": 0.06998554941350853
+    },
+    {
+      "domain": "Numpy",
+      "count": 45,
+      "correlation": NaN,
+      "mae": 0.010059505715512975
+    },
+    {
+      "domain": "NLP",
+      "count": 44,
+      "correlation": 0.6278137488857221,
+      "mae": 0.07127374037519059
+    },
+    {
+      "domain": "ML Library",
+      "count": 29,
+      "correlation": NaN,
+      "mae": 0.0913238804571974
+    },
+    {
+      "domain": "Matplotlib",
+      "count": 27,
+      "correlation": NaN,
+      "mae": 0.0
+    },
+    {
+      "domain": "Visualization",
+      "count": 26,
+      "correlation": -0.05783727021139392,
+      "mae": 0.0778820441944319
+    },
+    {
+      "domain": "Sklearn",
+      "count": 23,
+      "correlation": NaN,
+      "mae": 0.048239773171349525
+    },
+    {
+      "domain": "Scipy",
+      "count": 22,
+      "correlation": NaN,
+      "mae": 0.1147840825286472
+    },
+    {
+      "domain": "Data Processing",
+      "count": 21,
+      "correlation": NaN,
+      "mae": 0.06551863295345825
+    },
+    {
+      "domain": "Numerical Computing",
+      "count": 18,
+      "correlation": NaN,
+      "mae": 0.09673877532184567
+    },
+    {
+      "domain": "Gradient Boosting",
+      "count": 16,
+      "correlation": -0.15190694088710383,
+      "mae": 0.10052977687477838
+    },
+    {
+      "domain": "Statistics",
+      "count": 15,
+      "correlation": NaN,
+      "mae": 0.08719216936668193
+    },
+    {
+      "domain": "Computer Vision",
+      "count": 14,
+      "correlation": NaN,
+      "mae": 0.11412314624833694
+    },
+    {
+      "domain": "Scientific Computing",
+      "count": 12,
+      "correlation": NaN,
+      "mae": 0.04784448574500791
+    },
+    {
+      "domain": "Image Processing",
+      "count": 11,
+      "correlation": NaN,
+      "mae": 0.10276464427678693
+    },
+    {
+      "domain": "Tensorflow",
+      "count": 9,
+      "correlation": NaN,
+      "mae": 0.0047056404694047664
+    },
+    {
+      "domain": "machine_learning",
+      "count": 9,
+      "correlation": -0.4596689009178336,
+      "mae": 0.08043307281806975
+    },
+    {
+      "domain": "Pytorch",
+      "count": 9,
+      "correlation": NaN,
+      "mae": 0.045314127150470264
+    },
+    {
+      "domain": "HTTP",
+      "count": 8,
+      "correlation": NaN,
+      "mae": 0.10174029645254196
+    },
+    {
+      "domain": "computer_vision",
+      "count": 6,
+      "correlation": 0.3590334609551505,
+      "mae": 0.06803873577034893
+    }
+  ]
+}

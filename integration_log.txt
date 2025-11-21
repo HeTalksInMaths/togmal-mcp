@@ -1,0 +1,89 @@
+================================================================================
+PHASE 1 & 2: INTEGRATING AI/ML/DS BENCHMARKS
+================================================================================
+
+================================================================================
+PHASE 1: Integrating RE-Bench (7 tasks)
+================================================================================
+  ✅ Created 7 RE-Bench questions
+  Average difficulty: 63.2%
+
+================================================================================
+PHASE 1: Integrating MLAgentBench (13 tasks)
+================================================================================
+  ✅ Created 13 MLAgentBench questions
+  Average difficulty: 72.1%
+  Difficulty distribution: 3 easy, 2 medium, 8 hard
+
+✅ Phase 1 complete: 20 questions prepared
+
+================================================================================
+PHASE 2: Sampling ML-Bench (1500 from 9,641 tasks)
+================================================================================
+  Sampling 174 tasks from scikit-learn...
+  Sampling 116 tasks from pandas...
+  Sampling 87 tasks from numpy...
+  Sampling 72 tasks from scipy...
+  Sampling 101 tasks from matplotlib...
+  Sampling 58 tasks from seaborn...
+  Sampling 130 tasks from tensorflow...
+  Sampling 123 tasks from pytorch...
+  Sampling 87 tasks from keras...
+  Sampling 108 tasks from transformers...
+  Sampling 50 tasks from xgboost...
+  Sampling 43 tasks from lightgbm...
+  Sampling 65 tasks from statsmodels...
+  Sampling 58 tasks from nltk...
+  Sampling 55 tasks from spacy...
+  Sampling 79 tasks from opencv...
+  Sampling 46 tasks from pillow...
+  Sampling 42 tasks from requests...
+  ✅ Created 1494 ML-Bench questions
+  Average difficulty: 50.8%
+  Domain distribution:
+    Deep Learning: 340 tasks
+    NLP: 221 tasks
+    ML Library: 174 tasks
+    Visualization: 159 tasks
+    Data Processing: 116 tasks
+
+✅ Phase 2 complete: 1494 questions prepared
+
+================================================================================
+TOTAL NEW QUESTIONS: 1,514
+  Phase 1 (RE-Bench + MLAgentBench): 20
+  Phase 2 (ML-Bench sample): 1494
+================================================================================
+
+================================================================================
+INTEGRATING INTO UNIFIED DATABASE
+================================================================================
+  Current database size: 13,252 questions
+  Adding 1,514 new questions...
+  New database size: 14,766 questions
+  Saving updated database...
+Traceback (most recent call last):
+  File "/home/user/togmal-mcp/integrate_ai_ml_benchmarks.py", line 566, in <module>
+    total = main()
+            ^^^^^^
+  File "/home/user/togmal-mcp/integrate_ai_ml_benchmarks.py", line 540, in main
+    total_questions = integrate_into_database(all_new_questions)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/togmal-mcp/integrate_ai_ml_benchmarks.py", line 491, in integrate_into_database
+    json.dump(unified_db, f, indent=2)
+  File "/usr/lib/python3.11/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable
