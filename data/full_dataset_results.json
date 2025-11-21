@@ -1,0 +1,13 @@
+{
+  "approach": "full_dataset",
+  "total_questions": 13252,
+  "train_size": 9277,
+  "test_size": 2650,
+  "metrics": {
+    "mae": 23.321866019069198,
+    "rmse": 30.042920478206764,
+    "correlation": 0.4999921157529413,
+    "ece": 0.03126559591379728,
+    "confidence": 0.4061991201764649
+  }
+}
