@@ -1,0 +1,22 @@
+{
+  "approach": "hybrid",
+  "taxonomy_size": 13252,
+  "actual_rates": 252,
+  "estimated_rates": 13000,
+  "train_size": 202,
+  "test_size": 50,
+  "metrics": {
+    "mae": 35.4715216446176,
+    "rmse": 43.29213196257805,
+    "correlation": 0.32443257506993833,
+    "ece": 0.2239156229963961,
+    "mean_confidence": 0.5435450488407239,
+    "avg_actual_neighbors": 5.58,
+    "avg_estimated_neighbors": 12.08,
+    "n_test": 50
+  },
+  "confidence_weights": {
+    "actual": 1.0,
+    "estimated": 0.5
+  }
+}

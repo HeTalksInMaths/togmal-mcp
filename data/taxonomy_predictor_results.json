@@ -1,0 +1,17 @@
+{
+  "approach": "taxonomy_based",
+  "taxonomy_size": 13252,
+  "known_failure_rates": 252,
+  "train_size": 202,
+  "test_size": 50,
+  "metrics": {
+    "mae": 27.980193180354142,
+    "rmse": 37.23389580895274,
+    "correlation": 0.28413675286619816,
+    "ece": 0.09688198856677155,
+    "mean_confidence": 0.3389415576588072,
+    "mean_n_similar": 5.58,
+    "n_test": 50
+  },
+  "tfidf_features": 2000
+}

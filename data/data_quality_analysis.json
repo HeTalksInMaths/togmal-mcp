@@ -1,0 +1,78 @@
+{
+  "taxonomy_size": 13252,
+  "known_failure_rates": 252,
+  "coverage_pct": 1.9015997585270148,
+  "sources": {
+    "unknown": 13000,
+    "MLE-Bench (Real)": 82,
+    "MMLU-Pro (from performance DB)": 170
+  },
+  "domains": {
+    "engineering": 1001,
+    "health": 818,
+    "physics": 1298,
+    "business": 889,
+    "chemistry": 1127,
+    "math": 1350,
+    "computer science": 410,
+    "law": 1101,
+    "philosophy": 497,
+    "other": 944,
+    "psychology": 798,
+    "history": 381,
+    "economics": 844,
+    "biology": 712,
+    "Pandas": 291,
+    "Numpy": 220,
+    "Matplotlib": 155,
+    "Tensorflow": 45,
+    "Scipy": 106,
+    "Sklearn": 115,
+    "Pytorch": 68,
+    "computer_vision": 17,
+    "machine_learning": 56,
+    "nlp": 7,
+    "audio": 2
+  },
+  "known_domain_coverage": {
+    "computer_vision": {
+      "known": 17,
+      "total": 17
+    },
+    "machine_learning": {
+      "known": 56,
+      "total": 56
+    },
+    "nlp": {
+      "known": 7,
+      "total": 7
+    },
+    "audio": {
+      "known": 2,
+      "total": 2
+    },
+    "business": {
+      "known": 100,
+      "total": 889
+    },
+    "other": {
+      "known": 20,
+      "total": 944
+    },
+    "engineering": {
+      "known": 50,
+      "total": 1001
+    }
+  },
+  "failure_rate_stats": {
+    "mean": 0.7185424603174603,
+    "median": 0.94385,
+    "std": 0.3663131944512016,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "has_difficulty_score_pct": 100.0,
+  "has_success_rate_pct": 99.38122547539993,
+  "taxonomy_difficulty_correlation": 0.9999999999999999,
+  "taxonomy_success_rate_correlation": 0.9999999999999999
+}
