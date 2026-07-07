@@ -18,14 +18,16 @@ import json
 from pathlib import Path
 from typing import Dict, List, Tuple
 from collections import defaultdict
-from lightweight_prompt_checker import LightweightPromptChecker
 
 class LightweightEffectivenessTest:
     """Test lightweight checker against ground truth"""
 
-    def __init__(self, data_dir: Path = Path("./data")):
+    def __init__(self, checker=None, data_dir: Path = Path("./data")):
         self.data_dir = data_dir
-        self.checker = LightweightPromptChecker()
+        if checker is None:
+            from lightweight_prompt_checker import LightweightPromptChecker
+            checker = LightweightPromptChecker()
+        self.checker = checker
 
     def load_ground_truth(self) -> List[Dict]:
         """Load unified database with actual difficulty data"""
@@ -135,15 +137,17 @@ class LightweightEffectivenessTest:
     def _compute_metrics(self, results: List[Dict]) -> Dict:
         """Compute precision, recall, F1, and other metrics"""
 
-        # Convert risk levels to binary: NONE/LOW = safe, MEDIUM/HIGH/CRITICAL = risky
+        # Ground truth binary: NONE/LOW = safe, MEDIUM/HIGH/CRITICAL = risky.
+        # Prediction binary: the checker's actual gating decision (should_analyze),
+        # since that is what routes a prompt to Tier 2 deep analysis.
         def is_risky(risk_level: str) -> bool:
             return risk_level in ['MEDIUM', 'HIGH', 'CRITICAL']
 
         # Confusion matrix
-        tp = sum(1 for r in results if is_risky(r['ground_truth_risk']) and is_risky(r['predicted_risk']))
-        fp = sum(1 for r in results if not is_risky(r['ground_truth_risk']) and is_risky(r['predicted_risk']))
-        tn = sum(1 for r in results if not is_risky(r['ground_truth_risk']) and not is_risky(r['predicted_risk']))
-        fn = sum(1 for r in results if is_risky(r['ground_truth_risk']) and not is_risky(r['predicted_risk']))
+        tp = sum(1 for r in results if is_risky(r['ground_truth_risk']) and r['should_analyze'])
+        fp = sum(1 for r in results if not is_risky(r['ground_truth_risk']) and r['should_analyze'])
+        tn = sum(1 for r in results if not is_risky(r['ground_truth_risk']) and not r['should_analyze'])
+        fn = sum(1 for r in results if is_risky(r['ground_truth_risk']) and not r['should_analyze'])
 
         total = len(results)
 
@@ -158,24 +162,25 @@ class LightweightEffectivenessTest:
         by_benchmark = defaultdict(lambda: {'tp': 0, 'fp': 0, 'tn': 0, 'fn': 0})
         for r in results:
             bench = r['benchmark']
-            if is_risky(r['ground_truth_risk']) and is_risky(r['predicted_risk']):
+            if is_risky(r['ground_truth_risk']) and r['should_analyze']:
                 by_benchmark[bench]['tp'] += 1
-            elif not is_risky(r['ground_truth_risk']) and is_risky(r['predicted_risk']):
+            elif not is_risky(r['ground_truth_risk']) and r['should_analyze']:
                 by_benchmark[bench]['fp'] += 1
-            elif not is_risky(r['ground_truth_risk']) and not is_risky(r['predicted_risk']):
+            elif not is_risky(r['ground_truth_risk']) and not r['should_analyze']:
                 by_benchmark[bench]['tn'] += 1
             else:
                 by_benchmark[bench]['fn'] += 1
 
         # Find false positives and false negatives for analysis
-        false_positives = [r for r in results if not is_risky(r['ground_truth_risk']) and is_risky(r['predicted_risk'])][:10]
-        false_negatives = [r for r in results if is_risky(r['ground_truth_risk']) and not is_risky(r['predicted_risk'])][:10]
+        false_positives = [r for r in results if not is_risky(r['ground_truth_risk']) and r['should_analyze']][:10]
+        false_negatives = [r for r in results if is_risky(r['ground_truth_risk']) and not r['should_analyze']][:10]
 
-        # Analysis by trigger type
+        # Trigger accuracy: a trigger fired correctly when the question it fired on
+        # is genuinely risky (it contributed to a TP rather than an FP)
         trigger_analysis = defaultdict(lambda: {'correct': 0, 'incorrect': 0})
         for r in results:
             for trigger in r['triggers']:
-                if is_risky(r['ground_truth_risk']) == is_risky(r['predicted_risk']):
+                if is_risky(r['ground_truth_risk']):
                     trigger_analysis[trigger]['correct'] += 1
                 else:
                     trigger_analysis[trigger]['incorrect'] += 1
@@ -297,27 +302,37 @@ class LightweightEffectivenessTest:
         }
 
 def main():
-    """Run the effectiveness test"""
-    tester = LightweightEffectivenessTest()
+    """Run the effectiveness test
 
-    # Test on sample (change to None for full test on all 13K questions)
-    results = tester.run_evaluation(sample_size=1000)
-
-    # Save results
-    output_path = Path("./data/lightweight_effectiveness_results.json")
-    with open(output_path, 'w') as f:
-        json.dump(results, f, indent=2)
-
-    print(f"\n💾 Results saved to {output_path}")
-    print(f"\nTo test on full 13K dataset, run:")
-    print(f"  python3 test_lightweight_effectiveness.py --full")
-
-if __name__ == "__main__":
+    Usage:
+        python3 test_lightweight_effectiveness.py             # original checker, 1K sample
+        python3 test_lightweight_effectiveness.py --full      # original checker, all 13K
+        python3 test_lightweight_effectiveness.py --improved  # improved checker
+        python3 test_lightweight_effectiveness.py --improved --full
+    """
     import sys
 
-    tester = LightweightEffectivenessTest()
-
-    # Check for --full flag
+    use_improved = '--improved' in sys.argv
     sample_size = None if '--full' in sys.argv else 1000
 
+    if use_improved:
+        from lightweight_prompt_checker_improved import LightweightPromptChecker
+        label = 'improved'
+    else:
+        from lightweight_prompt_checker import LightweightPromptChecker
+        label = 'original'
+
+    print(f"\n🔧 Checker version: {label}\n")
+
+    tester = LightweightEffectivenessTest(checker=LightweightPromptChecker())
     results = tester.run_evaluation(sample_size=sample_size)
+
+    suffix = 'full' if sample_size is None else f'{sample_size}'
+    output_path = Path(f"./data/lightweight_effectiveness_{label}_{suffix}.json")
+    with open(output_path, 'w') as f:
+        json.dump(results, f, indent=2, default=str)
+
+    print(f"\n💾 Results saved to {output_path}")
+
+if __name__ == "__main__":
+    main()

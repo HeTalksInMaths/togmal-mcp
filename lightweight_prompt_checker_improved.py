@@ -43,16 +43,24 @@ class LightweightPromptChecker:
         # Mathematical symbols
         (r'[∂∫∑∏√±×÷≠≈≤≥∞∇⊗⊕]', 'math_symbols', 'Mathematical symbols'),
 
-        # Multiple units (conversion indicator)
-        (r'(kg|lb|m|ft|°C|°F|K|J|cal|BTU|MPa|psi).*\b(kg|lb|m|ft|°C|°F|K|J|cal|BTU|MPa|psi)\b',
+        # Multiple units (conversion indicator) — word boundaries on both
+        # occurrences so short units like 'm' or 'K' only match as standalone tokens
+        (r'\b(kg|lb|lbs|ft|°C|°F|J|cal|BTU|MPa|psi)\b.*\b(kg|lb|lbs|ft|°C|°F|J|cal|BTU|MPa|psi)\b',
          'multi_unit', 'Multiple unit types'),
 
-        # Equations with variables
+        # Equations with variables (subscripted notation like T_i = 35)
         (r'[A-Z]_\w+\s*=|[a-z]_\d+', 'equation_with_vars', 'Equation with variables'),
 
-        # Complex numbers (3+ numbers in text)
-        (r'(\d+[,\.]?\d*.*){3,}', 'multiple_numbers', 'Multiple numerical values'),
+        # LaTeX/scientific notation ($2.00 \mathrm{~mJ}$, \mu, \frac) —
+        # benchmark questions written in LaTeX are calculation-heavy
+        (r'\\(mathrm|mu|frac|sqrt|times|cdot|hat|vec)\b|\$[^$]*\d[^$]*\$',
+         'latex_notation', 'LaTeX scientific notation'),
     ]
+
+    # Numbers threshold: questions with this many numeric values are
+    # calculation-heavy (checked via findall, not a backtracking regex)
+    MULTIPLE_NUMBERS_THRESHOLD = 3
+    NUMBER_TOKEN = re.compile(r'\b\d+(?:[,\.]\d+)*\b')
 
     # IMPROVED: More specific domain keywords (removed too-broad categories)
     DIFFICULT_DOMAINS = {
@@ -78,13 +86,14 @@ class LightweightPromptChecker:
         'multi-step', 'step-by-step', 'sequential'
     ]
 
-    # Unit conversion indicators (CoT failure pattern) - UNCHANGED, works well
+    # Unit conversion indicators (CoT failure pattern)
     UNIT_CONVERSION_KEYWORDS = [
         r'\b(convert|conversion)\b',
         r'\b(lbs|pounds|kg|kilograms)\b',
         r'\b(inches|feet|meters|cm|mm)\b',
         r'\b(fahrenheit|celsius|kelvin)\b',
         r'\b(BTU|joules|calories|kJ)\b',
+        r'\b(MPa|psi|pascal|atm|torr)\b',
     ]
 
     def __init__(self):
@@ -139,17 +148,23 @@ class LightweightPromptChecker:
             triggers.append('multi-step_complexity')
             risk_score += 0.15  # Reduced weight from 0.2
 
-        # 4. Check for unit conversions (UNCHANGED - works well)
+        # 4. Check for unit conversions (IMPROVED - graded by unit class count;
+        # 2 classes already signals a conversion, the documented CoT failure mode)
         unit_count = self._count_unit_conversions(prompt)
         if unit_count >= 3:
             triggers.append(f'complex_unit_conversion_{unit_count}_units')
             risk_score += 0.3
+        elif unit_count == 2:
+            triggers.append('unit_conversion_2_units')
+            risk_score += 0.15
 
         # 5. Check for medical/legal (IMPROVED - context-aware)
+        # Direct first-person advice-seeking is weighted CRITICAL on its own;
+        # keyword-only matches (no knowledge-question phrasing) weigh less
         dangerous_domain = self._is_dangerous_domain(prompt)
         if dangerous_domain:
             triggers.append(f'dangerous_domain_{dangerous_domain}')
-            risk_score += 0.5
+            risk_score += 0.7 if dangerous_domain.endswith('_direct') else 0.5
 
         # 6. NEW: Check for numerical complexity
         numerical_triggers = self._check_numerical_complexity(prompt)
@@ -213,6 +228,12 @@ class LightweightPromptChecker:
         for pattern, name, desc in self.numerical_patterns:
             if pattern.search(prompt):
                 triggers.append(f'numerical:{name}')
+
+        # Count numeric tokens without a repetition regex (avoids backtracking)
+        number_count = len(self.NUMBER_TOKEN.findall(prompt))
+        if number_count >= self.MULTIPLE_NUMBERS_THRESHOLD:
+            triggers.append('numerical:multiple_numbers')
+
         return triggers
 
     def _check_difficult_domains(self, prompt: str) -> List[str]:
@@ -273,8 +294,15 @@ class LightweightPromptChecker:
         medical_knowledge_indicators = [
             'what is', 'what are', 'which of the following', 'the disease',
             'caused by', 'symptoms of', 'characterized by', 'defined as',
-            'deficiency of', 'treatment for'
+            'deficiency of', 'treatment for', 'referred to as', 'known as'
         ]
+
+        # Prompts opening with an interrogative are quiz/knowledge phrasing
+        # ("What disease is called..."), not personal advice-seeking
+        starts_interrogative = bool(re.match(
+            r'\s*(what|which|who|when|where|how many|how much)\b',
+            prompt_lower
+        ))
 
         medical_keywords = ['diagnose', 'diagnosis', 'patient', 'symptoms',
                            'disease', 'treatment', 'medical', 'medication']
@@ -283,17 +311,20 @@ class LightweightPromptChecker:
         has_advice_seeking = any(ind in prompt_lower for ind in medical_advice_indicators)
 
         # Check for medical knowledge question (safe, academic)
-        has_knowledge_indicators = any(ind in prompt_lower for ind in medical_knowledge_indicators)
+        has_knowledge_indicators = (
+            any(ind in prompt_lower for ind in medical_knowledge_indicators)
+            or starts_interrogative
+        )
 
         has_medical_keywords = any(kw in prompt_lower for kw in medical_keywords)
 
-        # Flag as dangerous if:
-        # 1. Has advice-seeking language, OR
-        # 2. Has medical keywords BUT NOT knowledge indicators
-        is_medical_advice = (has_advice_seeking or
-                            (has_medical_keywords and not has_knowledge_indicators))
+        # Direct advice-seeking ("I have...", "should I take...") is the most
+        # dangerous case and is flagged even alongside knowledge phrasing
+        if has_advice_seeking:
+            return 'medical_advice_direct'
 
-        if is_medical_advice:
+        # Medical keywords without knowledge-question phrasing: likely advice
+        if has_medical_keywords and not has_knowledge_indicators:
             return 'medical_advice'
 
         # Legal advice detection
@@ -332,7 +363,7 @@ class LightweightPromptChecker:
 
         # Proof-based questions (very hard)
         if re.search(r'\b(prove|show that|demonstrate that|derive)\b', prompt_lower):
-            risk += 0.25
+            risk += 0.3
             trigger = 'question_type:proof_based'
 
         # Calculation with multiple givens

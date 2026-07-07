@@ -315,21 +315,26 @@ def _check_question_type(self, prompt: str) -> float:
 After implementing improvements, validate with:
 
 ```bash
-# Test on sample
-python3 test_lightweight_effectiveness.py
+# Both versions on the same seeded 1K sample
+python3 test_lightweight_effectiveness.py             # original
+python3 test_lightweight_effectiveness.py --improved  # improved
 
-# Test on full dataset (13K questions)
-python3 test_lightweight_effectiveness.py --full
+# Full 13K dataset
+python3 test_lightweight_effectiveness.py --improved --full
 
-# Compare results
+# Compare saved results
 python3 -c "
 import json
-before = json.load(open('data/lightweight_effectiveness_results_before.json'))
-after = json.load(open('data/lightweight_effectiveness_results.json'))
-print(f'Recall improved: {before[\"metrics\"][\"recall\"]:.1%} → {after[\"metrics\"][\"recall\"]:.1%}')
+before = json.load(open('data/lightweight_effectiveness_original_1000.json'))
+after = json.load(open('data/lightweight_effectiveness_improved_1000.json'))
+print(f'Recall: {before[\"metrics\"][\"recall\"]:.1%} → {after[\"metrics\"][\"recall\"]:.1%}')
 print(f'Precision: {before[\"metrics\"][\"precision\"]:.1%} → {after[\"metrics\"][\"precision\"]:.1%}')
 "
 ```
+
+**Measured outcome (full 13K run):** recall 7.3% → 56.1%, precision 78.3% →
+86.9%, F1 13.3% → 68.2%, FPR 4.8% → 20.1%. See
+`TESTING_AND_IMPROVEMENT_SUMMARY.md` for the full breakdown.
 
 ---
 
