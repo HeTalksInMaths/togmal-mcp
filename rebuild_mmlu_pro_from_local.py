@@ -134,11 +134,29 @@ def build_dataset(eval_dir: Path, max_questions: int = 13000) -> dict:
         if len(questions) >= max_questions:
             break
 
+    # Per-model overall accuracy, in the {'name', 'accuracy'} dict format
+    # downstream analyzers (error_taxonomy_analyzer.py) expect
+    model_stats = {m: {'correct': 0, 'total': 0} for m in models_loaded}
+    for q in questions:
+        for model, is_correct in q['model_scores'].items():
+            if model in model_stats:
+                model_stats[model]['total'] += 1
+                model_stats[model]['correct'] += 1 if is_correct else 0
+
+    models_meta = [
+        {
+            'name': m,
+            'accuracy': s['correct'] / s['total'] if s['total'] else 0.0,
+            'questions_evaluated': s['total']
+        }
+        for m, s in model_stats.items()
+    ]
+
     return {
         'metadata': {
             'total_questions': len(questions),
             'num_models': len(models_loaded),
-            'models': models_loaded,
+            'models': models_meta,
             'benchmarks': ['MMLU-Pro'],
             'source': 'local eval_results checkout (offline rebuild)',
             'created_at': datetime.now().isoformat()

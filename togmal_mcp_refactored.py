@@ -40,6 +40,17 @@ server = Server("togmal-mcp")
 # Initialize lightweight checker
 lightweight_checker = LightweightPromptChecker()
 
+# Tier-2 semantic checker (lazy-loaded: the TF-IDF index is ~50 MB)
+_semantic_checker = None
+
+def get_semantic_checker():
+    """Load the semantic difficulty checker on first use."""
+    global _semantic_checker
+    if _semantic_checker is None:
+        from semantic_difficulty_checker import SemanticDifficultyChecker
+        _semantic_checker = SemanticDifficultyChecker.load()
+    return _semantic_checker
+
 # ============================================================================
 # Data Loading Functions
 # ============================================================================
@@ -73,6 +84,49 @@ async def handle_list_tools() -> list[types.Tool]:
                     }
                 },
                 "required": ["prompt"]
+            }
+        ),
+        types.Tool(
+            name="semantic_difficulty_check",
+            description="TIER-2 semantic check: predicts prompt difficulty from the measured success rates of the k most similar benchmark questions (TF-IDF over 13,000 questions). Slower than quick_risk_check (~20ms vs ~0.1ms) but catches prose-only conceptual difficulty that regex cannot see. Run when quick_risk_check flags a prompt, or directly for difficulty estimation.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "prompt": {
+                        "type": "string",
+                        "description": "The user's prompt to assess"
+                    },
+                    "k": {
+                        "type": "integer",
+                        "description": "Number of similar benchmark questions to use (default: 10)",
+                        "default": 10
+                    }
+                },
+                "required": ["prompt"]
+            }
+        ),
+        types.Tool(
+            name="get_taxonomy_section",
+            description="Fetch a section of the expanded limitation taxonomy (data-driven, from 13K questions x 39 models). Sections: domain_risk_profiles, subject_risk_index, universal_failures, near_universal_failures, deceptive_questions, cot_failure_modes, code_error_patterns, semantic_danger_clusters, risk_keywords, metadata.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "section": {
+                        "type": "string",
+                        "description": "Taxonomy section to fetch",
+                        "enum": ["metadata", "domain_risk_profiles", "subject_risk_index",
+                                 "universal_failures", "near_universal_failures",
+                                 "deceptive_questions", "cot_failure_modes",
+                                 "code_error_patterns", "semantic_danger_clusters",
+                                 "risk_keywords"]
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "Max entries to return for list/dict sections (default: 20)",
+                        "default": 20
+                    }
+                },
+                "required": ["section"]
             }
         ),
         types.Tool(
@@ -184,6 +238,45 @@ async def handle_call_tool(
         return [types.TextContent(
             type="text",
             text=json.dumps(result, indent=2)
+        )]
+
+    elif name == "semantic_difficulty_check":
+        prompt = arguments.get("prompt", "")
+        k = arguments.get("k", 10)
+        try:
+            result = get_semantic_checker().assess(prompt, k=k)
+        except FileNotFoundError:
+            result = {
+                "error": "Semantic index not built",
+                "hint": "Run: python3 semantic_difficulty_checker.py build"
+            }
+        return [types.TextContent(
+            type="text",
+            text=json.dumps(result, indent=2)
+        )]
+
+    elif name == "get_taxonomy_section":
+        section = arguments.get("section", "metadata")
+        limit = arguments.get("limit", 20)
+        taxonomy_path = Path("./data/expanded_taxonomy.json")
+        if not taxonomy_path.exists():
+            return [types.TextContent(
+                type="text",
+                text=json.dumps({
+                    "error": "Expanded taxonomy not built",
+                    "hint": "Run: python3 build_expanded_taxonomy.py"
+                }, indent=2)
+            )]
+        with open(taxonomy_path) as f:
+            taxonomy = json.load(f)
+        data = taxonomy.get(section, {})
+        if isinstance(data, list):
+            data = data[:limit]
+        elif isinstance(data, dict) and section != 'metadata':
+            data = dict(list(data.items())[:limit])
+        return [types.TextContent(
+            type="text",
+            text=json.dumps(data, indent=2)
         )]
 
     elif name == "fetch_question":

@@ -308,24 +308,68 @@ class UnifiedVectorDBBuilder:
         
         questions = []
         
+        # Official per-library and per-perturbation pass rates from
+        # xlang-ai/DS-1000 results/*.txt. The answer JSONLs contain model
+        # generations only (no execution results), so per-question
+        # correctness is NOT measurable without running the test suites.
+        # These published aggregates are used as per-question estimates.
+        LIBRARY_PASS_RATES = {
+            'codex002':           {'Matplotlib': 0.548, 'Numpy': 0.432, 'Pandas': 0.265,
+                                   'Pytorch': 0.397, 'Scipy': 0.349, 'Sklearn': 0.435,
+                                   'Tensorflow': 0.378},
+            'gpt-3.5-turbo-0613': {'Matplotlib': 0.587, 'Numpy': 0.368, 'Pandas': 0.330,
+                                   'Pytorch': 0.294, 'Scipy': 0.396, 'Sklearn': 0.357,
+                                   'Tensorflow': 0.333},
+            'gpt-4-0613':         {'Matplotlib': 0.652, 'Numpy': 0.568, 'Pandas': 0.419,
+                                   'Pytorch': 0.471, 'Scipy': 0.481, 'Sklearn': 0.504,
+                                   'Tensorflow': 0.467},
+        }
+        PERTURBATION_PASS_RATES = {
+            'codex002':           {'Difficult-Rewrite': 0.148, 'Origin': 0.478,
+                                   'Semantic': 0.389, 'Surface': 0.375},
+            'gpt-3.5-turbo-0613': {'Difficult-Rewrite': 0.222, 'Origin': 0.469,
+                                   'Semantic': 0.372, 'Surface': 0.336},
+            'gpt-4-0613':         {'Difficult-Rewrite': 0.333, 'Origin': 0.595,
+                                   'Semantic': 0.521, 'Surface': 0.428},
+        }
+
         for i, problem in enumerate(problems):
             qid = f"ds1000_{problem['metadata']['library']}_{i}"
-            
-            # Calculate success rate from model answers
+
+            # Per-answer execution results, if the answer files carry them
             correct_count = 0
             total_count = 0
             model_scores = {}
-            
+
             for model_name, answers in model_answers.items():
                 if i < len(answers):
                     answer = answers[i]
-                    is_correct = answer.get('result', '') == 'passed'
-                    model_scores[model_name] = is_correct
-                    if is_correct:
-                        correct_count += 1
-                    total_count += 1
-            
-            success_rate = correct_count / total_count if total_count > 0 else 0.0
+                    if 'result' in answer:
+                        is_correct = answer.get('result', '') == 'passed'
+                        model_scores[model_name] = is_correct
+                        if is_correct:
+                            correct_count += 1
+                        total_count += 1
+
+            if total_count > 0:
+                success_rate = correct_count / total_count
+            else:
+                # No execution results available: estimate from the official
+                # per-library and per-perturbation aggregates (mean of both,
+                # averaged across the three models). model_scores stays empty
+                # so downstream code never treats this as measured.
+                library = problem['metadata'].get('library', '')
+                perturbation = problem['metadata'].get('perturbation_type', '')
+                estimates = []
+                for model in LIBRARY_PASS_RATES:
+                    parts = []
+                    if library in LIBRARY_PASS_RATES[model]:
+                        parts.append(LIBRARY_PASS_RATES[model][library])
+                    if perturbation in PERTURBATION_PASS_RATES[model]:
+                        parts.append(PERTURBATION_PASS_RATES[model][perturbation])
+                    if parts:
+                        estimates.append(sum(parts) / len(parts))
+                success_rate = sum(estimates) / len(estimates) if estimates else 0.4
             difficulty_score = 1.0 - success_rate
             
             # Get error patterns from analysis (if available)
