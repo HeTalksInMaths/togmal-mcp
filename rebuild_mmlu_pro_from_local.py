@@ -38,9 +38,21 @@ OUTPUT_DIR = Path("./data/autonomous_benchmarks")
 
 
 def parse_model_name(zip_path: Path) -> str:
-    """model_outputs_<NAME>_5shots.zip -> <NAME>"""
-    m = re.match(r'model_outputs_(.+?)_5shots\.zip$', zip_path.name)
-    return m.group(1) if m else zip_path.stem
+    """Extract the model name from an eval_results archive filename.
+
+    Handles all naming variants present in the repo:
+        model_outputs_<NAME>_5shots.zip
+        model_outputs_<NAME>_5shots.json.zip
+        model_outputs_<NAME>_5-shots.zip
+        model_outputs_<NAME>_0shots_09_34_29.zip   (timestamp suffix)
+    """
+    name = zip_path.name
+    name = re.sub(r'\.zip$', '', name)
+    name = re.sub(r'\.json$', '', name)
+    name = re.sub(r'^model_outputs_', '', name)
+    # strip shot-count descriptor and optional trailing timestamp
+    name = re.sub(r'_\d+-?shots?(_\d+_\d+_\d+)?$', '', name)
+    return name
 
 
 def load_predictions(zip_path: Path):
@@ -76,9 +88,9 @@ def load_predictions(zip_path: Path):
 
 
 def build_dataset(eval_dir: Path, max_questions: int = 13000) -> dict:
-    zips = sorted(eval_dir.glob('model_outputs_*_5shots.zip'))
+    zips = sorted(eval_dir.glob('model_outputs_*.zip'))
     if not zips:
-        raise FileNotFoundError(f"No model_outputs_*_5shots.zip files in {eval_dir}")
+        raise FileNotFoundError(f"No model_outputs_*.zip files in {eval_dir}")
 
     logger.info(f"Found {len(zips)} model output archives in {eval_dir}")
 
@@ -117,6 +129,11 @@ def build_dataset(eval_dir: Path, max_questions: int = 13000) -> dict:
                 count += 1
         except (zipfile.BadZipFile, json.JSONDecodeError) as e:
             logger.warning(f"  ✗ Skipping {zip_path.name}: {e}")
+            continue
+
+        if count == 0:
+            logger.warning(f"  ✗ {model_name}: no per-question predictions "
+                           "(summary-only archive), skipping")
             continue
 
         models_loaded.append(model_name)

@@ -13,6 +13,18 @@ risky prompts Tier-1 misses (prose-only conceptual difficulty); Tier-1
 uniquely catches 56 (code patterns) at 150× lower latency. The tiers are
 complementary, as designed.
 
+**Update (48-model dataset):** the pipeline growth experiment (see
+`PIPELINE.md`) raised model coverage 39 → 48, which makes ground truth
+stricter — with stronger models added, fewer questions count as risky and
+universal failures fell 168 → 78. Against that harder ground truth the same
+checkers measure: semantic F1 79.6% (recall 86.3%), combined recall 88.4%
+(F1 79.4%). Numbers in this document from the 39-model run are kept for
+methodology; `data/combined_tier_evaluation.json` and
+`data/semantic_evaluation_results.json` always hold the current measurement.
+
+The whole data layer now rebuilds via a cached, dependency-ordered pipeline:
+`python3 -m togmal_pipeline run` (see `PIPELINE.md`).
+
 ---
 
 ## Measured Effectiveness (full 13,000-question ground truth)

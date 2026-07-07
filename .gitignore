@@ -43,3 +43,4 @@ mcp_datastore/
 
 # ChromaDB (generated files)
 chroma_db/
+.pipeline_state.json
